@@ -1,5 +1,5 @@
 # Title: bogachenko's Hosts Filter
-# Description: A filter for bogachenko's personal use to block loading of ads, third-party, tracking, annoying and all other unjustified resources. These filters are used by me for the system file hosts.txt, AdAway, Adguard Home and Pi-Hole.
+# Description: A filter for bogachenko's personal use to block loading of ads, third-party, tracking, annoying and all other unjustified resources. These filters are used by me for the system file hosts.txt and AdAway.
 # Homepage: https://github.com/bogachenko/filterlist
 # RAW: https://raw.githubusercontent.com/bogachenko/filterlist/main/hosts
 # License: https://raw.githubusercontent.com/bogachenko/filterlist/main/LICENSE.md

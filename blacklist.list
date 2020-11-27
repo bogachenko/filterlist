@@ -1,5 +1,5 @@
 ! Title: bogachenko's DNS Filter
-! Description: A filter for bogachenko's personal use to block loading of ads, tracking and all other unjustified resources. These filters are used by me for Adguard Home and Pi-Hole.
+! Description: A filter for bogachenko's personal use to block loading of ads, tracking and all other unjustified resources. These filters are used by me for Adguard Home.
 ! RAW: https://raw.githubusercontent.com/bogachenko/filterlist/main/blacklist.list
 ! Homepage: https://github.com/bogachenko/filterlist/
 ! Licence: https://raw.githubusercontent.com/bogachenko/filterlist/main/LICENSE.md
@@ -211,6 +211,7 @@
 ||voodoo.io^
 ||voodoo-ads.io^
 ||voodoo-tech.io^
+||client.hola.org^
 ||watson.live.com^
 ||watson.microsoft.com^
 ||weborama.fr^
