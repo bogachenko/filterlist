@@ -1,3 +1,11 @@
+# Title: bogachenko's DNS Whitelist Filter
+# Description: Yet another anti-bullshit filter list.
+# RAW: https://raw.githubusercontent.com/bogachenko/filterlist/main/whitelist.list
+# Homepage: https://github.com/bogachenko/filterlist/
+# Licence: https://raw.githubusercontent.com/bogachenko/filterlist/main/LICENSE.md
+
+# README: Simplified specifically to be better compatible with DNS-level ad blocking.
+
 ||ajax.googleapis.com^
 ||api.adguard.com^
 ||cutcaptcha.net^
@@ -6,3 +14,4 @@
 ||injections.adguard.org^
 ||local.adguard.org^
 ||recaptcha.net^
+||analytics.google.com^

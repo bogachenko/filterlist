@@ -1,5 +1,5 @@
 ! Title: bogachenko's Personal Filter
-! Description: A filter for bogachenko's personal use to block loading of ads, third-party, tracking, annoying and all other unjustified resources. Contains filters specific to uBlock Origin, AdGuard Home, AdGuard for Windows, AdGuard for Android.
+! Description: A filter for bogachenko's personal use to block loading of ads, third-party, tracking, annoying and all other unjustified resources. Contains filters specific to uBlock Origin, AdGuard for Windows, AdGuard for Android.
 ! Homepage: https://github.com/bogachenko/filterlist/tree/personal
 ! RAW: https://raw.githubusercontent.com/bogachenko/filterlist/personal/bogachenkoPF.txt
 ! License: https://raw.githubusercontent.com/bogachenko/filterlist/master/LICENSE.md
@@ -565,6 +565,12 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 ! Content Security Policy (CSP) END
 
 ! OTHER START
+/^(https?|ftp|wss?):\/\/((www|wap)[0-9]?\.)?ad[svbxo]?([0-9]{1,3})?\./$important,domain=~ad.nl|~ads.google.com
+/^(https?|ftp|wss?):\/\/((www|wap)[0-9]?\.)?ad[vs](er(ve)?t?(ise|ising|isement)?)?\./$important
+/^(https?|ftp|wss?):\/\/((www|wap)[0-9]?\.)?analy(ti([\W\w]+)?)?([0-9]{1,3})?\./$important,domain=~google.com|~google.ru
+/^(https?|ftp|wss?):\/\/((www|wap)[0-9]?\.)?geo([0-9]{1,3})?\./$important,domain=~google.com|~google.ru|~office.com|~sberbank.ru
+/^(https?|ftp|wss?):\/\/((www|wap)[0-9]?\.)?me?tr[ie]?[ck][asx]?([0-9]{1,3})?\./$important,domain=~metrica.yandex.com|~metrica.yandex.ru|~metrika.yandex.com|~metrika.yandex.ru
+/^(https?|ftp|wss?):\/\/((www|wap)[0-9]?\.)?telemetr(y|ics)?([0-9]{1,3})?\./$important
 /(ntfc|afu|apu|jsa|apw)\.(hh|php)\?/$important
 /[&?]s(screen)?\=[0-9]{3,4}x[0-9]{3,4}[&?]/$important
 /[&?]s[cw]\=[0-9]{3,4}[&]sh\=[0-9]{3,4}[&]/$important
@@ -606,53 +612,19 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 |http*:*?type=pageview&$important,domain=~gtv.org
 ||google.com/complete/$important
 ||geo.opera.com/geolocation/$important
-||ad.
-||ads-sdk.
-||ads.
-||adsaccount.
-||adserver*.
-||adsrv.
-||adv.
-||advertisement*.
-||advertising*.
-||advisor*.
-||alog.
-||analytic*.$domain=~analytics.google.com|~analyticsinsights-pa.clients6.google.com|~analyticssuitefrontend-pa.clients6.google.com
-||applog.
-||banner*.
-||banniere.
-||beacon*.
-||detectportal.
 ||easylist-downloads.adblockplus.org/exceptionrules-privacy-friendly.txt|
 ||easylist-downloads.adblockplus.org/exceptionrules.txt|
 ||event.
 ||gew-spclient.spotify.com/*/logging/$important
 ||iecvlist.microsoft.com/*blocklist/*/versionlist.xml|
-||log.
-||logs.
-||logx.
 ||mail.google.com/mail/ads/$important
-||marketing.
 ||meta^
 ||mobilemaps-pa.googleapis.com/*.ads.$important
 ||monitor.$domain=~monitor.firefox.com
 ||null^
-||preads.
-||px-intl*.
-||recklam*.
-||reklam*.
-||safe.
-||safebrowsing*.
-||sdk-diagnostics.
-||snippet*.
 ||spclient.wg.spotify.com/ad-logic/$important
 ||spclient.wg.spotify.com/metrics-backend/$important
 ||stat.$third-party,important
-||suggest.
-||syndication.$domain=~platform.twitter.com
-||telemetr*.
-||trackclick*.
-||tracking*.
 ||twitter.com/i/jot$important
 ||undefined^
 ||yandex.*/clck/$important

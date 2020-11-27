@@ -1,3 +1,11 @@
+# Title: bogachenko's DNS Filter
+# Description: Yet another anti-bullshit filter list.
+# RAW: https://raw.githubusercontent.com/bogachenko/filterlist/main/blacklist.list
+# Homepage: https://github.com/bogachenko/filterlist/
+# Licence: https://raw.githubusercontent.com/bogachenko/filterlist/main/LICENSE.md
+
+# README: Simplified specifically to be better compatible with DNS-level ad blocking.
+
 /^(.+[_.-])?ad[sxv]?([\d]+)?[_.-]/
 /^(.+[_.-])?admetric[as]?\.\w+$/
 /^(.+[_.-])?analy(ti([\W\w]+)?)?([\d]+)?[_.-]/
