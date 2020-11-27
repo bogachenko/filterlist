@@ -1,0 +1,1177 @@
+# Title: bogachenko's Personal DNS Filter
+# Description: bogachenko's Personal list of domain names.
+# Homepage: https://github.com/bogachenko/filterlist/tree/personal
+# RAW: https://raw.githubusercontent.com/bogachenko/filterlist/personal/hosts
+# License: https://raw.githubusercontent.com/bogachenko/filterlist/master/LICENSE.md
+
+# Main rules
+
+0.0.0.0 0.0.0.0
+127.0.0.1 local
+127.0.0.1 localhost
+127.0.0.1 localhost.localdomain
+255.255.255.255 broadcasthost
+::1 ip6-localhost
+::1 ip6-loopback
+::1 localhost
+fe80::1%lo0 localhost
+ff00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+ff02::3 ip6-allhosts
+
+# Custom rules
+
+# TORRENTSTREAM ALL START
+0.0.0.0 a1.torrentstream.info
+0.0.0.0 a1.torrentstream.net
+0.0.0.0 a1.torrentstream.org
+0.0.0.0 a2.torrentstream.info
+0.0.0.0 a2.torrentstream.net
+0.0.0.0 a2.torrentstream.org
+0.0.0.0 a3.torrentstream.info
+0.0.0.0 a3.torrentstream.net
+0.0.0.0 a3.torrentstream.org
+0.0.0.0 a4.torrentstream.info
+0.0.0.0 a4.torrentstream.net
+0.0.0.0 a4.torrentstream.org
+0.0.0.0 a5.torrentstream.info
+0.0.0.0 a5.torrentstream.net
+0.0.0.0 a5.torrentstream.org
+0.0.0.0 e1.torrentstream.info
+0.0.0.0 e1.torrentstream.net
+0.0.0.0 e1.torrentstream.org
+0.0.0.0 e2.torrentstream.info
+0.0.0.0 e2.torrentstream.net
+0.0.0.0 e2.torrentstream.org
+0.0.0.0 e3.torrentstream.info
+0.0.0.0 e3.torrentstream.net
+0.0.0.0 e3.torrentstream.org
+0.0.0.0 e4.torrentstream.info
+0.0.0.0 e4.torrentstream.net
+0.0.0.0 e4.torrentstream.org
+0.0.0.0 e5.torrentstream.info
+0.0.0.0 e5.torrentstream.net
+0.0.0.0 e5.torrentstream.org
+0.0.0.0 s1.torrentstream.info
+0.0.0.0 s1.torrentstream.net
+0.0.0.0 s1.torrentstream.org
+0.0.0.0 s2.torrentstream.info
+0.0.0.0 s2.torrentstream.net
+0.0.0.0 s2.torrentstream.org
+0.0.0.0 s3.torrentstream.info
+0.0.0.0 s3.torrentstream.net
+0.0.0.0 s3.torrentstream.org
+0.0.0.0 s4.torrentstream.info
+0.0.0.0 s4.torrentstream.net
+0.0.0.0 s4.torrentstream.org
+0.0.0.0 s5.torrentstream.info
+0.0.0.0 s5.torrentstream.net
+0.0.0.0 s5.torrentstream.org
+0.0.0.0 torrentstream.info
+0.0.0.0 update.torrentstream.org
+# TORRENTSTREAM ALL END
+
+# ACESTREAM.NET START
+0.0.0.0 a1.acestream.net
+0.0.0.0 a2.acestream.net
+0.0.0.0 a3.acestream.net
+0.0.0.0 a4.acestream.net
+0.0.0.0 a5.acestream.net
+0.0.0.0 acestream.net
+0.0.0.0 e1.acestream.net
+0.0.0.0 e2.acestream.net
+0.0.0.0 e3.acestream.net
+0.0.0.0 e4.acestream.net
+0.0.0.0 e5.acestream.net
+0.0.0.0 m.acestream.net
+0.0.0.0 r.acestream.net
+0.0.0.0 s1.acestream.net
+0.0.0.0 s2.acestream.net
+0.0.0.0 s3.acestream.net
+0.0.0.0 s4.acestream.net
+0.0.0.0 s5.acestream.net
+0.0.0.0 ts.acestream.net
+# ACESTREAM.NET END
+
+# UTORRENT.COM START
+0.0.0.0 ad.bench.utorrent.com
+0.0.0.0 toolbar.utorrent.com
+0.0.0.0 utclient.utorrent.com
+# UTORRENT.COM END
+
+# KASPERSKY ALL START
+0.0.0.0 crl.kaspersky.com
+0.0.0.0 dc1-file.ksn.kaspersky-labs.com
+0.0.0.0 dc1-st.ksn.kaspersky-labs.com
+0.0.0.0 dc1.ksn.kaspersky-labs.com
+0.0.0.0 dnl-0.geo.kaspersky.com
+0.0.0.0 dnl-00.geo.kaspersky.com
+0.0.0.0 dnl-01.geo.kaspersky.com
+0.0.0.0 dnl-02.geo.kaspersky.com
+0.0.0.0 dnl-03.geo.kaspersky.com
+0.0.0.0 dnl-04.geo.kaspersky.com
+0.0.0.0 dnl-05.geo.kaspersky.com
+0.0.0.0 dnl-06.geo.kaspersky.com
+0.0.0.0 dnl-07.geo.kaspersky.com
+0.0.0.0 dnl-08.geo.kaspersky.com
+0.0.0.0 dnl-09.geo.kaspersky.com
+0.0.0.0 dnl-1.geo.kaspersky.com
+0.0.0.0 dnl-10.geo.kaspersky.com
+0.0.0.0 dnl-11.geo.kaspersky.com
+0.0.0.0 dnl-12.geo.kaspersky.com
+0.0.0.0 dnl-13.geo.kaspersky.com
+0.0.0.0 dnl-14.geo.kaspersky.com
+0.0.0.0 dnl-15.geo.kaspersky.com
+0.0.0.0 dnl-16.geo.kaspersky.com
+0.0.0.0 dnl-17.geo.kaspersky.com
+0.0.0.0 dnl-18.geo.kaspersky.com
+0.0.0.0 dnl-19.geo.kaspersky.com
+0.0.0.0 dnl-2.geo.kaspersky.com
+0.0.0.0 dnl-20.geo.kaspersky.com
+0.0.0.0 dnl-3.geo.kaspersky.com
+0.0.0.0 dnl-4.geo.kaspersky.com
+0.0.0.0 dnl-5.geo.kaspersky.com
+0.0.0.0 dnl-6.geo.kaspersky.com
+0.0.0.0 dnl-7.geo.kaspersky.com
+0.0.0.0 dnl-8.geo.kaspersky.com
+0.0.0.0 dnl-9.geo.kaspersky.com
+0.0.0.0 downloads.kaspersky-labs.com
+0.0.0.0 downloads.upd.kaspersky.com
+0.0.0.0 downloads0.kaspersky-labs.com
+0.0.0.0 downloads1.kaspersky-labs.com
+0.0.0.0 downloads2.kaspersky-labs.com
+0.0.0.0 downloads3.kaspersky-labs.com
+0.0.0.0 downloads4.kaspersky-labs.com
+0.0.0.0 downloads5.kaspersky-labs.com
+0.0.0.0 downloads6.kaspersky-labs.com
+0.0.0.0 downloads7.kaspersky-labs.com
+0.0.0.0 downloads8.kaspersky-labs.com
+0.0.0.0 downloads9.kaspersky-labs.com
+0.0.0.0 ds.kaspersky.com
+0.0.0.0 fp.kaspersky-labs.com
+0.0.0.0 kaspersky-labs.com
+0.0.0.0 ksn-a-stat-geo.kaspersky-labs.com
+0.0.0.0 ksn-a-stat.geo.kaspersky.com
+0.0.0.0 ksn-cinfo-geo.kaspersky-labs.com
+0.0.0.0 ksn-crypto-catm-geo.kaspersky-labs.com
+0.0.0.0 ksn-crypto-catm.geo.kaspersky.com
+0.0.0.0 ksn-crypto-dnscheck-geo.kaspersky-labs.com
+0.0.0.0 ksn-crypto-dnscheck.geo.kaspersky.com
+0.0.0.0 ksn-crypto-file.geo.kaspersky.com
+0.0.0.0 ksn-crypto-fw-geo.kaspersky-labs.com
+0.0.0.0 ksn-crypto-fw.geo.kaspersky.com
+0.0.0.0 ksn-crypto-info-geo.kas-labs.com
+0.0.0.0 ksn-crypto-info-geo.kaspersky-labs.com
+0.0.0.0 ksn-crypto-info.geo.kaspersky.com
+0.0.0.0 ksn-crypto-ipm-geo.kaspersky-labs.com
+0.0.0.0 ksn-crypto-kas-geo.kas-labs.com
+0.0.0.0 ksn-crypto-kas-geo.kaspersky-labs.com
+0.0.0.0 ksn-crypto-kas.geo.kaspersky.com
+0.0.0.0 ksn-crypto-mhc-geo.kaspersky-labs.com
+0.0.0.0 ksn-crypto-mhc.geo.kaspersky.com
+0.0.0.0 ksn-crypto-stat-geo.kas-labs.com
+0.0.0.0 ksn-crypto-stat-geo.kaspersky-labs.com
+0.0.0.0 ksn-crypto-stat.geo.kaspersky.com
+0.0.0.0 ksn-crypto-tcert-geo.kas-labs.com
+0.0.0.0 ksn-crypto-tcert-geo.kaspersky-labs.com
+0.0.0.0 ksn-crypto-url-geo.kaspersky-labs.com
+0.0.0.0 ksn-crypto-url-mobile-geo.kaspersky-labs.com
+0.0.0.0 ksn-crypto-verdict-geo.kas-labs.com
+0.0.0.0 ksn-crypto-verdict-geo.kaspersky-labs.com
+0.0.0.0 ksn-crypto-verdict.geo.kaspersky.com
+0.0.0.0 ksn-crypto-whocalls-geo.kaspersky-labs.com
+0.0.0.0 ksn-crypto-whocalls.geo.kaspersky.com
+0.0.0.0 ksn-crypto-wifi-geo.kaspersky-labs.com
+0.0.0.0 ksn-crypto-wifi.geo.kaspersky.com
+0.0.0.0 ksn-crypto-wifiplus-geo.kaspersky-labs.com
+0.0.0.0 ksn-file-geo.kaspersky-labs.com
+0.0.0.0 ksn-fr-geo.kaspersky-labs.com
+0.0.0.0 ksn-info-geo.kaspersky-labs.com
+0.0.0.0 ksn-info.geo.kaspersky.com
+0.0.0.0 ksn-kas-geo.kaspersky-labs.com
+0.0.0.0 ksn-kddi.kaspersky-labs.com
+0.0.0.0 ksn-ml-geo.kaspersky-labs.com
+0.0.0.0 ksn-pp.kaspersky-labs.com
+0.0.0.0 ksn-stat-geo.kaspersky-labs.com
+0.0.0.0 ksn-stat-install.kaspersky-labs.com
+0.0.0.0 ksn-stat.geo.kaspersky.com
+0.0.0.0 ksn-tcert-1.kaspersky-labs.com
+0.0.0.0 ksn-tcert-geo.kaspersky-labs.com
+0.0.0.0 ksn-url-geo.kaspersky-labs.com
+0.0.0.0 ksn-verdict-geo.kaspersky-labs.com
+0.0.0.0 ksn3-11.part2.kaspersky-labs.com
+0.0.0.0 ksn3-12.part2.kaspersky-labs.com
+0.0.0.0 ksn3.kaspersky-labs.com
+0.0.0.0 ksn7-12.kaspersky-labs.com
+0.0.0.0 ksn7.kaspersky-labs.com
+0.0.0.0 ksn8-12.kaspersky-labs.com
+0.0.0.0 kssn-crypto-wifiplus-geo.kaspersky-labs.com
+0.0.0.0 ocsp.kaspersky.com
+0.0.0.0 p00.upd.kaspersky.com
+0.0.0.0 p01.upd.kaspersky.com
+0.0.0.0 p02.upd.kaspersky.com
+0.0.0.0 p03.upd.kaspersky.com
+0.0.0.0 p04.upd.kaspersky.com
+0.0.0.0 p05.upd.kaspersky.com
+0.0.0.0 p06.upd.kaspersky.com
+0.0.0.0 p07.upd.kaspersky.com
+0.0.0.0 p08.upd.kaspersky.com
+0.0.0.0 p09.upd.kaspersky.com
+0.0.0.0 p10.upd.kaspersky.com
+0.0.0.0 p11.upd.kaspersky.com
+0.0.0.0 p12.upd.kaspersky.com
+0.0.0.0 p13.upd.kaspersky.com
+0.0.0.0 p14.upd.kaspersky.com
+0.0.0.0 p15.upd.kaspersky.com
+0.0.0.0 p16.upd.kaspersky.com
+0.0.0.0 p17.upd.kaspersky.com
+0.0.0.0 p18.upd.kaspersky.com
+0.0.0.0 p19.upd.kaspersky.com
+0.0.0.0 p20.upd.kaspersky.com
+0.0.0.0 ru.fp.kaspersky-labs.com
+0.0.0.0 s00.upd.kaspersky.com
+0.0.0.0 s01.upd.kaspersky.com
+0.0.0.0 s02.upd.kaspersky.com
+0.0.0.0 s03.upd.kaspersky.com
+0.0.0.0 s04.upd.kaspersky.com
+0.0.0.0 s05.upd.kaspersky.com
+0.0.0.0 s06.upd.kaspersky.com
+0.0.0.0 s07.upd.kaspersky.com
+0.0.0.0 s08.upd.kaspersky.com
+0.0.0.0 s09.upd.kaspersky.com
+0.0.0.0 s10.upd.kaspersky.com
+0.0.0.0 s11.upd.kaspersky.com
+0.0.0.0 s12.upd.kaspersky.com
+0.0.0.0 s13.upd.kaspersky.com
+0.0.0.0 s14.upd.kaspersky.com
+0.0.0.0 s15.upd.kaspersky.com
+0.0.0.0 s16.upd.kaspersky.com
+0.0.0.0 s17.upd.kaspersky.com
+0.0.0.0 s18.upd.kaspersky.com
+0.0.0.0 s19.upd.kaspersky.com
+0.0.0.0 s20.upd.kaspersky.com
+0.0.0.0 touch.kaspersky.com
+# KASPERSKY ALL END
+
+# YANDEX ALL START
+0.0.0.0 adfox.ru
+0.0.0.0 adfox.yandex.ru
+0.0.0.0 admetrica.ru
+0.0.0.0 adsdk.yandex.ru
+0.0.0.0 advertising.yandex.ru
+0.0.0.0 an.webvisor.org
+0.0.0.0 an.yandex.ru
+0.0.0.0 analytics.mobile.webvisor.com
+0.0.0.0 analytics.mobile.yandex.net
+0.0.0.0 api.appmetrica.yandex.com
+0.0.0.0 api.browser.yandex.ru
+0.0.0.0 appmetrica.yandex.com
+0.0.0.0 appmetrica.yandex.net
+0.0.0.0 awaps.yandex.net
+0.0.0.0 awaps.yandex.ru
+0.0.0.0 awsync.yandex.ru
+0.0.0.0 banners-slb.mobile.yandex.net
+0.0.0.0 banners.mobile.yandex.net
+0.0.0.0 browser-updater.yandex.net
+0.0.0.0 bs-meta.yandex.ru
+0.0.0.0 bs.yandex.ru
+0.0.0.0 clck.yandex.by
+0.0.0.0 clck.yandex.com
+0.0.0.0 clck.yandex.ru
+0.0.0.0 clck.yandex.ua
+0.0.0.0 content.adfox.ru
+0.0.0.0 downloader.yandex.net
+0.0.0.0 export.yandex.ru
+0.0.0.0 external-promo-metrics.yandex.net
+0.0.0.0 informer.yandex.ru
+0.0.0.0 jstracer.yandex.ru
+0.0.0.0 kiks.yandex.ru
+0.0.0.0 matchid.adfox.yandex.ru
+0.0.0.0 mc.admetrica.ru
+0.0.0.0 mc.webvisor.org
+0.0.0.0 mc.yandex.ru
+0.0.0.0 report-1.appmetrica.webvisor.com
+0.0.0.0 report.appmetrica.webvisor.com
+0.0.0.0 report.appmetrica.yandex.net
+0.0.0.0 rosenberg.appmetrica.yandex.net
+0.0.0.0 sba.yandex.net
+0.0.0.0 startup.mobile.webvisor.com
+0.0.0.0 startup.mobile.yandex.net
+0.0.0.0 u.startup.mobile.webvisor.com
+0.0.0.0 webvisor.ru
+0.0.0.0 www.webvisor.com
+0.0.0.0 www.webvisor.org
+0.0.0.0 www.webvisor.ru
+0.0.0.0 yabs.yandex.by
+0.0.0.0 yabs.yandex.ru
+0.0.0.0 yabs.yandex.ua
+# YANDEX ALL END
+
+# MAIL.RU START
+0.0.0.0 1l-hit.my.com
+0.0.0.0 1l-view.mail.ru
+0.0.0.0 ad.mail.ru
+0.0.0.0 an.mail.ru
+0.0.0.0 c.my.com
+0.0.0.0 connect.mail.ru
+0.0.0.0 connect.ok.ru
+0.0.0.0 d.mradx.net
+0.0.0.0 d0.mradx.net
+0.0.0.0 lf1.mail.ru
+0.0.0.0 my.com
+0.0.0.0 p.mradx.net
+0.0.0.0 r.mail.ru
+0.0.0.0 r.mradx.net
+0.0.0.0 r.my.com
+0.0.0.0 r0.mail.ru
+0.0.0.0 r0.mradx.net
+0.0.0.0 r2.mail.ru
+0.0.0.0 r3.mail.ru
+0.0.0.0 reef.vk-cdn.net
+0.0.0.0 reklama.mail.ru
+0.0.0.0 rs.mail.ru
+0.0.0.0 stats.vk-portal.net
+0.0.0.0 target.my.com
+0.0.0.0 tmp.mradx.net
+0.0.0.0 top-fwz1.mail.ru
+0.0.0.0 tracker-api.my.com
+0.0.0.0 vk-portal.net
+0.0.0.0 vk.go.mail.ru
+0.0.0.0 xray.mail.ru
+# MAIL.RU END
+
+# ESET.COM START
+
+
+
+
+# ESET.COM END
+
+# OPERA ALL START
+0.0.0.0 af.opera.com
+0.0.0.0 api-a.op-mobile.opera.com
+0.0.0.0 api.recsys.opera.com
+0.0.0.0 appstatic.opera.com
+0.0.0.0 desktop-dna.osp.opera.software
+0.0.0.0 desktop-netinstaller-sub.osp.opera.software
+0.0.0.0 exchange.opera.com
+0.0.0.0 features.opera-api.com
+0.0.0.0 get.geo.opera.com
+0.0.0.0 gx-corner.opera.com
+0.0.0.0 merchandise.opera-api.com
+0.0.0.0 news-af.op-mobile.opera.com
+0.0.0.0 news.opera-api.com
+0.0.0.0 ofa-sub.osp.opera.software
+0.0.0.0 op-mobile.opera.com
+0.0.0.0 opera-api.com
+0.0.0.0 operacoinexchange.com
+0.0.0.0 opr.as
+0.0.0.0 recsys.opera.com
+0.0.0.0 redir.opera.com
+0.0.0.0 satoshi.opera-api.com
+0.0.0.0 sd-images.operacdn.com
+0.0.0.0 sentry.opera-api.com
+0.0.0.0 sitecheck.opera.com
+0.0.0.0 sitecheck1.opera.com
+0.0.0.0 sitecheck2.opera.com
+0.0.0.0 sitecheck3.opera.com
+0.0.0.0 sitecheck4.opera.com
+0.0.0.0 sitecheck5.opera.com
+0.0.0.0 sitecheck6.opera.com
+0.0.0.0 sitecheck7.opera.com
+0.0.0.0 speeddials.opera.com
+0.0.0.0 thumbnails.opera.com
+0.0.0.0 thumbnails2.opera.com
+0.0.0.0 us-redir.opera.com
+0.0.0.0 weather.opera-api.com
+# OPERA ALL END
+
+# GHOSTERY ALL START
+0.0.0.0 analytics.ghostery.com
+0.0.0.0 anolysis.privacy.ghostery.net
+0.0.0.0 api.ghostery.net
+0.0.0.0 cmp-cdn.ghostery.com
+0.0.0.0 collector-hpn.ghostery.net
+0.0.0.0 d.ghostery.com
+0.0.0.0 ghostery-collector.ghostery.com
+0.0.0.0 offers-api.ghostery.net
+0.0.0.0 reports.ghostery.net
+0.0.0.0 safe-browsing-quorum.privacy.ghostery.net
+0.0.0.0 safe-browsing.ghostery.net
+0.0.0.0 stats.ghostery.net
+# GHOSTERY ALL END
+
+# SPOTIFY.COM START
+0.0.0.0 adeventtracker.spotify.com
+0.0.0.0 ads-fa.spotify.com
+0.0.0.0 ads.spotify.com
+0.0.0.0 analytics.spotify.com
+0.0.0.0 crashdump.spotify.com
+0.0.0.0 gew-spclient.spotify.com
+0.0.0.0 log.spotify.com
+0.0.0.0 pixel-static.spotify.com
+0.0.0.0 pixel.spotify.com
+# SPOTIFY.COM END
+
+# AVAST ALL START
+0.0.0.0 analytics.ff.avast.com
+0.0.0.0 avast.com
+0.0.0.0 avast.ru
+0.0.0.0 www.avast.com
+0.0.0.0 www.avast.ru
+# AVAST ALL END
+
+# VIDEOROLL.NET START
+0.0.0.0 videoroll.net
+# VIDEOROLL.NET END
+
+# OVERWOLF.COM START
+0.0.0.0 analyticsnew.overwolf.com
+0.0.0.0 newlog.overwolf.com
+0.0.0.0 tracking.overwolf.com
+# OVERWOLF.COM END
+
+# PANDORA.TV START
+0.0.0.0 cdn.kmplayer.com
+0.0.0.0 cdn.pandora.tv
+0.0.0.0 gplayer.kmpmedia.net
+0.0.0.0 log.kmplayer.com
+# PANDORA.TV END
+
+# XIAOMI ALL START
+0.0.0.0 ad.mi.com
+0.0.0.0 ad.xiaomi.com
+0.0.0.0 ad1.xiaomi.com
+0.0.0.0 adv.sec.intl.miui.com
+0.0.0.0 adv.sec.miui.com
+0.0.0.0 api.ad.intl.xiaomi.com
+0.0.0.0 api.ad.xiaomi.com
+0.0.0.0 api.admob.xiaomi.com
+0.0.0.0 api.collect.data.intl.miui.com
+0.0.0.0 api.sec.intl.miui.com
+0.0.0.0 api.sec.miui.com
+0.0.0.0 au.ff.avast.sec.miui.com
+0.0.0.0 authbe.sec.intl.miui.com
+0.0.0.0 cdn.ad.xiaomi.com
+0.0.0.0 data.mistat.intl.xiaomi.com
+0.0.0.0 data.mistat.rus.xiaomi.com
+0.0.0.0 e.ad.xiaomi.com
+0.0.0.0 globalapi.ad.xiaomi.com
+0.0.0.0 log.ad.xiaomi.com
+0.0.0.0 mazu.sec.miui.com
+0.0.0.0 new.api.ad.xiaomi.com
+0.0.0.0 sdkconfig.ad.intl.xiaomi.com
+0.0.0.0 sdkconfig.ad.rus.xiaomi.com
+0.0.0.0 sdkconfig.ad.xiaomi.com
+0.0.0.0 ssp.ad.xiaomi.com
+0.0.0.0 test.ad.xiaomi.com
+0.0.0.0 test.new.api.ad.xiaomi.com
+0.0.0.0 track.ad.xiaomi.com
+0.0.0.0 tracking.intl.miui.com
+0.0.0.0 tracking.rus.miui.com
+0.0.0.0 update.avlyun.sec.miui.com
+0.0.0.0 zeus.ad.intl.xiaomi.com
+0.0.0.0 zeus.ad.xiaomi.com
+# XIAOMI ALL END
+
+# SHAZAM.COM START
+0.0.0.0 beacon.shazam.com
+# SHAZAM.COM END
+
+# SHELLJACKET.US START
+0.0.0.0 event.shelljacket.us
+# SHELLJACKET.US END
+
+# MICROSOFT ALL START
+0.0.0.0 advertising.microsoft.com
+0.0.0.0 analytics.microsoft.com
+0.0.0.0 auto.au.download.windowsupdate.com.c.footprint.net
+0.0.0.0 browser.pipe.aria.microsoft.com
+0.0.0.0 c.live.com
+0.0.0.0 c.microsoft.com
+0.0.0.0 c.msn.com
+0.0.0.0 c1.microsoft.com
+0.0.0.0 choice.microsoft.com
+0.0.0.0 corpext.msitadfs.glbdns2.microsoft.com
+0.0.0.0 dc.services.visualstudio.com
+0.0.0.0 df.telemetry.microsoft.com
+0.0.0.0 events.data.microsoft.com
+0.0.0.0 footprint.net
+0.0.0.0 fs.microsoft.com
+0.0.0.0 go.microsoft.com
+0.0.0.0 ic3.events.data.microsoft.com
+0.0.0.0 in.appcenter.ms
+0.0.0.0 logging.windows.microsoft.com
+0.0.0.0 oca.telemetry.microsoft.com
+0.0.0.0 oca.telemetry.microsoft.com.nsatc.net
+0.0.0.0 rad.microsoft.com
+0.0.0.0 reports.wes.df.telemetry.microsoft.com
+0.0.0.0 self.events.data.microsoft.com
+0.0.0.0 services.wes.df.telemetry.microsoft.com
+0.0.0.0 settings-sandbox.data.microsoft.com
+0.0.0.0 settings-win.data.microsoft.com
+0.0.0.0 spynet2.microsoft.com
+0.0.0.0 spynettest.microsoft.com
+0.0.0.0 sqm.df.telemetry.microsoft.com
+0.0.0.0 sqm.telemetry.microsoft.com
+0.0.0.0 sqm.telemetry.microsoft.com.nsatc.net
+0.0.0.0 telecommand.telemetry.microsoft.com
+0.0.0.0 telecommand.telemetry.microsoft.com.nsatc.net
+0.0.0.0 telemetry.microsoft.com
+0.0.0.0 telemetry.urs.microsoft.com
+0.0.0.0 vortex-sandbox.data.microsoft.com
+0.0.0.0 vortex-win.data.microsoft.com
+0.0.0.0 vortex.data.microsoft.com
+0.0.0.0 watson.microsoft.com
+0.0.0.0 watson.ppe.telemetry.microsoft.com
+0.0.0.0 watson.telemetry.microsoft.com
+0.0.0.0 watson.telemetry.microsoft.com.nsatc.net
+0.0.0.0 wes.df.telemetry.microsoft.com
+# MICROSOFT ALL END
+
+# GOOGLE ALL START
+0.0.0.0 2mdn.net
+0.0.0.0 ad.doubleclick.net
+0.0.0.0 adservice.google.ac
+0.0.0.0 adservice.google.ad
+0.0.0.0 adservice.google.ae
+0.0.0.0 adservice.google.al
+0.0.0.0 adservice.google.am
+0.0.0.0 adservice.google.as
+0.0.0.0 adservice.google.at
+0.0.0.0 adservice.google.az
+0.0.0.0 adservice.google.ba
+0.0.0.0 adservice.google.be
+0.0.0.0 adservice.google.bf
+0.0.0.0 adservice.google.bg
+0.0.0.0 adservice.google.bi
+0.0.0.0 adservice.google.bj
+0.0.0.0 adservice.google.bs
+0.0.0.0 adservice.google.bt
+0.0.0.0 adservice.google.by
+0.0.0.0 adservice.google.ca
+0.0.0.0 adservice.google.cat
+0.0.0.0 adservice.google.cc
+0.0.0.0 adservice.google.cd
+0.0.0.0 adservice.google.cf
+0.0.0.0 adservice.google.cg
+0.0.0.0 adservice.google.ch
+0.0.0.0 adservice.google.ci
+0.0.0.0 adservice.google.cl
+0.0.0.0 adservice.google.cm
+0.0.0.0 adservice.google.co.ao
+0.0.0.0 adservice.google.co.bw
+0.0.0.0 adservice.google.co.ck
+0.0.0.0 adservice.google.co.cr
+0.0.0.0 adservice.google.co.id
+0.0.0.0 adservice.google.co.il
+0.0.0.0 adservice.google.co.in
+0.0.0.0 adservice.google.co.jp
+0.0.0.0 adservice.google.co.ke
+0.0.0.0 adservice.google.co.kr
+0.0.0.0 adservice.google.co.ls
+0.0.0.0 adservice.google.co.ma
+0.0.0.0 adservice.google.co.mz
+0.0.0.0 adservice.google.co.nz
+0.0.0.0 adservice.google.co.th
+0.0.0.0 adservice.google.co.tz
+0.0.0.0 adservice.google.co.ug
+0.0.0.0 adservice.google.co.uk
+0.0.0.0 adservice.google.co.uz
+0.0.0.0 adservice.google.co.ve
+0.0.0.0 adservice.google.co.vi
+0.0.0.0 adservice.google.co.za
+0.0.0.0 adservice.google.co.zm
+0.0.0.0 adservice.google.co.zw
+0.0.0.0 adservice.google.com
+0.0.0.0 adservice.google.com.af
+0.0.0.0 adservice.google.com.ag
+0.0.0.0 adservice.google.com.ai
+0.0.0.0 adservice.google.com.ar
+0.0.0.0 adservice.google.com.au
+0.0.0.0 adservice.google.com.bd
+0.0.0.0 adservice.google.com.bh
+0.0.0.0 adservice.google.com.bn
+0.0.0.0 adservice.google.com.bo
+0.0.0.0 adservice.google.com.br
+0.0.0.0 adservice.google.com.bz
+0.0.0.0 adservice.google.com.co
+0.0.0.0 adservice.google.com.cu
+0.0.0.0 adservice.google.com.cy
+0.0.0.0 adservice.google.com.do
+0.0.0.0 adservice.google.com.ec
+0.0.0.0 adservice.google.com.eg
+0.0.0.0 adservice.google.com.et
+0.0.0.0 adservice.google.com.fj
+0.0.0.0 adservice.google.com.gh
+0.0.0.0 adservice.google.com.gi
+0.0.0.0 adservice.google.com.gt
+0.0.0.0 adservice.google.com.hk
+0.0.0.0 adservice.google.com.jm
+0.0.0.0 adservice.google.com.kh
+0.0.0.0 adservice.google.com.kw
+0.0.0.0 adservice.google.com.lb
+0.0.0.0 adservice.google.com.ly
+0.0.0.0 adservice.google.com.mm
+0.0.0.0 adservice.google.com.mt
+0.0.0.0 adservice.google.com.mx
+0.0.0.0 adservice.google.com.my
+0.0.0.0 adservice.google.com.na
+0.0.0.0 adservice.google.com.nf
+0.0.0.0 adservice.google.com.ng
+0.0.0.0 adservice.google.com.ni
+0.0.0.0 adservice.google.com.np
+0.0.0.0 adservice.google.com.om
+0.0.0.0 adservice.google.com.pa
+0.0.0.0 adservice.google.com.pe
+0.0.0.0 adservice.google.com.pg
+0.0.0.0 adservice.google.com.ph
+0.0.0.0 adservice.google.com.pk
+0.0.0.0 adservice.google.com.pr
+0.0.0.0 adservice.google.com.py
+0.0.0.0 adservice.google.com.qa
+0.0.0.0 adservice.google.com.sa
+0.0.0.0 adservice.google.com.sb
+0.0.0.0 adservice.google.com.sg
+0.0.0.0 adservice.google.com.sl
+0.0.0.0 adservice.google.com.sv
+0.0.0.0 adservice.google.com.tj
+0.0.0.0 adservice.google.com.tr
+0.0.0.0 adservice.google.com.tw
+0.0.0.0 adservice.google.com.ua
+0.0.0.0 adservice.google.com.uy
+0.0.0.0 adservice.google.com.vc
+0.0.0.0 adservice.google.com.vn
+0.0.0.0 adservice.google.cv
+0.0.0.0 adservice.google.cz
+0.0.0.0 adservice.google.de
+0.0.0.0 adservice.google.dj
+0.0.0.0 adservice.google.dk
+0.0.0.0 adservice.google.dm
+0.0.0.0 adservice.google.dz
+0.0.0.0 adservice.google.ee
+0.0.0.0 adservice.google.es
+0.0.0.0 adservice.google.fi
+0.0.0.0 adservice.google.fm
+0.0.0.0 adservice.google.fr
+0.0.0.0 adservice.google.ga
+0.0.0.0 adservice.google.ge
+0.0.0.0 adservice.google.gf
+0.0.0.0 adservice.google.gg
+0.0.0.0 adservice.google.gl
+0.0.0.0 adservice.google.gm
+0.0.0.0 adservice.google.gp
+0.0.0.0 adservice.google.gr
+0.0.0.0 adservice.google.gy
+0.0.0.0 adservice.google.hn
+0.0.0.0 adservice.google.hr
+0.0.0.0 adservice.google.ht
+0.0.0.0 adservice.google.hu
+0.0.0.0 adservice.google.ie
+0.0.0.0 adservice.google.im
+0.0.0.0 adservice.google.io
+0.0.0.0 adservice.google.iq
+0.0.0.0 adservice.google.is
+0.0.0.0 adservice.google.it
+0.0.0.0 adservice.google.je
+0.0.0.0 adservice.google.jo
+0.0.0.0 adservice.google.kg
+0.0.0.0 adservice.google.ki
+0.0.0.0 adservice.google.kz
+0.0.0.0 adservice.google.la
+0.0.0.0 adservice.google.li
+0.0.0.0 adservice.google.lk
+0.0.0.0 adservice.google.lt
+0.0.0.0 adservice.google.lu
+0.0.0.0 adservice.google.lv
+0.0.0.0 adservice.google.md
+0.0.0.0 adservice.google.me
+0.0.0.0 adservice.google.mg
+0.0.0.0 adservice.google.mk
+0.0.0.0 adservice.google.ml
+0.0.0.0 adservice.google.mn
+0.0.0.0 adservice.google.ms
+0.0.0.0 adservice.google.mu
+0.0.0.0 adservice.google.mv
+0.0.0.0 adservice.google.mw
+0.0.0.0 adservice.google.ne
+0.0.0.0 adservice.google.nl
+0.0.0.0 adservice.google.no
+0.0.0.0 adservice.google.nr
+0.0.0.0 adservice.google.nu
+0.0.0.0 adservice.google.pl
+0.0.0.0 adservice.google.pn
+0.0.0.0 adservice.google.ps
+0.0.0.0 adservice.google.pt
+0.0.0.0 adservice.google.ro
+0.0.0.0 adservice.google.rs
+0.0.0.0 adservice.google.ru
+0.0.0.0 adservice.google.rw
+0.0.0.0 adservice.google.sc
+0.0.0.0 adservice.google.se
+0.0.0.0 adservice.google.sh
+0.0.0.0 adservice.google.si
+0.0.0.0 adservice.google.sk
+0.0.0.0 adservice.google.sm
+0.0.0.0 adservice.google.sn
+0.0.0.0 adservice.google.so
+0.0.0.0 adservice.google.sr
+0.0.0.0 adservice.google.st
+0.0.0.0 adservice.google.td
+0.0.0.0 adservice.google.tg
+0.0.0.0 adservice.google.tk
+0.0.0.0 adservice.google.tl
+0.0.0.0 adservice.google.tm
+0.0.0.0 adservice.google.tn
+0.0.0.0 adservice.google.to
+0.0.0.0 adservice.google.tt
+0.0.0.0 adservice.google.vg
+0.0.0.0 adservice.google.vu
+0.0.0.0 adservice.google.ws
+0.0.0.0 adservice.l.google.com
+0.0.0.0 adservices.google.com
+0.0.0.0 alt0-mtalk.google.com
+0.0.0.0 alt1-mtalk.google.com
+0.0.0.0 alt10-mtalk.google.com
+0.0.0.0 alt11-mtalk.google.com
+0.0.0.0 alt12-mtalk.google.com
+0.0.0.0 alt2-mtalk.google.com
+0.0.0.0 alt3-mtalk.google.com
+0.0.0.0 alt4-mtalk.google.com
+0.0.0.0 alt5-mtalk.google.com
+0.0.0.0 alt6-mtalk.google.com
+0.0.0.0 alt7-mtalk.google.com
+0.0.0.0 alt8-mtalk.google.com
+0.0.0.0 alt9-mtalk.google.com
+0.0.0.0 android-safebrowsing.google.com
+0.0.0.0 api.crashlytics.com
+0.0.0.0 app-measurement.com
+0.0.0.0 beacons-handoff.gcp.gvt1.com
+0.0.0.0 beacons-handoff.gcp.gvt2.com
+0.0.0.0 beacons-handoff.gcp.gvt3.com
+0.0.0.0 beacons-handoff.gcp.gvt4.com
+0.0.0.0 beacons-handoff.gcp.gvt5.com
+0.0.0.0 beacons.gcp.gvt1.com
+0.0.0.0 beacons.gcp.gvt2.com
+0.0.0.0 beacons.gcp.gvt3.com
+0.0.0.0 beacons.gcp.gvt4.com
+0.0.0.0 beacons.gcp.gvt5.com
+0.0.0.0 beacons.gvt1.com
+0.0.0.0 beacons.gvt2.com
+0.0.0.0 beacons.gvt3.com
+0.0.0.0 beacons.gvt4.com
+0.0.0.0 beacons.gvt5.com
+0.0.0.0 beacons1.gvt3.com
+0.0.0.0 beacons2.gvt3.com
+0.0.0.0 beacons3.gvt3.com
+0.0.0.0 beacons4.gvt3.com
+0.0.0.0 beacons5.gvt3.com
+0.0.0.0 csi.gstatic.com
+0.0.0.0 doubleclick.net
+0.0.0.0 firebase-settings.crashlytics.com
+0.0.0.0 footprints-pa.googleapis.com
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 googleadservices.com
+0.0.0.0 googletagservices.com
+0.0.0.0 id.google.ac
+0.0.0.0 id.google.ad
+0.0.0.0 id.google.ae
+0.0.0.0 id.google.al
+0.0.0.0 id.google.am
+0.0.0.0 id.google.as
+0.0.0.0 id.google.at
+0.0.0.0 id.google.az
+0.0.0.0 id.google.ba
+0.0.0.0 id.google.be
+0.0.0.0 id.google.bf
+0.0.0.0 id.google.bg
+0.0.0.0 id.google.bi
+0.0.0.0 id.google.bj
+0.0.0.0 id.google.bs
+0.0.0.0 id.google.bt
+0.0.0.0 id.google.by
+0.0.0.0 id.google.ca
+0.0.0.0 id.google.cat
+0.0.0.0 id.google.cc
+0.0.0.0 id.google.cd
+0.0.0.0 id.google.cf
+0.0.0.0 id.google.cg
+0.0.0.0 id.google.ch
+0.0.0.0 id.google.ci
+0.0.0.0 id.google.cl
+0.0.0.0 id.google.cm
+0.0.0.0 id.google.cn
+0.0.0.0 id.google.co.ao
+0.0.0.0 id.google.co.bw
+0.0.0.0 id.google.co.ck
+0.0.0.0 id.google.co.cr
+0.0.0.0 id.google.co.id
+0.0.0.0 id.google.co.il
+0.0.0.0 id.google.co.in
+0.0.0.0 id.google.co.jp
+0.0.0.0 id.google.co.ke
+0.0.0.0 id.google.co.kr
+0.0.0.0 id.google.co.ls
+0.0.0.0 id.google.co.ma
+0.0.0.0 id.google.co.mz
+0.0.0.0 id.google.co.nz
+0.0.0.0 id.google.co.th
+0.0.0.0 id.google.co.tz
+0.0.0.0 id.google.co.ug
+0.0.0.0 id.google.co.uk
+0.0.0.0 id.google.co.uz
+0.0.0.0 id.google.co.ve
+0.0.0.0 id.google.co.vi
+0.0.0.0 id.google.co.za
+0.0.0.0 id.google.co.zm
+0.0.0.0 id.google.co.zw
+0.0.0.0 id.google.com
+0.0.0.0 id.google.com.af
+0.0.0.0 id.google.com.ag
+0.0.0.0 id.google.com.ai
+0.0.0.0 id.google.com.ar
+0.0.0.0 id.google.com.au
+0.0.0.0 id.google.com.bd
+0.0.0.0 id.google.com.bh
+0.0.0.0 id.google.com.bn
+0.0.0.0 id.google.com.bo
+0.0.0.0 id.google.com.br
+0.0.0.0 id.google.com.bz
+0.0.0.0 id.google.com.co
+0.0.0.0 id.google.com.cu
+0.0.0.0 id.google.com.cy
+0.0.0.0 id.google.com.do
+0.0.0.0 id.google.com.ec
+0.0.0.0 id.google.com.eg
+0.0.0.0 id.google.com.et
+0.0.0.0 id.google.com.fj
+0.0.0.0 id.google.com.gh
+0.0.0.0 id.google.com.gi
+0.0.0.0 id.google.com.gt
+0.0.0.0 id.google.com.hk
+0.0.0.0 id.google.com.jm
+0.0.0.0 id.google.com.kh
+0.0.0.0 id.google.com.kw
+0.0.0.0 id.google.com.lb
+0.0.0.0 id.google.com.ly
+0.0.0.0 id.google.com.mm
+0.0.0.0 id.google.com.mt
+0.0.0.0 id.google.com.mx
+0.0.0.0 id.google.com.my
+0.0.0.0 id.google.com.na
+0.0.0.0 id.google.com.nf
+0.0.0.0 id.google.com.ng
+0.0.0.0 id.google.com.ni
+0.0.0.0 id.google.com.np
+0.0.0.0 id.google.com.om
+0.0.0.0 id.google.com.pa
+0.0.0.0 id.google.com.pe
+0.0.0.0 id.google.com.pg
+0.0.0.0 id.google.com.ph
+0.0.0.0 id.google.com.pk
+0.0.0.0 id.google.com.pr
+0.0.0.0 id.google.com.py
+0.0.0.0 id.google.com.qa
+0.0.0.0 id.google.com.sa
+0.0.0.0 id.google.com.sb
+0.0.0.0 id.google.com.sg
+0.0.0.0 id.google.com.sl
+0.0.0.0 id.google.com.sv
+0.0.0.0 id.google.com.tj
+0.0.0.0 id.google.com.tr
+0.0.0.0 id.google.com.tw
+0.0.0.0 id.google.com.ua
+0.0.0.0 id.google.com.uy
+0.0.0.0 id.google.com.vc
+0.0.0.0 id.google.com.vn
+0.0.0.0 id.google.cv
+0.0.0.0 id.google.cz
+0.0.0.0 id.google.de
+0.0.0.0 id.google.dj
+0.0.0.0 id.google.dk
+0.0.0.0 id.google.dm
+0.0.0.0 id.google.dz
+0.0.0.0 id.google.ee
+0.0.0.0 id.google.es
+0.0.0.0 id.google.fi
+0.0.0.0 id.google.fm
+0.0.0.0 id.google.fr
+0.0.0.0 id.google.ga
+0.0.0.0 id.google.ge
+0.0.0.0 id.google.gf
+0.0.0.0 id.google.gg
+0.0.0.0 id.google.gl
+0.0.0.0 id.google.gm
+0.0.0.0 id.google.gp
+0.0.0.0 id.google.gr
+0.0.0.0 id.google.gy
+0.0.0.0 id.google.hn
+0.0.0.0 id.google.hr
+0.0.0.0 id.google.ht
+0.0.0.0 id.google.hu
+0.0.0.0 id.google.ie
+0.0.0.0 id.google.im
+0.0.0.0 id.google.io
+0.0.0.0 id.google.iq
+0.0.0.0 id.google.is
+0.0.0.0 id.google.it
+0.0.0.0 id.google.je
+0.0.0.0 id.google.jo
+0.0.0.0 id.google.kg
+0.0.0.0 id.google.ki
+0.0.0.0 id.google.kz
+0.0.0.0 id.google.la
+0.0.0.0 id.google.li
+0.0.0.0 id.google.lk
+0.0.0.0 id.google.lt
+0.0.0.0 id.google.lu
+0.0.0.0 id.google.lv
+0.0.0.0 id.google.md
+0.0.0.0 id.google.me
+0.0.0.0 id.google.mg
+0.0.0.0 id.google.mk
+0.0.0.0 id.google.ml
+0.0.0.0 id.google.mn
+0.0.0.0 id.google.ms
+0.0.0.0 id.google.mu
+0.0.0.0 id.google.mv
+0.0.0.0 id.google.mw
+0.0.0.0 id.google.ne
+0.0.0.0 id.google.nl
+0.0.0.0 id.google.no
+0.0.0.0 id.google.nr
+0.0.0.0 id.google.nu
+0.0.0.0 id.google.pl
+0.0.0.0 id.google.pn
+0.0.0.0 id.google.ps
+0.0.0.0 id.google.pt
+0.0.0.0 id.google.ro
+0.0.0.0 id.google.rs
+0.0.0.0 id.google.ru
+0.0.0.0 id.google.rw
+0.0.0.0 id.google.sc
+0.0.0.0 id.google.se
+0.0.0.0 id.google.sh
+0.0.0.0 id.google.si
+0.0.0.0 id.google.sk
+0.0.0.0 id.google.sm
+0.0.0.0 id.google.sn
+0.0.0.0 id.google.so
+0.0.0.0 id.google.sr
+0.0.0.0 id.google.st
+0.0.0.0 id.google.td
+0.0.0.0 id.google.tg
+0.0.0.0 id.google.tk
+0.0.0.0 id.google.tl
+0.0.0.0 id.google.tm
+0.0.0.0 id.google.tn
+0.0.0.0 id.google.to
+0.0.0.0 id.google.tt
+0.0.0.0 id.google.vg
+0.0.0.0 id.google.vu
+0.0.0.0 id.google.ws
+0.0.0.0 id.l.google.com
+0.0.0.0 imageads.googleadservices.com
+0.0.0.0 imageads1.googleadservices.com
+0.0.0.0 imageads2.googleadservices.com
+0.0.0.0 imageads3.googleadservices.com
+0.0.0.0 imageads4.googleadservices.com
+0.0.0.0 imageads5.googleadservices.com
+0.0.0.0 imageads6.googleadservices.com
+0.0.0.0 imageads7.googleadservices.com
+0.0.0.0 imageads8.googleadservices.com
+0.0.0.0 imageads9.googleadservices.com
+0.0.0.0 imasdk.googleapis.com
+0.0.0.0 mtalk.google.com
+0.0.0.0 pagead.googlesyndication.com
+0.0.0.0 pagead2.googlesyndication.com
+0.0.0.0 reports.crashlytics.com
+0.0.0.0 safebrowsing.googleapis.com
+0.0.0.0 safeframe.googlesyndication.com
+0.0.0.0 securepubads.g.doubleclick.net
+0.0.0.0 settings.crashlytics.com
+0.0.0.0 ssl.google-analytics.com
+0.0.0.0 static.doubleclick.net
+0.0.0.0 tpc.googlesyndication.com
+0.0.0.0 www.google-analytics.com
+0.0.0.0 www.googleadservices.com
+0.0.0.0 www.googletagmanager.com
+0.0.0.0 www.googletagservices.com
+# GOOGLE ALL END
+
+# MOZILLA ALL START
+0.0.0.0 detectportal.firefox.com
+0.0.0.0 incoming.telemetry.mozilla.org
+0.0.0.0 shavar.services.mozilla.com
+# MOZILLA ALL END
+
+# FACEBOOK ALL START
+0.0.0.0 adecn-w.atdmt.com
+0.0.0.0 ads.facebook.com
+0.0.0.0 aidps.atdmt.com
+0.0.0.0 analytics.atdmt.com
+0.0.0.0 api.atdmt.com
+0.0.0.0 atdmt.com
+0.0.0.0 att.atdmt.com
+0.0.0.0 c.atdmt.com
+0.0.0.0 c1.atdmt.com
+0.0.0.0 cdn.atdmt.com
+0.0.0.0 click.atdmt.com
+0.0.0.0 clk.atdmt.com
+0.0.0.0 connect.facebook.net
+0.0.0.0 cs.atdmt.com
+0.0.0.0 cx.atdmt.com
+0.0.0.0 ec.atdmt.com
+0.0.0.0 flex.atdmt.com
+0.0.0.0 free.atdmt.com
+0.0.0.0 g.atdmt.com
+0.0.0.0 graph.facebook.com
+0.0.0.0 graph.instagram.com
+0.0.0.0 h.atdmt.com
+0.0.0.0 iact.atdmt.com
+0.0.0.0 image.atdmt.com
+0.0.0.0 img.atdmt.com
+0.0.0.0 jact.atdmt.com
+0.0.0.0 lab.atdmt.com
+0.0.0.0 ll.atdmt.com
+0.0.0.0 main.atdmt.com
+0.0.0.0 pixel.facebook.com
+0.0.0.0 rmd.atdmt.com
+0.0.0.0 sact.atdmt.com
+0.0.0.0 spd.atdmt.com
+0.0.0.0 spe.atdmt.com
+0.0.0.0 srch.atdmt.com
+0.0.0.0 switch.atdmt.com
+0.0.0.0 t.atdmt.com
+0.0.0.0 vid.atdmt.com
+0.0.0.0 view.atdmt.com
+0.0.0.0 www.atdmt.com
+# FACEBOOK ALL END
+
+# MTS.RU START
+0.0.0.0 rtb.mts.ru
+0.0.0.0 ssp.rtb.mts.ru
+0.0.0.0 static-marketolog.mts.ru
+# MTS.RU END
+
+# TNS-COUNTER.RU START
+0.0.0.0 tns-counter.ru
+0.0.0.0 www.tns-counter.ru
+# TNS-COUNTER.RU END
+
+# APPSFLYER.COM START
+0.0.0.0 api.appsflyer.com
+0.0.0.0 app.appsflyer.com
+0.0.0.0 appsflyer.com
+0.0.0.0 conversions.appsflyer.com
+0.0.0.0 events.appsflyer.com
+0.0.0.0 inapps.appsflyer.com
+0.0.0.0 launches.appsflyer.com
+0.0.0.0 register.appsflyer.com
+0.0.0.0 t.appsflyer.com
+0.0.0.0 track.appsflyer.com
+# APPSFLYER.COM END
+
+# BRANCH.IO START
+0.0.0.0 api2.branch.io
+# BRANCH.IO END
+
+# FLURRY.COM START
+0.0.0.0 ad.flurry.com
+0.0.0.0 data.flurry.com
+0.0.0.0 flurry.com
+0.0.0.0 dev.flurry.com
+0.0.0.0 api.flurry.com
+0.0.0.0 a.flurry.com
+0.0.0.0 adlog.flurry.com
+0.0.0.0 ads.flurry.com
+0.0.0.0 www.flurry.com
+0.0.0.0 cdn.flurry.com
+# FLURRY.COM END
+
+# BIDMACHINE.IO START
+0.0.0.0 api-eu.bidmachine.io
+0.0.0.0 bidmachine.io
+# BIDMACHINE.IO END
+
+# APPBAQEND.COM START
+0.0.0.0 a.appbaqend.com
+0.0.0.0 appbaqend.com
+0.0.0.0 www.appbaqend.com
+# APPBAQEND.COM END
+
+# QQ.COM START
+0.0.0.0 analy.qq.com
+0.0.0.0 qq.com
+0.0.0.0 www.qq.com
+# QQ.COM END
+
+# AD-X.CO.UK START
+0.0.0.0 apps.ad-x.co.uk
+0.0.0.0 www.ad-x.co.uk
+0.0.0.0 ad-x.co.uk
+# AD-X.CO.UK END
+
+# MOPUB.COM START
+0.0.0.0 ads.mopub.com
+0.0.0.0 mopub.com
+# MOPUB.COM END
+
+# ADCEL.CO START
+0.0.0.0 rtb.adcel.co
+# ADCEL.CO END
+
+# ADJUST ALL START
+0.0.0.0 adj.st
+0.0.0.0 adjust.com
+0.0.0.0 adjust.io
+0.0.0.0 adjust.net.in
+0.0.0.0 adjust.world
+0.0.0.0 app.adjust.com
+0.0.0.0 app.adjust.io
+0.0.0.0 app.adjust.net.in
+0.0.0.0 app.adjust.world
+# ADJUST ALL END
+
+# SCORECARDRESEARCH.COM START
+0.0.0.0 b.scorecardresearch.com
+0.0.0.0 c.scorecardresearch.com
+0.0.0.0 a.scorecardresearch.com
+0.0.0.0 sb.scorecardresearch.com
+0.0.0.0 scorecardresearch.com
+# SCORECARDRESEARCH.COM END
+
+# ONESIGNAL.COM START
+0.0.0.0 cdn.onesignal.com
+0.0.0.0 onesignal.com
+# ONESIGNAL.COM END
+
+# LEANPLUM.COM START
+0.0.0.0 api.leanplum.com
+# LEANPLUM.COM END
+
+# 2GIS.RU START
+0.0.0.0 advisor.api.2gis.ru
+# 2GIS.RU END
+
+# AMPLITUDE.COM START
+0.0.0.0 amplitude.com
+0.0.0.0 api.amplitude.com
+# AMPLITUDE.COM END
+
+# SERVICES-SYS.COM START
+0.0.0.0 bs.serving-sys.com
+0.0.0.0 serving-sys.com
+# SERVICES-SYS.COM END
+
+# WEBORAMA.FR START
+0.0.0.0 wcm-ru.frontend.weborama.fr
+0.0.0.0 weborama.fr
+# WEBORAMA.FR END
+
+# LIVEINTERNET.RU START
+0.0.0.0 counter.yadro.ru
+0.0.0.0 yadro.ru
+# LIVEINTERNET.RU END
