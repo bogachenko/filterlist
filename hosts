@@ -1,8 +1,8 @@
-# Title: bogachenko's Personal DNS Filter
-# Description: bogachenko's Personal list of domain names.
-# Homepage: https://github.com/bogachenko/filterlist/tree/personal
-# RAW: https://raw.githubusercontent.com/bogachenko/filterlist/personal/hosts
-# License: https://raw.githubusercontent.com/bogachenko/filterlist/master/LICENSE.md
+# Title: bogachenko's Hosts Filter
+# Description: A filter for bogachenko's personal use to block loading of ads, third-party, tracking, annoying and all other unjustified resources. These filters are used by me for the system file hosts.txt, AdAway, Adguard Home and Pi-Hole.
+# Homepage: https://github.com/bogachenko/filterlist
+# RAW: https://raw.githubusercontent.com/bogachenko/filterlist/main/hosts
+# License: https://raw.githubusercontent.com/bogachenko/filterlist/main/LICENSE.md
 
 # Main rules
 

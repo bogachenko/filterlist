@@ -1,5 +1,5 @@
 ! Title: bogachenko's Filter List
-! Description: A filter for bogachenko's personal use to block loading of ads, third-party, tracking, annoying and all other unjustified resources. Contains filters specific to uBlock Origin, AdGuard for Windows, AdGuard for Android.
+! Description: A filter for bogachenko's personal use to block loading of ads, third-party, tracking, annoying and all other unjustified resources. These filters are used by me for uBlock Origin, AdGuard for Windows and AdGuard for Android.
 ! Homepage: https://github.com/bogachenko/filterlist
 ! RAW: https://raw.githubusercontent.com/bogachenko/filterlist/main/bogachenkoFL.txt
 ! License: https://raw.githubusercontent.com/bogachenko/filterlist/main/LICENSE.md
