@@ -5,8 +5,6 @@
 ! License: https://raw.githubusercontent.com/bogachenko/filterlist/main/LICENSE.md
 ! Expires: 3 hours
 
-! ~~~~~~~ MY SHITTY RULES ~~~~~~~
-
 ! CONDITIONS START
 !#if !ext_ublock
 $$script[src="//pagead2.googlesyndication.com/"]
@@ -516,6 +514,7 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 /^https?:\/\/(www\.)?translate\.yandex\.(ru|ua|by|com)\//$csp=img-src 'self' data: yastatic.net avatars.mds.yandex.net;
 ||deloplen.com^$important,csp=default-src 'none';
 ||twitch.tv^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: data: *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com *.algolia.net local.adguard.org injections.adguard.org *.cloudfront.net;
+||userload.co^$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval';
 ! Content Security Policy (CSP) END
 
 ! OTHER START
@@ -717,3 +716,11 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 ||yastatic.net/daas/atom.js|$important,script,xmlhttprequest
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest
 ! COMBINED END
+
+! TRASH START
+||ampproject.net^$badfilter
+||egyanime.com^$badfilter
+chrome.google.com#@#+js(mousedef2)
+userload.co#@#+js(addEventListener-defuser, , _0x)
+userload.co#@#+js(noeval-if, click)
+! TRASH END
