@@ -322,8 +322,16 @@ $$script[src="https://www.googletagservices.com/"]
 ||googleadsserving.cn^$important
 ||googleanalytics.com^$important
 ||googleoptimize.com^$important
+||r.mail.ru^$important
+||r0.mail.ru^$important
+||r2.mail.ru^$important
+||r3.mail.ru^$important
 ||googlesyndication.com^$important
 ||googletagmanager.com^$important
+||rs.mail.ru^$important
+||t.mail.ru^$important
+||an.mail.ru^$important
+||ad.mail.ru^$important
 ||googletagservices.com^$important
 ||gotprofits.com^$important
 ||graph.facebook.com^$important
@@ -462,7 +470,7 @@ market.yandex.*##div[class][data-tid]:has(div[data-apiary-widget-name="@market/V
 market.yandex.*##div[data-apiary-widget-id="/content/journal"]:has-text(Полезные статьи)
 music.yandex.*##.duck__duckling.moving-slider, .multi-auth__plus, .teaser, .sidebar__under, .page-main__line_row.page-main__line_small-margin.page-main__line_personal-playlists.page-main__line, .notify_shown.deco-tooltip_notify, .footer, .metrika-app_shown_yes.metrika-app_js_inited.i-bem.metrika-app_type_desktop.metrika-app_lang_ru.metrika-app, .duck__angry-duck_left.duck__angry-duck.paused-slider, .bar-below_plus.bar-below, .subscription-hint_bottom.deco-pane-popup.popup.local-theme-black.subscription-hint, div.notify > div.deco-tooltip_notify.notify_shown, .overlay_gdpr.overlay_shown.deco-pane-overlay.overlay, .deco-pane-popup.popup.local-icon-theme-white.local-theme-white.gdpr-popup, .bar-below_unavaliable.bar-below, a.teaser__content[href="https://music.yandex.ru/family-plus"] > img.teaser__img, div.page-root.page-root_no-player.deco-pane-back > div[class][data-b="2"][style="display: block;"], .teaser ~ div, .page-root > div[data-b="2"], .sidebar > div > .teaser + div[data-b="18"], .deco-tooltip_to-right.popup_visible.popup_fade.local-theme-black.d-tooltip_min-width.deco-pane-popup.popup.deco-tooltip.d-tooltip, .overlay_shown.deco-pane-overlay.overlay, .popup_modal.deco-pane-popup.popup.local-icon-theme-white.local-theme-white.popup_compact.crackdown-popup, .teaser-nonmusic_visible.teaser-nonmusic, .progress__line__branding, .paused-slider_left.porsche.paused-slider, .bar__branding_picture, .bar-below__auth, .bar-below__content, .bar__branding, .subscription-hint.popup, .bar__addition-link, body > div[style^="min-height"] > .notify *, body > div[style^="min-height"] > div[class][style="display: block;"], body > div[style^="min-height"] > .notify, [class^="audio-advert"], .subscription-hint.popup, .bar.bar-below, .ads-block, .share-container, .share.unit, .notify__message, div.notify > div.deco-tooltip_notify.notify_shown, .d-overhead-mobile__content_app, a.teaser__content[href="https://music.yandex.ru/family-plus"] > img.teaser__img, .bar-below, .no-ads, .button-store_all, .app-sms, a[href="/contest/dogmoroz"], .subscription-hint, .bar__driver-container, .sidebar__placeholder .teaser ~ div, div[id^="ya_partner_R-A-"], .page-root > div.d-overhead, .audio-advert__block, .popup_modal.deco-pane-popup.popup.payment-plus-popup, .shifted-right.deco-tooltip_to-right.popup_visible.popup_fade.local-theme-black.deco-pane-popup.popup.deco-tooltip.d-tooltip
 music.yandex.by,music.yandex.com,music.yandex.ru,music.yandex.ua#?#span:contains(Отключить рекламу)
-ok.ru###hook_Block_MusicGrowl_Content
+ok.ru###hook_Block_MusicGrowl_Content, .__hidden.anonym-feed_aside_banner.banner-layout-container, .anonym-feed, .__fixed-footer.h-mod, .portal-headline__left.w-x-ph__col_left.w-x-ph__col
 pornhub.*,pornhubthbh7ap3u.onion##.sniperModeEngaged, div[id^="age-verification"], .ad-link, .removeAdsStyle, .socialIconsWrapper, .freePremium, .freePremiumVideo, #pb_template, .video-wrapper > #player + [class], a[href*="?ats="], .footerContentWrapper, #footer, .rightCol, .rating-info-container, .tooltipTrig.flag.producer-icon, .subscribe.userButtons, .subscribers-count, .icon-wrapper, .active.fanclub-info-pop, .tab-menu-wrapper-row, .rightButtonHolder.contentContainer, .trailerUnderplayerPreview, #pb_template_trailer, #hotVideosSection > .alpha
 trade.aliexpress.*##[href^="//simplee.aliexpress.com/"], div.grid-col-container:last-child, [href^="//campaign.aliexpress.com/"]
 twitch.tv##.default-panel > :not([href*="vk.com"]):not([href*="donationalerts."]):not([href*="instagram.com"]):not([href*="youtube.com"]):not([href*="twitter.com"]):not([href*="steamcommunity.com"]):not([href*="donatepay.ru"]):not([href*="discordapp.com"])
@@ -515,6 +523,7 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 ||deloplen.com^$important,csp=default-src 'none';
 ||twitch.tv^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: data: *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com *.algolia.net local.adguard.org injections.adguard.org *.cloudfront.net;
 ||userload.co^$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval';
+||streamtape.*^$important,csp=script-src 'self' 'unsafe-inline' *.google.com *.gstatic.com;
 ! Content Security Policy (CSP) END
 
 ! OTHER START
@@ -723,4 +732,9 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 chrome.google.com#@#+js(mousedef2)
 userload.co#@#+js(addEventListener-defuser, , _0x)
 userload.co#@#+js(noeval-if, click)
+streamtape.*#@#+js(set-constant, towait, 0)
+streamtape.*#@#+js(set-constant, btoa, null)
+streamtape.*#@#+js(remove-attr, target, #downloadvideo)
+streamtape.*#@#+js(addEventListener-defuser, contextmenu)
+streamtape.com##.plyr-overlay
 ! TRASH END
