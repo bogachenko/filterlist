@@ -331,6 +331,7 @@ $$script[src="https://www.googletagservices.com/"]
 ||graph.facebook.com^$important
 ||graph.instagram.com^$important
 ||gx-corner.opera.com^$important
+||taboola.com^$important
 ||gx-corner.route*.opera.com^$important
 ||hypercomments.com^$important
 ||id.google.*^$important
@@ -673,7 +674,7 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 ! SCRIPT END
 
 ! XMLHTTPREQUEST START
-/^https?:\/\/[0-9a-z]{11,20}.*.com\/.*/$third-party,important,xmlhttprequest,domain=~aliexpress.com|~aliexpress.ru|~deepl.com|~gtv.org|~marketplace.visualstudio.com|~videoseyred.in|~xhamster.com|~xhamster2.com|~xhamster3.com|~xhamster4.com|~xhamster5.com|~zagonka.tv
+/^https?:\/\/[0-9a-z]{11,20}.*.com\/.*/$third-party,important,xmlhttprequest,domain=~aliexpress.com|~aliexpress.ru|~deepl.com|~gtv.org|~videoseyred.in|~xhamster.com|~xhamster2.com|~xhamster3.com|~xhamster4.com|~xhamster5.com|~zagonka.tv
 /^https?:\/\/[^\s]+(\.wasm|\.wsm|\.wa)$/$important,xmlhttprequest,domain=~twitch.tv
 |http*:$important,xmlhttprequest,domain=4chan.org|4channel.org
 |http*:*/channels/*/extensions$important,xmlhttprequest,domain=twitch.tv
