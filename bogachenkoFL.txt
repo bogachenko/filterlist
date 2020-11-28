@@ -519,11 +519,12 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 ! Content Security Policy (CSP) START
 /^https?:\/\/([\w]+\.)?(pornhub|pornhubthbh7ap3u)\.[\w]+\//$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' blob: phncdn.com *.phncdn.com *.pornhub.com local.adguard.org injections.adguard.org; connect-src 'self' data: phncdn.com *.phncdn.com; frame-src 'none';
 /^https?:\/\/(www\.)?music\.yandex\.(ru|ua|by|com)\//$important,csp=script-src 'unsafe-inline' 'unsafe-eval' music.yandex.ru *.youtube.com https://yastatic.net local.adguard.org injections.adguard.org music.yandex.com music.yandex.by music.yandex.ua *.jquery.com; connect-src 'self' data: music.yandex.com music.yandex.ru music.yandex.ua music.yandex.by storage.mds.yandex.net wss: https://api.passport.yandex.ru; img-src 'self' data: music.yandex.com music.yandex.ru music.yandex.ua music.yandex.by *.yandex.net yapic.yandex.ru *.ytimg.com; frame-src data: frontend.vh.yandex.ru *.youtube.com music.yandex.ru music.yandex.ua music.yandex.by;
-/^https?:\/\/(www\.)?translate\.yandex\.(ru|ua|by|com)\//$csp=img-src 'self' data: yastatic.net avatars.mds.yandex.net;
+/^https?:\/\/(www\.)?translate\.yandex\.(ru|ua|by|com)\//$csp=img-src 'self' data: yastatic.net avatars.mds.yandex.net local.adguard.org injections.adguard.org;
 ||deloplen.com^$important,csp=default-src 'none';
 ||twitch.tv^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: data: *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com *.algolia.net local.adguard.org injections.adguard.org *.cloudfront.net;
-||userload.co^$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval';
-||streamtape.*^$important,csp=script-src 'self' 'unsafe-inline' *.google.com *.gstatic.com;
+||userload.co^$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' local.adguard.org injections.adguard.org;
+||streamtape.*^$important,csp=script-src 'self' 'unsafe-inline' *.google.com *.gstatic.com local.adguard.org injections.adguard.org;
+/^https?:\/\/str?ea[nm]p[l1]ay\.[a-z]{2,3}\//$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com local.adguard.org injections.adguard.org;
 ! Content Security Policy (CSP) END
 
 ! OTHER START
@@ -653,7 +654,7 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 /^https?:\/\/[^\s]+\/(([_a-z-]{3,15})?[-._?&=#/]?)?[Ww]orker(.*)?\.js/$important,script,domain=~github.com|~google.com|~lelinhtinh.github.io|~my.dogechain.info|~obfuscator.io|~parimatch.ru|~twitch.tv|~web.telegram.org|~whoer.net|~z5h64q92x9.net
 /^https?:\/\/[^\s]+\/[cs]sw\.js/$important,script
 /^https?:\/\/[^\s]+\/[Ww]orker([-._?&=#/]?([a-z]{5,6})?)?\.js/$important,script,domain=~lelinhtinh.github.io|~parimatch.ru
-/^https?:\/\/[a-z]{7,15}\.[a-z]+\/[a-w]{3,4}\.(php|hh)\?p\=[0-9]{7}$/$third-party,important,script
+/^https?:\/\/[a-z]{7,15}\.[a-z]+\/[a-w]{3,4}\.php\?[a-z]\=[0-9]{7}$/$third-party,important,script
 /^https?:\/\/[^\s]+\/sw([-._?&=#/]([_a-z0-9-.]{1,12})?)?\.js/$important,script
 /^https?:\/\/[^\s]+\/sw[bwg]\.js/$important,script
 /^https?:\/\/[^\s]+\/wp\.js/$important,script
@@ -717,6 +718,7 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 /[-._?&=#/]vast[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~github.com|~gitlab.com|~twitch.tv|~streamz.vg
 /\/pi?xe?l?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|x?html?|cgi|php|swf|svg)/$image,important,script,subdocument,xmlhttprequest,domain=~playground.ru
 /^https?:\/\/[0-1]{5,}\.com/$third-party,important,script,xmlhttprequest
+/^https?:\/\/[^\s]+\/[a-w]{3,4}\.hh\?[a-z]\=[=&0-9a-zA-Z]{8,15}$/$script,subdocument,~third-party,important
 /^https?:\/\/mail\.yandex\.[\w]+\/[^\s]{1200,}$/$image,important,other,script,xmlhttprequest
 /^https?:\/\/yandex\.[\w]+\/images\/(?!(search\?)|(touch/search?))[^\s]{80,}/$important,subdocument,~third-party,xmlhttprequest
 ||aliyuncs.com/r.png?$image,important,xmlhttprequest
@@ -733,8 +735,10 @@ chrome.google.com#@#+js(mousedef2)
 userload.co#@#+js(addEventListener-defuser, , _0x)
 userload.co#@#+js(noeval-if, click)
 streamtape.*#@#+js(set-constant, towait, 0)
+||streamplay.to^$badfilter
 streamtape.*#@#+js(set-constant, btoa, null)
 streamtape.*#@#+js(remove-attr, target, #downloadvideo)
 streamtape.*#@#+js(addEventListener-defuser, contextmenu)
 streamtape.com##.plyr-overlay
+www.google.*#@#+js(remove-attr, onmousedown|ping, a[href][onmousedown]\, a[href][ping])
 ! TRASH END
