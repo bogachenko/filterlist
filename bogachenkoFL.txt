@@ -22,8 +22,7 @@ $$script[src="https://www.googletagservices.com/"]
 ! CONDITIONS END
 
 ! WHITELIST START
-@@/^https?:\/\/edge\.microsoft\.com\/extensionwebstorebase\/[a-z1-9]{2}\/(hash)?crx\?/$important
-@@||edge.microsoft.com/redirectordictionaries/$important
+@@/^https?:\/\/edge\.microsoft\.com\/(extensionwebstorebase\/[a-z1-9]{2}\/(hash)?crx\?|(redirectordictionaries|hunspelldictionaries)\/)/$important
 @@||connectivitycheck.gstatic.com^$important
 @@||safebrowsing.clients.google.com^$document
 ! WHITELIST END
