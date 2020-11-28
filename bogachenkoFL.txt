@@ -528,6 +528,7 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 ||hydracdn.*^$important,csp=script-src 'self' 'unsafe-inline' iamcdn.net local.adguard.org injections.adguard.org;
 /^https?:\/\/hqq\.t[ov]\//$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' unpkg.com *.gstatic.com *.cloudflare.com local.adguard.org injections.adguard.org;
 ||gomo.to^$important,csp=script-src 'self' 'unsafe-inline' *.googleapis.com;
+||vidlox.*^$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.jsdelivr.net *.google.com;
 ! Content Security Policy (CSP) END
 
 ! OTHER START
@@ -657,7 +658,7 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 /^https?:\/\/[^\s]+\/(([_a-z-]{3,15})?[-._?&=#/]?)?[Ww]orker(.*)?\.js/$important,script,domain=~github.com|~google.com|~lelinhtinh.github.io|~my.dogechain.info|~obfuscator.io|~parimatch.ru|~twitch.tv|~web.telegram.org|~whoer.net|~z5h64q92x9.net
 /^https?:\/\/[^\s]+\/[cs]sw\.js/$important,script
 /^https?:\/\/[^\s]+\/[Ww]orker([-._?&=#/]?([a-z]{5,6})?)?\.js/$important,script,domain=~lelinhtinh.github.io|~parimatch.ru
-/^https?:\/\/[^\s]+\/[a-w]{3,4}\.php\?[a-z]\=[0-9]{7}$/$third-party,important,script
+/^https?:\/\/[^\s]+\/[a-w]{3,4}\.php\?[a-z]{1,6}\=[0-9]{7}$/$third-party,important,script
 /^https?:\/\/[^\s]+\/sw([-._?&=#/]([_a-z0-9-.]{1,12})?)?\.js/$important,script
 /^https?:\/\/[^\s]+\/sw[bwg]\.js/$important,script
 /^https?:\/\/[^\s]+\/wp\.js/$important,script
@@ -759,9 +760,15 @@ hqq.*#@#+js(popads-dummy)
 hydracdn.*#@#+js(abort-current-inline-script, String.fromCharCode, btoa)
 hydracdn.*#@#+js(window.open-defuser, /^/, 1)
 upstream.to#@#+js(set-constant, cRAds, null)
+*$xmlhttprequest,domain=vidlox.me,badfilter
+vidlox.*#@#+js(abort-on-property-read, decodeURIComponent)
+vidlox.*#@#+js(abort-current-inline-script, Math, XMLHttpRequest)
+vidlox.*#@#+js(set-constant, popjs, true)
+vidlox.*#@#+js(set-constant, popns, true)
 upstream.to#@#+js(abort-on-property-read, _run)
 upstream.to#@#+js(abort-current-inline-script, String.fromCharCode, btoa)
 upstream.to#@#+js(abort-current-inline-script, $, .css)
+*$stylesheet,third-party,domain=vidlox.me,badfilter
 upstream.to#@#+js(abort-on-property-read, _0xfff1)
 upstream.to#@#+js(abort-current-inline-script, document.oncontextmenu)
 ! TRASH END
