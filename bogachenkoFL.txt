@@ -526,7 +526,8 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 ||streamtape.*^$important,csp=script-src 'self' 'unsafe-inline' *.google.com *.gstatic.com local.adguard.org injections.adguard.org;
 /^https?:\/\/str?ea[nm]p[l1]ay\.[a-z]{2,3}\//$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com local.adguard.org injections.adguard.org;
 ||hydracdn.*^$important,csp=script-src 'self' 'unsafe-inline' iamcdn.net local.adguard.org injections.adguard.org;
-||hqq.to^$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' unpkg.com *.gstatic.com *.cloudflare.com;
+/^https?:\/\/hqq\.t[ov]\//$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' unpkg.com *.gstatic.com *.cloudflare.com local.adguard.org injections.adguard.org;
+||gomo.to^$important,csp=script-src 'self' 'unsafe-inline' *.googleapis.com;
 ! Content Security Policy (CSP) END
 
 ! OTHER START
@@ -542,7 +543,7 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 /[-._?&=#/]beacon[-.0-9_?&=#/]?/$important
 /[-._?&=#/]me?tr[ie]?[ck][asx]?[-.0-9_?&=#/]?/$important,domain=~fandom.com|~metrika.yandex.ru|~office.com|~twitch.tv
 /[-._?&=#/]preroll[-._?&=#/]/$important,domain=~mail.ru|~ttvnw.net
-/\.(a[cdefgilmnoqrstuwxz]|arpa|academy|accountants?|act(ive|tor)|adult|aero|agency|airforce|apartments|app|archi|army|africa|associates|asia|attorney|auction|audio|autos|art|b[abdefghijmnorstvuwyz]|biz|bzh|c[acdfghiklmnoruvxsyz]|com?|cat|coop|cym(ru)?|crimea|d[dejkmoz]|dance|dev|e[cegrstu]|eng(lish)?|edu|eus|f[ijkmor]|family|feedback|g[abdefghilmnpqrstuwy]|google|gov|gal|h[kmnrtu]|i[delmnoqrst]|info|int|j[deghikmnoprwyz]|jobs?|l[abcikrstuvy]|london|m[acdeghklmnopqrstuvwxyz]|mil|mobi|microsoft|moe|museum|n[acefgilopruz]|ninja|net|name|om|one|ong|onl(ine)?|org(anic)?|p[aefghklmnrstwy]|pink|part([ys]|ners?)|pizza|place|plu(s|mbing)?|pharmacy|photo(s|graphy)?|physio|pic(ture)?s?|poker|porn|post|press|pro(f|ductions|perties|perty)?|k[yehrw]|qa|qpon|quebec|r[eosuw]|raci(ng|pes)|red|rehab|ren(t|tals)?|rep(ort|air|ublican)|rest|reviews?|rich|rus(sian)?|s[abcdeghiljkmnortuvyz]|site|scot?|soc|t[cdfghjklmnoprtvwz]|tel|tra(de|vel)|u[agmksyz]|v[aceginu]|w[fs]|wales|y[etu]|yandex|yoga|z[armzw]|zone|x(xx|yz))\/ad[sv]?\//$important,domain=~4chan.org|~4channel.org|~hqq.to
+/\.(a[cdefgilmnoqrstuwxz]|arpa|academy|accountants?|act(ive|tor)|adult|aero|agency|airforce|apartments|app|archi|army|africa|associates|asia|attorney|auction|audio|autos|art|b[abdefghijmnorstvuwyz]|biz|bzh|c[acdfghiklmnoruvxsyz]|com?|cat|coop|cym(ru)?|crimea|d[dejkmoz]|dance|dev|e[cegrstu]|eng(lish)?|edu|eus|f[ijkmor]|family|feedback|g[abdefghilmnpqrstuwy]|google|gov|gal|h[kmnrtu]|i[delmnoqrst]|info|int|j[deghikmnoprwyz]|jobs?|l[abcikrstuvy]|london|m[acdeghklmnopqrstuvwxyz]|mil|mobi|microsoft|moe|museum|n[acefgilopruz]|ninja|net|name|om|one|ong|onl(ine)?|org(anic)?|p[aefghklmnrstwy]|pink|part([ys]|ners?)|pizza|place|plu(s|mbing)?|pharmacy|photo(s|graphy)?|physio|pic(ture)?s?|poker|porn|post|press|pro(f|ductions|perties|perty)?|k[yehrw]|qa|qpon|quebec|r[eosuw]|raci(ng|pes)|red|rehab|ren(t|tals)?|rep(ort|air|ublican)|rest|reviews?|rich|rus(sian)?|s[abcdeghiljkmnortuvyz]|site|scot?|soc|t[cdfghjklmnoprtvwz]|tel|tra(de|vel)|u[agmksyz]|v[aceginu]|w[fs]|wales|y[etu]|yandex|yoga|z[armzw]|zone|x(xx|yz))\/ad[sv]?\//$important,domain=~4chan.org|~4channel.org|~hqq.to|~hqq.tv
 /\?zone[-_]?id\=/$important
 |http*:$important,beacon
 |http*:$important,ping
@@ -685,7 +686,7 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 ! SCRIPT END
 
 ! XMLHTTPREQUEST START
-/^https?:\/\/[0-9a-z]{11,20}.*.com\/.*/$third-party,important,xmlhttprequest,domain=~aliexpress.com|~aliexpress.ru|~deepl.com|~gtv.org|~videoseyred.in|~xhamster.com|~xhamster2.com|~xhamster3.com|~xhamster4.com|~xhamster5.com|~zagonka.tv
+/^https?:\/\/[0-9a-z]{11,20}.*.com\/.*/$third-party,important,xmlhttprequest,domain=~aliexpress.com|~aliexpress.ru|~deepl.com|~gtv.org|~videoseyred.in|~xhamster.com|~xhamster2.com|~xhamster3.com|~xhamster4.com|~xhamster5.com|~zagonka.tv|~ninjastream.to
 /^https?:\/\/[^\s]+(\.wasm|\.wsm|\.wa)$/$important,xmlhttprequest,domain=~twitch.tv
 |http*:$important,xmlhttprequest,domain=4chan.org|4channel.org
 |http*:*/channels/*/extensions$important,xmlhttprequest,domain=twitch.tv
@@ -757,4 +758,10 @@ hqq.*#@#+js(set-constant, sadbl, false)
 hqq.*#@#+js(popads-dummy)
 hydracdn.*#@#+js(abort-current-inline-script, String.fromCharCode, btoa)
 hydracdn.*#@#+js(window.open-defuser, /^/, 1)
+upstream.to#@#+js(set-constant, cRAds, null)
+upstream.to#@#+js(abort-on-property-read, _run)
+upstream.to#@#+js(abort-current-inline-script, String.fromCharCode, btoa)
+upstream.to#@#+js(abort-current-inline-script, $, .css)
+upstream.to#@#+js(abort-on-property-read, _0xfff1)
+upstream.to#@#+js(abort-current-inline-script, document.oncontextmenu)
 ! TRASH END
