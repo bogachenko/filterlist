@@ -336,6 +336,8 @@ $$script[src="https://www.googletagservices.com/"]
 ||gotprofits.com^$important
 ||graph.facebook.com^$important
 ||graph.instagram.com^$important
+||exosrv.com^$important
+||adxadserv.com^$important
 ||gx-corner.opera.com^$important
 ||taboola.com^$important
 ||gx-corner.route*.opera.com^$important
@@ -527,8 +529,8 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 /^https?:\/\/str?ea[nm]p[l1]ay\.[a-z]{2,3}\//$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com local.adguard.org injections.adguard.org;
 ||hydracdn.*^$important,csp=script-src 'self' 'unsafe-inline' iamcdn.net local.adguard.org injections.adguard.org;
 /^https?:\/\/((hqq|waaw|waaw1)\.t[ov]|yandexcdn\.com)\//$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' unpkg.com *.gstatic.com *.cloudflare.com *.vkcdnservice.com local.adguard.org injections.adguard.org;
-||gomo.to^$important,csp=script-src 'self' 'unsafe-inline' *.googleapis.com;
-||vidlox.*^$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.jsdelivr.net *.google.com;
+||gomo.to^$important,csp=script-src 'self' 'unsafe-inline' *.googleapis.com local.adguard.org injections.adguard.org;
+||vidlox.*^$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.jsdelivr.net *.google.com local.adguard.org injections.adguard.org;
 ! Content Security Policy (CSP) END
 
 ! OTHER START
@@ -658,7 +660,6 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 /^https?:\/\/[^\s]+\/(([_a-z-]{3,15})?[-._?&=#/]?)?[Ww]orker(.*)?\.js/$important,script,domain=~github.com|~google.com|~lelinhtinh.github.io|~my.dogechain.info|~obfuscator.io|~parimatch.ru|~twitch.tv|~web.telegram.org|~whoer.net|~z5h64q92x9.net
 /^https?:\/\/[^\s]+\/[cs]sw\.js/$important,script
 /^https?:\/\/[^\s]+\/[Ww]orker([-._?&=#/]?([a-z]{5,6})?)?\.js/$important,script,domain=~lelinhtinh.github.io|~parimatch.ru
-/^https?:\/\/[^\s]+\/[a-w]{3,4}\.php\?[a-z]{1,6}\=[0-9]{7}$/$third-party,important,script
 /^https?:\/\/[^\s]+\/sw([-._?&=#/]([_a-z0-9-.]{1,12})?)?\.js/$important,script
 /^https?:\/\/[^\s]+\/sw[bwg]\.js/$important,script
 /^https?:\/\/[^\s]+\/wp\.js/$important,script
@@ -730,6 +731,7 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 ||yastatic.net/awaps-ad-sdk-js/$important,script,xmlhttprequest
 ||yastatic.net/daas/atom.js|$important,script,xmlhttprequest
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest
+/^https?:\/\/[^\s]+\/[a-w]{3,4}\.php\?[a-z]{1,6}\=[0-9]{7}/$third-party,important,script,xmlhttprequest
 ! COMBINED END
 
 ! TRASH START
@@ -774,6 +776,7 @@ upstream.to#@#+js(abort-on-property-read, _run)
 upstream.to#@#+js(abort-current-inline-script, String.fromCharCode, btoa)
 upstream.to#@#+js(abort-current-inline-script, $, .css)
 *$stylesheet,third-party,domain=vidlox.me,badfilter
+*$script,third-party,domain=haloani.ru,badfilter
 hqq.tv#@#+js(no-setTimeout-if, check, 100)
 waaw.tv#@#+js(abort-on-property-read, adBlockDetected)
 upstream.to#@#+js(abort-on-property-read, _0xfff1)
