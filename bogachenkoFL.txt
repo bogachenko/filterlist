@@ -528,7 +528,7 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 ||streamtape.*^$important,csp=script-src 'self' 'unsafe-inline' *.google.com *.gstatic.com local.adguard.org injections.adguard.org;
 /^https?:\/\/str?ea[nm]p[l1]ay\.[a-z]{2,3}\//$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com local.adguard.org injections.adguard.org;
 ||hydracdn.*^$important,csp=script-src 'self' 'unsafe-inline' iamcdn.net local.adguard.org injections.adguard.org;
-/^https?:\/\/((hqq|waaw|waaw1)\.t[ov]|yandexcdn\.com)\//$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' unpkg.com *.gstatic.com *.cloudflare.com *.vkcdnservice.com local.adguard.org injections.adguard.org;
+/^https?:\/\/((hqq|waaw|waaw1)\.t[ov]|yandexcdn\.com)\//$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' unpkg.com *.gstatic.com *.google.com *.cloudflare.com *.vkcdnservice.com local.adguard.org injections.adguard.org;;
 ||gomo.to^$important,csp=script-src 'self' 'unsafe-inline' *.googleapis.com local.adguard.org injections.adguard.org;
 ||vidlox.*^$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.jsdelivr.net *.google.com local.adguard.org injections.adguard.org;
 ! Content Security Policy (CSP) END
@@ -731,7 +731,7 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 ||yastatic.net/awaps-ad-sdk-js/$important,script,xmlhttprequest
 ||yastatic.net/daas/atom.js|$important,script,xmlhttprequest
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest
-/^https?:\/\/[^\s]+\/[a-w]{3,4}\.php\?[a-z]{1,6}\=[0-9]{7}/$third-party,important,script,xmlhttprequest
+/^https?:\/\/[^\s]+\/[a-w]{3,4}\.php\?[a-z]{1,6}\=[0-9]{7}$/$third-party,important,script,xmlhttprequest
 ! COMBINED END
 
 ! TRASH START
@@ -779,6 +779,13 @@ upstream.to#@#+js(abort-current-inline-script, $, .css)
 *$script,third-party,domain=haloani.ru,badfilter
 hqq.tv#@#+js(no-setTimeout-if, check, 100)
 waaw.tv#@#+js(abort-on-property-read, adBlockDetected)
+playtube.ws#@#+js(set-constant, cRAds, true)
+playtube.ws#@#+js(set-constant, xRds, false)
+playtube.ws#@#+js(abort-on-property-read, FuckAdBlock)
+playtube.ws#@#+js(addEventListener-defuser, , init())
+playtube.ws#@#+js(addEventListener-defuser, , _0x)
+playtube.ws#@#+js(abort-current-inline-script, String.fromCharCode, btoa)
+playtube.ws#@#+js(abort-current-inline-script, $, undefined)
 upstream.to#@#+js(abort-on-property-read, _0xfff1)
 waaw.tv#@#+js(set-constant, console.clear, trueFunc)
 upstream.to#@#+js(abort-current-inline-script, document.oncontextmenu)
