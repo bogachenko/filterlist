@@ -400,6 +400,9 @@ $$script[src="https://www.googletagservices.com/"]
 ||www-googletagservices.l.google.com^$important
 ||xbox.com^$important
 ||yastroka.yandex.net^$important
+||an.yandex.ru^$important
+||stat.teleport.media^$important
+||stat-analytics.mediavitrina.ru^$important
 ! DOMAIN END
 
 ! IMAGE START
@@ -787,6 +790,7 @@ playtube.ws#@#+js(addEventListener-defuser, , _0x)
 playtube.ws#@#+js(abort-current-inline-script, String.fromCharCode, btoa)
 playtube.ws#@#+js(abort-current-inline-script, $, undefined)
 upstream.to#@#+js(abort-on-property-read, _0xfff1)
+||ohrdsplu.com^$badfilter
 waaw.tv#@#+js(set-constant, console.clear, trueFunc)
 upstream.to#@#+js(abort-current-inline-script, document.oncontextmenu)
 ! TRASH END
