@@ -526,12 +526,12 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 /^https?:\/\/(www\.)?music\.yandex\.(ru|ua|by|com)\//$important,csp=script-src 'unsafe-inline' 'unsafe-eval' music.yandex.ru *.youtube.com https://yastatic.net local.adguard.org injections.adguard.org music.yandex.com music.yandex.by music.yandex.ua *.jquery.com; connect-src 'self' data: music.yandex.com music.yandex.ru music.yandex.ua music.yandex.by storage.mds.yandex.net wss: https://api.passport.yandex.ru; img-src 'self' data: music.yandex.com music.yandex.ru music.yandex.ua music.yandex.by *.yandex.net yapic.yandex.ru *.ytimg.com; frame-src data: frontend.vh.yandex.ru *.youtube.com music.yandex.ru music.yandex.ua music.yandex.by;
 /^https?:\/\/(www\.)?translate\.yandex\.(ru|ua|by|com)\//$csp=img-src 'self' data: yastatic.net avatars.mds.yandex.net local.adguard.org injections.adguard.org;
 ||deloplen.com^$important,csp=default-src 'none';
-||twitch.tv^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: data: *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net recaptcha.net *.google.com *.gstatic.com *.algolia.net local.adguard.org injections.adguard.org *.cloudfront.net;
+||twitch.tv^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: data: *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net *.recaptcha.net *.google.com *.gstatic.com *.algolia.net local.adguard.org injections.adguard.org *.cloudfront.net;
 ||userload.co^$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' local.adguard.org injections.adguard.org;
 ||streamtape.*^$important,csp=script-src 'self' 'unsafe-inline' *.google.com *.gstatic.com local.adguard.org injections.adguard.org;
 /^https?:\/\/str?ea[nm]p[l1]ay\.[a-z]{2,3}\//$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.google.com *.gstatic.com local.adguard.org injections.adguard.org;
 ||hydracdn.*^$important,csp=script-src 'self' 'unsafe-inline' iamcdn.net local.adguard.org injections.adguard.org;
-/^https?:\/\/((hqq|waaw|waaw1)\.t[ov]|yandexcdn\.com)\//$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' unpkg.com *.gstatic.com *.google.com *.cloudflare.com *.vkcdnservice.com local.adguard.org injections.adguard.org;;
+/^https?:\/\/((hqq|waaw|waaw1)\.t[ov]|yandexcdn\.com)\//$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' unpkg.com *.gstatic.com *.google.com *.recaptcha.net *.cloudflare.com *.vkcdnservice.com local.adguard.org injections.adguard.org; worker-src 'none';
 ||gomo.to^$important,csp=script-src 'self' 'unsafe-inline' *.googleapis.com local.adguard.org injections.adguard.org;
 ||vidlox.*^$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.jsdelivr.net *.google.com local.adguard.org injections.adguard.org;
 ! Content Security Policy (CSP) END
