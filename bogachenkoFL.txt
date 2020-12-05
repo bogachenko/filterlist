@@ -546,12 +546,11 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 /^(https?|ftp|wss?):\/\/((www|wap)[0-9]?\.)?telemetr(y|ics)?([0-9]{1,3})?\./$important
 /[&?]s(screen)?\=[0-9]{3,4}x[0-9]{3,4}[&?]/$important
 /[&?]s[cw]\=[0-9]{3,4}[&]sh\=[0-9]{3,4}[&]/$important
-/[&?]zoneid\=/$important
 /[-._?&=#/]beacon[-.0-9_?&=#/]?/$important
 /[-._?&=#/]me?tr[ie]?[ck][asx]?[-.0-9_?&=#/]?/$important,domain=~fandom.com|~metrika.yandex.ru|~office.com|~twitch.tv
 /[-._?&=#/]preroll[-._?&=#/]/$important,domain=~mail.ru|~ttvnw.net
 /\.(a[cdefgilmnoqrstuwxz]|arpa|academy|accountants?|act(ive|tor)|adult|aero|agency|airforce|apartments|app|archi|army|africa|associates|asia|attorney|auction|audio|autos|art|b[abdefghijmnorstvuwyz]|biz|bzh|c[acdfghiklmnoruvxsyz]|com?|cat|coop|cym(ru)?|crimea|d[dejkmoz]|dance|dev|e[cegrstu]|eng(lish)?|edu|eus|f[ijkmor]|family|feedback|g[abdefghilmnpqrstuwy]|google|gov|gal|h[kmnrtu]|i[delmnoqrst]|info|int|j[deghikmnoprwyz]|jobs?|l[abcikrstuvy]|london|m[acdeghklmnopqrstuvwxyz]|mil|mobi|microsoft|moe|museum|n[acefgilopruz]|ninja|net|name|om|one|ong|onl(ine)?|org(anic)?|p[aefghklmnrstwy]|pink|part([ys]|ners?)|pizza|place|plu(s|mbing)?|pharmacy|photo(s|graphy)?|physio|pic(ture)?s?|poker|porn|post|press|pro(f|ductions|perties|perty)?|k[yehrw]|qa|qpon|quebec|r[eosuw]|raci(ng|pes)|red|rehab|ren(t|tals)?|rep(ort|air|ublican)|rest|reviews?|rich|rus(sian)?|s[abcdeghiljkmnortuvyz]|site|scot?|soc|t[cdfghjklmnoprtvwz]|tel|tra(de|vel)|u[agmksyz]|v[aceginu]|w[fs]|wales|y[etu]|yandex|yoga|z[armzw]|zone|x(xx|yz))\/ad[sv]?\//$important,domain=~4chan.org|~4channel.org|~hqq.to|~hqq.tv|~yandexcdn.com|~waaw.to
-/\?zone[-_]?id\=/$important
+/^https?:\/\/[^\s]+\/[a-w]{3,4}\.php\?[a-z]{1,6}\=[0-9]{7}$/$third-party,important
 |http*:$important,beacon
 |http*:$important,ping
 |http*:$important,webrtc
@@ -719,7 +718,7 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 /[-._?&=#/](player|client|csi|gen(erate)?|stream|logs?|live)[-._?&=#/]?204[-._?&=#/]?/$image,important,other,xmlhttprequest
 /[-._?&=#/][a-zA-Z]{8,}track(ers?|ing)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~ok.ru
 /[-._?&=#/]analy(zer|st|ti(c[as]?)|sis)[-.0-9_?&=#/]?/$image,important,other,script,xmlhttprequest,domain=~analytics.google.com|~analyticsinsights-pa.clients6.google.com|~analyticssuitefrontend-pa.clients6.google.com|~fandom.com|~github.com|~gitlab.com|~ozon.ru|~reddragonwebdesign.com|~sberbank.ru|~translate.google.com|~vk.com
-/[-._?&=#/]bann?ers?[-.0-9_?&=#/]/$image,important,script,subdocument,xmlhttprequest,domain=~aliexpress.com|~aliexpress.ru|~discord.com|~dropbox.com|~esetnod32.ru|~f-droid.org|~fandom.com|~gosuslugi.ru|~hindilinks4uto.com|~hqq.tv|~leon.ru|~live.com|~m3u-cdn.live|~mts.ru|~office.com|~ok.ru|~ozon.ru|~player.mediavitrina.ru|~rt.ru|~ru-mi.com|~sberbank.ru|~staticmv.mediavitrina.ru|~translate.google.com|~twitch.tv|~waaw.tv|~hqq.to|~yandexcdn.com|~waaw.to|~povvideo.net|~povwideo.cc|~powvideo.cc|~povw1deo.com|~povwideo.net|~powvideo.net|~powvldeo.net|~powv1deo.net
+/[-._?&=#/]bann?ers?[-.0-9_?&=#/]/$image,important,script,subdocument,xmlhttprequest,domain=~aliexpress.com|~aliexpress.ru|~discord.com|~dropbox.com|~esetnod32.ru|~f-droid.org|~fandom.com|~gosuslugi.ru|~hindilinks4uto.com|~hqq.tv|~leon.ru|~live.com|~m3u-cdn.live|~mts.ru|~office.com|~ok.ru|~ozon.ru|~player.mediavitrina.ru|~rt.ru|~ru-mi.com|~sberbank.ru|~staticmv.mediavitrina.ru|~translate.google.com|~twitch.tv|~waaw.tv|~hqq.to|~yandexcdn.com|~waaw.to|~povvideo.net|~povwideo.cc|~powvideo.cc|~povw1deo.com|~povwideo.net|~powvideo.net|~powvldeo.net|~powv1deo.net|~powv1deo.cc
 /[-._?&=#/]logs?(ging|impressions?|ers?)?[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~aliexpress.com|~aliexpress.ru|~dns-shop.ru|~docviewer.yandex.by|~docviewer.yandex.ru|~docviewer.yandex.ua|~github.com|~gitlab.com|~instagram.com|~mi.com|~ozon.ru|~twitch.tv|~yadi.sk
 /[-._?&=#/]piwik[-.0-9_?&=#/]/$image,important,script
 /[-._?&=#/]pixel[-._?&=#/]/$image,important,script,subdocument,xmlhttprequest,domain=~yandex.by|~yandex.ru|~yandex.ua
@@ -735,7 +734,6 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 ||yastatic.net/awaps-ad-sdk-js/$important,script,xmlhttprequest
 ||yastatic.net/daas/atom.js|$important,script,xmlhttprequest
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest
-/^https?:\/\/[^\s]+\/[a-w]{3,4}\.php\?[a-z]{1,6}\=[0-9]{7}$/$third-party,important,script,xmlhttprequest
 ! COMBINED END
 
 ! TRASH START
@@ -782,11 +780,15 @@ upstream.to#@#+js(abort-current-inline-script, $, .css)
 *$stylesheet,third-party,domain=vidlox.me,badfilter
 *$script,third-party,domain=haloani.ru,badfilter
 hqq.tv#@#+js(no-setTimeout-if, check, 100)
+||gamovideo.com^$badfilter
+powv1deo.*#@#+js(no-setTimeout-if, test.remove, 100)
+powv1deo.*#@#+js(abort-on-property-read, jwplayer.vast)
 waaw.tv#@#+js(abort-on-property-read, adBlockDetected)
 playtube.ws#@#+js(set-constant, cRAds, true)
 playtube.ws#@#+js(set-constant, xRds, false)
 playtube.ws#@#+js(abort-on-property-read, FuckAdBlock)
 playtube.ws#@#+js(addEventListener-defuser, , init())
+||ohrdsplu.com^$badfilter
 playtube.ws#@#+js(addEventListener-defuser, , _0x)
 playtube.ws#@#+js(abort-current-inline-script, String.fromCharCode, btoa)
 playtube.ws#@#+js(abort-current-inline-script, $, undefined)
