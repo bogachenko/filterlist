@@ -281,6 +281,7 @@ $$script[src="https://www.googletagservices.com/"]
 ||addtoany.com^$important
 ||adservice.google.*^$important
 ||adservice.l.google.com^$important
+||2mdn.net^$important
 ||alt*-mtalk.google.com^$important
 ||alt*-safebrowsing.google.com^$important
 ||amazon-adsystem.com^$important
@@ -549,7 +550,7 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 /[-._?&=#/]beacon[-.0-9_?&=#/]?/$important
 /[-._?&=#/]me?tr[ie]?[ck][asx]?[-.0-9_?&=#/]?/$important,domain=~fandom.com|~metrika.yandex.ru|~office.com|~twitch.tv
 /[-._?&=#/]preroll[-._?&=#/]/$important,domain=~mail.ru|~ttvnw.net
-/\.(a[cdefgilmnoqrstuwxz]|arpa|academy|accountants?|act(ive|tor)|adult|aero|agency|airforce|apartments|app|archi|army|africa|associates|asia|attorney|auction|audio|autos|art|b[abdefghijmnorstvuwyz]|biz|bzh|c[acdfghiklmnoruvxsyz]|com?|cat|coop|cym(ru)?|crimea|d[dejkmoz]|dance|dev|e[cegrstu]|eng(lish)?|edu|eus|f[ijkmor]|family|feedback|g[abdefghilmnpqrstuwy]|google|gov|gal|h[kmnrtu]|i[delmnoqrst]|info|int|j[deghikmnoprwyz]|jobs?|l[abcikrstuvy]|london|m[acdeghklmnopqrstuvwxyz]|mil|mobi|microsoft|moe|museum|n[acefgilopruz]|ninja|net|name|om|one|ong|onl(ine)?|org(anic)?|p[aefghklmnrstwy]|pink|part([ys]|ners?)|pizza|place|plu(s|mbing)?|pharmacy|photo(s|graphy)?|physio|pic(ture)?s?|poker|porn|post|press|pro(f|ductions|perties|perty)?|k[yehrw]|qa|qpon|quebec|r[eosuw]|raci(ng|pes)|red|rehab|ren(t|tals)?|rep(ort|air|ublican)|rest|reviews?|rich|rus(sian)?|s[abcdeghiljkmnortuvyz]|site|scot?|soc|t[cdfghjklmnoprtvwz]|tel|tra(de|vel)|u[agmksyz]|v[aceginu]|w[fs]|wales|y[etu]|yandex|yoga|z[armzw]|zone|x(xx|yz))\/ad[sv]?\//$important,domain=~4chan.org|~4channel.org|~hqq.to|~hqq.tv|~yandexcdn.com|~waaw.to
+/\.(a[cdefgilmnoqrstuwxz]|arpa|academy|accountants?|act(ive|tor)|adult|aero|agency|airforce|apartments|app|archi|army|africa|associates|asia|attorney|auction|audio|autos|art|b[abdefghijmnorstvuwyz]|biz|bzh|c[acdfghiklmnoruvxsyz]|com?|cat|coop|cym(ru)?|crimea|d[dejkmoz]|dance|dev|e[cegrstu]|eng(lish)?|edu|eus|f[ijkmor]|family|feedback|g[abdefghilmnpqrstuwy]|google|gov|gal|h[kmnrtu]|i[delmnoqrst]|info|int|j[deghikmnoprwyz]|jobs?|l[abcikrstuvy]|london|m[acdeghklmnopqrstuvwxyz]|mil|mobi|microsoft|moe|museum|n[acefgilopruz]|ninja|net|name|om|one|ong|onl(ine)?|org(anic)?|p[aefghklmnrstwy]|pink|part([ys]|ners?)|pizza|place|plu(s|mbing)?|pharmacy|photo(s|graphy)?|physio|pic(ture)?s?|poker|porn|post|press|pro(f|ductions|perties|perty)?|k[yehrw]|qa|qpon|quebec|r[eosuw]|raci(ng|pes)|red|rehab|ren(t|tals)?|rep(ort|air|ublican)|rest|reviews?|rich|rus(sian)?|s[abcdeghiljkmnortuvyz]|site|scot?|soc|t[cdfghjklmnoprtvwz]|tel|tra(de|vel)|u[agmksyz]|v[aceginu]|w[fs]|wales|y[etu]|yandex|yoga|z[armzw]|zone|x(xx|yz))\/ad[sv]?\//$important,domain=~4chan.org|~4channel.org|~hqq.to|~hqq.tv|~yandexcdn.com|~waaw.to|~waaw.tv
 /^https?:\/\/[^\s]+\/[a-w]{3,4}\.php\?[a-z]{1,6}\=[0-9]{7}$/$third-party,important
 |http*:*?zoneid=$important
 |http*:*$important,beacon
@@ -756,7 +757,6 @@ www.google.*#@#+js(remove-attr, onmousedown|ping, a[href][onmousedown]\, a[href]
 123moviesfree.*#@#+js(abort-current-inline-script, Math, zfgloaded)
 *$script,stylesheet,third-party,domain=vidcloud9.com,badfilter
 vidcloud9.*#@#+js(abort-current-inline-script, Math, XMLHttpRequest)
-||xyz^$third-party,script,subdocument,xmlhttprequest,domain=~anidub.com|~animedia.pro|~animeheaven.ru|~app.element.io|~assistir-filme.biz|~avtomaty-i-bonusy.com|~chelentano.top|~coomeet.com|~crackstreams.com|~crackstreams.ga|~csgoreports.com|~cvid.kiev.ua|~estream.to|~europixhd.io|~films.hds-stream.com|~funtik.tv|~getvi.tv|~hanime.tv|~hentaiz.org|~herokuapp.com|~infoua.biz|~jokehd.com|~jokerswidget.com|~kinobig.me|~kinoguru.be|~kinoguru.me|~kristinita.ru|~live-golf.stream|~lookbase.xyz|~magicfilm.net|~mail.google.com|~map-a-date.cc|~matchat.online|~miranimbus.ru|~my.mail.ru|~nccg.ru|~newdeaf.club|~onmovies.se|~playjoke.xyz|~roadhub.ru|~roblox.com|~sextop.net|~soccer365.ru|~soonwalk.net|~streetbee.io|~streetbee.ru|~telerium.live|~uacycling.info|~uploadedpremiumlink.net|~vk.com|~vmeste.tv|~web.app,badfilter
 ||api-secure.solvemedia.com^$badfilter
 fmovies.*#@#+js(abort-current-inline-script, Math, /XMLHttpRequest|break/)
 ||hqq.tv^$badfilter
@@ -793,8 +793,22 @@ playtube.ws#@#+js(addEventListener-defuser, , init())
 playtube.ws#@#+js(addEventListener-defuser, , _0x)
 playtube.ws#@#+js(abort-current-inline-script, String.fromCharCode, btoa)
 playtube.ws#@#+js(abort-current-inline-script, $, undefined)
+||uol.com.br^$badfilter
+||r.trwl1.com^$badfilter
+||static.javhd.com^$badfilter
 upstream.to#@#+js(abort-on-property-read, _0xfff1)
 ||ohrdsplu.com^$badfilter
+||youporn.com^$badfilter
+youporn.com#@#+js(no-setTimeout-if, jQuery)
+youporn.com#@#+js(abort-on-property-read, zone_2547)
+youporn.com#@#+js(abort-on-property-read, AdDelivery.prototype.requestTrafficJunkyAds)
+youporn.com#@#+js(abort-on-property-read, _goat)
+youporn.com#@#+js(abort-on-property-read, page_params.holiday_promo)
+tube8.*#@#+js(abort-current-inline-script, String.fromCharCode, btoa)
+tube8.*#@#+js(addEventListener-defuser, , _0x)
+tube8.*#@#+js(abort-on-property-write, IS_ADBLOCK)
+||xyz^$third-party,script,subdocument,xmlhttprequest,domain=~anidub.com|~animedia.pro|~animeheaven.ru|~app.element.io|~assistir-filme.biz|~avtomaty-i-bonusy.com|~chelentano.top|~coomeet.com|~crackstreams.com|~crackstreams.ga|~csgoreports.com|~cvid.kiev.ua|~estream.to|~europixhd.io|~films.hds-stream.com|~funtik.tv|~getvi.tv|~hanime.tv|~hentaiz.org|~herokuapp.com|~infoua.biz|~jokehd.com|~jokerswidget.com|~kinobig.me|~kinoguru.be|~kinoguru.me|~kristinita.ru|~live-golf.stream|~lookbase.xyz|~magicfilm.net|~mail.google.com|~map-a-date.cc|~matchat.online|~mikeamigorein.xyz|~miranimbus.ru|~my.mail.ru|~nccg.ru|~newdeaf.club|~onmovies.se|~playjoke.xyz|~roadhub.ru|~roblox.com|~sextop.net|~soccer365.ru|~soonwalk.net|~sportsbay.org|~streetbee.io|~streetbee.ru|~telerium.live|~uacycling.info|~uploadedpremiumlink.net|~vk.com|~vmeste.tv|~web.app,badfilter
+tube8.*#@#+js(abort-on-property-read, _goat)
 waaw.tv#@#+js(set-constant, console.clear, trueFunc)
 upstream.to#@#+js(abort-current-inline-script, document.oncontextmenu)
 ! TRASH END
