@@ -690,6 +690,7 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 |http*:*/wl-http.js$important,script
 |http*:*/wl.js$important,script
 ||scdn.co/cdn/js/gtag.$important,script,domain=spotify.com
+/^https?:\/\/[a-g0-9]{20,}\.online\/[a-g0-9]{20,}\.js$/$important,third-party,script
 ! SCRIPT END
 
 ! XMLHTTPREQUEST START
@@ -746,6 +747,8 @@ userload.co#@#+js(addEventListener-defuser, , _0x)
 userload.co#@#+js(noeval-if, click)
 streamtape.*#@#+js(set-constant, towait, 0)
 ||streamplay.to^$badfilter
+*$script,redirect-rule=noopjs,domain=mp4upload.com,badfilter
+*$script,domain=yourupload.com,badfilter
 streamtape.*#@#+js(set-constant, btoa, null)
 streamtape.*#@#+js(remove-attr, target, #downloadvideo)
 streamtape.*#@#+js(addEventListener-defuser, contextmenu)
@@ -761,6 +764,7 @@ vidcloud9.*#@#+js(abort-current-inline-script, Math, XMLHttpRequest)
 ||api-secure.solvemedia.com^$badfilter
 ||pussyspace.com^$badfilter
 *$script,third-party,domain=hindipix.in,badfilter
+||tube.paperstreetcash.com^$badfilter
 fmovies.*#@#+js(abort-current-inline-script, Math, /XMLHttpRequest|break/)
 ||hqq.tv^$badfilter
 123moviess.*#@#+js(abort-current-inline-script, Math, zfgloaded)
