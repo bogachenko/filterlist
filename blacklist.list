@@ -1,5 +1,5 @@
 ! Title: bogachenko's DNS Filter
-! Description: A filter for bogachenko's personal use to block loading of ads, tracking and all other unjustified resources. These filters are used by me for Adguard Home.
+! Description: A filter for bogachenko's personal use to block loading of ads, tracking and all other unjustified resources. These filters are used by me for Adguard Home and AdGuard for Android.
 ! RAW: https://raw.githubusercontent.com/bogachenko/filterlist/main/blacklist.list
 ! Homepage: https://github.com/bogachenko/filterlist/
 ! Licence: https://raw.githubusercontent.com/bogachenko/filterlist/main/LICENSE.md
@@ -8,7 +8,6 @@
 
 /^(.+[_.-])?ad[sxv]?([\d]+)?[_.-]/
 /^(.+[_.-])?ad[vs](er(ve)?t?(ise|ising|isement)?)?[_.-]/
-/^(.+[_.-])?admetric[as]?\.\w+$/
 /^(.+[_.-])?analy(ti([\W\w]+)?)?([\d]+)?[_.-]/
 /^(.+[_.-])?beacons?([\d]+)?[_.-]/
 /^(.+[_.-])?re([ck]l?(am[asye]?)?r?)?([\d]+)?[_.-]/
@@ -18,8 +17,10 @@
 /^[aes][1-5]\.torrentstream\.(info|net|org)$/
 ||2mdn.net^
 ||acestream.net^
+||advmedia.io^
 ||adbreak.ch^
 ||adcolony.com^
+||advmedia.kz^
 ||adform.net^
 ||adfox.ru^
 ||adfox.yandex.ru^
@@ -32,6 +33,7 @@
 ||admicro.*^
 ||admitad.com^
 ||admixer.net^
+||advideo.ru^
 ||admob.xiaomi.com^
 ||adorion.net^
 ||adriver.ru^
@@ -107,6 +109,7 @@
 ||data.microsoft.com.akadns.net^
 ||data.microsoft.com^
 ||dc.services.visualstudio.com^
+||adverdata.net^
 ||dc-int.services.visualstudio.com^
 ||dds.microsoft.com.akadns.net^
 ||dds.microsoft.com^
@@ -132,6 +135,7 @@
 ||googleadapis.l.google.com^
 ||googleadservices.*^
 ||googleadsserving.cn^
+||advjump.com^
 ||googleanalytics.com^
 ||google-analytics.com^
 ||googleoptimize.com^
