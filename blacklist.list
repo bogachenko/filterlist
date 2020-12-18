@@ -11,7 +11,7 @@
 /^(.+[_.-])?admetric[as]?\.\w+$/
 /^(.+[_.-])?analy(ti([\W\w]+)?)?([\d]+)?[_.-]/
 /^(.+[_.-])?beacons?([\d]+)?[_.-]/
-/^(.+[_.-])?re([ck]l?(am[asye]?)?r)?([\d]+)?[_.-]/
+/^(.+[_.-])?re([ck]l?(am[asye]?)?r?)?([\d]+)?[_.-]/
 /^(.+[_.-])?telemetr(y|ics)?([\d]+)?[_.-]/
 /^(.+[_.-])?tizers?([\d]+)?[_.-]/
 /^[aes][1-5]\.acestream\.net$/
@@ -72,6 +72,7 @@
 ||aidata.io^
 ||applvn.com^
 ||app-measurement.com^
+||scorecardresearch.com^
 ||appmetrica.yandex.*^
 ||appsflyer.com^
 ||appstatic.opera.com^
