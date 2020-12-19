@@ -1,5 +1,5 @@
 ! Title: bogachenko's DNS Filter
-! Description: A filter for bogachenko's personal use to block loading of ads, tracking and all other unjustified resources. These filters are used by me for Adguard Home and AdGuard for Android.
+! Description: A filter for bogachenko's personal use to block loading of ads, tracking and analysis. These filters are used by me for Adguard Home and AdGuard for Android.
 ! RAW: https://raw.githubusercontent.com/bogachenko/filterlist/main/blacklist.list
 ! Homepage: https://github.com/bogachenko/filterlist/
 ! Licence: https://raw.githubusercontent.com/bogachenko/filterlist/main/LICENSE.md
@@ -7,11 +7,13 @@
 ! README: Simplified specifically to be better compatible with DNS-level ad blocking.
 
 /^(.+[_.-])?ad[sxv]?([\d]+)?[_.-]/
-/^(.+[_.-])?ad[vs](er(ve)?t?(ise|ising|isement|ica)?)?[_.-]/
+/^(.+[_.-])?ad[vs]er(ve)?t?(i(se|sing|sement|ca)|r)?[_.-]/
 /^(.+[_.-])?analy(ti([\W\w]+)?)?([\d]+)?[_.-]/
 /^(.+[_.-])?re([ck]l?(am[asye]?)?r?)?([\d]+)?[_.-]/
 /^(.+[_.-])?telemetr(y|ics)?([\d]+)?[_.-]/
+/^(.+[_.-])?track(ing|er)([\d]+)?[_.-]/
 /^aj[0-9]{4}\.online$/
+/^n[0-9]{2,3}adserv\.com$/
 /^[aes][1-5]\.acestream\.net$/
 /^[aes][1-5]\.torrentstream\.(info|net|org)$/
 ||2mdn.net^
@@ -41,7 +43,6 @@
 ||adtng.com^
 ||adtrue.com^
 ||adverdata.net^
-||advertica-cdn.com^
 ||adverticum.net^
 ||advertising.yandex.*^
 ||advideo.ru^
@@ -55,7 +56,6 @@
 ||adxpub.com^
 ||af.opera.com^
 ||aidata.io^
-||aj1907.online^
 ||amazon-adsystem.com^
 ||amplitude.com^
 ||an.facebook.com^
@@ -163,7 +163,6 @@
 ||mradx.net^
 ||msitadfs.glbdns2.microsoft.com^
 ||my.com^
-||n161adserv.com^
 ||nellads.com^
 ||newlog.overwolf.com^
 ||next-services.apps.microsoft.com^
@@ -217,12 +216,9 @@
 ||thumbnails*.opera.com^
 ||tns-counter.ru^
 ||trace.eset.com^
-||tracking.*.miui.com^
-||tracking.overwolf.com^
 ||traffichaus.com^
 ||trafficjunky.*^
 ||ts.acestream.net^
-||v1-c73e.kxcdn.com^
 ||video-stats.l.google.com^
 ||videoroll.net^
 ||vk-portal.net^
