@@ -541,7 +541,7 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 
 ! OTHER START
 /^(https?|ftp|wss?):\/\/((www|wap)[0-9]?\.)?ad[svbxo]?([0-9]{1,3})?\./$important,domain=~ad.nl|~ads.google.com
-/^(https?|ftp|wss?):\/\/((www|wap)[0-9]?\.)?ad[vs](er(ve)?t?(ise|ising|isement)?)?\./$important
+/^(https?|ftp|wss?):\/\/((www|wap)[0-9]?\.)?ad[vs](er(ve)?t?(ise|ising|isement|ica)?)?\./$important
 /^(https?|ftp|wss?):\/\/((www|wap)[0-9]?\.)?analy(ti([\W\w]+)?)?([0-9]{1,3})?\./$important,domain=~google.com|~google.ru
 /^(https?|ftp|wss?):\/\/((www|wap)[0-9]?\.)?geo([0-9]{1,3})?\./$important,domain=~google.com|~google.ru|~office.com|~sberbank.ru
 /^(https?|ftp|wss?):\/\/((www|wap)[0-9]?\.)?me?tr[ie]?[ck][asx]?([0-9]{1,3})?\./$important,domain=~metrica.yandex.com|~metrica.yandex.ru|~metrika.yandex.com|~metrika.yandex.ru
@@ -553,6 +553,7 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 /[-._?&=#/]preroll[-._?&=#/]/$important,domain=~mail.ru|~ttvnw.net
 /\.(a[cdefgilmnoqrstuwxz]|arpa|academy|accountants?|act(ive|tor)|adult|aero|agency|airforce|apartments|app|archi|army|africa|associates|asia|attorney|auction|audio|autos|art|b[abdefghijmnorstvuwyz]|biz|bzh|c[acdfghiklmnoruvxsyz]|com?|cat|coop|cym(ru)?|crimea|d[dejkmoz]|dance|dev|e[cegrstu]|eng(lish)?|edu|eus|f[ijkmor]|family|feedback|g[abdefghilmnpqrstuwy]|google|gov|gal|h[kmnrtu]|i[delmnoqrst]|info|int|j[deghikmnoprwyz]|jobs?|l[abcikrstuvy]|london|m[acdeghklmnopqrstuvwxyz]|mil|mobi|microsoft|moe|museum|n[acefgilopruz]|ninja|net|name|om|one|ong|onl(ine)?|org(anic)?|p[aefghklmnrstwy]|pink|part([ys]|ners?)|pizza|place|plu(s|mbing)?|pharmacy|photo(s|graphy)?|physio|pic(ture)?s?|poker|porn|post|press|pro(f|ductions|perties|perty)?|k[yehrw]|qa|qpon|quebec|r[eosuw]|raci(ng|pes)|red|rehab|ren(t|tals)?|rep(ort|air|ublican)|rest|reviews?|rich|rus(sian)?|s[abcdeghiljkmnortuvyz]|site|scot?|soc|t[cdfghjklmnoprtvwz]|tel|tra(de|vel)|u[agmksyz]|v[aceginu]|w[fs]|wales|y[etu]|yandex|yoga|z[armzw]|zone|x(xx|yz))\/ad[sv]?\//$important,domain=~4chan.org|~4channel.org|~hqq.to|~hqq.tv|~yandexcdn.com|~waaw.to|~waaw.tv|~hqq.watch|~hindipix.in|~chillicams.net
 /^https?:\/\/[^\s]+\/[a-w]{3,4}\.php\?[a-z]{1,6}\=[0-9]{7}$/$third-party,important
+||up.downloadmaster.ru/dm/$important
 |http*:*?zoneid=$important
 |http*:*$important,beacon
 |http*:*$important,ping
@@ -810,6 +811,10 @@ dood.*#@#+js(set-constant, xPoPAdS, false)
 dood.*#@#+js(addEventListener-defuser, , _0x)
 dood.*#@#+js(abort-on-property-write, DoodPop)
 ||r.trwl1.com^$badfilter
+||imgprime.com^$badfilter
+imgxx.xyz#@#+js(set-constant, hold_click, false)
+imgxx.xyz#@#+js(window.open-defuser, !/prcf.fiyar|themes|pixsense|.jpg/)
+imgxx.xyz#@#+js(nano-setInterval-booster, timer)
 ||static.javhd.com^$badfilter
 upstream.to#@#+js(abort-on-property-read, _0xfff1)
 ||ohrdsplu.com^$badfilter
@@ -821,6 +826,8 @@ xnxx.com#@#+js(abort-on-property-write, openpop)
 xnxx.com#@#+js(abort-on-property-read, fuckAdBlock)
 youporn.com#@#+js(no-setTimeout-if, jQuery)
 youporn.com#@#+js(abort-on-property-read, zone_2547)
+||imgrock.net^$badfilter
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,redirect-rule=nooptext,badfilter
 youporn.com#@#+js(abort-on-property-read, AdDelivery.prototype.requestTrafficJunkyAds)
 youporn.com#@#+js(abort-on-property-read, _goat)
 voe.sx#@#+js(abort-current-inline-script, String.fromCharCode, /btoa|break/)
@@ -830,6 +837,8 @@ youporn.com#@#+js(abort-on-property-read, page_params.holiday_promo)
 tube8.*#@#+js(abort-current-inline-script, String.fromCharCode, btoa)
 tube8.*#@#+js(addEventListener-defuser, , _0x)
 tube8.*#@#+js(abort-on-property-write, IS_ADBLOCK)
+*$script,redirect-rule=noopjs,domain=vidmoly.me|vidmoly.net|vidmoly.to,badfilter
+||imagetwist.com^$badfilter
 ||xyz^$third-party,script,subdocument,xmlhttprequest,domain=~anidub.com|~animedia.pro|~animeheaven.ru|~app.element.io|~assistir-filme.biz|~avtomaty-i-bonusy.com|~chelentano.top|~coomeet.com|~crackstreams.com|~crackstreams.ga|~csgoreports.com|~cvid.kiev.ua|~estream.to|~europixhd.io|~films.hds-stream.com|~funtik.tv|~getvi.tv|~hanime.tv|~hentaiz.org|~herokuapp.com|~infoua.biz|~jokehd.com|~jokerswidget.com|~kinobig.me|~kinoguru.be|~kinoguru.me|~kristinita.ru|~live-golf.stream|~lookbase.xyz|~magicfilm.net|~mail.google.com|~map-a-date.cc|~matchat.online|~mikeamigorein.xyz|~miranimbus.ru|~my.mail.ru|~nccg.ru|~newdeaf.club|~onmovies.se|~playjoke.xyz|~roadhub.ru|~roblox.com|~sextop.net|~soccer365.ru|~soonwalk.net|~sportsbay.org|~streetbee.io|~streetbee.ru|~telerium.live|~uacycling.info|~uploadedpremiumlink.net|~vk.com|~vmeste.tv|~web.app,badfilter
 tube8.*#@#+js(abort-on-property-read, _goat)
 *$script,third-party,domain=hindipix.in,badfilter
