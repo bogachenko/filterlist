@@ -541,7 +541,7 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 
 ! OTHER START
 /^(https?|ftp|wss?):\/\/((www|wap)[0-9]?\.)?ad[svbxo]?([0-9]{1,3})?\./$important,domain=~ad.nl|~ads.google.com
-/^(https?|ftp|wss?):\/\/((www|wap)[0-9]?\.)?ad[vs](er(ve)?t?(ise|ising|isement|ica)?)?\./$important
+/^(https?|ftp|wss?):\/\/((www|wap)[0-9]?\.)?ad[vs]er(ve)?t?(i(se|sing|sement|ca)|[rs])?\./$important
 /^(https?|ftp|wss?):\/\/((www|wap)[0-9]?\.)?analy(ti([\W\w]+)?)?([0-9]{1,3})?\./$important,domain=~google.com|~google.ru
 /^(https?|ftp|wss?):\/\/((www|wap)[0-9]?\.)?geo([0-9]{1,3})?\./$important,domain=~google.com|~google.ru|~office.com|~sberbank.ru
 /^(https?|ftp|wss?):\/\/((www|wap)[0-9]?\.)?me?tr[ie]?[ck][asx]?([0-9]{1,3})?\./$important,domain=~metrica.yandex.com|~metrica.yandex.ru|~metrika.yandex.com|~metrika.yandex.ru

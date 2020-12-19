@@ -1,5 +1,5 @@
 ! Title: bogachenko's DNS Filter
-! Description: A filter for bogachenko's personal use to block loading of ads, tracking and analysis. These filters are used by me for Adguard Home and AdGuard for Android.
+! Description: A filter for bogachenko's personal use to block loading of ads, tracking and analysis. These filters are used by me for Adguard Home.
 ! RAW: https://raw.githubusercontent.com/bogachenko/filterlist/main/blacklist.list
 ! Homepage: https://github.com/bogachenko/filterlist/
 ! Licence: https://raw.githubusercontent.com/bogachenko/filterlist/main/LICENSE.md
@@ -7,7 +7,7 @@
 ! README: Simplified specifically to be better compatible with DNS-level ad blocking.
 
 /^(.+[_.-])?ad[sxv]?([\d]+)?[_.-]/
-/^(.+[_.-])?ad[vs]er(ve)?t?(i(se|sing|sement|ca)|r)?[_.-]/
+/^(.+[_.-])?ad[vs]er(ve)?t?(i(se|sing|sement|ca)|[rs])?[_.-]/
 /^(.+[_.-])?analy(ti([\W\w]+)?)?([\d]+)?[_.-]/
 /^(.+[_.-])?re([ck]l?(am[asye]?)?r?)?([\d]+)?[_.-]/
 /^(.+[_.-])?telemetr(y|ics)?([\d]+)?[_.-]/
