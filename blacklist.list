@@ -6,6 +6,12 @@
 
 ! README: Simplified specifically to be better compatible with DNS-level ad blocking.
 
+@@||analytics.google.com^
+@@||analyticsinsights-pa.clients6.google.com^
+@@||analyticssuitefrontend-pa.clients6.google.com^
+@@||fonts.gstatic.com^
+@@||gstatic.com^
+@@||metrica.yandex.*^
 /^(.+[_.-])?ad[sxv]?([\d]+)?[_.-]/
 /^(.+[_.-])?ad[vs]er(ve)?t?(i(se|sing|sement|ca)|[rs])?[_.-]/
 /^(.+[_.-])?analy(ti([\W\w]+)?)?([\d]+)?[_.-]/
