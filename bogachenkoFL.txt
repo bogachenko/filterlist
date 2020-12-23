@@ -833,6 +833,7 @@ youporn.com#@#+js(abort-on-property-read, _goat)
 voe.sx#@#+js(abort-current-inline-script, String.fromCharCode, /btoa|break/)
 voe.sx#@#+js(addEventListener-defuser, , _0x)
 voe.sx#@#+js(addEventListener-defuser, , open)
+github.com##.js-comment-container:has([class*="author"][href="/DandelionSprout"])[src]:not([class*="avatar"])
 youporn.com#@#+js(abort-on-property-read, page_params.holiday_promo)
 tube8.*#@#+js(abort-current-inline-script, String.fromCharCode, btoa)
 tube8.*#@#+js(addEventListener-defuser, , _0x)
@@ -841,7 +842,11 @@ tube8.*#@#+js(abort-on-property-write, IS_ADBLOCK)
 ||imagetwist.com^$badfilter
 ||xyz^$third-party,script,subdocument,xmlhttprequest,domain=~anidub.com|~animedia.pro|~animeheaven.ru|~app.element.io|~assistir-filme.biz|~avtomaty-i-bonusy.com|~chelentano.top|~coomeet.com|~crackstreams.com|~crackstreams.ga|~csgoreports.com|~cvid.kiev.ua|~estream.to|~europixhd.io|~films.hds-stream.com|~funtik.tv|~getvi.tv|~hanime.tv|~hentaiz.org|~herokuapp.com|~infoua.biz|~jokehd.com|~jokerswidget.com|~kinobig.me|~kinoguru.be|~kinoguru.me|~kristinita.ru|~live-golf.stream|~lookbase.xyz|~magicfilm.net|~mail.google.com|~map-a-date.cc|~matchat.online|~mikeamigorein.xyz|~miranimbus.ru|~my.mail.ru|~nccg.ru|~newdeaf.club|~onmovies.se|~playjoke.xyz|~roadhub.ru|~roblox.com|~sextop.net|~soccer365.ru|~soonwalk.net|~sportsbay.org|~streetbee.io|~streetbee.ru|~telerium.live|~uacycling.info|~uploadedpremiumlink.net|~vk.com|~vmeste.tv|~web.app,badfilter
 tube8.*#@#+js(abort-on-property-read, _goat)
+*$script,third-party,domain=goblins-online.ru,badfilter
 *$script,third-party,domain=hindipix.in,badfilter
+||hdzog.ahcdn.com^$badfilter
+*$script,redirect-rule=noopjs,domain=dropgalaxy.com,badfilter
+||dropgalaxy.com^$inline-script,badfilter
 |http*$app=com.adups.fota.sysoper|com.adups.fota,badfilter
 waaw.tv#@#+js(set-constant, console.clear, trueFunc)
 upstream.to#@#+js(abort-current-inline-script, document.oncontextmenu)
