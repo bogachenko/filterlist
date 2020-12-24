@@ -37,8 +37,10 @@
 ||admicro.*^
 ||admitad.com^
 ||admixer.net^
+||meetrics.net^
 ||admob.xiaomi.com^
 ||adnexus.net^
+||adskeeper.co.uk^
 ||adnxs.com^
 ||adonweb.ru^
 ||adorion.net^
@@ -48,6 +50,7 @@
 ||adsafeprotected.com^
 ||adserved.net^
 ||adservice.google.*^
+||smartadserver.com^
 ||adservice.l.google.com^
 ||adsrefundattempts.com^
 ||adtng.com^
@@ -67,6 +70,7 @@
 ||aidata.io^
 ||amazon-adsystem.com^
 ||amplitude.com^
+||doublepimp.com^
 ||an.facebook.com^
 ||an.mail.ru^
 ||an.yandex.*^
@@ -209,6 +213,7 @@
 ||samsungtvads.com^
 ||adgrx.com^
 ||scorecardresearch.com^
+||adspeed.com^
 ||sec.*.miui.com^
 ||sec.miui.com^
 ||serving-sys.com^
@@ -241,7 +246,6 @@
 ||video-stats.l.google.com^
 ||videoroll.net^
 ||vk-portal.net^
-||voodoo-ads.io^
 ||voodoo-tech.io^
 ||voodoo.io^
 ||vungle.com^
