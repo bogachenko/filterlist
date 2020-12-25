@@ -13,6 +13,7 @@
 /^(.+[_.-]?)?re([ck]l?(am[asye]?)?r?)?([\d]+)?[_.-]/
 /^(.+[_.-]?)?telemetr(y|i[ec]s)([\d]+)?[_.-]/
 /^(.+[_.-]?)?track(ing|er)([\d]+)?[_.-]/
+/^(.+[_.-]?)?counters?([\d]+)?[_.-]/
 /^aj[0-9]{4}\.online$/
 /^n[0-9]{2,3}adserv\.com$/
 /^[aes][1-5]\.acestream\.net$/
@@ -23,7 +24,6 @@
 @@||fonts.gstatic.com^
 @@||gstatic.com^
 ||2mdn.net^
-||a-ads.com^
 ||aaxads.com^
 ||acestream.net^
 ||actionpay.ru^
@@ -106,7 +106,6 @@
 ||client.svd-cdn.com^
 ||collect.*.miui.com^
 ||collector-hpn.ghostery.net^
-||counter.rambler.ru^
 ||crashdump.spotify.com^
 ||crashlytics.com^
 ||crashlytics.l.google.com^
@@ -240,7 +239,6 @@
 ||t.mail.ru^
 ||taboola.com^
 ||thumbnails*.opera.com^
-||tns-counter.ru^
 ||trace.eset.com^
 ||traffichaus.com^
 ||trafficjunky.*^
