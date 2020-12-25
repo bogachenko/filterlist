@@ -1,4 +1,4 @@
-! Title: bogachenko's DNS Filter
+! Title: bogachenko's DNS Filter List
 ! Description: A filter for bogachenko's personal use to block loading of ads, tracking and analysis. These filters are used by me for Adguard Home.
 ! RAW: https://raw.githubusercontent.com/bogachenko/filterlist/main/bogachenkoFL.dns
 ! Homepage: https://github.com/bogachenko/filterlist/
@@ -32,34 +32,33 @@
 ||adform.net^
 ||adfox.ru^
 ||adfox.yandex.ru^
+||adgrx.com^
 ||adj.st^
 ||adjust.*^
-||adroll.com^
 ||admicro.*^
 ||admitad.com^
 ||admixer.net^
-||meetrics.net^
 ||admob.xiaomi.com^
 ||adnexus.net^
-||adskeeper.co.uk^
 ||adnxs.com^
 ||adonweb.ru^
 ||adorion.net^
 ||adpod.in^
 ||adprofits.ru^
-||popcash.net^
 ||adriver.ru^
+||adroll.com^
 ||adsafeprotected.com^
 ||adserved.net^
 ||adservice.google.*^
-||smartadserver.com^
 ||adservice.l.google.com^
+||adskeeper.co.uk^
+||adspeed.com^
 ||adsrefundattempts.com^
+||adsrvr.org^
 ||adtng.com^
 ||adtrue.com^
 ||advarkads.com^
 ||adverdata.net^
-||adsrvr.org^
 ||adverticum.net^
 ||advideo.ru^
 ||advisor.api.2gis.ru^
@@ -73,7 +72,6 @@
 ||aidata.io^
 ||amazon-adsystem.com^
 ||amplitude.com^
-||doublepimp.com^
 ||an.facebook.com^
 ||an.mail.ru^
 ||an.yandex.*^
@@ -126,6 +124,7 @@
 ||direct.yandex.*^
 ||displayvertising.com^
 ||doubleclick.*^
+||doublepimp.com^
 ||dumbpop.com^
 ||edge.microsoft.com^
 ||ero-advertising.com^
@@ -172,6 +171,7 @@
 ||leanplum.com^
 ||mc.yandex.*^
 ||media.net^
+||meetrics.net^
 ||mellowads.com^
 ||meloads.com^
 ||merchandise.opera-api.com^
@@ -199,6 +199,7 @@
 ||perr.svd-cdn.com^
 ||personalization.services.msn.com^
 ||popads.net^
+||popcash.net^
 ||proxy_auth.trigger.hola.org^
 ||pubmatic.com^
 ||r.mail.ru^
@@ -214,9 +215,7 @@
 ||s*-2mdn-net.l.google.com^
 ||samsungads.com^
 ||samsungtvads.com^
-||adgrx.com^
 ||scorecardresearch.com^
-||adspeed.com^
 ||sec.*.miui.com^
 ||sec.miui.com^
 ||serving-sys.com^
