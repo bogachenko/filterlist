@@ -715,6 +715,7 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 ||video.google.com/api/stats/$important,xmlhttprequest
 ||youtube.com/get_endscreen?$important,xmlhttprequest
 ||youtube.com/get_midroll_info?$important,xmlhttprequest
+||thealloha.club/index.php?ref=*&domain=$important,xmlhttprequest
 ! XMLHTTPREQUEST END
 
 ! COMBINED START
@@ -845,6 +846,8 @@ tube8.*#@#+js(abort-on-property-read, _goat)
 *$script,third-party,domain=goblins-online.ru,badfilter
 *$script,third-party,domain=hindipix.in,badfilter
 ||hdzog.ahcdn.com^$badfilter
+@@||gstaticadssl.l.google.com^$font,domain=youtube.com|analytics.google.com|translate.google.com
+@@/^(.+[_.-]?)?analy(ti([\W\w]+)?)?([\d]+)?[_.-]/$domain=analytics.google.com|analyticsinsights-pa.clients6.google.com
 *$script,redirect-rule=noopjs,domain=dropgalaxy.com,badfilter
 ||dropgalaxy.com^$inline-script,badfilter
 |http*$app=com.adups.fota.sysoper|com.adups.fota,badfilter
@@ -855,6 +858,11 @@ readcomiconline.to#@#+js(abort-on-property-write, callExo)
 readcomiconline.to#@#+js(abort-on-property-read, zfgloadednative)
 readcomiconline.to#@#+js(set-constant, alb, false)
 ||theporndude.com^$badfilter
+||imgadult.com^$badfilter
+||imgtaxi.com^$badfilter
+imgadult.com#@#+js(abort-on-property-write, imgadbpops)
+imgadult.com#@#+js(abort-on-property-write, cticodes)
+*$subdocument,third-party,domain=alltube.tv,badfilter
 /favicon.ico$image,third-party,domain=~apple.com|~douban.com|~bahn.de|~winfuture.de|~bt.com|~ebay.com.au|~ebay.com|~ebay.co.uk|~go.com|~github.com|~microsoft.com|~stackexchange.com|~stackoverflow.com|~askubuntu.com|~reddit.com|~4chan.org|~twitter.com|~live.com|~espn.com|~yahoo.com,badfilter
 lelinhtinh.github.io#@#+js(mousedef2)
 *.mp4^$media,redirect=noopmp3-0.1s,important,domain=1080pfilmizle.net
