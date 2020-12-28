@@ -350,7 +350,7 @@ $$script[src="https://www.googletagservices.com/"]
 ||insideruser.microsoft.com^$important
 ||kas-labs.com^$important
 ||kaspersky-labs.com^$important
-||kaspersky.*^$important,domain=~community.kaspersky.com|~forum.kaspersky.com|~support.kaspersky.ru
+||kaspersky.*^$important,domain=~community.kaspersky.com|~forum.kaspersky.com|~support.kaspersky.ru|~opentip.kaspersky.com
 ||merchandise.opera-api.com^$important
 ||mobile-gtalk.l.google.com^$important
 ||msn.com^$important
@@ -570,7 +570,6 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 ||easylist-downloads.adblockplus.org/exceptionrules.txt|
 ||event.
 ||gew-spclient.spotify.com/*/logging/$important
-||iecvlist.microsoft.com/*blocklist/*/versionlist.xml|
 ||mail.google.com/mail/ads/$important
 ||meta^
 ||mobilemaps-pa.googleapis.com/*.ads.$important
@@ -750,6 +749,7 @@ chrome.google.com#@#+js(mousedef2)
 userload.co#@#+js(addEventListener-defuser, , _0x)
 userload.co#@#+js(noeval-if, click)
 streamtape.*#@#+js(set-constant, towait, 0)
+@@||launches.appsflyer.com^|$badfilter
 ||streamplay.to^$badfilter
 *$script,redirect-rule=noopjs,domain=mp4upload.com,badfilter
 *$script,domain=yourupload.com,badfilter
