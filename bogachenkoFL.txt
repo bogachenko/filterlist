@@ -360,6 +360,7 @@ $$script[src="https://www.googletagservices.com/"]
 ||op-mobile.opera.com^$important
 ||opera-api.com^$important
 ||operacoinexchange.com^$important
+||yadro.ru^$important
 ||opr.as^$important
 ||pagead*.l.doubleclick.net^$important
 ||pagead-googlehosted.l.google.com^$important
@@ -409,7 +410,6 @@ $$script[src="https://www.googletagservices.com/"]
 
 ! IMAGE START
 /\/[a-zA-Z]{5,}[Pp][Ii][Xx][Ee][Ll][-._?&=#/]/$image,important
-/^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/(images|banners?)\//$image,important
 /^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,important
 ||duckduckgo.com/t/$image,important
 ||mail.yandex.*/monitoring_liza.txt$image,important
@@ -719,6 +719,7 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 ! XMLHTTPREQUEST END
 
 ! COMBINED START
+/^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/(images|banners?|makaba\/templates\/js\/events)\//$script,image,important
 /[-._?&=#/](event|stat)logs?(ging|ers?)?[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest
 /[-._?&=#/](logs?|img)[-._?&=#/]?(?:failure|info|type|events?|entry|request|statu?s?|view|edpage)[-._?&=#/]?/$image,important,other,script,xmlhttprequest
 /[-._?&=#/](player|client|csi|gen(erate)?|stream|logs?|live)[-._?&=#/]?204[-._?&=#/]?/$image,important,other,xmlhttprequest
