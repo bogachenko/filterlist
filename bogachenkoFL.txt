@@ -23,6 +23,7 @@ $$script[src="https://www.googletagservices.com/"]
 @@/^https?:\/\/edge\.microsoft\.com\/(extensionwebstorebase\/[a-z1-9]{2}\/(hash)?crx\?|(redirectordictionaries|hunspelldictionaries)\/)/$important
 @@||connectivitycheck.gstatic.com^$important
 @@||safebrowsing.clients.google.com^$document
+@@||kaspersky.ru/scanforvirus^$document
 ! WHITELIST END
 
 ! LAN START
@@ -349,8 +350,8 @@ $$script[src="https://www.googletagservices.com/"]
 ||imasdk.googleapis.com^$important
 ||insideruser.microsoft.com^$important
 ||kas-labs.com^$important
-||kaspersky-labs.com^$important
-||kaspersky.*^$important,domain=~community.kaspersky.com|~forum.kaspersky.com|~support.kaspersky.ru|~opentip.kaspersky.com
+||kaspersky-labs.com^
+||kaspersky.*^$domain=~community.kaspersky.com|~forum.kaspersky.com|~support.kaspersky.ru|~opentip.kaspersky.com
 ||merchandise.opera-api.com^$important
 ||mobile-gtalk.l.google.com^$important
 ||msn.com^$important
