@@ -23,7 +23,6 @@ $$script[src="https://www.googletagservices.com/"]
 @@/^https?:\/\/edge\.microsoft\.com\/(extensionwebstorebase\/[a-z1-9]{2}\/(hash)?crx\?|(redirectordictionaries|hunspelldictionaries)\/)/$important
 @@||connectivitycheck.gstatic.com^$important
 @@||safebrowsing.clients.google.com^$document
-@@||kaspersky.ru/scanforvirus^$document
 ! WHITELIST END
 
 ! LAN START
@@ -295,6 +294,7 @@ $$script[src="https://www.googletagservices.com/"]
 ||brontp.yandex.ru^$important
 ||brozen.yandex.ru^$important
 ||cackle.me^$important
+||vk-portal.net^$important
 ||chatbro.com^$important
 ||chaturbate.com^$third-party,important
 ||collector.xhamster.*^$important
@@ -350,8 +350,8 @@ $$script[src="https://www.googletagservices.com/"]
 ||imasdk.googleapis.com^$important
 ||insideruser.microsoft.com^$important
 ||kas-labs.com^$important
-||kaspersky-labs.com^
-||kaspersky.*^$domain=~community.kaspersky.com|~forum.kaspersky.com|~support.kaspersky.ru|~opentip.kaspersky.com
+||kaspersky-labs.com^$important
+||kaspersky.*^$important,domain=~community.kaspersky.com|~forum.kaspersky.com|~support.kaspersky.ru|~opentip.kaspersky.com
 ||merchandise.opera-api.com^$important
 ||mobile-gtalk.l.google.com^$important
 ||msn.com^$important
@@ -877,4 +877,5 @@ lelinhtinh.github.io#@#+js(mousedef2)
 *.mp4^$media,redirect=noopmp3-0.1s,important,domain=1080pfilmizle.net
 1080pfilmizle.net###myVideo2ad, #myVideo1ad, #myVideo0ad, div#adSeconds
 upstream.to#@#+js(abort-current-inline-script, document.oncontextmenu)
+|https://$script,third-party,domain=~feedback.pornhub.com|~feedback.pornhubthbh7ap3u.onion|pornhub.com|pornhubthbh7ap3u.onion|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com,badfilter
 ! TRASH END
