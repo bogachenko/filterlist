@@ -671,7 +671,7 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 /^https?:\/\/[^\s]+\/sw([-._?&=#/]([_a-z0-9-.]{1,12})?)?\.js/$important,script
 /^https?:\/\/[^\s]+\/sw[bwg]\.js/$important,script
 /^https?:\/\/[^\s]+\/wp\.js/$important,script
-/^https?:\/\/[_a-z-]{6,16}\.[a-z]+\/4(00)?\/[0-9]{7}/$third-party,important,script
+/^https?:\/\/[_a-z-]{6,16}\.[a-z]+\/(4(00)?|5)\/[0-9]{7}/$third-party,important,script
 /^https?:\/\/[a-z]+\.com\/[a-z]{2}\/[a-zA-Z0-9=]{65,}\.js$/$third-party,important,script
 /^https?:\/\/[a-z]{10,11}\.com\/[0-9a-f]{5}\.js$/$third-party,important,script
 /^https?:\/\/[a-z]{6,16}\.[a-z]+\/1clkn\/[0-9]{4,5}$/$third-party,important,script
@@ -835,6 +835,8 @@ upstream.to#@#+js(abort-on-property-read, _0xfff1)
 ||xnxx.com^$badfilter
 xnxx.com#@#+js(abort-on-property-write, openpop)
 ||xnxx.com^$badfilter
+*$script,redirect-rule=noopjs,domain=youmath.it,badfilter
+*$script,redirect-rule=noopjs,domain=ustreamix.to|ustreamix.su|ustream.to,badfilter
 xnxx.com#@#+js(abort-on-property-read, fuckAdBlock)
 youporn.com#@#+js(no-setTimeout-if, jQuery)
 youporn.com#@#+js(abort-on-property-read, zone_2547)
