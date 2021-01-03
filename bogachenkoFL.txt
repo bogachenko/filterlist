@@ -694,6 +694,7 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 |http*:*/wl.js$important,script
 ||scdn.co/cdn/js/gtag.$important,script,domain=spotify.com
 /^https?:\/\/[a-g0-9]{20,}\.online\/[a-g0-9]{20,}\.js$/$important,third-party,script
+|http*:*/player/assets/devtools-detector/$important,script
 ! SCRIPT END
 
 ! XMLHTTPREQUEST START
@@ -872,12 +873,21 @@ readcomiconline.to#@#+js(set-constant, alb, false)
 ||imgadult.com^$badfilter
 ||imgtaxi.com^$badfilter
 imgadult.com#@#+js(abort-on-property-write, imgadbpops)
+bitporno.com#@#+js(abort-on-property-read, btoa)
+bitporno.com#@#+js(window.open-defuser, /^/, 0)
+bitporno.com#@#+js(popads)
+cdn-myhdjav.info#@#+js(abort-on-property-read, jwplayer.utils.Timer)
+cdn-myhdjav.info#@#+js(abort-on-property-read, __Y)
+cdn-myhdjav.info#@#+js(set-constant, globalThis, null)
+cdn-myhdjav.info#@#+js(set-constant, clientSide.adbDetect, noopFunc)
+||fuck-videos.xxx^$badfilter
 imgadult.com#@#+js(abort-on-property-write, cticodes)
 *$subdocument,third-party,domain=alltube.tv,badfilter
 /favicon.ico$image,third-party,domain=~apple.com|~douban.com|~bahn.de|~winfuture.de|~bt.com|~ebay.com.au|~ebay.com|~ebay.co.uk|~go.com|~github.com|~microsoft.com|~stackexchange.com|~stackoverflow.com|~askubuntu.com|~reddit.com|~4chan.org|~twitter.com|~live.com|~espn.com|~yahoo.com,badfilter
 lelinhtinh.github.io#@#+js(mousedef2)
 *.mp4^$media,redirect=noopmp3-0.1s,important,domain=1080pfilmizle.net
 1080pfilmizle.net###myVideo2ad, #myVideo1ad, #myVideo0ad, div#adSeconds
+||pw^$third-party,script,xmlhttprequest,domain=~adwiz.pp.ua|~forum.worldofwarships.ru|~hdvbplayer.tk|~live-gol.net|~philips.ru|~softpir.com|~sportings.pw|~sportsvideoline3.pw|~tefal.ru|~videosofsport1.pw|~xn--drakulastrem-b7e.com,badfilter
 upstream.to#@#+js(abort-current-inline-script, document.oncontextmenu)
 |https://$script,third-party,domain=~feedback.pornhub.com|~feedback.pornhubthbh7ap3u.onion|pornhub.com|pornhubthbh7ap3u.onion|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com,badfilter
 ! TRASH END
