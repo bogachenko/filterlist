@@ -334,6 +334,7 @@ $$script[src="https://www.googletagservices.com/"]
 ||t.mail.ru^$important
 ||an.mail.ru^$important
 ||ad.mail.ru^$important
+||chatango.com^$important
 ||googletagservices.com^$important
 ||gotprofits.com^$important
 ||graph.facebook.com^$important
@@ -539,6 +540,8 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 ||gomo.to^$important,csp=script-src 'self' 'unsafe-inline' *.googleapis.com local.adguard.org injections.adguard.org;
 ||vidlox.*^$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.jsdelivr.net *.google.com local.adguard.org injections.adguard.org;
 /^https?:\/\/po[wv][wv][li1]deo\.(net|c(om|c))/$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' local.adguard.org injections.adguard.org *.google.com *.gstatic.com *.googleapis.com; worker-src 'none';
+||dood.to^$csp=script-src 'self' data: 'unsafe-inline' *.gstatic.com *.doodcdn.com *.google.com *.cloudflare.com;
+||videobin.co^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' *.jsdelivr.net;
 ! Content Security Policy (CSP) END
 
 ! OTHER START
@@ -869,6 +872,7 @@ readcomiconline.to#@#+js(no-setTimeout-if, .exo)
 readcomiconline.to#@#+js(abort-on-property-write, callExo)
 readcomiconline.to#@#+js(abort-on-property-read, zfgloadednative)
 readcomiconline.to#@#+js(set-constant, alb, false)
+*$script,xmlhttprequest,subdocument,image,stylesheet,third-party,domain=videobin.co,badfilter
 ||theporndude.com^$badfilter
 ||imgadult.com^$badfilter
 ||imgtaxi.com^$badfilter
@@ -885,6 +889,7 @@ imgadult.com#@#+js(abort-on-property-write, cticodes)
 *$subdocument,third-party,domain=alltube.tv,badfilter
 /favicon.ico$image,third-party,domain=~apple.com|~douban.com|~bahn.de|~winfuture.de|~bt.com|~ebay.com.au|~ebay.com|~ebay.co.uk|~go.com|~github.com|~microsoft.com|~stackexchange.com|~stackoverflow.com|~askubuntu.com|~reddit.com|~4chan.org|~twitter.com|~live.com|~espn.com|~yahoo.com,badfilter
 lelinhtinh.github.io#@#+js(mousedef2)
+||semawur.com^$badfilter
 *.mp4^$media,redirect=noopmp3-0.1s,important,domain=1080pfilmizle.net
 1080pfilmizle.net###myVideo2ad, #myVideo1ad, #myVideo0ad, div#adSeconds
 ||pw^$third-party,script,xmlhttprequest,domain=~adwiz.pp.ua|~forum.worldofwarships.ru|~hdvbplayer.tk|~live-gol.net|~philips.ru|~softpir.com|~sportings.pw|~sportsvideoline3.pw|~tefal.ru|~videosofsport1.pw|~xn--drakulastrem-b7e.com,badfilter
