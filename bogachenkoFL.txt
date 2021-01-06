@@ -736,7 +736,7 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 /[-._?&=#/]pixel[-._?&=#/]/$image,important,script,subdocument,xmlhttprequest,domain=~yandex.by|~yandex.ru|~yandex.ua
 /[-._?&=#/]track(ers?|ing)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~alipay.com|~analytics.google.com|~fandom.com|~parimatch.ru|~pochta.ru|~yandex.by|~yandex.ru|~yandex.ua|~aliexpress.com
 /[-._?&=#/]vast[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~github.com|~gitlab.com|~twitch.tv|~streamz.vg
-/\/pi?xe?l?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|x?html?|cgi|php|swf|svg)/$image,important,script,subdocument,xmlhttprequest,domain=~playground.ru
+/\/pi?xe?l?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|x?html?|cgi|php|swf|svg)/$image,important,script,subdocument,xmlhttprequest,domain=~playground.ru|~imgur.com
 /^https?:\/\/[0-1]{5,}\.com/$third-party,important,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/[a-w]{3,4}\.hh\?[a-z]\=[=&0-9a-zA-Z]{8,15}$/$script,subdocument,important
 /^https?:\/\/mail\.yandex\.[\w]+\/[^\s]{1200,}$/$image,important,other,script,xmlhttprequest
@@ -877,6 +877,10 @@ tube8.*#@#+js(abort-on-property-read, _goat)
 waaw.tv#@#+js(set-constant, console.clear, trueFunc)
 readcomiconline.to#@#+js(no-setTimeout-if, callExo)
 readcomiconline.to#@#+js(no-setTimeout-if, .exo)
+||player.tubia.com^$badfilter
+||cdn.tubia.com^$badfilter
+*$xmlhttprequest,redirect-rule=nooptext,domain=ctrlv.*,badfilter
+sayrodigital.com#@#+js(addEventListener-defuser, /error|load/, /onerror|showModal/)
 readcomiconline.to#@#+js(abort-on-property-write, callExo)
 readcomiconline.to#@#+js(abort-on-property-read, zfgloadednative)
 readcomiconline.to#@#+js(set-constant, alb, false)
