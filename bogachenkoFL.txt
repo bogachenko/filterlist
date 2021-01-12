@@ -23,6 +23,8 @@ $$script[src="https://www.googletagservices.com/"]
 @@/^https?:\/\/edge\.microsoft\.com\/(extensionwebstorebase\/[a-z1-9]{2}\/(hash)?crx\?|(redirectordictionaries|hunspelldictionaries)\/)/$important
 @@||connectivitycheck.gstatic.com^$important
 @@||safebrowsing.clients.google.com^$document
+@@||local.adguard.org^$script
+@@||injections.adguard.org^$script
 ! WHITELIST END
 
 ! LAN START
@@ -810,6 +812,7 @@ hqq.tv#@#+js(no-setTimeout-if, check, 100)
 *$script,third-party,domain=europixhd.net,badfilter
 streamz.*#@#+js(no-setTimeout-if, nextFunction, 2000)
 streamz.*#@#+js(set-constant, adblock, true)
+||shrink-service.it^$badfilter
 streamz.*#@#+js(set-constant, jQuery.adblock, false)
 streamz.*#@#+js(abort-current-inline-script, Math, zfgloaded)
 ||cache.hollywood.to^$badfilter
@@ -902,6 +905,7 @@ imgadult.com#@#+js(abort-on-property-write, cticodes)
 *$subdocument,third-party,domain=alltube.tv,badfilter
 /favicon.ico$image,third-party,domain=~apple.com|~douban.com|~bahn.de|~winfuture.de|~bt.com|~ebay.com.au|~ebay.com|~ebay.co.uk|~go.com|~github.com|~microsoft.com|~stackexchange.com|~stackoverflow.com|~askubuntu.com|~reddit.com|~4chan.org|~twitter.com|~live.com|~espn.com|~yahoo.com,badfilter
 lelinhtinh.github.io#@#+js(mousedef2)
+||motonews.club^$badfilter
 ||semawur.com^$badfilter
 *.mp4^$media,redirect=noopmp3-0.1s,important,domain=1080pfilmizle.net
 1080pfilmizle.net###myVideo2ad, #myVideo1ad, #myVideo0ad, div#adSeconds
