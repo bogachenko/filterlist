@@ -433,9 +433,7 @@ $$script[src="https://www.googletagservices.com/"]
 ! POPUP & POPUNDER END
 
 ! APP START
-*$important,app=Draziw.Button.Mines|com.BallGames.Woodturning|com.BestWorldGamesLtd.rtanks|com.FDGEntertainment.redball4.gp|com.amanotes.beathopper|com.andregal.android.poolbilliard|com.appsinnova.android.keepclean|com.billiards.city.pool.nation.club|com.blyts.nobodies|com.catmario2.hd|com.combineinc.streetracing.driftthreeD|com.danchis.superkitty|com.doodle.skatingman|com.dvloper.granny|com.fingersoft.hcr2|com.fingersoft.hillclimb|com.forthblue.pool|com.genico.bounce|com.gta.real.gangster.crime|com.herocraft.game.free.redball3|com.karmangames.solitaire|com.kiloo.subwaysurf|com.kx.box|com.leodesol.games.classic.maze.labyrinth|com.ligeria.solitaire|com.mediocre.grannysmith|com.miniclip.istunt2|com.miniclip.plagueinc|com.mobisystems.fileman|com.noodlecake.altosadventure|com.noodlecake.altosodyssey|com.piriform.ccleaner|com.pixign.smart.puzzles|com.playrix.gardenscapes|com.red.ball.ballgames.bounceball.redball5|com.redrocket.poker|com.robtopx.geometrydashmeltdown|com.robtopx.geometrydashsubzero|com.robtopx.geometrydashworld|com.robtopx.geometryjumplite|com.rovio.angrybirds|com.skgames.trafficracer|com.stolitomson|com.submarineapps.mill|com.topchopgames.skyroller|com.topgame.BeenyAdventures|com.x3m.tx4|com.zeptolab.ctr.ads|com.zeptolab.ctr2.f2p.google|com.zeptolab.ctrm.free.google|com.zeptolab.timetravel.free.google|game.maddex.action|game.maddex.arenas|game.maddex.jump|phone.cleaner.antivirus.speed.booster|phone.cleaner.speed.booster.cache.clean.android.master|pl.lukok.draughts|pt.wm.milhes|com.appstar.callrecorder|com.appstar.callrecorderpro|KMPlayer.exe|KMPlayer64.exe|GOM.exe|CCleaner.exe|CCleaner64.exe
 /^(?!.*(lfnnmlimilinwvwlijljioeogq13\.club|(firebaseio|googleapis|pbssrv\-centralevents|verifykit)\.com)).*$/$app=important,app.source.getcontact
-/amazon(aws)?\.com/$important,app=TwitchAgent.exe|TwitchUI.exe
 ||www.facebook.com^$important,app=system
 ||zen.yandex.ru^$domain=startpage,third-party,app=opera.exe
 ! APP END
@@ -482,7 +480,7 @@ market.yandex.*##div > [class]:has([data-apiary-widget-name="@MarketNode/FooterH
 market.yandex.*##div[class][data-tid]:has(div[data-apiary-widget-name="@market/VisibilityLoader"][data-apiary-widget-id="/content/journal"])
 market.yandex.*##div[data-apiary-widget-id="/content/journal"]:has-text(Полезные статьи)
 music.yandex.*##.duck__duckling.moving-slider, .multi-auth__plus, .teaser, .sidebar__under, .page-main__line_row.page-main__line_small-margin.page-main__line_personal-playlists.page-main__line, .notify_shown.deco-tooltip_notify, .footer, .metrika-app_shown_yes.metrika-app_js_inited.i-bem.metrika-app_type_desktop.metrika-app_lang_ru.metrika-app, .duck__angry-duck_left.duck__angry-duck.paused-slider, .bar-below_plus.bar-below, .subscription-hint_bottom.deco-pane-popup.popup.local-theme-black.subscription-hint, div.notify > div.deco-tooltip_notify.notify_shown, .overlay_gdpr.overlay_shown.deco-pane-overlay.overlay, .deco-pane-popup.popup.local-icon-theme-white.local-theme-white.gdpr-popup, .bar-below_unavaliable.bar-below, a.teaser__content[href="https://music.yandex.ru/family-plus"] > img.teaser__img, div.page-root.page-root_no-player.deco-pane-back > div[class][data-b="2"][style="display: block;"], .teaser ~ div, .page-root > div[data-b="2"], .sidebar > div > .teaser + div[data-b="18"], .deco-tooltip_to-right.popup_visible.popup_fade.local-theme-black.d-tooltip_min-width.deco-pane-popup.popup.deco-tooltip.d-tooltip, .overlay_shown.deco-pane-overlay.overlay, .popup_modal.deco-pane-popup.popup.local-icon-theme-white.local-theme-white.popup_compact.crackdown-popup, .teaser-nonmusic_visible.teaser-nonmusic, .progress__line__branding, .paused-slider_left.porsche.paused-slider, .bar__branding_picture, .bar-below__auth, .bar-below__content, .bar__branding, .subscription-hint.popup, .bar__addition-link, body > div[style^="min-height"] > .notify *, body > div[style^="min-height"] > div[class][style="display: block;"], body > div[style^="min-height"] > .notify, [class^="audio-advert"], .subscription-hint.popup, .bar.bar-below, .ads-block, .share-container, .share.unit, .notify__message, div.notify > div.deco-tooltip_notify.notify_shown, .d-overhead-mobile__content_app, a.teaser__content[href="https://music.yandex.ru/family-plus"] > img.teaser__img, .bar-below, .no-ads, .button-store_all, .app-sms, a[href="/contest/dogmoroz"], .subscription-hint, .bar__driver-container, .sidebar__placeholder .teaser ~ div, div[id^="ya_partner_R-A-"], .page-root > div.d-overhead, .audio-advert__block, .popup_modal.deco-pane-popup.popup.payment-plus-popup, .shifted-right.deco-tooltip_to-right.popup_visible.popup_fade.local-theme-black.deco-pane-popup.popup.deco-tooltip.d-tooltip
-music.yandex.by,music.yandex.com,music.yandex.ru,music.yandex.ua#?#span:contains(Отключить рекламу)
+music.yandex.ru#?#span:contains(Отключить рекламу)
 ok.ru###hook_Block_MusicGrowl_Content, .__hidden.anonym-feed_aside_banner.banner-layout-container, .anonym-feed, .__fixed-footer.h-mod, .portal-headline__left.w-x-ph__col_left.w-x-ph__col
 pornhub.*,pornhubthbh7ap3u.onion##.sniperModeEngaged, div[id^="age-verification"], .ad-link, .removeAdsStyle, .socialIconsWrapper, .freePremium, .freePremiumVideo, #pb_template, .video-wrapper > #player + [class], a[href*="?ats="], .footerContentWrapper, #footer, .rightCol, .rating-info-container, .tooltipTrig.flag.producer-icon, .subscribe.userButtons, .subscribers-count, .icon-wrapper, .active.fanclub-info-pop, .tab-menu-wrapper-row, .rightButtonHolder.contentContainer, .trailerUnderplayerPreview, #pb_template_trailer, #hotVideosSection > .alpha, #topRightProfileMenu, .headerBtnsWrapper, .pre-footer, .pornstarsLang.sectionWrapper.sectionRelatedStars, .commentLogMessage, .userActions, #profileStream, #fanVideosSection, .biographyBtns, .userButtonsMenu, .relatedSearchTermsBottom, #hd-rightColVideoPage, #under-player-comments, .video-wrapper.hd-videos_wrapper.hd-smallerWidth.sectionWrapper, .paidClips, .seoSections, .notifContainer
 pornhub.*,pornhubthbh7ap3u.onion##div.clear-both.videoSection:has-text(/только для Фанатов/)
@@ -529,9 +527,7 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 
 ! Content Security Policy (CSP) START
 /^https?:\/\/([\w]+\.)?(pornhub|pornhubthbh7ap3u)\.[\w]+\//$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' blob: phncdn.com *.phncdn.com *.pornhub.com local.adguard.org injections.adguard.org; connect-src 'self' data: phncdn.com *.phncdn.com; frame-src 'none';
-/^https?:\/\/(www\.)?music\.yandex\.(ru|ua|by|com)\//$important,csp=script-src 'unsafe-inline' 'unsafe-eval' music.yandex.ru *.youtube.com https://yastatic.net local.adguard.org injections.adguard.org music.yandex.com music.yandex.by music.yandex.ua *.jquery.com; connect-src 'self' data: music.yandex.com music.yandex.ru music.yandex.ua music.yandex.by storage.mds.yandex.net wss: https://api.passport.yandex.ru; img-src 'self' data: music.yandex.com music.yandex.ru music.yandex.ua music.yandex.by *.yandex.net yapic.yandex.ru *.ytimg.com; frame-src data: frontend.vh.yandex.ru *.youtube.com music.yandex.ru music.yandex.ua music.yandex.by;
-/^https?:\/\/(www\.)?translate\.yandex\.(ru|ua|by|com)\//$csp=img-src 'self' data: yastatic.net avatars.mds.yandex.net local.adguard.org injections.adguard.org;
-||deloplen.com^$important,csp=default-src 'none';
+/^https?:\/\/(www\.)?music\.yandex\.ru\//$important,csp=script-src 'unsafe-inline' 'unsafe-eval' music.yandex.ru *.youtube.com https://yastatic.net local.adguard.org injections.adguard.org *.jquery.com; connect-src 'self' data: music.yandex.ru storage.mds.yandex.net wss: https://api.passport.yandex.ru; img-src 'self' data: music.yandex.ru *.yandex.net yapic.yandex.ru *.ytimg.com; frame-src data: frontend.vh.yandex.ru *.youtube.com music.yandex.ru;
 ||twitch.tv^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: data: *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net *.recaptcha.net *.google.com *.gstatic.com *.algolia.net local.adguard.org injections.adguard.org *.cloudfront.net;
 ||userload.co^$important,csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' local.adguard.org injections.adguard.org;
 ||streamtape.*^$important,csp=script-src 'self' 'unsafe-inline' *.google.com *.gstatic.com local.adguard.org injections.adguard.org;
@@ -546,7 +542,7 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 ! Content Security Policy (CSP) END
 
 ! OTHER START
-/^(https?|ftp|wss?):\/\/((www|wap)[0-9]?\.)?ad[svbxo]?([0-9]{1,3})?\./$important,domain=~ad.nl|~ads.google.com
+/^(https?|ftp|wss?):\/\/((www|wap)[0-9]?\.)?ad[svbxo]?([0-9]{1,3})?\./$important,domain=~ads.google.com
 /^(https?|ftp|wss?):\/\/((www|wap)[0-9]?\.)?ad[vs]er(ve)?t?(i(se|sing|sement|ca)|[rs])?\./$important
 /^(https?|ftp|wss?):\/\/((www|wap)[0-9]?\.)?analy((ti|zer)([\W\w]+)?)?([0-9]{1,3})?\./$important,domain=~google.com|~google.ru
 /^(https?|ftp|wss?):\/\/((www|wap)[0-9]?\.)?geo([0-9]{1,3})?\./$important,domain=~google.com|~google.ru|~office.com|~sberbank.ru
@@ -557,7 +553,7 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 /[-._?&=#/]beacon[-.0-9_?&=#/]?/$important
 /[-._?&=#/]me?tr[ie]?[ck][asx]?[-.0-9_?&=#/]?/$important,domain=~fandom.com|~metrika.yandex.ru|~office.com|~twitch.tv
 /[-._?&=#/]preroll[-._?&=#/]/$important,domain=~mail.ru|~ttvnw.net
-/\.(a[cdefgilmnoqrstuwxz]|arpa|academy|accountants?|act(ive|tor)|adult|aero|agency|airforce|apartments|app|archi|army|africa|associates|asia|attorney|auction|audio|autos|art|b[abdefghijmnorstvuwyz]|biz|bzh|c[acdfghiklmnoruvxsyz]|com?|cat|coop|cym(ru)?|crimea|d[dejkmoz]|dance|dev|e[cegrstu]|eng(lish)?|edu|eus|f[ijkmor]|family|feedback|g[abdefghilmnpqrstuwy]|google|gov|gal|h[kmnrtu]|i[delmnoqrst]|info|int|j[deghikmnoprwyz]|jobs?|l[abcikrstuvy]|london|m[acdeghklmnopqrstuvwxyz]|mil|mobi|microsoft|moe|museum|n[acefgilopruz]|ninja|net|name|om|one|ong|onl(ine)?|org(anic)?|p[aefghklmnrstwy]|pink|part([ys]|ners?)|pizza|place|plu(s|mbing)?|pharmacy|photo(s|graphy)?|physio|pic(ture)?s?|poker|porn|post|press|pro(f|ductions|perties|perty)?|k[yehrw]|qa|qpon|quebec|r[eosuw]|raci(ng|pes)|red|rehab|ren(t|tals)?|rep(ort|air|ublican)|rest|reviews?|rich|rus(sian)?|s[abcdeghiljkmnortuvyz]|site|scot?|soc|t[cdfghjklmnoprtvwz]|tel|tra(de|vel)|u[agmksyz]|v[aceginu]|w[fs]|wales|y[etu]|yandex|yoga|z[armzw]|zone|x(xx|yz))\/ad[sv]?\//$important,domain=~4chan.org|~4channel.org|~hqq.to|~hqq.tv|~yandexcdn.com|~waaw.to|~waaw.tv|~hqq.watch|~hindipix.in|~chillicams.net|~pbtube.co
+/\.(a[cdefgilmnoqrstuwxz]|arpa|academy|accountants?|act(ive|tor)|adult|aero|agency|airforce|apartments|app|archi|army|africa|associates|asia|attorney|auction|audio|autos|art|b[abdefghijmnorstvuwyz]|biz|bzh|c[acdfghiklmnoruvxsyz]|com?|cat|coop|cym(ru)?|crimea|d[dejkmoz]|dance|dev|e[cegrstu]|eng(lish)?|edu|eus|f[ijkmor]|family|feedback|g[abdefghilmnpqrstuwy]|google|gov|gal|h[kmnrtu]|i[delmnoqrst]|info|int|j[deghikmnoprwyz]|jobs?|l[abcikrstuvy]|london|m[acdeghklmnopqrstuvwxyz]|mil|mobi|microsoft|moe|museum|n[acefgilopruz]|ninja|net|name|om|one|ong|onl(ine)?|org(anic)?|p[aefghklmnrstwy]|pink|part([ys]|ners?)|pizza|place|plu(s|mbing)?|pharmacy|photo(s|graphy)?|physio|pic(ture)?s?|poker|porn|post|press|pro(f|ductions|perties|perty)?|k[yehrw]|qa|qpon|quebec|r[eosuw]|raci(ng|pes)|red|rehab|ren(t|tals)?|rep(ort|air|ublican)|rest|reviews?|rich|rus(sian)?|s[abcdeghiljkmnortuvyz]|site|scot?|soc|t[cdfghjklmnoprtvwz]|tel|tra(de|vel)|u[agmksyz]|v[aceginu]|w[fs]|wales|y[etu]|yandex|yoga|z[armzw]|zone|x(xx|yz))\/ad[sv]?\//$important
 /^https?:\/\/[^\s]+\/[a-w]{3,4}\.php\?[a-z]{1,6}\=[0-9]{7}$/$third-party,important
 ||up.downloadmaster.ru/dm/$important
 |http*:*?zoneid=$important
@@ -669,7 +665,7 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 /^https?:\/\/[^/]+/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
 /^https?:\/\/[^\s]+\.com\/[0-9a-z]{2}\/[0-9a-z]{2}\/[0-9a-z]{2}\/[0-9a-z]{32}\.js/$third-party,important,script
 /^https?:\/\/[^\s]+\/(([_a-z-]{3,12})?[-._?&=#/])?sw\.js/$important,script
-/^https?:\/\/[^\s]+\/(([_a-z-]{3,15})?[-._?&=#/]?)?[Ww]orker(.*)?\.js/$important,script,domain=~github.com|~google.com|~lelinhtinh.github.io|~my.dogechain.info|~obfuscator.io|~parimatch.ru|~twitch.tv|~web.telegram.org|~whoer.net|~z5h64q92x9.net
+/^https?:\/\/[^\s]+\/(([_a-z-]{3,15})?[-._?&=#/]?)?[Ww]orker(.*)?\.js/$important,script,domain=~github.com|~google.com|~lelinhtinh.github.io|~obfuscator.io|~parimatch.ru|~twitch.tv|~web.telegram.org|~whoer.net|~z5h64q92x9.net
 /^https?:\/\/[^\s]+\/[cs]sw\.js/$important,script
 /^https?:\/\/[^\s]+\/[Ww]orker([-._?&=#/]?([a-z]{5,6})?)?\.js/$important,script,domain=~lelinhtinh.github.io|~parimatch.ru
 /^https?:\/\/[^\s]+\/sw([-._?&=#/]([_a-z0-9-.]{1,12})?)?\.js/$important,script
@@ -698,22 +694,20 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 |http*:*/wl.js$important,script
 ||scdn.co/cdn/js/gtag.$important,script,domain=spotify.com
 /^https?:\/\/[a-g0-9]{20,}\.online\/[a-g0-9]{20,}\.js$/$important,third-party,script
-|http*:*/player/assets/devtools-detector/$important,script
 ! SCRIPT END
 
 ! XMLHTTPREQUEST START
-/^https?:\/\/[0-9a-z]{11,20}.*.com\/.*/$third-party,important,xmlhttprequest,domain=~aliexpress.com|~aliexpress.ru|~deepl.com|~gtv.org|~videoseyred.in|~xhamster.com|~xhamster2.com|~xhamster3.com|~xhamster4.com|~xhamster5.com|~zagonka.tv|~ninjastream.to
+/^https?:\/\/[0-9a-z]{11,20}.*.com\/.*/$third-party,important,xmlhttprequest,domain=~aliexpress.com|~aliexpress.ru
 /^https?:\/\/[^\s]+(\.wasm|\.wsm|\.wa)$/$important,xmlhttprequest,domain=~twitch.tv
-|http*:$important,xmlhttprequest,domain=4chan.org|4channel.org
 |http*:*/channels/*/extensions$important,xmlhttprequest,domain=twitch.tv
 ||addons.opera.com/themes/$important,xmlhttprequest
 ||google.com^*/viewerimpressions?$important,xmlhttprequest
 ||instagram.com/ajax/bz|$important,xmlhttprequest
 ||instagram.com/logging/$important,xmlhttprequest
-||music.yandex.*/handlers/experiment.jsx^$important,xmlhttprequest
-||music.yandex.*/handlers/gdpr-welcome.jsx^$important,xmlhttprequest
-||music.yandex.*/handlers/promo-feedback.jsx^$important,xmlhttprequest
-||music.yandex.*/handlers/variabel.jsx^$important,xmlhttprequest
+||music.yandex.*/handlers/experiment.jsx$important,xmlhttprequest
+||music.yandex.*/handlers/gdpr-welcome.jsx$important,xmlhttprequest
+||music.yandex.*/handlers/promo-feedback.jsx$important,xmlhttprequest
+||music.yandex.*/handlers/variabel.jsx$important,xmlhttprequest
 ||ok.ru/dk?cmd=videostatnew$important,xmlhttprequest
 ||svd-cdn.com/users/get_user?$important,xmlhttprequest
 ||svd-cdn.com/users/payment/get_membership?$important,xmlhttprequest
@@ -731,12 +725,12 @@ english-films.*##:xpath(/html//div[@id='dle-content']/article//section//ul[@clas
 /[-._?&=#/](player|client|csi|gen(erate)?|stream|logs?|live)[-._?&=#/]?204[-._?&=#/]?/$image,important,other,xmlhttprequest
 /[-._?&=#/][a-zA-Z]{8,}track(ers?|ing)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~ok.ru
 /[-._?&=#/]analy((ti|zer)([\W\w]+)?)?[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest
-/[-._?&=#/]bann?ers?[-.0-9_?&=#/]/$image,important,script,subdocument,xmlhttprequest,domain=~aliexpress.com|~aliexpress.ru|~discord.com|~dropbox.com|~esetnod32.ru|~f-droid.org|~fandom.com|~gosuslugi.ru|~hindilinks4uto.com|~hqq.tv|~leon.ru|~live.com|~m3u-cdn.live|~mts.ru|~office.com|~ok.ru|~ozon.ru|~player.mediavitrina.ru|~rt.ru|~ru-mi.com|~sberbank.ru|~staticmv.mediavitrina.ru|~translate.google.com|~twitch.tv|~waaw.tv|~hqq.to|~yandexcdn.com|~waaw.to|~povvideo.net|~povwideo.cc|~powvideo.cc|~povw1deo.com|~povwideo.net|~powvideo.net|~powvldeo.net|~powv1deo.net|~powv1deo.cc|~hqq.watch|~hindipix.in|~chillicams.net|~radiorecord.ru|~pbtube.co
-/[-._?&=#/]logs?(ging|impressions?|ers?)?[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~aliexpress.com|~aliexpress.ru|~dns-shop.ru|~docviewer.yandex.by|~docviewer.yandex.ru|~docviewer.yandex.ua|~github.com|~gitlab.com|~instagram.com|~mi.com|~ozon.ru|~twitch.tv|~yadi.sk
+/[-._?&=#/]bann?ers?[-.0-9_?&=#/]/$image,important,script,subdocument,xmlhttprequest,domain=~aliexpress.com|~aliexpress.ru|~discord.com|~dropbox.com|~esetnod32.ru|~f-droid.org|~fandom.com|~gosuslugi.ru~leon.ru|~live.com|~mts.ru|~office.com|~ok.ru|~rt.ru|~ru-mi.com|~sberbank.ru|~translate.google.com|~twitch.tv|~radiorecord.ru
+/[-._?&=#/]logs?(ging|impressions?|ers?)?[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~aliexpress.com|~aliexpress.ru|~dns-shop.ru|~docviewer.yandex.ru|~github.com|~gitlab.com|~instagram.com|~mi.com|~twitch.tv|~yadi.sk
 /[-._?&=#/]piwik[-.0-9_?&=#/]/$image,important,script
-/[-._?&=#/]pixel[-._?&=#/]/$image,important,script,subdocument,xmlhttprequest,domain=~yandex.by|~yandex.ru|~yandex.ua
-/[-._?&=#/]track(ers?|ing)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~alipay.com|~analytics.google.com|~fandom.com|~parimatch.ru|~pochta.ru|~yandex.by|~yandex.ru|~yandex.ua|~aliexpress.com|~bountysource.com
-/[-._?&=#/]vast[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~github.com|~gitlab.com|~twitch.tv|~streamz.vg
+/[-._?&=#/]pixel[-._?&=#/]/$image,important,script,subdocument,xmlhttprequest,domain=~yandex.ru
+/[-._?&=#/]track(ers?|ing)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~alipay.com|~analytics.google.com|~fandom.com|~parimatch.ru|~pochta.ru|~yandex.ru|~aliexpress.com
+/[-._?&=#/]vast[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~github.com|~gitlab.com|~twitch.tv
 /\/pi?xe?l?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|x?html?|cgi|php|swf|svg)/$image,important,script,subdocument,xmlhttprequest,domain=~playground.ru|~imgur.com
 /^https?:\/\/[0-1]{5,}\.com/$third-party,important,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/[a-w]{3,4}\.hh\?[a-z]\=[=&0-9a-zA-Z]{8,15}$/$script,subdocument,important
@@ -756,6 +750,11 @@ chrome.google.com#@#+js(mousedef2)
 userload.co#@#+js(addEventListener-defuser, , _0x)
 userload.co#@#+js(noeval-if, click)
 streamtape.*#@#+js(set-constant, towait, 0)
+*$script,redirect-rule=noopjs,domain=windowsmatters.com,badfilter
+windowsmatters.com#@#+js(addEventListener-defuser, load, isBlanketFound)
+phoenixfansub.com#@#+js(no-setTimeout-if, mdp)
+||href.li^$badfilter
+||bitmovin.com^$badfilter
 @@||launches.appsflyer.com^|$badfilter
 *$script,third-party,domain=9xbuddy.org,badfilter
 ||vumoo.to^$csp=child-src *,badfilter
@@ -900,6 +899,7 @@ bitporno.com#@#+js(popads)
 cdn-myhdjav.info#@#+js(abort-on-property-read, jwplayer.utils.Timer)
 cdn-myhdjav.info#@#+js(abort-on-property-read, __Y)
 cdn-myhdjav.info#@#+js(set-constant, globalThis, null)
+|http*:*/player/assets/devtools-detector/$important,script
 cdn-myhdjav.info#@#+js(set-constant, clientSide.adbDetect, noopFunc)
 ||fuck-videos.xxx^$badfilter
 imgadult.com#@#+js(abort-on-property-write, cticodes)
