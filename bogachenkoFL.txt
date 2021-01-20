@@ -733,5 +733,17 @@ freebitco.in###bottom_user_ads_container
 |http*$app=com.adups.fota.sysoper|com.adups.fota,badfilter
 *$xmlhttprequest,domain=vidlox.me,badfilter
 *$xmlhttprequest,third-party,domain=streamtape.xyz,badfilter
-@@||ttvnw.net^$xhr
+@@||ttvnw.net^$xmlhttprequest
+streamta.pe,streamtape.*#@#+js(set-constant, towait, 0)
+streamta.pe,streamtape.*#@#+js(remove-attr, target, #downloadvideo)
+streamta.pe,streamtape.*#@#+js(abort-on-stack-trace, Math.random, /\st\.[a-zA-Z]*\s/)
+www.google.*#@#+js(remove-attr, onmousedown|ping, a[href][onmousedown]\, a[href][ping])
+streanplay.*#@#+js(addEventListener-defuser, , BACK)
+steamplay.*,streamp1ay.*,streamplay.*,streanplay.*,txxx.*,asianclub.*,clipwatching.com,cdn-myhdjav.info,embed.best,embed.media,embedsito.com,fembed.com,feurl.com,gaobook.review,gcloud.live,javcl.me,jplayer.net,luxubu.review,mavplay.com,mavplayer.xyz,novelplanet.me,openplayer.net,playfinder.xyz,playvid.host,playvideo.best,qdembed.com,rubicstreaming.com,svpri.xyz,vaplayer.xyz,videobb.*,weirdmovies.xyz,xstreamcdn.com,zidiplay.com,shameless.com##+js(aopr, jwplayer.utils.Timer)
+streanplay.*#@#+js(set-constant, console.clear, noopFunc)
+streanplay.*#@#+js(set-constant, console.log, noopFunc)
+*$websocket,domain=hqq.to,badfilter
+||playhydrax.com^$badfilter
+||redirect-ads.com^$third-party,badfilter
+||iamcdn.net^$badfilter
 ! TRASH END
