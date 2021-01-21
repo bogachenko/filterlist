@@ -749,4 +749,15 @@ streanplay.*#@#+js(set-constant, console.log, noopFunc)
 aliexpress.ru#@#body:style(overflow: auto !important; padding: 0 !important;)
 aliexpress.ru#@##gdpr:not(body):not(html):not(input)
 aliexpress.ru#@##ae-ru-privacy-banner
+||vidia.tv^$badfilter
+||spankbang.com^$badfilter
+lecourrier-du-soir.com#@#+js(no-setInterval-if, iframe)
+voe.sx#@#+js(abort-on-property-read, rthrthrt)
+voe.sx#@#+js(addEventListener-defuser, , 0x)
+voe.sx#@#+js(abort-current-inline-script, String.fromCharCode, /btoa|break/)
+*$script,3p,denyallow=zencdn.net|voe-network.net|cdnjs.cloudflare.com|hcaptcha.com|recaptcha.net|googleapis.com|sharethis.com|fastly.net|jsdelivr.net|bootstrapcdn.com|jquery.com|hwcdn.net,domain=voe.sx,badfilter
+empregoestagios.com#@#+js(no-setTimeout-if, css_class.show)
+||strdef.world^$badfilter
+*$3p,denyallow=tapecontent.net|google.com|gstatic.com|hcaptcha.com|recaptcha.net,domain=streamtape.*,badfilter
+*$xmlhttprequest,third-party,domain=streamtape.com,badfilter
 ! TRASH END
