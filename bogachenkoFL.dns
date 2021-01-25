@@ -23,8 +23,6 @@
 @@||analytics.google.com^
 @@||analyticsinsights-pa.clients6.google.com^
 @@||analyticssuitefrontend-pa.clients6.google.com^
-@@||fonts.gstatic.com^
-@@||gstatic.com^
 ||2mdn.net^
 ||aaxads.com^
 ||acestream.net^
@@ -52,6 +50,7 @@
 ||purpleads.io^
 ||adnxs.com^
 ||smartclip.net^
+||joinads.me^
 ||adonweb.ru^
 ||adorion.net^
 ||adpod.in^
@@ -117,6 +116,7 @@
 ||browser.pipe.aria.microsoft.com^
 ||bs-meta.yandex.ru^
 ||adtechjp.com^
+||smartyads.com^
 ||bs.yandex.*^
 ||buzzoola.com^
 ||byyd.me^
@@ -130,6 +130,7 @@
 ||client-cdn*.hola.org^
 ||client.hola.org^
 ||client.svd-cdn.com^
+||tubemogul.com^
 ||collect.*.miui.com^
 ||collector-hpn.ghostery.net^
 ||crashdump.spotify.com^
@@ -157,6 +158,7 @@
 ||edge.microsoft.com^
 ||ero-advertising.com^
 ||eroadvertising.com^
+||simpli.fi^
 ||erosyndc.com^
 ||event.shelljacket.us^
 ||exoclick.com^
@@ -187,7 +189,6 @@
 ||googletagmanager.com^
 ||googletagservices.com^
 ||gplayer.kmpmedia.net^
-||gstaticadssl.l.google.com^
 ||id.google.*^
 ||id.l.google.com^
 ||imasdk.googleapis.com^
@@ -232,6 +233,7 @@
 ||popcash.net^
 ||proxy_auth.trigger.hola.org^
 ||pubmatic.com^
+||pubmatic.edgekey.net^
 ||r.mail.ru^
 ||r0.mail.ru^
 ||r2.mail.ru^
@@ -287,6 +289,7 @@
 ||wns.notify.windows.com.akadns.net^
 ||wns.windows.com^
 ||wpnsrv.com^
+||mediamath.com^
 ||www-google-analytics.l.google.com^
 ||www-googleadservices.l.google.com^
 ||www-googletagmanager.l.google.com^
