@@ -620,6 +620,7 @@ youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope > .ytd-she
 ||warning.rt.ru^$document,important
 ||welcome.adguard.com^$document,important
 ||wrongurl.mts.ru^$document,important
+||xvideo.com^$document
 ! DOCUMENT END
 
 ! SUBDOCUMENT START
