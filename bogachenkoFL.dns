@@ -173,7 +173,6 @@
 ||feedback.windows.com^
 ||flex.msn.com^
 ||flurry.com^
-||flurry.com^
 ||footprint.net^
 ||footprintdns.com^
 ||footprintpredict.com^
@@ -218,6 +217,7 @@
 ||mobile.pipe.aria.microsoft.com^
 ||mradx.net^
 ||msads.net^
+||appmetrica.yandex.*^
 ||msitadfs.glbdns2.microsoft.com^
 ||mxtads.com^
 ||my.com^
@@ -292,6 +292,7 @@
 ||weborama.fr^
 ||webvisor.*^
 ||wns.notify.windows.com.akadns.net^
+||crash-reports.mozilla.com^
 ||wns.windows.com^
 ||wpnsrv.com^
 ||mediamath.com^
