@@ -294,6 +294,7 @@ $$script[src="https://www.googletagservices.com/"]
 ||blacklivesmatter.com^$important
 ||brontp.yandex.ru^$important
 ||brozen.yandex.ru^$important
+||appsflyer.com^$important
 ||cackle.me^$important
 ||vk-portal.net^$important
 ||chatbro.com^$important
@@ -745,4 +746,5 @@ office.com##ohp-mobile-app-banner
 @@||www.googleadservices.com^|$badfilter
 @@||googleadapis.l.google.com^|$badfilter
 mexa.sh##div[id*="bidadx_tag"]
+@@||launches.appsflyer.com^|$badfilter
 ! TRASH END

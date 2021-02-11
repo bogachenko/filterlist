@@ -951,6 +951,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 detectportal.firefox.com
 0.0.0.0 incoming.telemetry.mozilla.org
 0.0.0.0 shavar.services.mozilla.com
+0.0.0.0 analysis.telemetry.mozilla.org
+0.0.0.0 telemetry.mozilla.org
 # MOZILLA ALL END
 
 # FACEBOOK ALL START

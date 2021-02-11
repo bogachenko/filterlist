@@ -19,8 +19,7 @@
 ||2mdn.net^
 ||aaxads.com^
 ||abtasty.com^
-||acestream.net^
-||actionpay.ru^
+||actionpay.*^
 ||adbetnetwork.com^
 ||adbreak.ch^
 ||adcalm.com^
@@ -176,8 +175,10 @@
 ||id.google.*^
 ||id.l.google.com^
 ||imasdk.googleapis.com^
+||crashlyticsreports-pa.googleapis.com^
 ||in.appcenter.ms^
 ||inmobi.com^
+||branch.io^
 ||inner-active.com^
 ||instreamatic.com^
 ||jads.co^
