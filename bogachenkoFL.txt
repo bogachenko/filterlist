@@ -311,6 +311,7 @@ $$script[src="https://www.googletagservices.com/"]
 ||doubleclick.net^$important
 ||edge.microsoft.com^$important
 ||event.shelljacket.us^$important
+||pladform.ru^$important
 ||exchange.opera.com^$important
 ||family.microsoft.com^$important
 ||fenek.market.yandex.*^$important
@@ -743,4 +744,5 @@ office.com##ohp-mobile-app-banner
 @@||pagead.l.doubleclick.net^|$badfilter
 @@||www.googleadservices.com^|$badfilter
 @@||googleadapis.l.google.com^|$badfilter
+mexa.sh##div[id*="bidadx_tag"]
 ! TRASH END
