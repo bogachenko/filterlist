@@ -11,6 +11,7 @@
 /^(.+[_.-]?)?re[ck]l?(am[asye]?)?([\d]+)?[_.-]/
 /^(.+[_.-]?)?telemetr(y|i[ec]s)([\d]+)?[_.-]/
 /^(.+[_.-]?)?track(ing|er)([\d]+)?[_.-]/
+/^analyti([\W\w]+)?[_.-]overwolf\.com/
 /^aj[0-9]{4}\.online$/
 /^n[0-9]{2,3}adserv\.com$/
 /^vast([\d]+)?[_.-]/
@@ -80,7 +81,6 @@
 ||an.facebook.com^
 ||an.mail.ru^
 ||an.yandex.*^
-||analyticsnew.overwolf.com^
 ||app-measurement.com^
 ||appbaqend.com^
 ||applovin.com^
