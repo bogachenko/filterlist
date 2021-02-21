@@ -668,7 +668,6 @@ youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope > .ytd-she
 /^https?:\/\/[a-zA-Z.]{15,}\/[\d]+\?[a-z]\=[\d]{5,7}$/$third-party,important,script
 /^https?:\/\/[A-Za-z0-9.-]{6,16}\.[a-z]+\/\?[a-zA-Z0-9]{30,}$/$third-party,important,script
 /^https?:\/\/mail\.yandex\.[\w]+\/[^\s]{120,}/$important,script
-/^https?:\/\/www\.[a-z]{6,16}\.com\/[a-z]{1,4}\.js$/$third-party,important,script
 |http*:*/glp?r=*&rw=*&rh=*&ww=*&wh=$important,script
 |http*:*/glx_*.js$important,script
 |http*:*/invoke.js$important,script
@@ -734,9 +733,7 @@ github.com##.js-comment-container:has([class*="author"][href="/DandelionSprout"]
 @@||www.googleadservices.com^|$badfilter
 freebitco.in###bottom_user_ads_container
 ||yastatic.net/share2/share.js$important
-|https://$script,third-party,domain=~feedback.pornhub.com|~feedback.pornhubthbh7ap3u.onion|pornhub.com|pornhubthbh7ap3u.onion|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com,badfilter
-|http*$app=com.adups.fota.sysoper|com.adups.fota,badfilter
-@@||ttvnw.net^$xmlhttprequestx
+@@||ttvnw.net^$xmlhttprequest
 infourok.ru##div#aa-popup
 www.google.*#@#+js(remove-attr, onmousedown|ping, a[href][onmousedown]\, a[href][ping])
 office.com##ohp-mobile-app-banner
