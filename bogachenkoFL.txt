@@ -732,7 +732,6 @@ github.com##.js-comment-container:has([class*="author"][href="/DandelionSprout"]
 @@||app.adjust.com^|$badfilter
 @@||www.googleadservices.com^|$badfilter
 freebitco.in###bottom_user_ads_container
-||yastatic.net/share2/share.js$important
 @@||ttvnw.net^$xmlhttprequest
 infourok.ru##div#aa-popup
 www.google.*#@#+js(remove-attr, onmousedown|ping, a[href][onmousedown]\, a[href][ping])
@@ -742,6 +741,8 @@ office.com##ohp-mobile-app-banner
 @@||pagead.l.doubleclick.net^|$badfilter
 @@||www.googleadservices.com^|$badfilter
 @@||googleadapis.l.google.com^|$badfilter
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,redirect-rule=nooptext,badfilter
 mexa.sh##div[id*="bidadx_tag"]
 @@||launches.appsflyer.com^|$badfilter
+|http*$app=com.adups.fota.sysoper|com.adups.fota,badfilter
 ! TRASH END
