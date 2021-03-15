@@ -112,6 +112,7 @@
 ||client-cdn*.hola.org^
 ||client.hola.org^
 ||client.svd-cdn.com^
+||sentry-cdn.com^
 ||collect.*.miui.com^
 ||collector-hpn.ghostery.net^
 ||countess.twitch.tv^
@@ -180,6 +181,7 @@
 ||inmobi.com^
 ||branch.io^
 ||inner-active.com^
+||themoneytizer.com^
 ||instreamatic.com^
 ||jads.co^
 ||joinads.me^
