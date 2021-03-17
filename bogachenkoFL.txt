@@ -471,6 +471,7 @@ instagram.com###react-root ~ div[class*=" "][class$=" "][role="presentation"]:ha
 instagram.com##body[style*="overflow: hidden;"]:style(overflow-y: scroll !important;)
 instagram.com##body[style="overflow: hidden;"] > #react-root ~ div[class*=" "][class$=" "][role="presentation"]:has(div:has-text(Войдите, чтобы продолжить))
 kinogo.*,torrent-filmi.xyz,kinoframe.net,filmitorrent.xyz,hdfilms.zone,kinomore.xyz,smotrim.online,xn--h1aafgbicfmhn.xn--p1ai,kinogo2.*,kinogo.appspot.com##body:style(background-image: none !important;)
+yandex.ru##.media-grid_js_inited.font-regular.i-bem.media-grid_theme_white.media-grid_visible_yes.media-grid, .header-favorites-button_js_inited.header-favorites-button
 mail.yandex.ru##.mail-Placeholder-Text, .mail-ThreadSidebar-wrap.ns-view-thread-sidebar-wrap, .mail-MailProAnnouncingPromoLeftColumn
 market.yandex.ru##[href*="fenek.market.yandex.ru"]
 market.yandex.ru##div > [class]:has([data-apiary-widget-name="@MarketNode/FooterHistory"])
@@ -612,6 +613,9 @@ youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope > .ytd-she
 ||wrongurl.mts.ru^$document,important
 ||xvideo.com^$document
 ||yotube.com^$document
+||downloadbrowsernow.com^$document,important
+||galdarael.com^$document,important
+||baxofalis.com^$document,important
 ! DOCUMENT END
 
 ! SUBDOCUMENT START
@@ -730,4 +734,5 @@ office.com##ohp-mobile-app-banner
 mexa.sh##div[id*="bidadx_tag"]
 @@||launches.appsflyer.com^|$badfilter
 |http*$app=com.adups.fota.sysoper|com.adups.fota,badfilter
+||windowspro.ru/universal$important,script
 ! TRASH END
