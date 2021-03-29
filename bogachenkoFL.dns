@@ -11,7 +11,8 @@
 /^(.+[_.-]?)?re[ck]l?(am[asye]?)?([\d]+)?[_.-]/
 /^(.+[_.-]?)?telemetr(y|i[ec]s)([\d]+)?[_.-]/
 /^(.+[_.-]?)?track(ing|er)([\d]+)?[_.-]/
-/^analyti([\W\w]+)?[_.-]overwolf\.com/
+/^analyti([\W\w]+)?\.overwolf\.com/
+/^metric[as]\.spbtv\.com/
 /^aj[0-9]{4}\.online$/
 /^n[0-9]{2,3}adserv\.com$/
 /^vast([\d]+)?[_.-]/
@@ -21,7 +22,9 @@
 ||aaxads.com^
 ||abtasty.com^
 ||actionpay.*^
+||bugsnag.com^
 ||adbetnetwork.com^
+||tafimedia.com^
 ||adbreak.ch^
 ||adcalm.com^
 ||adcolony.com^
