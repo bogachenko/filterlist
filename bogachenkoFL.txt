@@ -658,7 +658,7 @@ youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope > .ytd-she
 ! SCRIPT END
 
 ! XMLHTTPREQUEST START
-/^https?:\/\/[0-9a-z]{11,20}.*.com\/.*/$third-party,important,xmlhttprequest,domain=~aliexpress.com|~aliexpress.ru|~mts.ru
+/^https?:\/\/[0-9a-z]{11,20}.*.com\/.*/$third-party,important,xmlhttprequest,domain=~aliexpress.com|~aliexpress.ru|~mts.ru|~ninjastream.to
 /^https?:\/\/[^\s]+(\.wasm|\.wsm|\.wa)$/$important,xmlhttprequest,domain=~twitch.tv
 |http*:*/channels/*/extensions$important,xmlhttprequest,domain=twitch.tv
 ||addons.opera.com/themes/$important,xmlhttprequest
@@ -724,4 +724,5 @@ mexa.sh##div[id*="bidadx_tag"]
 |http*$app=com.adups.fota.sysoper|com.adups.fota,badfilter
 ||windowspro.ru/universal$important,script
 freehat.cc##[class*="anons-"], .sb-block_tp_social.sb-block, #player-switcher, #footer, .episode-quest-link
+/player/assets/devtools-detector/$script
 ! TRASH END
