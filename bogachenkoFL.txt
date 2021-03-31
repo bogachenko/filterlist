@@ -725,4 +725,5 @@ mexa.sh##div[id*="bidadx_tag"]
 ||windowspro.ru/universal$important,script
 freehat.cc##[class*="anons-"], .sb-block_tp_social.sb-block, #player-switcher, #footer, .episode-quest-link
 /player/assets/devtools-detector/$script
+temp-mail.org##.topStickyBanner
 ! TRASH END
