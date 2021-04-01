@@ -458,6 +458,7 @@ infourok.ru##+js(js-rm.js, yaCounter)
 ! SCRIPTLET END
 
 ! Cascading Style Sheets (CSS) START
+##[id*="div-gpt-ad"]
 ##iframe[src*="amazon-adsystem.com"]
 ##iframe[src*="awaps.yandex.net"]
 ##iframe[src*="imasdk.googleapis.com"]
