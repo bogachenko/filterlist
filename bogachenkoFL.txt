@@ -556,6 +556,7 @@ youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope > .ytd-she
 ||ali.pub^$document,important
 ||autonomiq.io/chropath/uninstall/$document,important
 ||bigbetclub.com^$document,important
+||microsoftedgewelcome.microsoft.com^$document,important
 ||rt.com^$document
 ||githib.com^$document
 ||blocked.mts.ru^$document,important

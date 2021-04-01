@@ -18,6 +18,7 @@
 /^vast([\d]+)?[_.-]/
 /^[aes][1-5]\.acestream\.net$/
 /^[aes][1-5]\.torrentstream\.(info|net|org)$/
+/^[a-z]{2,3}video\.xyz$/
 ||2mdn.net^
 ||aaxads.com^
 ||abtasty.com^
