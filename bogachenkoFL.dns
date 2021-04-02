@@ -19,11 +19,14 @@
 /^[aesrstm]{1,2}[1-5]?\.acestream\.net$/
 /^[aes][1-5]\.torrentstream\.(info|net|org)$/
 /^[a-z]{2,3}video\.xyz$/
+/^(www\.)?admob\.[a-z.]{2,5}$/
 ||2mdn.net^
 ||aaxads.com^
 ||abtasty.com^
 ||actionpay.*^
 ||bugsnag.com^
+||alexametrics.com^
+||admob.com.akadns.net^
 ||kost.tv^
 ||adbetnetwork.com^
 ||tafimedia.com^
@@ -49,6 +52,10 @@
 ||adnexus.net^
 ||adnxs.com^
 ||adonweb.ru^
+||appboy.com^
+||appnext.com^
+||appodeal.com^
+||adk2x.com^
 ||adorion.net^
 ||adpia.vn^
 ||adpod.in^
@@ -96,6 +103,7 @@
 ||applvn.com^
 ||appmetrica.yandex.*^
 ||appsflyer.com^
+||supersonicads.com^
 ||adro.pro^
 ||appstatic.opera.com^
 ||atdmt.com^
@@ -295,6 +303,7 @@
 ||tubemogul.com^
 ||vastserved.com^
 ||batmobi.net^
+||applift.com^
 ||vdopia.com^
 ||video-stats.l.google.com^
 ||videoroll.net^
