@@ -14,9 +14,9 @@
 /^analyti([\W\w]+)?\.overwolf\.com/
 /^metric[as]\.spbtv\.com/
 /^aj[0-9]{4}\.online$/
-/^n[0-9]{2,3}adserv\.com$/
+/^n[0-9]{2,4}adserv\.\w+$/
 /^vast([\d]+)?[_.-]/
-/^[aes][1-5]\.acestream\.net$/
+/^[aesrstm]{1,2}[1-5]?\.acestream\.net$/
 /^[aes][1-5]\.torrentstream\.(info|net|org)$/
 /^[a-z]{2,3}video\.xyz$/
 ||2mdn.net^
@@ -24,6 +24,7 @@
 ||abtasty.com^
 ||actionpay.*^
 ||bugsnag.com^
+||kost.tv^
 ||adbetnetwork.com^
 ||tafimedia.com^
 ||adbreak.ch^
@@ -95,6 +96,7 @@
 ||applvn.com^
 ||appmetrica.yandex.*^
 ||appsflyer.com^
+||adro.pro^
 ||appstatic.opera.com^
 ||atdmt.com^
 ||awaps.yandex.*^
@@ -216,6 +218,7 @@
 ||moatads.com^
 ||mobile.pipe.aria.microsoft.com^
 ||mradx.net^
+||yandexadexchange.net^
 ||msads.net^
 ||msitadfs.glbdns2.microsoft.com^
 ||mxtads.com^
@@ -291,6 +294,7 @@
 ||trafficjunky.*^
 ||tubemogul.com^
 ||vastserved.com^
+||batmobi.net^
 ||vdopia.com^
 ||video-stats.l.google.com^
 ||videoroll.net^
