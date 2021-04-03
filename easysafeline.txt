@@ -64,9 +64,8 @@ healthy4pepole.com##+js(nano-sib)
 forex9c.com##.navbar-default.navbar,.text-left,footer
 
 ! https://100count.net/fo/linko/KE9BFr?verif=tjVtt
-100count.net##div.text-center.py-2.col-md-12,.text-left,div.text-center.col-md-12,polygon,footer,#cookie-pop,.navbar
+100count.net##div.text-center.py-2.col-md-12,.text-left,div.text-center.col-md-12,polygon,footer,#cookie-pop,.navbar,center > font > p,#methods h1,h4,h5,p,h2,h1,hr,.banner-inner
 100count.net##+js(nano-sib, /sec--|timedisplay--/)
-100count.net##center > font > p,#methods h1,h4,h5,p,h2,h1,hr
 
 ! https://owllink.net/yIPu71
 owllink.net##.navbar,.text-left,.copyright-container,[src*="//ad.a-ads.com/"]
@@ -127,9 +126,8 @@ deportealdia.live##body > .col-md-12,header,.row > .container > .row > .col-md-o
 deportealdia.live##+js(nano-sib, , 1200, 0)
 
 ! https://blog.crazyblog.in/step1/DgOvkJQL
-crazyblog.in##div.text-center.py-2.col-md-12,.text-left,div.text-center.col-md-12,polygon,footer,#cookie-pop,.navbar
+crazyblog.in##div.text-center.py-2.col-md-12,.text-left,div.text-center.col-md-12,polygon,footer,#cookie-pop,.navbar,center > font > p,#methods h1,h4,h5,p,h2,h1,hr,.banner-inner
 crazyblog.in##+js(nano-sib, /sec--|timedisplay--/)
-crazyblog.in##center > font > p,#methods h1,h4,h5,p,h2,h1,hr,.banner-inner
 
 ! https://dogecoin.click/H5el
 dogecoin.click##+js(nano-sib)
@@ -138,6 +136,16 @@ dogecoin.click##div.card-block.card-body:last-child,hr,section > center,.card-he
 ! https://shortbled.com/bXlK
 shortbled.com##.navbar,.banner-inner,#cookie-pop,.text-left,footer
 
+! https://doctor-groups.com/claim2/link/TdqHo
+doctor-groups.com##div.text-center.py-2.col-md-12,.text-left,div.text-center.col-md-12,polygon,footer,#cookie-pop,.navbar,center > font > p,#methods h1,h4,h5,p,h2,h1,hr,.banner-inner
+doctor-groups.com##+js(nano-sib, /sec--|timedisplay--/)
+
+! https://crypto-faucet.xyz/claim/link/TdqHo
+crypto-faucet.xyz##div.text-center.py-2.col-md-12,.text-left,div.text-center.col-md-12,polygon,footer,#cookie-pop,.navbar,center > font > p,#methods h1,h4,h5,p,h2,h1,hr,.banner-inner
+crypto-faucet.xyz##+js(nano-sib, /sec--|timedisplay--/)
+
+! https://earnflies.com/4DX1VEA
+earnflies.com##[src*=".a-ads.com/"],.navbar,.text-left,footer,#cookie-pop
 
 adsy.pw##+js(nano-sib)
 cuturl.cc##+js(nano-sib)
