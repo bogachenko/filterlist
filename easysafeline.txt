@@ -1,10 +1,45 @@
 ! Title: Easy Safelink
 ! Homepage: https://github.com/bogachenko/filterlist
+! Description: Personal list of cosmetic filters for safelink-sites.
+! Expires: 3 hours
+
+! FYI: To remove pop-up windows - install Fuck FuckAdblock <https://github.com/bogachenko/fuckfuckadblock>.
+! Many of the sites listed below contain aggressive advertising, tracking and mining,
+! so it is NOT recommended to open them if you do not know what you are doing.
 
 ! https://freecrypto.cyou/GPnQAB
 freecrypto.cyou##+js(nano-sib, timer, 1000)
 freecrypto.cyou##.text-left,footer,.banner-inner,.navbar
 ||freecrypto.cyou^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' google.com *.gstatic.com *.recaptcha.net;
+
+! https://www.speedsatoshi.com/
+speedsatoshi.com##a[href^="https://www.bitgame.com/"] > [src]
+
+! https://seg-ashort1a-ma.tk/Er/QoQg
+||seg-ashort1a-ma.tk^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' google.com *.gstatic.com *.recaptcha.net code.jquery.com; frame-src 'self' data: *.google.com;
+seg-ashort1a-ma.tk##.text-left,.main-footer,.textfk,.main-header,.sidenav_left,[src*="//ad.a-ads.com/"]
+
+! https://idea4cash.com/
+idea4cash.com##+js(nano-sib)
+||idea4cash.com^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' shrtbtc.com;
+idea4cash.com##.main-header,.main-footer,td
+
+! https://bestmoneysites.com/
+bestmoneysites.com##+js(nano-sib)
+bestmoneysites.com##.main-header,.main-footer,td
+||bestmoneysites.com^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.cloudflare.com *.jquery.com shrtbtc.com;
+
+! https://best18vd.com/
+best18vd.com##+js(nano-sib)
+||best18vd.com^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' shrtbtc.com;
+best18vd.com##.main-header,.main-footer,td,.wrapper > center
+
+! ​https://shrtbtc.com/t9BFlN6p?av=AsL5S2goJh​​​​​
+shrtbtc.com##+js(nano-sib)
+||shrtbtc.com^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval';
+shrtbtc.com##.main-footer,.main-header,center:last-child,td
+
+! https://topcryptoz.net/?link=8ANRNU
 
 adsy.pw##+js(nano-sib)
 cuturl.cc##+js(nano-sib)
