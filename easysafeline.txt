@@ -3,8 +3,10 @@
 
 ! https://freecrypto.cyou/GPnQAB
 freecrypto.cyou##+js(nano-sib, timer, 1000)
+freecrypto.cyou##.text-left,footer,.banner-inner,.navbar
+||freecrypto.cyou^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' google.com *.gstatic.com *.recaptcha.net;
 
-adsy.pw
-cuturl.cc
-1bit.space
+adsy.pw##+js(nano-sib)
+cuturl.cc##+js(nano-sib)
+1bit.space##+js(nano-sib)
 1bitspace.com##+js(nano-sib)
