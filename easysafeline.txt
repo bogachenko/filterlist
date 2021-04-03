@@ -99,6 +99,59 @@ exe.app##.text-center ~ p,#footer,.text-center
 cutw.in##footer,#cookie-pop,.navbar,.text-left
 ||cutw.in^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.gstatic.com *.google.com *.recaptcha.net local.adguard.org injections.adguard.org; frame-src *.google.com;
 
+! https://tmearn.com/c4lnc
+tmearn.com##.navbar,.text-left,footer
+||tmearn.com^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.gstatic.com *.google.com *.recaptcha.net local.adguard.org injections.adguard.org; frame-src *.google.com;
+
+! https://cutpaid.com/wpebPOn
+cutpaid.com##.navbar,.text-left,footer
+||cutpaid.com^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.gstatic.com *.google.com *.recaptcha.net local.adguard.org injections.adguard.org; frame-src *.google.com;
+
+! https://aii.sh/mvMF0z8
+aii.sh##.navbar,.text-left,footer
+||aii.sh^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.gstatic.com *.google.com *.recaptcha.net local.adguard.org injections.adguard.org; frame-src *.google.com;
+
+! https://shortenbuddy.com/F9QALLJ
+shortenbuddy.com##[src*=".a-ads.com"],.custom-adspace.col,.navbar,.text-left,footer,#cookie-pop
+||shortenbuddy.com^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.gstatic.com *.google.com *.recaptcha.net local.adguard.org injections.adguard.org; frame-src *.google.com;
+
+! https://techgeek.digital/2021/01/17/whatsapp-se-defiende-por-sus-nuevas-condiciones-de-uso/
+||techgeek.digital^$csp=script-src 'self' data: 'unsafe-inline' * 'unsafe-eval' *.gstatic.com *.google.com *.recaptcha.net local.adguard.org injections.adguard.org adshort.live; frame-src *.google.com;
+techgeek.digital##body > .col-md-12,header
+techgeek.digital##+js(nano-sib, , 1200, 0)
+
+! https://linkmit.us/HqdEIC
+linkmit.us##.navbar,.text-left,footer
+||linkmit.us^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.gstatic.com *.google.com *.recaptcha.net local.adguard.org injections.adguard.org; frame-src *.google.com;
+linkmit.us##.text-center.box-body > center,#cookie-pop,hr
+
+! https://profitlink.info/ifr9jPoG
+profitlink.info##.navbar,.text-left,footer
+||profitlink.info^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.gstatic.com *.google.com *.recaptcha.net local.adguard.org injections.adguard.org *.cloudflare.com; frame-src *.google.com;
+profitlink.info##.text-center.box-body > center,#cookie-pop,hr
+
+! https://fc.lc/0IFzyVr
+||fc.lc^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.gstatic.com *.google.com *.recaptcha.net local.adguard.org injections.adguard.org; frame-src *.google.com;
+
+! https://fcc.lc/2020/06/link-building-strategies-to-boost-your-business-site/
+||fcc.lc^$csp=script-src 'self' data: 'unsafe-inline' * 'unsafe-eval' *.gstatic.com *.google.com *.recaptcha.net local.adguard.org injections.adguard.org; frame-src *.google.com;
+fcc.lc##.site-logo,p,#footer,h2.text-center
+
+! https://adsafelink.com/R5SQds2uN
+||adsafelink.com^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.gstatic.com *.google.com *.recaptcha.net local.adguard.org injections.adguard.org bootstrapcdn.com; frame-src *.google.com;
+adsafelink.com##footer,.container-fluid,.text-left,.navbar
+
+! https://za.gl/m85USe
+||za.gl^$csp=script-src 'self' data: 'unsafe-inline' * 'unsafe-eval' *.gstatic.com *.google.com *.recaptcha.net local.adguard.org injections.adguard.org; frame-src *.google.com;
+za.gl##footer,.container-fluid,.text-left,.navbar,.banner-inner
+
+! https://axuur.com/0LpvT
+||axuur.com^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.gstatic.com *.google.com *.recaptcha.net local.adguard.org injections.adguard.org; frame-src *.google.com;
+axuur.com##.faq,footer,.r-bg,.banner-inner,.short,.navbar
+
+! https://kekolink.com/gNET
+||kekolink.com^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.gstatic.com *.google.com *.recaptcha.net local.adguard.org injections.adguard.org; frame-src *.google.com;
+kekolink.com##.faq,footer,.r-bg,.banner-inner,.short,.navbar,h3,div>p
 
 adsy.pw##+js(nano-sib)
 cuturl.cc##+js(nano-sib)
