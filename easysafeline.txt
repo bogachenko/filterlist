@@ -4,8 +4,6 @@
 ! Expires: 3 hours
 
 ! FYI: To remove pop-up windows - install Fuck FuckAdblock <https://github.com/bogachenko/fuckfuckadblock>.
-! Many of the sites listed below contain aggressive advertising, tracking and mining,
-! so it is NOT recommended to open them if you do not know what you are doing.
 
 ! https://freecrypto.cyou/GPnQAB
 freecrypto.cyou##+js(nano-sib, timer, 1000)
@@ -34,12 +32,59 @@ best18vd.com##+js(nano-sib)
 ||best18vd.com^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' shrtbtc.com;
 best18vd.com##.main-header,.main-footer,td,.wrapper > center
 
-! ​https://shrtbtc.com/t9BFlN6p?av=AsL5S2goJh​​​​​
+! https://shrtbtc.com/t9BFlN6p?av=AsL5S2goJh
 shrtbtc.com##+js(nano-sib)
 ||shrtbtc.com^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval';
 shrtbtc.com##.main-footer,.main-header,center:last-child,td
 
 ! https://topcryptoz.net/?link=8ANRNU
+topcryptoz.net##.pum-active.click_open,.clr.minimal-header,#right-sidebar > .clr,#main > .clr.container,.site-footer,#top-bar-wrap
+||topcryptoz.net^$csp=script-src 'self' data: 'unsafe-inline' * 'unsafe-eval';
+topcryptoz.net##+js(nano-sib)
+|http*:*/api/spots/*&ev$script,domain=topcryptoz.net
+
+! https://allcryptoz.net/?link=8ANRNU
+allcryptoz.net##.pum-active.click_open,.clr.minimal-header,#right-sidebar > .clr,#main > .clr.container,.site-footer,#top-bar-wrap
+||allcryptoz.net^$csp=script-src 'self' data: 'unsafe-inline' * 'unsafe-eval';
+allcryptoz.net##+js(nano-sib)
+|http*:*/api/spots/*&ev$script,domain=allcryptoz.net
+
+! https://freebitcoin.vip/claim/
+freebitcoin.vip##+js(nano-sib)
+freebitcoin.vip##div.card-block.card-body:last-child,hr,section > center,.card-head,div.col-sm-4 > .mt-2.card1
+||freebitcoin.vip^$csp=script-src 'self' data: 'unsafe-inline' * 'unsafe-eval'; frame-src 'none';
+
+! https://freelitecoin.vip/claim/
+freelitecoin.vip##+js(nano-sib)
+freelitecoin.vip##div.card-block.card-body:last-child,hr,section > center,.card-head,div.col-sm-4 > .mt-2.card1
+||freelitecoin.vip^$csp=script-src 'self' data: 'unsafe-inline' * 'unsafe-eval'; frame-src 'none';
+
+! https://bigb0ss.net/rFiRmnLo/5/e4282e8048409fc9a4667c89fda21a28
+bigb0ss.net##div.card-block.card-body:last-child,hr,section > center,.card-head,div.col-sm-4 > .mt-2.card1,.navbar-default.navbar,footer,body > div > div > a,.text-left,.Container > .row,body > div:first-child
+||bigb0ss.net^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.gstatic.com *.google.com *.recaptcha.net; frame-src *.google.com;
+
+! https://mobi2c.com/xiaomi-redmi-9-phone-review/?link=IKcoC&done=1617462754&ob=aHR0cHM6Ly9oZWFsdGh5NHBlcG9sZS5jb20vP3A9MzAzJmxpbms9SUtjb0MmZG9uZT0xNjE3NDYyNzU0
+mobi2c.com##.demand-supply,.site-footer,.content-container,.site-header
+mobi2c.com##+js(nano-sib)
+||mobi2c.com^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval';
+
+! https://healthy4pepole.com/the-causes-of-the-appearance-of-wrinkles-and-methods-of-treatment/?link=IKcoC&done=1617462754
+healthy4pepole.com##.demand-supply,.site-footer,.content-container,.site-header
+||healthy4pepole.com^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval';
+healthy4pepole.com##+js(nano-sib)
+
+! https://forex9c.com/fRZToEx?done=1617463268
+forex9c.com##.navbar-default.navbar,.text-left,footer
+||forex9c.com^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.gstatic.com *.recaptcha.net;
+
+! https://100count.net/fo/linko/KE9BFr?verif=tjVtt
+||100count.net^$csp=script-src 'self' data: 'unsafe-inline' * 'unsafe-eval' *.gstatic.com *.google.com; frame-src *.google.com;
+100count.net##div.text-center.py-2.col-md-12,.text-left,div.text-center.col-md-12,polygon,footer,#cookie-pop,.navbar
+100count.net##+js(nano-sib, /sec--|timedisplay--/)
+100count.net##center > font > p,#methods h1,h4,h5,p,h2,h1,hr
+
+
+
 
 adsy.pw##+js(nano-sib)
 cuturl.cc##+js(nano-sib)
