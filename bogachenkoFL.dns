@@ -11,6 +11,7 @@
 /^(.+[_.-]?)?re[ck]l?(am[asye]?)?([\d]+)?[_.-]/
 /^(.+[_.-]?)?telemetr(y|i[ec]s)([\d]+)?[_.-]/
 /^(.+[_.-]?)?track(ing|er)([\d]+)?[_.-]/
+/^beacons?\./
 /^(www\.)?admob\.[a-z.]{2,5}$/
 /^aj[0-9]{4}\.online$/
 /^analyti([\W\w]+)?\.overwolf\.com/
@@ -49,6 +50,7 @@
 ||adonweb.ru^
 ||adorion.net^
 ||adpia.vn^
+||sentry.io^
 ||adpod.in^
 ||adprofits.ru^
 ||adrelayer.com^
