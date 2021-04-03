@@ -78,7 +78,7 @@ forex9c.com##.navbar-default.navbar,.text-left,footer
 ||forex9c.com^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.gstatic.com *.google.com *.recaptcha.net local.adguard.org injections.adguard.org; frame-src *.google.com;
 
 ! https://100count.net/fo/linko/KE9BFr?verif=tjVtt
-||100count.net^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.gstatic.com *.google.com *.recaptcha.net local.adguard.org injections.adguard.org; frame-src *.google.com;
+||100count.net^$csp=script-src 'self' data: 'unsafe-inline' * 'unsafe-eval' *.gstatic.com *.google.com *.recaptcha.net local.adguard.org injections.adguard.org; frame-src *.google.com;
 100count.net##div.text-center.py-2.col-md-12,.text-left,div.text-center.col-md-12,polygon,footer,#cookie-pop,.navbar
 100count.net##+js(nano-sib, /sec--|timedisplay--/)
 100count.net##center > font > p,#methods h1,h4,h5,p,h2,h1,hr
@@ -152,6 +152,15 @@ axuur.com##.faq,footer,.r-bg,.banner-inner,.short,.navbar
 ! https://kekolink.com/gNET
 ||kekolink.com^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.gstatic.com *.google.com *.recaptcha.net local.adguard.org injections.adguard.org; frame-src *.google.com;
 kekolink.com##.faq,footer,.r-bg,.banner-inner,.short,.navbar,h3,div>p
+
+! https://neonlink.net/ipGvPU5
+||neonlink.net^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.gstatic.com *.google.com *.recaptcha.net local.adguard.org injections.adguard.org; frame-src *.google.com;
+neonlink.net##.navbar,[src*=".a-ads.com/"],.copyright,.text-left,.list-inline,.copyright-container
+
+! https://deportealdia.live/
+||deportealdia.live^$csp=script-src 'self' data: 'unsafe-inline' * 'unsafe-eval' *.gstatic.com *.google.com *.recaptcha.net local.adguard.org injections.adguard.org adshort.live; frame-src *.google.com;
+deportealdia.live##body > .col-md-12,header,.row > .container > .row > .col-md-offset-1.col-md-10 > .skip-container
+deportealdia.live##+js(nano-sib, , 1200, 0)
 
 adsy.pw##+js(nano-sib)
 cuturl.cc##+js(nano-sib)
