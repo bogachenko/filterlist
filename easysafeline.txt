@@ -8,82 +8,96 @@
 ! https://freecrypto.cyou/GPnQAB
 freecrypto.cyou##+js(nano-sib, timer, 1000)
 freecrypto.cyou##.text-left,footer,.banner-inner,.navbar
-||freecrypto.cyou^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' google.com *.gstatic.com *.recaptcha.net;
+||freecrypto.cyou^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' google.com *.gstatic.com *.recaptcha.net local.adguard.org injections.adguard.org;
 
 ! https://www.speedsatoshi.com/
 speedsatoshi.com##a[href^="https://www.bitgame.com/"] > [src]
 
 ! https://seg-ashort1a-ma.tk/Er/QoQg
-||seg-ashort1a-ma.tk^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' google.com *.gstatic.com *.recaptcha.net code.jquery.com; frame-src 'self' data: *.google.com;
+||seg-ashort1a-ma.tk^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' google.com *.gstatic.com *.recaptcha.net code.jquery.com local.adguard.org injections.adguard.org; frame-src 'self' data: *.google.com;
 seg-ashort1a-ma.tk##.text-left,.main-footer,.textfk,.main-header,.sidenav_left,[src*="//ad.a-ads.com/"]
 
 ! https://idea4cash.com/
 idea4cash.com##+js(nano-sib)
-||idea4cash.com^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' shrtbtc.com;
+||idea4cash.com^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' shrtbtc.com local.adguard.org injections.adguard.org;
 idea4cash.com##.main-header,.main-footer,td
 
 ! https://bestmoneysites.com/
 bestmoneysites.com##+js(nano-sib)
 bestmoneysites.com##.main-header,.main-footer,td
-||bestmoneysites.com^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.cloudflare.com *.jquery.com shrtbtc.com;
+||bestmoneysites.com^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.cloudflare.com *.jquery.com shrtbtc.com local.adguard.org injections.adguard.org;
 
 ! https://best18vd.com/
 best18vd.com##+js(nano-sib)
-||best18vd.com^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' shrtbtc.com;
+||best18vd.com^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' shrtbtc.com local.adguard.org injections.adguard.org;
 best18vd.com##.main-header,.main-footer,td,.wrapper > center
 
 ! https://shrtbtc.com/t9BFlN6p?av=AsL5S2goJh
 shrtbtc.com##+js(nano-sib)
-||shrtbtc.com^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval';
+||shrtbtc.com^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' local.adguard.org injections.adguard.org;
 shrtbtc.com##.main-footer,.main-header,center:last-child,td
 
 ! https://topcryptoz.net/?link=8ANRNU
 topcryptoz.net##.pum-active.click_open,.clr.minimal-header,#right-sidebar > .clr,#main > .clr.container,.site-footer,#top-bar-wrap
-||topcryptoz.net^$csp=script-src 'self' data: 'unsafe-inline' * 'unsafe-eval';
+||topcryptoz.net^$csp=script-src 'self' data: 'unsafe-inline' * 'unsafe-eval' local.adguard.org injections.adguard.org;
 topcryptoz.net##+js(nano-sib)
 |http*:*/api/spots/*&ev$script,domain=topcryptoz.net
 
 ! https://allcryptoz.net/?link=8ANRNU
 allcryptoz.net##.pum-active.click_open,.clr.minimal-header,#right-sidebar > .clr,#main > .clr.container,.site-footer,#top-bar-wrap
-||allcryptoz.net^$csp=script-src 'self' data: 'unsafe-inline' * 'unsafe-eval';
+||allcryptoz.net^$csp=script-src 'self' data: 'unsafe-inline' * 'unsafe-eval' local.adguard.org injections.adguard.org;
 allcryptoz.net##+js(nano-sib)
 |http*:*/api/spots/*&ev$script,domain=allcryptoz.net
 
 ! https://freebitcoin.vip/claim/
 freebitcoin.vip##+js(nano-sib)
 freebitcoin.vip##div.card-block.card-body:last-child,hr,section > center,.card-head,div.col-sm-4 > .mt-2.card1
-||freebitcoin.vip^$csp=script-src 'self' data: 'unsafe-inline' * 'unsafe-eval'; frame-src 'none';
+||freebitcoin.vip^$csp=script-src 'self' data: 'unsafe-inline' * 'unsafe-eval' local.adguard.org injections.adguard.org; frame-src 'none';
 
 ! https://freelitecoin.vip/claim/
 freelitecoin.vip##+js(nano-sib)
 freelitecoin.vip##div.card-block.card-body:last-child,hr,section > center,.card-head,div.col-sm-4 > .mt-2.card1
-||freelitecoin.vip^$csp=script-src 'self' data: 'unsafe-inline' * 'unsafe-eval'; frame-src 'none';
+||freelitecoin.vip^$csp=script-src 'self' data: 'unsafe-inline' * 'unsafe-eval' local.adguard.org injections.adguard.org; frame-src 'none';
 
 ! https://bigb0ss.net/rFiRmnLo/5/e4282e8048409fc9a4667c89fda21a28
 bigb0ss.net##div.card-block.card-body:last-child,hr,section > center,.card-head,div.col-sm-4 > .mt-2.card1,.navbar-default.navbar,footer,body > div > div > a,.text-left,.Container > .row,body > div:first-child
-||bigb0ss.net^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.gstatic.com *.google.com *.recaptcha.net; frame-src *.google.com;
+||bigb0ss.net^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.gstatic.com *.google.com *.recaptcha.net local.adguard.org injections.adguard.org; frame-src *.google.com;
 
 ! https://mobi2c.com/xiaomi-redmi-9-phone-review/?link=IKcoC&done=1617462754&ob=aHR0cHM6Ly9oZWFsdGh5NHBlcG9sZS5jb20vP3A9MzAzJmxpbms9SUtjb0MmZG9uZT0xNjE3NDYyNzU0
 mobi2c.com##.demand-supply,.site-footer,.content-container,.site-header
 mobi2c.com##+js(nano-sib)
-||mobi2c.com^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval';
+||mobi2c.com^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' local.adguard.org injections.adguard.org;
 
 ! https://healthy4pepole.com/the-causes-of-the-appearance-of-wrinkles-and-methods-of-treatment/?link=IKcoC&done=1617462754
 healthy4pepole.com##.demand-supply,.site-footer,.content-container,.site-header
-||healthy4pepole.com^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval';
+||healthy4pepole.com^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' local.adguard.org injections.adguard.org;
 healthy4pepole.com##+js(nano-sib)
 
 ! https://forex9c.com/fRZToEx?done=1617463268
 forex9c.com##.navbar-default.navbar,.text-left,footer
-||forex9c.com^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.gstatic.com *.recaptcha.net;
+||forex9c.com^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.gstatic.com *.google.com *.recaptcha.net local.adguard.org injections.adguard.org; frame-src *.google.com;
 
 ! https://100count.net/fo/linko/KE9BFr?verif=tjVtt
-||100count.net^$csp=script-src 'self' data: 'unsafe-inline' * 'unsafe-eval' *.gstatic.com *.google.com; frame-src *.google.com;
+||100count.net^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.gstatic.com *.google.com *.recaptcha.net local.adguard.org injections.adguard.org; frame-src *.google.com;
 100count.net##div.text-center.py-2.col-md-12,.text-left,div.text-center.col-md-12,polygon,footer,#cookie-pop,.navbar
 100count.net##+js(nano-sib, /sec--|timedisplay--/)
 100count.net##center > font > p,#methods h1,h4,h5,p,h2,h1,hr
 
+! https://owllink.net/yIPu71
+owllink.net##.navbar,.text-left,.copyright-container,[src*="//ad.a-ads.com/"]
+||owllink.net^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.gstatic.com *.google.com *.recaptcha.net local.adguard.org injections.adguard.org; frame-src *.google.com;
 
+! http://genpassword.top/XSmSm
+genpassword.top##.navbar,.text-left,footer,.linkissafe
+||genpassword.top^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.gstatic.com *.google.com *.recaptcha.net local.adguard.org injections.adguard.org; frame-src *.google.com;
+
+! https://exe.app/O6EdD2mt
+||exe.app^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.gstatic.com *.google.com *.cloudflare.com *.recaptcha.net; frame-src *.google.com;
+exe.app##.text-center ~ p,#footer,.text-center
+
+! https://cutw.in/b1m31Wa
+cutw.in##footer,#cookie-pop,.navbar,.text-left
+||cutw.in^$csp=script-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.gstatic.com *.google.com *.recaptcha.net local.adguard.org injections.adguard.org; frame-src *.google.com;
 
 
 adsy.pw##+js(nano-sib)
