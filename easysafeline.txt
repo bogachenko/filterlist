@@ -1,0 +1,10 @@
+! Title: Easy Safelink
+! Homepage: https://github.com/bogachenko/filterlist
+
+! https://freecrypto.cyou/GPnQAB
+freecrypto.cyou##+js(nano-sib, timer, 1000)
+
+adsy.pw
+cuturl.cc
+1bit.space
+1bitspace.com##+js(nano-sib)
