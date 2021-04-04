@@ -27,9 +27,11 @@
 ||actionpay.*^
 ||adbetnetwork.com^
 ||adbreak.ch^
+||raygun.com^
 ||adcalm.com^
 ||adclerks.com^
 ||adcolony.com^
+||rollbar.com^
 ||adeventtracker.spotify.com^
 ||adform.net^
 ||adfox.ru^
@@ -61,7 +63,7 @@
 ||adserved.net^
 ||adservice.google.*^
 ||adservice.l.google.com^
-||adskeeper.co.uk^
+||elmah.io^
 ||adspeed.com^
 ||adsrefundattempts.com^
 ||adsrvr.org^
@@ -163,6 +165,7 @@
 ||edge.microsoft.com^
 ||ero-advertising.com^
 ||eroadvertising.com^
+||samebug.io^
 ||erosyndc.com^
 ||event.shelljacket.us^
 ||exoclick.com^
