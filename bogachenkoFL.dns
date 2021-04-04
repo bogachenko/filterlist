@@ -11,10 +11,10 @@
 /^(.+[_.-]?)?re[ck]l?(am[asye]?)?([\d]+)?[_.-]/
 /^(.+[_.-]?)?telemetr(y|i[ec]s)([\d]+)?[_.-]/
 /^(.+[_.-]?)?track(ing|er)([\d]+)?[_.-]/
-/^beacons?\./
 /^(www\.)?admob\.[a-z.]{2,5}$/
 /^aj[0-9]{4}\.online$/
 /^analyti([\W\w]+)?\.overwolf\.com/
+/^beacons?([\d]+)?[_.-]/
 /^metric[as]\.spbtv\.com/
 /^n[0-9]{2,4}adserv\.\w+$/
 /^vast([\d]+)?[_.-]/
@@ -39,6 +39,7 @@
 ||adj.st^
 ||adjust.*^
 ||adk2x.com^
+||adleads.com^
 ||adlightning.com^
 ||admicro.*^
 ||admitad.com^
@@ -50,7 +51,6 @@
 ||adonweb.ru^
 ||adorion.net^
 ||adpia.vn^
-||sentry.io^
 ||adpod.in^
 ||adprofits.ru^
 ||adrelayer.com^
@@ -269,6 +269,7 @@
 ||sec.*.miui.com^
 ||sec.miui.com^
 ||sentry-cdn.com^
+||sentry.io^
 ||serving-sys.com^
 ||simpli.fi^
 ||smaato.com^
@@ -314,7 +315,6 @@
 ||voodoo.io^
 ||vungle.com^
 ||watson.live.com^
-||adleads.com^
 ||watson.microsoft.com^
 ||weborama.fr^
 ||webvisor.*^
