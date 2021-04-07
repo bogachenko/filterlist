@@ -13,7 +13,7 @@
 /^(.+[_.-]?)?track(ing|er)([\d]+)?[_.-]/
 /^(www\.)?admob\.[a-z.]{2,5}$/
 /^aj[0-9]{4}\.online$/
-/^analyti([\W\w]+)?\.(overwolf\.com|oneplus.cn)$/
+/^analyti([\W\w]+)?\.(overwolf\.com|oneplus\.cn|samsungknox\.com)$/
 /^beacons?([\d]+)?[_.-]/
 /^metric[asx]([\d]+)?[_.-]/
 /^n[0-9]{2,4}adserv\.\w+$/
@@ -21,8 +21,18 @@
 /^[a-z]{2,3}video\.xyz$/
 /^[aesrstm]{1,2}[1-5]?\.acestream\.net$/
 /^[aes][1-5]\.torrentstream\.(info|net|org)$/
-/^log(bak|service)?([\d]+)?[_.-]/
+/^(.+[_.-]?)?click\.oneplus\.c(n|om)$/
+||open.oneplus.net^
+/^(.+[_.-]?)?logservice\.hicloud\.com$/
+/^(.+[_.-]?)?logbak\.hicloud\.com$/
+||analytics-api.samsunghealthcn.com^
 ||2mdn.net^
+||2o7.net^
+||insights.samsung.com^
+||nmetrics.samsung.com^
+||bigdata.ssp.samsung.com^
+||smetrics.samsung.com^
+||bigdata.ssp.samsung.com^
 ||stat-analytics.mediavitrina.ru^
 ||sa.api.intl.miui.com^
 ||api.brs.intl.miui.com^
@@ -234,6 +244,7 @@
 ||metaservices.microsoft.com^
 ||mgid.com^
 ||microad.net^
+||stat.xiaomi.com^
 ||mistat.*.xiaomi.com^
 ||mistat.xiaomi.com^
 ||moatads.com^
