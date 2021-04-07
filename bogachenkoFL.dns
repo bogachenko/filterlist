@@ -8,8 +8,8 @@
 
 /^(.+[_.-])?ad[sxv]?([\d]+)?[_.-]/
 /^(.+[_.-])?ad[vs]er(ve)?t?(i(se|sing|sement|ca)|[rs])?[_.-]/
-/^(.+[_.-]?)?click\.oneplus\.c(n|om)$/
 /^(.+[_.-]?)?(logbak|logservice)\.hicloud\.com$/
+/^(.+[_.-]?)?click\.oneplus\.c(n|om)$/
 /^(.+[_.-]?)?re[ck]l?(am[asye]?)?([\d]+)?[_.-]/
 /^(.+[_.-]?)?telemetr(y|i[ec]s)([\d]+)?[_.-]/
 /^(.+[_.-]?)?track(ing|er)([\d]+)?[_.-]/
@@ -17,7 +17,9 @@
 /^aj[0-9]{4}\.online$/
 /^analyti([\W\w]+)?\./
 /^beacons?([\d]+)?[_.-]/
+/^frane[sc]ki\.net$/
 /^metric[asx]([\d]+)?[_.-]/
+/^m[sr]ad[sx]\.net$/
 /^n[0-9]{2,4}adserv\.\w+$/
 /^vast([\d]+)?[_.-]/
 /^[a-z]{2,3}video\.xyz$/
@@ -187,7 +189,6 @@
 ||footprintdns.com^
 ||footprintpredict.com^
 ||footprints-pa.googleapis.com^
-/^frane[sc]ki\.net$/
 ||fundingchoices.google.com^
 ||fundingchoicesmessages.google.com^
 ||get.geo.opera.com^
@@ -234,7 +235,6 @@
 ||mistat.xiaomi.com^
 ||moatads.com^
 ||mobile.pipe.aria.microsoft.com^
-/^m[sr]ad[sx]\.net$/
 ||msitadfs.glbdns2.microsoft.com^
 ||mxtads.com^
 ||my.com^
