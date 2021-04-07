@@ -13,9 +13,9 @@
 /^(.+[_.-]?)?track(ing|er)([\d]+)?[_.-]/
 /^(www\.)?admob\.[a-z.]{2,5}$/
 /^aj[0-9]{4}\.online$/
-/^analyti([\W\w]+)?\.overwolf\.com/
+/^analyti([\W\w]+)?\.(overwolf\.com|oneplus.cn)$/
 /^beacons?([\d]+)?[_.-]/
-/^metric[asx]([\d]+)?[_.-]\./
+/^metric[asx]([\d]+)?[_.-]/
 /^n[0-9]{2,4}adserv\.\w+$/
 /^vast([\d]+)?[_.-]/
 /^[a-z]{2,3}video\.xyz$/
