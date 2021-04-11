@@ -463,7 +463,7 @@ infourok.ru##+js(js-rm.js, yaCounter)
 ##iframe[src*="awaps.yandex.net"]
 ##iframe[src*="imasdk.googleapis.com"]
 ##iframe[src="about:blank"]
-aliexpress.*###j-festival-container > .festival-sub-venue, .multi-sidebar-outer-rus.multi-sidebar-outer, .product-fix-wrap, #J_xiaomi_dialog, .site-footer, .ng-mobile.ng-item, .hot-words, .top-banner-container, .site-server-box, .user-helper-footer, .fm-sns, .ams-region, .seo-container.product-container, .search-feedback-wrap, .footer-copywrite, #container-for-smart-banner, .header-right-content, .drogue-poplayer-modal
+aliexpress.*###j-festival-container > .festival-sub-venue, .multi-sidebar-outer-rus.multi-sidebar-outer, .product-fix-wrap, #J_xiaomi_dialog, .site-footer, .ng-mobile.ng-item, .hot-words, .top-banner-container, .site-server-box, .user-helper-footer, .fm-sns, .ams-region, .seo-container.product-container, .search-feedback-wrap, .footer-copywrite, #container-for-smart-banner, .header-right-content, .drogue-poplayer-modal, [class*="styles_bannerLink"], [class*="styles_body_"]
 freebitco.in###myModal22:has-text(Did you know?)
 freebitco.in##.daily_jackpot_main_container_div, #deposit_promo_message_regular, #play_without_captcha_container, .reveal-modal-bg
 yandex.ru##.media-grid_js_inited.font-regular.i-bem.media-grid_theme_white.media-grid_visible_yes.media-grid, .header-favorites-button_js_inited.header-favorites-button
@@ -534,6 +534,7 @@ youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope > .ytd-she
 ||mobilemaps-pa.googleapis.com/*.ads.$important
 ||monitor.$domain=~monitor.firefox.com
 ||null^
+||spclient.wg.spotify.com/gabo-receiver-service/$important
 ||spclient.wg.spotify.com/ad-logic/$important
 ||spclient.wg.spotify.com/metrics-backend/$important
 ||stat.$third-party,important
