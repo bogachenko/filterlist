@@ -14,6 +14,7 @@
 /^(.+[_.-]?)?telemetr(y|i[ec]s)([\d]+)?[_.-]/
 /^(.+[_.-]?)?track(ing|er)([\d]+)?[_.-]/
 /^(www\.)?admob\.[a-z.]{2,5}$/
+/^(www\.)?owneriq\.(com|net)$/
 /^aj[0-9]{4}\.online$/
 /^analyti([\W\w]+)?\./
 /^beacons?([\d]+)?[_.-]/
@@ -40,14 +41,10 @@
 ||adfox.ru^
 ||adfox.yandex.ru^
 ||adgrx.com^
+||adhaven.com^
 ||adhitzads.com^
 ||adj.st^
 ||adjust.*^
-||tealiumiq.com^
-||sddan.com^
-||zeotap.com^
-||crwdcntrl.net^
-||marketo.net^
 ||adk2x.com^
 ||adkmob.com^
 ||adleads.com^
@@ -146,6 +143,7 @@
 ||client-cdn*.hola.org^
 ||client.hola.org^
 ||client.svd-cdn.com^
+||clienttons.com^
 ||collect.*.miui.com^
 ||collector-hpn.ghostery.net^
 ||countess.twitch.tv^
@@ -154,6 +152,7 @@
 ||crashlytics.com^
 ||crashlytics.l.google.com^
 ||crashlyticsreports-pa.googleapis.com^
+||crwdcntrl.net^
 ||d.ghostery.com^
 ||data.*.miui.com^
 ||data.glbdns2.microsoft.com^
@@ -165,6 +164,7 @@
 ||dc.services.visualstudio.com^
 ||dds.microsoft.com.akadns.net^
 ||dds.microsoft.com^
+||demdex.net^
 ||deployads.com^
 ||devads.skypeassets.net^
 ||diagnostics.support.microsoft.com^
@@ -184,6 +184,7 @@
 ||exosrv.com^
 ||exoticads.com^
 ||explorads.com^
+||eyeota.net^
 ||fastclick.net^
 ||feedback.microsoft-hohm.com^
 ||feedback.search.microsoft.com^
@@ -198,6 +199,7 @@
 ||fundingchoicesmessages.google.com^
 ||get.geo.opera.com^
 ||gew-spclient.spotify.com^
+||go-mpulse.net^
 ||google-analytics.com^
 ||googleadapis.l.google.com^
 ||googleadservices.*^
@@ -226,8 +228,11 @@
 ||kost.tv^
 ||leanplum.com^
 ||lgsmartad.com^
+||marketo.net^
+||mathtag.com^
 ||mc.yandex.*^
 ||media.net^
+||media6degrees.com^
 ||mediamath.com^
 ||meetrics.net^
 ||mellowads.com^
@@ -238,6 +243,7 @@
 ||microad.net^
 ||mistat.*.xiaomi.com^
 ||mistat.xiaomi.com^
+||ml314.com^
 ||moatads.com^
 ||mobile.pipe.aria.microsoft.com^
 ||msitadfs.glbdns2.microsoft.com^
@@ -261,6 +267,7 @@
 ||popcash.net^
 ||preads.skypeassets.net^
 ||privatestats.whatsapp.net^
+||pro-market.net^
 ||proxy_auth.trigger.hola.org^
 ||ptwmjmp.com^
 ||pubmatic.com^
@@ -270,16 +277,6 @@
 ||r0.mail.ru^
 ||r2.mail.ru^
 ||r3.mail.ru^
-||adhaven.com^
-/^(www\.)?owneriq\.(com|net)$/
-||pro-market.net^
-||eyeota.net^
-||ml314.com^
-||media6degrees.com^
-||clienttons.com^
-||mathtag.com^
-||demdex.net^
-||go-mpulse.net^
 ||rad.live.com^
 ||rad.msn.com^
 ||raygun.com^
@@ -296,6 +293,7 @@
 ||samsungads.com^
 ||samsungtvads.com^
 ||scorecardresearch.com^
+||sddan.com^
 ||sec.*.miui.com^
 ||sec.miui.com^
 ||sentry-cdn.com^
@@ -333,6 +331,7 @@
 ||t.mail.ru^
 ||taboola.com^
 ||tafimedia.com^
+||tealiumiq.com^
 ||themoneytizer.com^
 ||thumbnails*.opera.com^
 ||trace.eset.com^
@@ -366,5 +365,6 @@
 ||yandexadexchange.net^
 ||yektanet.com^
 ||yvmads.com^
+||zeotap.com^
 ||zmctrack.net^
 ||__hola__.pac_get_init_ts.local.hola^
