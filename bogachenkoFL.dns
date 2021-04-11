@@ -265,6 +265,16 @@
 ||r0.mail.ru^
 ||r2.mail.ru^
 ||r3.mail.ru^
+||adhaven.com^
+/^(www\.)?owneriq\.(com|net)$/
+||pro-market.net^
+||eyeota.net^
+||ml314.com^
+||media6degrees.com^
+||clienttons.com^
+||mathtag.com^
+||demdex.net^
+||go-mpulse.net^
 ||rad.live.com^
 ||rad.msn.com^
 ||raygun.com^
