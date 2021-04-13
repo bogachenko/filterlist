@@ -13,6 +13,7 @@
 /^(.+[_.-]?)?re[ck]l?(am[asye]?)?([\d]+)?[_.-]/
 /^(.+[_.-]?)?telemetr(y|i[ec]s)([\d]+)?[_.-]/
 /^(.+[_.-]?)?track(ing|er)([\d]+)?[_.-]/
+/^(b\-)?graph\.(facebook|instagram|microsoft)\.com$/
 /^(www\.)?admob\.[a-z.]{2,5}$/
 /^(www\.)?owneriq\.(com|net)$/
 /^aj[0-9]{4}\.online$/
@@ -28,6 +29,11 @@
 /^[aes][1-5]\.torrentstream\.(info|net|org)$/
 ||2mdn.net^
 ||2o7.net^
+||apresolve.spotify.com^
+||appia.com^
+||flocktory.com^
+||adhigh.net^
+||top-fwz1.mail.ru^
 ||aaxads.com^
 ||abtasty.com^
 ||actionpay.*^
