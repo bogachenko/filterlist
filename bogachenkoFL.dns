@@ -13,9 +13,9 @@
 /^(.+[_.-]?)?re[ck]l?(am[asye]?)?([\d]+)?[_.-]/
 /^(.+[_.-]?)?telemetr(y|i[ec]s)([\d]+)?[_.-]/
 /^(.+[_.-]?)?track(ing|er)([\d]+)?[_.-]/
-/^([a-z-]+\-)?graph\.(facebook|instagram|microsoft|fbpigeon)\.com$/
 /^(www\.)?admob\.[a-z.]{2,5}$/
 /^(www\.)?owneriq\.(com|net)$/
+/^([a-z-]+\-)?graph\.(facebook|instagram|microsoft|fbpigeon)\.com$/
 /^aj[0-9]{4}\.online$/
 /^analyti([\W\w]+)?\./
 /^beacons?([\d]+)?[_.-]/
@@ -29,12 +29,6 @@
 /^[aes][1-5]\.torrentstream\.(info|net|org)$/
 ||2mdn.net^
 ||2o7.net^
-||go.microsoft.com^
-||apresolve.spotify.com^
-||appia.com^
-||flocktory.com^
-||adhigh.net^
-||top-fwz1.mail.ru^
 ||aaxads.com^
 ||abtasty.com^
 ||actionpay.*^
@@ -42,11 +36,6 @@
 ||adbreak.ch^
 ||adcalm.com^
 ||adclerks.com^
-||comscore.com^
-||crashdump.spotify.com^
-||crashdump.*.spotify.com^
-||xpui.app.spotify.com^
-||pushwoosh.com^
 ||adcolony.com^
 ||adeventtracker.spotify.com^
 ||adform.net^
@@ -54,6 +43,7 @@
 ||adfox.yandex.ru^
 ||adgrx.com^
 ||adhaven.com^
+||adhigh.net^
 ||adhitzads.com^
 ||adj.st^
 ||adjust.*^
@@ -119,6 +109,7 @@
 ||app.link^
 ||appbaqend.com^
 ||appboy.com^
+||appia.com^
 ||applift.com^
 ||applovin.com^
 ||applvn.com^
@@ -127,6 +118,7 @@
 ||appodeal.com^
 ||appsflyer.com^
 ||appstatic.opera.com^
+||apresolve.spotify.com^
 ||atdmt.com^
 ||awaps.yandex.*^
 ||ayelads.com^
@@ -134,6 +126,7 @@
 ||beachfront.com^
 ||beroll.ru^
 ||betteradsystem.com^
+||bidgear.com^
 ||bidmachine.io^
 ||bigdata.ssp.samsung.com^
 ||branch.io^
@@ -158,8 +151,11 @@
 ||clienttons.com^
 ||collect.*.miui.com^
 ||collector-hpn.ghostery.net^
+||comscore.com^
 ||countess.twitch.tv^
 ||crash-reports.mozilla.com^
+||crashdump.*.spotify.com^
+||crashdump.spotify.com^
 ||crashdump.spotify.com^
 ||crashlytics.com^
 ||crashlytics.l.google.com^
@@ -202,6 +198,7 @@
 ||feedback.search.microsoft.com^
 ||feedback.windows.com^
 ||flex.msn.com^
+||flocktory.com^
 ||flurry.com^
 ||footprint.net^
 ||footprintdns.com^
@@ -212,6 +209,7 @@
 ||get.geo.opera.com^
 ||gew-spclient.spotify.com^
 ||go-mpulse.net^
+||go.microsoft.com^
 ||google-analytics.com^
 ||googleadapis.l.google.com^
 ||googleadservices.*^
@@ -285,6 +283,7 @@
 ||pubmatic.com^
 ||pubmatic.edgekey.net^
 ||purpleads.io^
+||pushwoosh.com^
 ||r.mail.ru^
 ||r0.mail.ru^
 ||r2.mail.ru^
@@ -346,6 +345,7 @@
 ||tealiumiq.com^
 ||themoneytizer.com^
 ||thumbnails*.opera.com^
+||top-fwz1.mail.ru^
 ||trace.eset.com^
 ||traffichaus.com^
 ||trafficjunky.*^
@@ -372,6 +372,7 @@
 ||www-googletagmanager.l.google.com^
 ||www-googletagservices.l.google.com^
 ||xadsmart.com^
+||xpui.app.spotify.com^
 ||yabs.yandex.*^
 ||yadro.ru^
 ||yandexadexchange.net^
