@@ -28,12 +28,14 @@
 /^[aesrstm]{1,2}[1-5]?\.acestream\.net$/
 /^[aes][1-5]\.torrentstream\.(info|net|org)$/
 ||2mdn.net^
+||vadideo.com^
 ||2o7.net^
 ||aaxads.com^
 ||abtasty.com^
 ||actionpay.*^
 ||adbetnetwork.com^
 ||adbreak.ch^
+||adspeeker.com^
 ||adcalm.com^
 ||adclerks.com^
 ||adcolony.com^
