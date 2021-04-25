@@ -37,6 +37,13 @@ $$script[src="https://www.googletagservices.com/"]
 ||localhost^$third-party,domain=~0.0.0.0|~127.0.0.1|~192.168.0.1|~192.168.1.1|~[::1]|~[::]|~localhost|~10.0.0.1
 ! LAN END
 
+! REMOVEPARAM START
+$removeparam=/utm_.*/
+$removeparam=/yclid|ymclid|fbclid|rb_clickid|gclid/
+||google.*^$removeparam=client
+||yandex.ru^$removeparam=redircnt
+! REMOVEPARAM END
+
 ! Domain Name System (DNS) START
 103.229.10.134:443$network
 103.229.10.220:443$network
@@ -715,15 +722,12 @@ github.com##.js-comment-container:has([class*="author"][href="/DandelionSprout"]
 freebitco.in###bottom_user_ads_container
 @@||ttvnw.net^$xmlhttprequest
 infourok.ru##div#aa-popup
-www.google.*#@#+js(remove-attr, onmousedown|ping, a[href][onmousedown]\, a[href][ping])
 office.com##ohp-mobile-app-banner
 @@||redirect.appmetrica.yandex.com^|$badfilter
 @@||imasdk.googleapis.com^|$badfilter
 @@||pagead.l.doubleclick.net^|$badfilter
 @@||www.googleadservices.com^|$badfilter
 @@||googleadapis.l.google.com^|$badfilter
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,redirect-rule=nooptext,badfilter
-mexa.sh##div[id*="bidadx_tag"]
 @@||launches.appsflyer.com^|$badfilter
 |http*$app=com.adups.fota.sysoper|com.adups.fota,badfilter
 ||windowspro.ru/universal$important,script
