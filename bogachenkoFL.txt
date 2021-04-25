@@ -39,9 +39,10 @@ $$script[src="https://www.googletagservices.com/"]
 
 ! REMOVEPARAM START
 $removeparam=/utm_.*/
-$removeparam=/yclid|ymclid|fbclid|rb_clickid|gclid/
+$removeparam=yclid|ymclid|fbclid|rb_clickid|gclid|cvid|toWww|redig
 ||google.*^$removeparam=client
 ||yandex.ru^$removeparam=redircnt
+||bing.com^$removeparam=form|sp|sc|sk
 ! REMOVEPARAM END
 
 ! Domain Name System (DNS) START
