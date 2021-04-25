@@ -20,7 +20,7 @@ $$script[src="https://www.googletagservices.com/"]
 ! CONDITIONS END
 
 ! WHITELIST START
-@@/^https?:\/\/edge\.microsoft\.com\/(extensionwebstorebase\/[a-z1-9]{2}\/(hash)?crx\?|(redirectordictionaries|hunspelldictionaries)\/)/$important
+@@/^https?:\/\/edge\.microsoft\.com\/(extensionwebstorebase\/[a-z1-9]{2}\/(hash)?crx\?|(redirector|hunspell)dictionaries\/)/$important
 @@||connectivitycheck.gstatic.com^$important
 @@||safebrowsing.clients.google.com^$document
 @@||local.adguard.org^$script
@@ -42,7 +42,7 @@ $removeparam=/utm_.*/
 $removeparam=yclid|ymclid|fbclid|rb_clickid|gclid|cvid|toWww|redig
 ||google.*^$removeparam=client
 ||yandex.ru^$removeparam=redircnt
-||bing.com^$removeparam=form|sp|sc|sk
+||bing.com^$removeparam=form|sp|sc|sk|qs|pq
 ! REMOVEPARAM END
 
 ! Domain Name System (DNS) START
