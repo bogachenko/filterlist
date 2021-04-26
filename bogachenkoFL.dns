@@ -2,19 +2,18 @@
 ! Description: A filter for bogachenko's personal use to block loading of ads, tracking and analysis. These filters are used by me for Adguard Home.
 ! RAW: https://raw.githubusercontent.com/bogachenko/filterlist/main/bogachenkoFL.dns
 ! Homepage: https://github.com/bogachenko/filterlist/
-! Licence: https://raw.githubusercontent.com/bogachenko/filterlist/main/LICENSE.md
+! License: https://raw.githubusercontent.com/bogachenko/filterlist/main/LICENSE.md
 
 ! README: Simplified specifically to be better compatible with DNS-level ad blocking.
 
-@@/^analytics((suitefrontend|insights)\-pa\.clients6)?\.google\.com$/
 /^(.+[_.-])?ad[sxv]?([\d]+)?[_.-]/
 /^(.+[_.-])?ad[vs]er(ve)?t?(i(se|sing|sement|ca)|[rs])?[_.-]/
-/^(.+[_.-]?)?log(bak|service)\.hicloud\.com$/
 /^(.+[_.-]?)?click\.oneplus\.c(n|om)$/
+/^(.+[_.-]?)?log(bak|service)\.hicloud\.com$/
+/^(.+[_.-]?)?metri[kc][sa]([\d]+)?[_.-]/
 /^(.+[_.-]?)?re[ck]l?(am[asye]?)?([\d]+)?[_.-]/
 /^(.+[_.-]?)?telemetr(y|i[ec]s)([\d]+)?[_.-]/
 /^(.+[_.-]?)?track(ing|er)([\d]+)?[_.-]/
-/^(.+[_.-]?)?metri[kc][sa]([\d]+)?[_.-]/
 /^(www\.)?admob\.[a-z.]{2,5}$/
 /^(www\.)?owneriq\.(com|net)$/
 /^([a-z-]+\-)?graph\.(facebook|instagram|microsoft|fbpigeon)\.com$/
@@ -29,18 +28,14 @@
 /^[a-z]{2,3}video\.xyz$/
 /^[aesrstm]{1,2}[1-5]?\.acestream\.net$/
 /^[aes][1-5]\.torrentstream\.(info|net|org)$/
-||quicksilver.scdn.co^
-||video-fa.scdn.co^
+@@/^analytics((suitefrontend|insights)\-pa\.clients6)?\.google\.com$/
 ||2mdn.net^
-||vadideo.com^
 ||2o7.net^
 ||aaxads.com^
-||traffer.net^
 ||abtasty.com^
 ||actionpay.*^
 ||adbetnetwork.com^
 ||adbreak.ch^
-||adspeeker.com^
 ||adcalm.com^
 ||adclerks.com^
 ||adcolony.com^
@@ -79,6 +74,7 @@
 ||adservice.google.*^
 ||adservice.l.google.com^
 ||adspeed.com^
+||adspeeker.com^
 ||adsrefundattempts.com^
 ||adsrvr.org^
 ||adswizz.com^
@@ -116,8 +112,6 @@
 ||app.link^
 ||appbaqend.com^
 ||appboy.com^
-||partnerad.l.doubleclick.net^
-||crashdump.spotify.com^
 ||appia.com^
 ||applift.com^
 ||applovin.com^
@@ -166,6 +160,7 @@
 ||crashdump.*.spotify.com^
 ||crashdump.spotify.com^
 ||crashdump.spotify.com^
+||crashdump.spotify.com^
 ||crashlytics.com^
 ||crashlytics.l.google.com^
 ||crashlyticsreports-pa.googleapis.com^
@@ -193,6 +188,7 @@
 ||dumbpop.com^
 ||edge.microsoft.com^
 ||elmah.io^
+||eonads.com^
 ||ero-advertising.com^
 ||eroadvertising.com^
 ||erosyndc.com^
@@ -233,7 +229,6 @@
 ||hpyjmp.com^
 ||id.google.*^
 ||id.l.google.com^
-||eonads.com^
 ||imasdk.googleapis.com^
 ||in.appcenter.ms^
 ||inmobi.com^
@@ -279,6 +274,7 @@
 ||pagead*.l.doubleclick.net^
 ||pagead-googlehosted.l.google.com^
 ||pagead.l.doubleclick.net^
+||partnerad.l.doubleclick.net^
 ||perr.h-vpn.org^
 ||perr.hola.org^
 ||perr.svd-cdn.com^
@@ -293,6 +289,7 @@
 ||pubmatic.com^
 ||pubmatic.edgekey.net^
 ||purpleads.io^
+||quicksilver.scdn.co^
 ||r.mail.ru^
 ||r0.mail.ru^
 ||r2.mail.ru^
@@ -356,11 +353,14 @@
 ||thumbnails*.opera.com^
 ||top-fwz1.mail.ru^
 ||trace.eset.com^
+||traffer.net^
 ||traffichaus.com^
 ||trafficjunky.*^
 ||tubemogul.com^
+||vadideo.com^
 ||vastserved.com^
 ||vdopia.com^
+||video-fa.scdn.co^
 ||video-stats.l.google.com^
 ||videoroll.net^
 ||vk-portal.net^
