@@ -311,7 +311,6 @@ $removeparam=yclid|ymclid|fbclid|rb_clickid|gclid|cvid|toWww|redig
 ||connect.facebook.net^$important
 ||connect.mail.ru^$important
 ||connect.ok.ru^$important
-||cse.google.com^$important
 ||desktop-dna.osp.opera.software^$important
 ||disqus.com^$important
 ||disquscdn.com^$important
@@ -628,6 +627,7 @@ youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope > .ytd-she
 ! SUBDOCUMENT END
 
 ! SCRIPT START
+/^https?:\/\/[^\s]+\/sw\.js\?[^\s]+$/$important,script
 /\%(2F|3F|26|3D|23|2D|2E|5F)sw\.js$/$important,script
 /\.[a-z]+\/\?pu\=/$third-party,important,script
 /\/js[a-z0-9]+\/[a-z0-9]{0,14}\.js$/$important,script
