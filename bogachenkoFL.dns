@@ -159,8 +159,6 @@
 ||crash-reports.mozilla.com^
 ||crashdump.*.spotify.com^
 ||crashdump.spotify.com^
-||crashdump.spotify.com^
-||crashdump.spotify.com^
 ||crashlytics.com^
 ||crashlytics.l.google.com^
 ||crashlyticsreports-pa.googleapis.com^
@@ -168,7 +166,6 @@
 ||d.ghostery.com^
 ||data.*.miui.com^
 ||data.glbdns2.microsoft.com^
-||data.intl.miui.com^
 ||data.microsoft.com.akadns.net^
 ||data.microsoft.com^
 ||datamart.windows.com^
@@ -273,7 +270,6 @@
 ||optiads.org^
 ||pagead*.l.doubleclick.net^
 ||pagead-googlehosted.l.google.com^
-||pagead.l.doubleclick.net^
 ||partnerad.l.doubleclick.net^
 ||perr.h-vpn.org^
 ||perr.hola.org^
