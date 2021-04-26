@@ -6,7 +6,7 @@
 
 ! README: Simplified specifically to be better compatible with DNS-level ad blocking.
 
-@@/^analytics((suitefrontend|insights)\-pa\.clients6)?\.google.com$/
+@@/^analytics((suitefrontend|insights)\-pa\.clients6)?\.google\.com$/
 /^(.+[_.-])?ad[sxv]?([\d]+)?[_.-]/
 /^(.+[_.-])?ad[vs]er(ve)?t?(i(se|sing|sement|ca)|[rs])?[_.-]/
 /^(.+[_.-]?)?(logbak|logservice)\.hicloud\.com$/
@@ -14,6 +14,7 @@
 /^(.+[_.-]?)?re[ck]l?(am[asye]?)?([\d]+)?[_.-]/
 /^(.+[_.-]?)?telemetr(y|i[ec]s)([\d]+)?[_.-]/
 /^(.+[_.-]?)?track(ing|er)([\d]+)?[_.-]/
+/^(.+[_.-]?)?metri[kc][sa]([\d]+)?[_.-]/
 /^(www\.)?admob\.[a-z.]{2,5}$/
 /^(www\.)?owneriq\.(com|net)$/
 /^([a-z-]+\-)?graph\.(facebook|instagram|microsoft|fbpigeon)\.com$/
