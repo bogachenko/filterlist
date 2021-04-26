@@ -9,7 +9,7 @@
 @@/^analytics((suitefrontend|insights)\-pa\.clients6)?\.google\.com$/
 /^(.+[_.-])?ad[sxv]?([\d]+)?[_.-]/
 /^(.+[_.-])?ad[vs]er(ve)?t?(i(se|sing|sement|ca)|[rs])?[_.-]/
-/^(.+[_.-]?)?(logbak|logservice)\.hicloud\.com$/
+/^(.+[_.-]?)?log(bak|service)\.hicloud\.com$/
 /^(.+[_.-]?)?click\.oneplus\.c(n|om)$/
 /^(.+[_.-]?)?re[ck]l?(am[asye]?)?([\d]+)?[_.-]/
 /^(.+[_.-]?)?telemetr(y|i[ec]s)([\d]+)?[_.-]/
@@ -116,6 +116,8 @@
 ||app.link^
 ||appbaqend.com^
 ||appboy.com^
+||partnerad.l.doubleclick.net^
+||crashdump.spotify.com^
 ||appia.com^
 ||applift.com^
 ||applovin.com^
