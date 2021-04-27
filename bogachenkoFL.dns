@@ -26,9 +26,11 @@
 /^n[0-9]{2,4}adserv\.\w+$/
 /^vast([\d]+)?[_.-]/
 /^[a-z]{2,3}video\.xyz$/
-/[aesrstm]{1,2}[1-5]?\.acestream\.net$/
-/[aes][1-5]\.torrentstream\.(info|net|org)$/
+/^[aesrstm]{1,2}[1-5]?\.acestream\.net$/
+/^[aes][1-5]\.torrentstream\.(info|net|org)$/
 @@/^analytics((suitefrontend|insights)\-pa\.clients6)?\.google\.com$/
+@@||metrika.yandex.*^
+||trafficbass.com^
 ||2mdn.net^
 ||2o7.net^
 ||aaxads.com^
