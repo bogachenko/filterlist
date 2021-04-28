@@ -24,6 +24,11 @@
 /^[a-z]{2,3}video\.xyz$/
 /^[aesrstm]{1,2}[1-5]?\.acestream\.net$/
 /^[aes][1-5]\.torrentstream\.(info|net|org)$/
+||audio-ak-spotify-com.akamaized.net^
+||audio4-fa.scdn.co^
+||heads-ak-spotify-com.akamaized.net^
+||audio4-akp-spotify-com.akamaized.net^
+||video-akp-cdn-spotify-com.akamaized.net^
 ||trafficbass.com^
 ||2mdn.net^
 ||2o7.net^
