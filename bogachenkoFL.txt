@@ -439,7 +439,6 @@ $removeparam=yclid|ymclid|fbclid|rb_clickid|gclid|cvid|toWww|redig
 |http*:*&idzone=$important,popunder,popup
 ||click2go.me^$important,popunder,popup
 ||gemius.pl^$important,popunder,popup
-||yandex.*/clck/$important,popunder,popup
 ||yastatic.net^$important,popunder,popup,domain=~kinopoisk.ru
 ||hola.org^$popup,important
 ! POPUP & POPUNDER END
@@ -735,4 +734,7 @@ office.com##ohp-mobile-app-banner
 freehat.cc##[class*="anons-"], .sb-block_tp_social.sb-block, #player-switcher, #footer, .episode-quest-link
 /player/assets/devtools-detector/$script
 temp-mail.org##.topStickyBanner
+kinokong.org##+js(nano-sib)
+chiasechonloc.top##+js(acis, Date, 'shift')
+chiasechonloc.top##+js(nano-sib, countDown)
 ! TRASH END
