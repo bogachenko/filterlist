@@ -715,10 +715,8 @@ youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope > .ytd-she
 ! COMBINED END
 
 ! TRASH START
-github.com##.js-comment-container:has([class*="author"][href="/DandelionSprout"])[src]:not([class*="avatar"])
 @@||app.adjust.com^|$badfilter
 @@||www.googleadservices.com^|$badfilter
-freebitco.in###bottom_user_ads_container
 @@||ttvnw.net^$xmlhttprequest
 infourok.ru##div#aa-popup
 office.com##ohp-mobile-app-banner
@@ -729,11 +727,5 @@ office.com##ohp-mobile-app-banner
 @@||googleadapis.l.google.com^|$badfilter
 @@||launches.appsflyer.com^|$badfilter
 |http*$app=com.adups.fota.sysoper|com.adups.fota,badfilter
-||windowspro.ru/universal$important,script
 freehat.cc##[class*="anons-"], .sb-block_tp_social.sb-block, #player-switcher, #footer, .episode-quest-link
-/player/assets/devtools-detector/$script
-temp-mail.org##.topStickyBanner
-kinokong.org##+js(nano-sib)
-chiasechonloc.top##+js(acis, Date, 'shift')
-chiasechonloc.top##+js(nano-sib, countDown)
 ! TRASH END
