@@ -20,9 +20,8 @@
 /^n[0-9]{2,4}adserv\.\w+$/$important
 /^vast([\d]+)?[_.-]/
 /^[a-z]{2,3}video\.xyz$/$important
-/^[aesrstm]{1,2}[1-5]?\.acestream\.net$/$important
-/^[aes][1-5]\.torrentstream\.(info|net|org)$/$important
 ||2mdn.net^$important
+||trafficmanager.net^$important
 ||aaxads.com^$important
 ||abtasty.com^$important
 ||actionpay.net^$important
