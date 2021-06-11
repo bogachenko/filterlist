@@ -444,7 +444,7 @@ $removeparam=yclid|ymclid|fbclid|rb_clickid|gclid|cvid|toWww|redig
 ! POPUP & POPUNDER END
 
 ! APP START
-/^(?!.*(lfnnmlimilinwvwlijljioeogq13\.club|(firebaseio|googleapis|pbssrv\-centralevents|verifykit)\.com)).*$/$app=important,app.source.getcontact
+/^(?!.*(lfnnmlimilinwvwlijljioeogq13\.club|(firebaseio|googleapis|pbssrv\-centralevents|verifykit)\.com)).*$/$important,app.source.getcontact
 ||www.facebook.com^$important,app=system
 ||zen.yandex.ru^$domain=startpage,third-party,app=opera.exe
 ! APP END
@@ -455,9 +455,7 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 infourok.ru##+js(addEventListener-defuser.js, focus)
 infourok.ru##+js(addEventListener-defuser.js, focus, trigger)
 infourok.ru##+js(set-constant.js, monitorFocus, noopFunc)
-vk.com#%#//scriptlet("abort-on-property-read", "Unauthorized")
 zloekino.ru##+js(cookie-remover.js)
-zloekino.ru#%#//scriptlet("remove-cookie")
 infourok.ru##+js(abort-on-property-write.js, document.ondragstart)
 infourok.ru##+js(abort-on-property-write.js, document.onselectstart)
 infourok.ru##+js(js-rm.js, yaCounter)
@@ -668,7 +666,7 @@ youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope > .ytd-she
 ! SCRIPT END
 
 ! XMLHTTPREQUEST START
-/^https?:\/\/[0-9a-z]{11,20}.*.com\/.*/$third-party,important,xmlhttprequest,domain=~aliexpress.com|~aliexpress.ru|~mts.ru|~ninjastream.to
+/^https?:\/\/[0-9a-z]{11,20}.*.com\/.*/$third-party,important,xmlhttprequest,domain=~aliexpress.com|~aliexpress.ru|~mts.ru|~ninjastream.to|~deepl.com
 /^https?:\/\/[^\s]+(\.wasm|\.wsm|\.wa)$/$important,xmlhttprequest,domain=~twitch.tv
 |http*:*/channels/*/extensions$important,xmlhttprequest,domain=twitch.tv
 ||addons.opera.com/themes/$important,xmlhttprequest
