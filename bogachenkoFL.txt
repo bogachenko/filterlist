@@ -444,7 +444,7 @@ $removeparam=yclid|ymclid|fbclid|rb_clickid|gclid|cvid|toWww|redig
 ! POPUP & POPUNDER END
 
 ! APP START
-/^(?!.*(lfnnmlimilinwvwlijljioeogq13\.club|(firebaseio|googleapis|pbssrv\-centralevents|verifykit)\.com)).*$/$important,app.source.getcontact
+/^(?!.*(lfnnmlimilinwvwlijljioeogq13\.club|(firebaseio|googleapis|pbssrv\-centralevents|verifykit)\.com)).*$/$important,app=app.source.getcontact
 ||www.facebook.com^$important,app=system
 ||zen.yandex.ru^$domain=startpage,third-party,app=opera.exe
 ! APP END
