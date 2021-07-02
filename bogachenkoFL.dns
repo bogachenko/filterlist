@@ -35,6 +35,11 @@
 ||advisor.api.2gis.ru^$important
 ||adwolf.ru^$important
 ||af.opera.com^$important
+||opera-api.com^$important
+||sitecheck*.opera.com^$important
+||redir.opera.com^$important
+||osp.opera.software^$important
+||cdn-production-opera-website.operacdn.com^$important
 ||amazon-adsystem.com^$important
 ||amplitude.com^$important
 ||an.facebook.com^$important
@@ -97,7 +102,7 @@
 ||footprints-pa.googleapis.com^$important
 ||fundingchoices.google.com^$important
 ||fundingchoicesmessages.google.com^$important
-||get.geo.opera.com^$important
+||get.opera.com^$important
 ||go-mpulse.net^$important
 ||go.microsoft.com^
 ||google-analytics.com^$important
