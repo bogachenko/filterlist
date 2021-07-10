@@ -21,6 +21,8 @@
 /^vast([\d]+)?[_.-]/
 /^[a-z]{2,3}video\.xyz$/$important
 ||2mdn.net^$important
+||singular.net^$important
+||supersonicads.com^$important
 ||aaxads.com^$important
 ||abtasty.com^$important
 ||actionpay.net^$important
