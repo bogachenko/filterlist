@@ -32,12 +32,14 @@
 ||adjust.*^$important
 ||moatads.com^$important
 ||admob.xiaomi.com^$important
+||aniview.com^$important
 ||adroll.com^$important
 ||adservice.google.*^$important
 ||adservice.l.google.com^$important
 ||advisor.api.2gis.ru^$important
 ||adwolf.ru^$important
 ||af.opera.com^$important
+||tapjoyads.com^$important
 ||opera-api.com^$important
 ||sitecheck*.opera.com^$important
 ||redir.opera.com^$important
