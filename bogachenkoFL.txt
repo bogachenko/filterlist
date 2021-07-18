@@ -37,14 +37,6 @@ $$script[src="https://www.googletagservices.com/"]
 ||localhost^$third-party,domain=~0.0.0.0|~127.0.0.1|~192.168.0.1|~192.168.1.1|~[::1]|~[::]|~localhost|~10.0.0.1
 ! LAN END
 
-! REMOVEPARAM START
-$removeparam=/utm_.*/
-$removeparam=yclid|ymclid|fbclid|rb_clickid|gclid|cvid|toWww|redig
-||google.*^$removeparam=client
-||yandex.ru^$removeparam=redircnt
-||bing.com^$removeparam=form|sp|sc|sk|qs|pq
-! REMOVEPARAM END
-
 ! Domain Name System (DNS) START
 103.229.10.134:443$network
 103.229.10.220:443$network
@@ -435,10 +427,6 @@ $removeparam=yclid|ymclid|fbclid|rb_clickid|gclid|cvid|toWww|redig
 ! IMAGE END
 
 ! POPUP & POPUNDER START
-/^https?:\/\/(bitly|bit)\.(com|ly)/$important,popunder,popup
-|http*:*&idzone=$important,popunder,popup
-||click2go.me^$important,popunder,popup
-||gemius.pl^$important,popunder,popup
 ||yastatic.net^$important,popunder,popup,domain=~kinopoisk.ru
 ||hola.org^$popup,important
 ! POPUP & POPUNDER END
@@ -446,7 +434,6 @@ $removeparam=yclid|ymclid|fbclid|rb_clickid|gclid|cvid|toWww|redig
 ! APP START
 /^(?!.*(lfnnmlimilinwvwlijljioeogq13\.club|(firebaseio|googleapis|pbssrv\-centralevents|verifykit)\.com)).*$/$important,app=app.source.getcontact
 ||www.facebook.com^$important,app=system
-||zen.yandex.ru^$domain=startpage,third-party,app=opera.exe
 ! APP END
 
 ! SCRIPTLET START
@@ -663,6 +650,7 @@ youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope > .ytd-she
 |http*:*/wl.js$important,script
 ||scdn.co/cdn/js/gtag.$important,script,domain=spotify.com
 /^https?:\/\/[a-g0-9]{20,}\.online\/[a-g0-9]{20,}\.js$/$important,third-party,script
+||youtube.com/*/player/*/ad.js$script,important
 ! SCRIPT END
 
 ! XMLHTTPREQUEST START
