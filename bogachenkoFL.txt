@@ -464,6 +464,7 @@ music.yandex.ru##span:contains(Отключить рекламу)
 pornhub.*,pornhubthbh7ap3u.onion##div.clear-both.videoSection:has-text(/только для Фанатов/)
 trade.aliexpress.*##[href^="//simplee.aliexpress.com/"], [href^="//campaign.aliexpress.com/"]
 twitch.tv##.default-panel > :not([href*="vk.com"]):not([href*="donationalerts."]):not([href*="instagram.com"]):not([href*="youtube.com"]):not([href*="twitter.com"]):not([href*="steamcommunity.com"]):not([href*="discord.gg"]):not([href*="facebook.com"])
+twitch.tv##.channel-leaderboard
 vk.com###stl_left, #stl_side, .apps_feedRightAppsBlock_collaborative_recommend_apps.apps_feedRightAppsBlock.page_block, .apps_feedRightAppsBlock_new_apps.apps_feedRightAppsBlock.page_block, #ads_left, .right_list_header, #group_recom_rows, #group_recom_wrap, .feed_friends_recomm, div[data-ad], div[data-ad-view], [class^="ads_ad_"], #stories_feed_wrap, #profile_friends_recomm, .ads_ads_box, #system_msg, #utils, .apps_feedRightAppsBlock_single_app.apps_feedRightAppsBlock.page_block, .audio_promo, #feed_blog_reminder, a[href*="/app7399325"], #l_watch_home, a[href*="/covid19"], div.more_div, .installApp,#ui_rmenu_coronavirus, #ui_rmenu_stayhome, .wall_marked_as_ads, .item_share, .apps_feedRightAppsBlock__row, .videoplayer_action_button, .ads_ad_box, .ads_ad_box2, [id*="reply_box_donut-"], .ShortVideoFeedBlock.page_block, .feed_groups_recomm, .feedAssistance_recommendedGroups, .eltt_vis.eltt_top.eltt_align_left.eltt_arrow_size_normal.CatalogTooltip.TooltipAudioRecommendedPlaylists.feature_intro_tt.eltt, .feedAssistance_promoButton.feedAssistance.wall_item
 vk.com##._post_content:has-text(Осторожно: тут про 3 сентября)
 vk.com##[class="wall_item"]:has([class*="ads_mark"])
@@ -686,7 +687,7 @@ youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope > .ytd-she
 /[-._?&=#/]logs?(ging|impressions?|ers?)?[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~aliexpress.com|~aliexpress.ru|~dns-shop.ru|~docviewer.yandex.ru|~github.com|~gitlab.com|~instagram.com|~mi.com|~twitch.tv|~yadi.sk
 /[-._?&=#/]piwik[-.0-9_?&=#/]/$image,important,script
 /[-._?&=#/]pixel[-._?&=#/]/$image,important,script,subdocument,xmlhttprequest,domain=~yandex.ru
-/[-._?&=#/]track(ers?|ing)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~alipay.com|~analytics.google.com|~fandom.com|~parimatch.ru|~pochta.ru|~yandex.ru|~aliexpress.com
+/[-._?&=#/]track(ers?|ing)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~alipay.com|~analytics.google.com|~fandom.com|~parimatch.ru|~pochta.ru|~yandex.ru|~aliexpress.com|~aliexpress.ru
 /[-._?&=#/]vast[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~github.com|~gitlab.com|~twitch.tv
 /\/pi?xe?l?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|x?html?|cgi|php|swf|svg)/$image,important,script,subdocument,xmlhttprequest,domain=~playground.ru|~imgur.com
 /^https?:\/\/[0-1]{5,}\.com/$third-party,important,script,xmlhttprequest
