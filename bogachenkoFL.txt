@@ -272,12 +272,9 @@ $$script[src="https://www.googletagservices.com/"]
 ! Domain Name System (DNS) END
 
 ! DOMAIN START
-/^[a-z0-9]{8,}\.Home$/$important
 /^a\.[a-z0-9]{40,}\.com$/$important
 /^https?:\/\/([a-s1-3]{2}|update)\.torrentstream\.(org|info|net)/$important
-/^https?:\/\/click2[a-z]{1,3}\.[a-z]{1,3}/$important
 ||__hola__.pac_get_init_ts.local.hola^$important
-||actlz.github.io^$important
 ||addthis.com^$important
 ||addtoany.com^$important
 ||adservice.google.*^$important
@@ -420,7 +417,6 @@ $$script[src="https://www.googletagservices.com/"]
 ! DOMAIN END
 
 ! IMAGE START
-/\/[a-zA-Z]{5,}[Pp][Ii][Xx][Ee][Ll][-._?&=#/]/$image,important
 /^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,important
 ||duckduckgo.com/t/$image,important
 ||mail.yandex.*/monitoring_liza.txt$image,important
@@ -450,7 +446,6 @@ infourok.ru##+js(js-rm.js, yaCounter)
 ! SCRIPTLET END
 
 ! Cascading Style Sheets (CSS) START
-##[id*="div-gpt-ad"]
 ##iframe[src*="amazon-adsystem.com"]
 ##iframe[src*="awaps.yandex.net"]
 ##iframe[src*="imasdk.googleapis.com"]
@@ -536,76 +531,12 @@ youtube.com##ytd-playlist-panel-video-renderer#playlist-items.ytd-playlist-panel
 ||youtube.com/ptracking?$important
 ! OTHER END
 
-! DOCUMENT START
-/^https?:\/\/[^\s]+\/\?z$/$document,important
-/^https?:\/\/bit(ly)?\.(com|ly)/$document,important
-/^https?:\/\/stream[\D]?bet\.[\w]+/$document,important
-|http*:*/*.gif|$document,important,domain=~appmifile.com|~github.com|~githubusercontent.com|~imgur.com|~wikimedia.org|~gitlab.com
-||616wear.ru^$document,important
-||microsoftedgewelcome.microsoft.com^$document,important
-||ali.pub^$document,important
-||autonomiq.io/chropath/uninstall/$document,important
-||bigbetclub.com^$document,important
-||microsoftedgewelcome.microsoft.com^$document,important
-||rt.com^$document
-||githib.com^$document
-||blocked.mts.ru^$document,important
-||clck.ru^$document,important
-||cooldeal.by^$document,important
-||cs.fail^$document,important
-||csgo.band^$document,important
-||csgorun.org^$document,important
-||cybershoke.net^$document,important
-||dota2expert.com^$document,important
-||dra.to^$document,important
-||easydota.cc^$document,important
-||easymoney.games^$document,important
-||epulze.com^$document,important
-||forcedrop.top^$document,important
-||gamingmalta.org^$document,important
-||geni.us^$document,important
-||ggbet.life^$document,important
-||ggbetsails.com^$document,important
-||ggdrop.wtf^$document,important
-||goo.gl^$document,important
-||goodwin-shop.com^$document,important
-||gtavrp.ru^$document,important
-||hellstore.net^$document,important
-||holaspark.com^$document,important
-||justcase.link^$document,important
-||krasava.bet^$document,important
-||msftconnecttest.com/redirect$document,important
-||mycsgoo.net^$document,important
-||opdota2.me^$document,important
-||parimatch.com^$important
-||sgm-luck.com^$document,important
-||skinbaron.com^$document,important
-||t.co^$document,important
-||topskins.co^$document,important
-||ukrn.io^$document,important
-||up-x.io^$document,important
-||vk.cc^$document,important
-||vk.cm^$document,important
-||vk.co^$document,important
-||vk.com/badbrowser.php$document,important
-||warning.rt.ru^$document,important
-||welcome.adguard.com^$document,important
-||wrongurl.mts.ru^$document,important
-||xvideo.com^$document
-||yotube.com^$document
-||downloadbrowsernow.com^$document,important
-||galdarael.com^$document,important
-||baxofalis.com^$document,important
-||xvideox.com^$document,important
-! DOCUMENT END
-
 ! SUBDOCUMENT START
 /\/ads?\/(middle|bottom|right|top|left)\.html?\?/$important,subdocument
 /^https?:\/\/(www\.)?google\.[\w]+\/afs\/ads[/?]/$important,subdocument
 /^https?:\/\/(www\.)?kinopoisk\.ru\/[^\s]{3000}$/$important,subdocument
 /^https?:\/\/(www\.)?music\.yandex\.(ru|ua|by|com)\/[^\s]{3000,}/$important,subdocument
 /^https?:\/\/tv\.yandex\.[\w]+\/[^\s]{300,}/$subdocument,~third-party
-||redditmedia.com/gtm/jail?$important,subdocument
 ! SUBDOCUMENT END
 
 ! SCRIPT START
@@ -671,11 +602,10 @@ youtube.com##ytd-playlist-panel-video-renderer#playlist-items.ytd-playlist-panel
 ||video.google.com/api/stats/$important,xmlhttprequest
 ||youtube.com/get_endscreen?$important,xmlhttprequest
 ||youtube.com/get_midroll_info?$important,xmlhttprequest
-||thealloha.club/index.php?ref=*&domain=$important,xmlhttprequest
 ! XMLHTTPREQUEST END
 
 ! COMBINED START
-/^https?:\/\/2ch\.(hk|pm|re|tf|wf|yt)\/(images|banners?|makaba\/templates\/js\/events)\//$script,image,important
+/^https?:\/\/2ch\.\w+\/(images|banners?|makaba\/templates\/js\/events)\//$script,image,important
 /[-._?&=#/](event|stat)logs?(ging|ers?)?[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest
 /[-._?&=#/](logs?|img)[-._?&=#/]?(?:failure|info|type|events?|entry|request|statu?s?|view|edpage)[-._?&=#/]?/$image,important,other,script,xmlhttprequest
 /[-._?&=#/](player|client|csi|gen(erate)?|stream|logs?|live)[-._?&=#/]?204[-._?&=#/]?/$image,important,other,xmlhttprequest
@@ -687,12 +617,8 @@ youtube.com##ytd-playlist-panel-video-renderer#playlist-items.ytd-playlist-panel
 /[-._?&=#/]pixel[-._?&=#/]/$image,important,script,subdocument,xmlhttprequest,domain=~yandex.ru
 /[-._?&=#/]track(ers?|ing)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~alipay.com|~analytics.google.com|~fandom.com|~parimatch.ru|~pochta.ru|~yandex.ru|~aliexpress.com|~aliexpress.ru
 /[-._?&=#/]vast[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~github.com|~gitlab.com|~twitch.tv
-/\/pi?xe?l?\.(?:jp(?:e?g|e|2)|gif|png|tiff?|bmp|ico|hei[fc]|webp|jxr|wdp|dng|cr2|arw|jsp?|x?html?|cgi|php|swf|svg)/$image,important,script,subdocument,xmlhttprequest,domain=~playground.ru|~imgur.com
 /^https?:\/\/[0-1]{5,}\.com/$third-party,important,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/[a-w]{3,4}\.hh\?[a-z]\=[=&0-9a-zA-Z]{8,15}$/$script,subdocument,important
-/^https?:\/\/mail\.yandex\.[\w]+\/[^\s]{1200,}$/$image,important,other,script,xmlhttprequest
-/^https?:\/\/yandex\.[\w]+\/images\/(?!(search\?)|(touch/search?))[^\s]{80,}/$important,subdocument,~third-party,xmlhttprequest
-||aliyuncs.com/r.png?$image,important,xmlhttprequest
 ||facebook.com/ajax/bz$important,other,xmlhttprequest
 ||yastatic.net/awaps-ad-sdk-js/$important,script,xmlhttprequest
 ||yastatic.net/daas/atom.js|$important,script,xmlhttprequest
@@ -704,7 +630,6 @@ youtube.com##ytd-playlist-panel-video-renderer#playlist-items.ytd-playlist-panel
 @@||www.googleadservices.com^|$badfilter
 @@||ttvnw.net^$xmlhttprequest
 infourok.ru##div#aa-popup
-office.com##ohp-mobile-app-banner
 @@||redirect.appmetrica.yandex.com^|$badfilter
 @@||imasdk.googleapis.com^|$badfilter
 @@||pagead.l.doubleclick.net^|$badfilter
@@ -712,6 +637,6 @@ office.com##ohp-mobile-app-banner
 @@||googleadapis.l.google.com^|$badfilter
 @@||launches.appsflyer.com^|$badfilter
 |http*$app=com.adups.fota.sysoper|com.adups.fota,badfilter
-freehat.cc##[class*="anons-"], .sb-block_tp_social.sb-block, #player-switcher, #footer, .episode-quest-link
-||xyz^$third-party,script,xmlhttprequest,domain=~anidub.com|~animedia.pro|~animeheaven.ru|~animevibe.wtf|~app.element.io|~assistir-filme.biz|~avtomaty-i-bonusy.com|~chelentano.top|~coomeet.com|~crackstreams.com|~crackstreams.ga|~csgoreports.com|~cvid.kiev.ua|~emblix.cc|~estream.to|~europixhd.io|~films.hds-stream.com|~flowcdn.nl|~funtik.tv|~getvi.tv|~hanime.tv|~hentaiz.org|~herokuapp.com|~infoua.biz|~jokehd.com|~jokerswidget.com|~kinobig.me|~kinoguru.be|~kinoguru.me|~kristinita.ru|~live-golf.stream|~live-nhl.stream|~lookbase.xyz|~magicfilm.net|~mail.google.com|~map-a-date.cc|~matchat.online|~mikeamigorein.xyz|~miranimbus.ru|~my.mail.ru|~nccg.ru|~newdmn.icu|~onmovies.se|~playjoke.xyz|~roadhub.ru|~roblox.com|~sextop.net|~soccer365.ru|~soonwalk.net|~sportsbay.org|~streetbee.io|~streetbee.ru|~telerium.club|~telerium.live|~uacycling.info|~uploadedpremiumlink.net|~vk.com|~vmeste.tv|~web.app,badfilter
+||xyz^$third-party,script,xmlhttprequest,domain=~anidub.com|~animedia.pro|~animeheaven.ru|~animevibe.wtf|~app.element.io|~assistir-filme.biz|~auth.magic.link|~avtomaty-i-bonusy.com|~coomeet.com|~crackstreams.com|~crackstreams.ga|~csgoreports.com|~cvid.kiev.ua|~emblix.cc|~estream.to|~europixhd.io|~films.hds-stream.com|~flowcdn.nl|~funtik.tv|~getvi.tv|~github.io|~hanime.tv|~hentaiz.org|~herokuapp.com|~infoua.biz|~jokehd.com|~jokerswidget.com|~jokerswidget.org|~kinoguru.be|~kinoguru.me|~kristinita.ru|~live-golf.stream|~live-nhl.stream|~lookbase.xyz|~magicfilm.net|~mail.google.com|~map-a-date.cc|~matchat.online|~mikeamigorein.xyz|~miranimbus.ru|~my.mail.ru|~nccg.ru|~newdmn.icu|~odysee.com|~onmovies.se|~playjoke.xyz|~roadhub.ru|~roblox.com|~sextop.net|~soccer365.ru|~soonwalk.net|~sportsbay.org|~streetbee.io|~streetbee.ru|~telerium.club|~telerium.live|~uacycling.info|~uploadedpremiumlink.net|~vk-apps.com|~vk.com|~vmeste.tv|~web.app,badfilter
+||pw^$third-party,script,xmlhttprequest,domain=~adwiz.pp.ua|~forum.worldofwarships.ru|~hdvbplayer.tk|~live-gol.net|~panomama.ru|~philips.ru|~softpir.com|~sportings.pw|~sportsvideoline3.pw|~tefal.ru|~videosofsport1.pw|~xn--drakulastrem-b7e.com,badfilter
 ! TRASH END
