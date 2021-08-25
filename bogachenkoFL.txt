@@ -419,14 +419,8 @@ $$script[src="https://www.googletagservices.com/"]
 ! IMAGE START
 /^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,important
 ||duckduckgo.com/t/$image,important
-||mail.yandex.*/monitoring_liza.txt$image,important
 ||vk.com/rtrg?$image,important
 ! IMAGE END
-
-! POPUP & POPUNDER START
-||yastatic.net^$important,popunder,popup,domain=~kinopoisk.ru
-||hola.org^$popup,important
-! POPUP & POPUNDER END
 
 ! APP START
 /^(?!.*(lfnnmlimilinwvwlijljioeogq13\.club|(firebaseio|googleapis|pbssrv\-centralevents|verifykit)\.com)).*$/$important,app=app.source.getcontact
@@ -509,20 +503,14 @@ youtube.com##ytd-playlist-panel-video-renderer#playlist-items.ytd-playlist-panel
 |http*:*/serviceworker?$important
 ||google.com/complete/$important
 ||geo.opera.com/geolocation/$important
-||easylist-downloads.adblockplus.org/exceptionrules-privacy-friendly.txt|
-||easylist-downloads.adblockplus.org/exceptionrules.txt|
-||event.
 ||gew-spclient.spotify.com/*/logging/$important
 ||mail.google.com/mail/ads/$important
 ||meta^
 ||mobilemaps-pa.googleapis.com/*.ads.$important
-||monitor.$domain=~monitor.firefox.com
 ||null^
 ||spclient.wg.spotify.com/gabo-receiver-service/$important
 ||spclient.wg.spotify.com/ad-logic/$important
 ||spclient.wg.spotify.com/metrics-backend/$important
-||stat.$third-party,important
-||twitter.com/i/jot$important
 ||undefined^
 ||yandex.*/clck/$important
 ||yandex.*/geohelper/$important
@@ -533,10 +521,6 @@ youtube.com##ytd-playlist-panel-video-renderer#playlist-items.ytd-playlist-panel
 
 ! SUBDOCUMENT START
 /\/ads?\/(middle|bottom|right|top|left)\.html?\?/$important,subdocument
-/^https?:\/\/(www\.)?google\.[\w]+\/afs\/ads[/?]/$important,subdocument
-/^https?:\/\/(www\.)?kinopoisk\.ru\/[^\s]{3000}$/$important,subdocument
-/^https?:\/\/(www\.)?music\.yandex\.(ru|ua|by|com)\/[^\s]{3000,}/$important,subdocument
-/^https?:\/\/tv\.yandex\.[\w]+\/[^\s]{300,}/$subdocument,~third-party
 ! SUBDOCUMENT END
 
 ! SCRIPT START
@@ -569,7 +553,6 @@ youtube.com##ytd-playlist-panel-video-renderer#playlist-items.ytd-playlist-panel
 /^https?:\/\/[a-z]{6}\..*\/[a-z0-9]{3,30}\/[a-z0-9]{5,}\.php$/$third-party,important,script
 /^https?:\/\/[a-zA-Z.]{15,}\/[\d]+\?[a-z]\=[\d]{5,7}$/$third-party,important,script
 /^https?:\/\/[A-Za-z0-9.-]{6,16}\.[a-z]+\/\?[a-zA-Z0-9]{30,}$/$third-party,important,script
-/^https?:\/\/mail\.yandex\.[\w]+\/[^\s]{120,}/$important,script
 |http*:*/glp?r=*&rw=*&rh=*&ww=*&wh=$important,script
 |http*:*/glx_*.js$important,script
 |http*:*/invoke.js$important,script
@@ -589,16 +572,10 @@ youtube.com##ytd-playlist-panel-video-renderer#playlist-items.ytd-playlist-panel
 |http*:*/channels/*/extensions$important,xmlhttprequest,domain=twitch.tv
 ||addons.opera.com/themes/$important,xmlhttprequest
 ||google.com^*/viewerimpressions?$important,xmlhttprequest
-||instagram.com/ajax/bz|$important,xmlhttprequest
-||instagram.com/logging/$important,xmlhttprequest
 ||music.yandex.*/handlers/experiment.jsx$important,xmlhttprequest
 ||music.yandex.*/handlers/gdpr-welcome.jsx$important,xmlhttprequest
 ||music.yandex.*/handlers/promo-feedback.jsx$important,xmlhttprequest
 ||music.yandex.*/handlers/variabel.jsx$important,xmlhttprequest
-||ok.ru/dk?cmd=videostatnew$important,xmlhttprequest
-||svd-cdn.com/users/get_user?$important,xmlhttprequest
-||svd-cdn.com/users/payment/get_membership?$important,xmlhttprequest
-||twitter.com/*/jot/client_event.json$important,xmlhttprequest
 ||video.google.com/api/stats/$important,xmlhttprequest
 ||youtube.com/get_endscreen?$important,xmlhttprequest
 ||youtube.com/get_midroll_info?$important,xmlhttprequest
@@ -619,7 +596,6 @@ youtube.com##ytd-playlist-panel-video-renderer#playlist-items.ytd-playlist-panel
 /[-._?&=#/]vast[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~github.com|~gitlab.com|~twitch.tv
 /^https?:\/\/[0-1]{5,}\.com/$third-party,important,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/[a-w]{3,4}\.hh\?[a-z]\=[=&0-9a-zA-Z]{8,15}$/$script,subdocument,important
-||facebook.com/ajax/bz$important,other,xmlhttprequest
 ||yastatic.net/awaps-ad-sdk-js/$important,script,xmlhttprequest
 ||yastatic.net/daas/atom.js|$important,script,xmlhttprequest
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest
