@@ -281,44 +281,30 @@ $$script[src="https://www.googletagservices.com/"]
 ||adservice.l.google.com^$important
 ||2mdn.net^$important
 ||alt*-mtalk.google.com^$important
-||alt*-safebrowsing.google.com^$important
 ||amazon-adsystem.com^$important
-||android-safebrowsing.google.com^$important
-||applog.zaycev.net^$important
-||autoru-front.http.yandex.net^$important
+||*-safebrowsing.google.com^$important
 ||avast.com^$important
-||bingapis.com^$important
-||blacklivesmatter.com^$important
 ||brontp.yandex.ru^$important
 ||brozen.yandex.ru^$important
 ||appsflyer.com^$important
 ||cackle.me^$important
 ||vk-portal.net^$important
 ||chatbro.com^$important
-||chaturbate.com^$third-party,important
-||collector.xhamster.*^$important
 ||connect.facebook.net^$important
 ||connect.mail.ru^$important
 ||connect.ok.ru^$important
 ||desktop-dna.osp.opera.software^$important
 ||disqus.com^$important
 ||disquscdn.com^$important
-||dlservice.microsoft.com^$important
-||dlws.microsoft.com^$important
 ||doubleclick.net^$important
 ||edge.microsoft.com^$important
 ||event.shelljacket.us^$important
 ||pladform.ru^$important
 ||exchange.opera.com^$important
-||family.microsoft.com^$important
 ||fenek.market.yandex.*^$important
 ||flow.opera.com^$important
-||footprintpredict.com^$important
-||fs.microsoft.com^$important
-||fundingchoicesmessages.google.com^$important
 ||go.microsoft.com^$important
 ||google-analytics.com^$important
-||pushpad.xyz^$important
 ||googleadapis.l.google.com^$important
 ||googleadservices.*^$important
 ||googleadsserving.cn^$important
@@ -337,13 +323,9 @@ $$script[src="https://www.googletagservices.com/"]
 ||an.mail.ru^$important
 ||ad.mail.ru^$important
 ||widgetbot.io^$important
-||chatango.com^$important
 ||googletagservices.com^$important
-||gotprofits.com^$important
 ||graph.facebook.com^$important
 ||graph.instagram.com^$important
-||exosrv.com^$important
-||adxadserv.com^$important
 ||gx-corner.opera.com^$important
 ||taboola.com^$important
 ||gx-corner.route*.opera.com^$important
@@ -352,7 +334,6 @@ $$script[src="https://www.googletagservices.com/"]
 ||id.l.google.com^$important
 ||client.hola.org^$important
 ||imasdk.googleapis.com^$important
-||insideruser.microsoft.com^$important
 ||kas-labs.com^$important
 ||kaspersky-labs.com^$important
 ||kaspersky.*^$important,domain=~community.kaspersky.com|~forum.kaspersky.com|~support.kaspersky.ru|~opentip.kaspersky.com
@@ -364,21 +345,15 @@ $$script[src="https://www.googletagservices.com/"]
 ||ofa-sub.osp.opera.software^$important
 ||op-mobile.opera.com^$important
 ||opera-api.com^$important
-||edge.activity.windows.com^$important
 ||operacoinexchange.com^$important
 ||yadro.ru^$important
 ||opr.as^$important
 ||pagead*.l.doubleclick.net^$important
 ||pagead-googlehosted.l.google.com^$important
-||partnercoll.github.io^$important
-||pixel-static.spotify.com^$important
 ||pluso.ru^$important
-||qq.com^$important
-||qqzaixian.com^$important
 ||recsys.opera.com^$important
 ||redir.opera.com^$important
 ||reef.vk-cdn.net^$important
-||rttr2.zaycev.net^$important
 ||s*-2mdn-net.l.google.com^$important
 ||safe-browsing-quorum.privacy.ghostery.net^$important
 ||safe-browsing.ghostery.net^$important
@@ -394,8 +369,6 @@ $$script[src="https://www.googletagservices.com/"]
 ||sharethis.com^$important
 ||sitecheck*.opera.com^$important
 ||speeddials.opera.com^$important
-||sputnik.ru^$important
-||stophateforprofit.org^$important
 ||thumbnails*.opera.com^$important
 ||detectportal.firefox.com^$important
 ||adjust.com^$important
@@ -411,8 +384,6 @@ $$script[src="https://www.googletagservices.com/"]
 ||xbox.com^$important
 ||yastroka.yandex.net^$important
 ||an.yandex.ru^$important
-||stat.teleport.media^$important
-||stat-analytics.mediavitrina.ru^$important
 ||telemetry.mozilla.org^$important
 ! DOMAIN END
 
@@ -451,7 +422,6 @@ yandex.ru##.media-grid_js_inited.font-regular.i-bem.media-grid_theme_white.media
 mail.yandex.ru##.mail-Placeholder-Text, .mail-ThreadSidebar-wrap.ns-view-thread-sidebar-wrap, .mail-MailProAnnouncingPromoLeftColumn
 music.yandex.ru##.duck__duckling.moving-slider, .multi-auth__plus, .teaser, .sidebar__under, .page-main__line_row.page-main__line_small-margin.page-main__line_personal-playlists.page-main__line, .notify_shown.deco-tooltip_notify, .footer, .metrika-app_shown_yes.metrika-app_js_inited.i-bem.metrika-app_type_desktop.metrika-app_lang_ru.metrika-app, .duck__angry-duck_left.duck__angry-duck.paused-slider, .bar-below_plus.bar-below, .subscription-hint_bottom.deco-pane-popup.popup.local-theme-black.subscription-hint, div.notify > div.deco-tooltip_notify.notify_shown, .overlay_gdpr.overlay_shown.deco-pane-overlay.overlay, .deco-pane-popup.popup.local-icon-theme-white.local-theme-white.gdpr-popup, .bar-below_unavaliable.bar-below, a.teaser__content[href="https://music.yandex.ru/family-plus"] > img.teaser__img, div.page-root.page-root_no-player.deco-pane-back > div[class][data-b="2"][style="display: block;"], .teaser ~ div, .page-root > div[data-b="2"], .sidebar > div > .teaser + div[data-b="18"], .deco-tooltip_to-right.popup_visible.popup_fade.local-theme-black.d-tooltip_min-width.deco-pane-popup.popup.deco-tooltip.d-tooltip, .overlay_shown.deco-pane-overlay.overlay, .popup_modal.deco-pane-popup.popup.local-icon-theme-white.local-theme-white.popup_compact.crackdown-popup, .teaser-nonmusic_visible.teaser-nonmusic, .progress__line__branding, .paused-slider_left.porsche.paused-slider, .bar__branding_picture, .bar-below__auth, .bar-below__content, .bar__branding, .subscription-hint.popup, .bar__addition-link, body > div[style^="min-height"] > .notify *, body > div[style^="min-height"] > div[class][style="display: block;"], body > div[style^="min-height"] > .notify, [class^="audio-advert"], .subscription-hint.popup, .bar.bar-below, .ads-block, .share-container, .share.unit, .notify__message, div.notify > div.deco-tooltip_notify.notify_shown, .d-overhead-mobile__content_app, a.teaser__content[href="https://music.yandex.ru/family-plus"] > img.teaser__img, .bar-below, .no-ads, .button-store_all, .app-sms, a[href="/contest/dogmoroz"], .subscription-hint, .bar__driver-container, .sidebar__placeholder .teaser ~ div, div[id^="ya_partner_R-A-"], .page-root > div.d-overhead, .audio-advert__block
 music.yandex.ru##span:contains(Отключить рекламу)
-pornhub.*,pornhubthbh7ap3u.onion##div.clear-both.videoSection:has-text(/только для Фанатов/)
 trade.aliexpress.*##[href^="//simplee.aliexpress.com/"], [href^="//campaign.aliexpress.com/"]
 twitch.tv##.default-panel > :not([href*="vk.com"]):not([href*="donationalerts."]):not([href*="instagram.com"]):not([href*="youtube.com"]):not([href*="twitter.com"]):not([href*="steamcommunity.com"]):not([href*="discord.gg"]):not([href*="facebook.com"])
 twitch.tv##.channel-leaderboard
@@ -459,7 +429,6 @@ vk.com###stl_left, #stl_side, .apps_feedRightAppsBlock_collaborative_recommend_a
 vk.com##._post_content:has-text(Осторожно: тут про 3 сентября)
 vk.com##[class="wall_item"]:has([class*="ads_mark"])
 vk.com#?#.wall_wrap div[id^="post-"][-ext-has='div.post_content > div.post_info > div.wall_text > div.wall_post_cont > div.wall_marked_as_ads']
-xhamster.*##.list-items.wih-spot-container.right-rectangle, .wiz-ads-div, .wiz-cams-widget, .wiz-spa.wiz-spb, .cookie-announce.bottom-announce
 yadi.sk##.action-buttons__antifo-tooltip.tooltip_shown_yes.tooltip_theme_normal.tooltip_tone_default.tooltip_view_classic.tooltip_size_s.tooltip.popup2_target_anchor.popup2_visible_yes.popup2_direction_right-center.popup2_theme_normal.popup2_tone_default.popup2_view_classic.popup2, .mobile-badges, .software-header-product.hover-dropdown, .burger-sidebar__button.button2_theme_clear.button2_size_n.button2_view_classic.button2.control, .header__inline-services-menu.inline-services-menu, .app-promo-banner
 yandex.ru##^script:has-text(AwapsJsonAPI)
 youtube.com##.ytp-button.ytp-paid-content-overlay-text, div#player-ads, #player-ads, .ytp-ce-element.ytp-ce-video.ytp-ce-element-show.ytp-ce-top-left-quad, .style-scope.ytd-mealbar-promo-renderer, .ytp-ce-element.ytp-ce-video.ytp-ce-element-show.ytp-ce-top-left-quad, div#movie_player > .ytp-ce-channel.ytp-ce-channel-this.ytp-ce-element.ytp-ce-element-show.ytp-ce-size-640.ytp-ce-top-right-quad, ytd-companion-slot-renderer.ytd-player-legacy-desktop-watch-ads-renderer, #masthead-ad, #alert-banner, YTM-PROMOTED-VIDEO-RENDERER, .mealbar-promo-renderer, a[href*="/covid19"], #content > .ytd-rich-section-renderer.style-scope, .ytp-ad-module, .ytd-carousel-ad-renderer, ytd-video-masthead-ad-advertiser-info-renderer,ytm-promoted-sparkles-web-renderer, .ytp-ad-progress, #promotion-shelf, .masthead-ad-control, .ad-div, .pyv-afc-ads-container, #clarify-box > .ytd-watch-flexy.style-scope, #sponsor-button, yt-live-chat-viewer-engagement-message-renderer, .ytd-video-secondary-info-renderer.style-scope.sticky, .ytp-ce-video.ytp-ce-element, .ytp-endscreen-content, ytd-compact-movie-renderer.ytd-watch-next-secondary-results-renderer.style-scope, .ytp-impression-link, .ytp-show-cards-title.ytp-chrome-top, #live-chat-banner
@@ -472,9 +441,10 @@ youtube.com##ytd-playlist-panel-video-renderer#playlist-items.ytd-playlist-panel
 
 ! Content Security Policy (CSP) START
 /^https?:\/\/(www\.)?music\.yandex\.ru\//$important,csp=script-src 'unsafe-inline' 'unsafe-eval' music.yandex.ru *.youtube.com https://yastatic.net local.adguard.org injections.adguard.org *.jquery.com; connect-src 'self' data: music.yandex.ru storage.mds.yandex.net wss: https://api.passport.yandex.ru; img-src 'self' data: music.yandex.ru *.yandex.net yapic.yandex.ru *.ytimg.com; frame-src data: frontend.vh.yandex.ru *.youtube.com music.yandex.ru;
+||coub.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.google.com *.gstatic.com local.adguard.org injections.adguard.org *.google.com *.youtube.com coub.com *.akamai.net *.akamaized.net *.akamaihd.net;
 ||twitch.tv^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: data: *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net *.recaptcha.net *.google.com *.gstatic.com *.algolia.net local.adguard.org injections.adguard.org *.cloudfront.net *.fastly.net;
 ||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com *.google.com *.googleapis.com *.gstatic.com local.adguard.org injections.adguard.org;
-||vk.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.vkuseraudio.net *.userapi.com *.vk.com vk.com *.mycdn.me *.google.com *.gstatic.com local.adguard.org injections.adguard.org;
+||vk.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.vkuseraudio.net *.userapi.com *.vk.com vk.com *.mycdn.me *.google.com *.gstatic.com local.adguard.org injections.adguard.org *.youtube.com coub.com *.akamai.net *.akamaized.net *.akamaihd.net;
 ! Content Security Policy (CSP) END
 
 ! OTHER START
