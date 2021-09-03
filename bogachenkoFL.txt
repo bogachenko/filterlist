@@ -301,7 +301,6 @@ $$script[src="https://www.googletagservices.com/"]
 ||event.shelljacket.us^$important
 ||pladform.ru^$important
 ||exchange.opera.com^$important
-||fenek.market.yandex.*^$important
 ||flow.opera.com^$important
 ||go.microsoft.com^$important
 ||google-analytics.com^$important
@@ -389,8 +388,6 @@ $$script[src="https://www.googletagservices.com/"]
 
 ! IMAGE START
 /^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,important
-||duckduckgo.com/t/$image,important
-||vk.com/rtrg?$image,important
 ! IMAGE END
 
 ! APP START
@@ -506,7 +503,7 @@ youtube.com##ytd-playlist-panel-video-renderer#playlist-items.ytd-playlist-panel
 /^https?:\/\/[^/]+/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
 /^https?:\/\/[^\s]+\.com\/[0-9a-z]{2}\/[0-9a-z]{2}\/[0-9a-z]{2}\/[0-9a-z]{32}\.js/$third-party,important,script
 /^https?:\/\/[^\s]+\/(([_a-z-]{3,12})?[-._?&=#/])?sw\.js/$important,script
-/^https?:\/\/[^\s]+\/(([_a-z-]{3,15})?[-._?&=#/]?)?[Ww]orker(.*)?\.js/$important,script,domain=~github.com|~google.com|~lelinhtinh.github.io|~obfuscator.io|~parimatch.ru|~twitch.tv|~web.telegram.org|~whoer.net|~z5h64q92x9.net
+/^https?:\/\/[^\s]+\/(([_a-z-]{3,15})?[-._?&=#/]?)?[Ww]orker(.*)?\.js/$important,script,domain=~github.com|~google.com|~lelinhtinh.github.io|~obfuscator.io|~parimatch.ru|~twitch.tv|~web.telegram.org|~whoer.net|~z5h64q92x9.net|~vk.com
 /^https?:\/\/[^\s]+\/[cs]sw\.js/$important,script
 /^https?:\/\/[^\s]+\/[Ww]orker([-._?&=#/]?([a-z]{5,6})?)?\.js/$important,script,domain=~lelinhtinh.github.io|~parimatch.ru
 /^https?:\/\/[^\s]+\/sw([-._?&=#/]([_a-z0-9-.]{1,12})?)?\.js/$important,script
