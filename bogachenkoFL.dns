@@ -23,7 +23,10 @@
 /^[a-z]{2,3}video\.xyz$/$important
 /^[sn]metrics\.samsung\.com$/$important
 ||2mdn.net^$important
+||countess.twitch.tv^$important
+||dit.whatsapp.net^$important
 ||2o7.net^$important
+||privatestats.whatsapp.net^$important
 ||aan.amazon.com^$important
 ||aaxads.com^$important
 ||abtasty.com^$important
