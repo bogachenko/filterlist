@@ -1,5 +1,5 @@
 ! Title: bogachenko's Filter List
-! Description: A filter for bogachenko's personal use to block loading of ads, third-party, tracking, annoying and all other unjustified resources. These filters are used by me for uBlock Origin, AdGuard for Windows and AdGuard for Android.
+! Description: bogachenko's Personal Filter to block loading of ads, third-party, tracking, annoying and all other unjustified resources. These filters are used by me for uBlock Origin, AdGuard for Windows and AdGuard for Android.
 ! Homepage: https://github.com/bogachenko/filterlist
 ! RAW: https://raw.githubusercontent.com/bogachenko/filterlist/main/bogachenkoFL.txt
 ! License: https://raw.githubusercontent.com/bogachenko/filterlist/main/LICENSE.md
@@ -512,7 +512,6 @@ youtube.com##ytd-playlist-panel-video-renderer#playlist-items.ytd-playlist-panel
 /^https?:\/\/[a-z]+\.com\/[a-z]{1,2}\/[a-zA-Z0-9=]{65,}\.js$/$third-party,important,script
 /^https?:\/\/[a-z]{10,11}\.com\/[0-9a-f]{5}\.js$/$third-party,important,script
 /^https?:\/\/[a-z]{6,16}\.[a-z]+\/[0-9]{1}\?[a-z]{1}\=[0-9]{7}$/$important,script
-/^https?:\/\/[a-z]{6,16}\.[a-z]+\/[a-zA-Z0-9]{10,23}\/[0-9]{4,5}$/$third-party,important,script
 /^https?:\/\/[a-z]{6,16}\.[a-z]+\/akam\/11\/[a-f0-9]{8}/$important,script
 /^https?:\/\/[a-z]{6,16}\.[a-z]+\/pntnsw\/[0-9]{4,5}/$third-party,important,script
 /^https?:\/\/[a-z]{6}\..*\/[a-z0-9]{3,30}\/[a-z0-9]{5,}\.php$/$third-party,important,script
