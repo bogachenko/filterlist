@@ -496,12 +496,9 @@ youtube.com##ytd-playlist-panel-video-renderer#playlist-items.ytd-playlist-panel
 /\.[a-z]+\/\?pu\=/$third-party,important,script
 /\/js[a-z0-9]+\/[a-z0-9]{0,14}\.js$/$important,script
 /^https:\/\/.*?\/v2\/0\/[a-zA-Z0-9_-]{30,}$/$third-party,important,script
-/^https?:\/\/([a-z0-9]{3,10}\.)?[a-z0-9]{5,15}\.(click|com|bid|net|online|top|club)\/([a-z0-9]{2}\/){3}[a-f0-9]{32}\.js$/$important,script
 /^https?:\/\/([A-Za-z0-9-.]+\/){5,}[A-Za-z0-9_-]+$/$third-party,important,script
-/^https?:\/\/(www\.)?([a-z0-9]{3,10}\.)?[a-z0-9]{5,20}\.(click|co|com|bid|net|online|top|club)\/([a-z0-9]{2,3}\/){3}[a-f0-9]{32}\.js$/$important,script
 /^https?:\/\/(www\.)?[a-z]{7,15}\.[a-z]+\/[a-z]{1,6}\/[a-zA-Z0-9]{8}\.js$/$third-party,important,script
 /^https?:\/\/[^/]+/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
-/^https?:\/\/[^\s]+\.com\/[0-9a-z]{2}\/[0-9a-z]{2}\/[0-9a-z]{2}\/[0-9a-z]{32}\.js/$third-party,important,script
 /^https?:\/\/[^\s]+\/(([_a-z-]{3,12})?[-._?&=#/])?sw\.js/$important,script
 /^https?:\/\/[^\s]+\/(([_a-z-]{3,15})?[-._?&=#/]?)?[Ww]orker(.*)?\.js/$important,script,domain=~github.com|~google.com|~lelinhtinh.github.io|~obfuscator.io|~parimatch.ru|~twitch.tv|~web.telegram.org|~whoer.net|~z5h64q92x9.net|~vk.com
 /^https?:\/\/[^\s]+\/[cs]sw\.js/$important,script
