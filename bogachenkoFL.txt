@@ -464,7 +464,7 @@ youtube.com##ytd-playlist-panel-video-renderer#playlist-items.ytd-playlist-panel
 |http*:*$important,ping
 |http*:*$important,webrtc
 |http*:*/generate_204$important
-|http*:*/log/$important,domain=~aliexpress.com
+|http*:*/log/$important,domain=~aliexpress.com|~sberbank.ru
 |http*:*/log?$important
 |http*:*/pagead/$important
 |http*:*/serviceworker?$important
@@ -548,7 +548,7 @@ youtube.com##ytd-playlist-panel-video-renderer#playlist-items.ytd-playlist-panel
 /[-._?&=#/](logs?|img)[-._?&=#/]?(?:failure|info|type|events?|entry|request|statu?s?|view|edpage)[-._?&=#/]?/$image,important,other,script,xmlhttprequest
 /[-._?&=#/](player|client|csi|gen(erate)?|stream|logs?|live)[-._?&=#/]?204[-._?&=#/]?/$image,important,other,xmlhttprequest
 /[-._?&=#/][a-zA-Z]{8,}track(ers?|ing)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~ok.ru|~fandom.com
-/[-._?&=#/]analyti([\W\w]+)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~analytics.google.com|~analyticssuitefrontend-pa.clients6.google.com|~analyticsinsights-pa.clients6.google.com|~fandom.com|~aliexpress.ru|~aliexpress.com|~vk.com|~dropbox.com|~yota.ru|~ubisoft.com|~ubi.com
+/[-._?&=#/]analyti([\W\w]+)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~analytics.google.com|~analyticssuitefrontend-pa.clients6.google.com|~analyticsinsights-pa.clients6.google.com|~fandom.com|~aliexpress.ru|~aliexpress.com|~vk.com|~dropbox.com|~yota.ru|~ubisoft.com|~ubi.com|~sberbank.ru
 /[-._?&=#/]bann?ers?[-.0-9_?&=#/]/$image,important,script,subdocument,xmlhttprequest,domain=~aliexpress.com|~aliexpress.ru|~discord.com|~dropbox.com|~esetnod32.ru|~f-droid.org|~fandom.com|~gosuslugi.ru|~leon.ru|~live.com|~mts.ru|~office.com|~ok.ru|~rt.ru|~ru-mi.com|~sberbank.ru|~google.com|~twitch.tv|~radiorecord.ru|~yota.ru
 /[-._?&=#/]logs?(ging|impressions?|ers?)?[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~aliexpress.com|~aliexpress.ru|~dns-shop.ru|~docviewer.yandex.ru|~github.com|~gitlab.com|~instagram.com|~mi.com|~twitch.tv|~yadi.sk|~dropbox.com|~twitter.com
 /[-._?&=#/]piwik[-.0-9_?&=#/]/$image,important,script
