@@ -281,6 +281,7 @@ $$script[src="https://www.googletagservices.com/"]
 ||__hola__.pac_get_init_ts.local.hola^$important
 ||meetings.googleapis.com^$important
 ||addthis.com^$important
+||tracking-protection.cdn.mozilla.net^$important
 ||addtoany.com^$important
 ||adservice.google.*^$important
 ||adservice.l.google.com^$important

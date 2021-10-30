@@ -24,7 +24,6 @@
 /^[sn]metrics\.samsung\.com$/$important
 ||2mdn.net^$important
 ||scorecardresearch.com^$important
-||tracking-protection.cdn.mozilla.net^$important
 ||rutarget.ru^$important
 ||countess.twitch.tv^$important
 ||dit.whatsapp.net^$important
@@ -49,6 +48,7 @@
 ||an.facebook.com^$important
 ||an.mail.ru^$important
 ||an.yandex.*^$important
+||tracking.overwolf.com^$important
 ||analyticsnew.overwolf.com^$important
 ||app-measurement.com^$important
 ||app.link^$important
