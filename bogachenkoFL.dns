@@ -48,6 +48,7 @@
 ||an.facebook.com^$important
 ||an.mail.ru^$important
 ||an.yandex.*^$important
+||customerevents.netflix.com^$important
 ||tracking.overwolf.com^$important
 ||analyticsnew.overwolf.com^$important
 ||app-measurement.com^$important
@@ -96,7 +97,7 @@
 ||dc.services.visualstudio.com^$important
 ||dds.microsoft.com^$important
 ||diagnostics.support.microsoft.com^$important
-||doubleclick.*^$important
+||doubleclick.net^$important
 ||doublepimp.com^$important
 ||event.shelljacket.us^$important
 ||extmaps-api.yandex.net^$important
@@ -106,6 +107,7 @@
 ||flex.msn.com^$important
 ||flurry.com^$important
 ||footprint.net^$important
+||android-stat.acestream.net^$important
 ||footprintdns.com^$important
 ||footprintpredict.com^$important
 ||footprints-pa.googleapis.com^$important
@@ -142,6 +144,8 @@
 ||moatads.com^$important
 ||msitadfs.glbdns2.microsoft.com^$important
 ||my.com^$important
+||newrelic.com^$important
+||datacollector-*.dt.hicloud.com^$important
 ||newlog.overwolf.com^$important
 ||next-services.apps.microsoft.com^$important
 ||opera-api.com^$important
