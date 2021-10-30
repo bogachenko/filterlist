@@ -6,7 +6,7 @@
 ! Expires: 3 hours
 
 ! CONDITIONS START
-!#if !ext_ublock
+!#if adguard
 $$script[src="//pagead2.googlesyndication.com/"]
 $$script[src="https://c1.popads.net/pop.js"]
 $$script[src="https://c2.popads.net/pop.js"]
@@ -16,6 +16,10 @@ $$script[src="https://www.google-analytics.com/"]
 $$script[src="https://www.googleadservices.com/"]
 $$script[src="https://www.googletagmanager.com/"]
 $$script[src="https://www.googletagservices.com/"]
+!#endif
+!#if adguard_app_android
+@@||analyticsinsights-pa.clients6.google.com^$important,document
+@@||analytics.google.com^$important,document
 !#endif
 ! CONDITIONS END
 
@@ -275,6 +279,7 @@ $$script[src="https://www.googletagservices.com/"]
 /^a\.[a-z0-9]{40,}\.com$/$important
 /^https?:\/\/([a-s1-3]{2}|update)\.torrentstream\.(org|info|net)/$important
 ||__hola__.pac_get_init_ts.local.hola^$important
+||meetings.googleapis.com^$important
 ||addthis.com^$important
 ||addtoany.com^$important
 ||adservice.google.*^$important
@@ -393,6 +398,7 @@ $$script[src="https://www.googletagservices.com/"]
 ! APP START
 /^(?!.*(lfnnmlimilinwvwlijljioeogq13\.club|(firebaseio|googleapis|pbssrv\-centralevents|verifykit)\.com)).*$/$important,app=app.source.getcontact
 ||www.facebook.com^$important,app=system
+*$app=com.mi.android.globalFileexplorer|com.miui.cleaner|com.miui.securitycenter
 ! APP END
 
 ! SCRIPTLET START
@@ -441,7 +447,7 @@ youtube.com##ytd-playlist-panel-video-renderer#playlist-items.ytd-playlist-panel
 ||coub.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.google.com *.gstatic.com local.adguard.org injections.adguard.org *.google.com *.youtube.com coub.com *.akamai.net *.akamaized.net *.akamaihd.net;
 ||twitch.tv^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: data: *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net *.recaptcha.net *.google.com *.gstatic.com *.algolia.net local.adguard.org injections.adguard.org *.cloudfront.net *.fastly.net;
 ||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com *.google.com *.googleapis.com *.gstatic.com local.adguard.org injections.adguard.org;
-||vk.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.vkuseraudio.net *.userapi.com *.vk.com vk.com *.mycdn.me *.google.com *.gstatic.com local.adguard.org injections.adguard.org *.youtube.com coub.com *.akamai.net *.akamaized.net *.akamaihd.net *.googleapis.com;
+||vk.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.vkuseraudio.net *.userapi.com *.vk.com vk.com *.mycdn.me *.google.com *.gstatic.com local.adguard.org injections.adguard.org *.youtube.com coub.com *.akamai.net *.akamaized.net *.akamaihd.net *.googleapis.com *.api-maps.yandex.ru;
 ! Content Security Policy (CSP) END
 
 ! OTHER START
