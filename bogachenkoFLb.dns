@@ -9,6 +9,7 @@
 /^(.+[_.-])?ad[sxv]?([\d]+)?[_.-]/
 /^(.+[_.-])?ad[vs]er(ve)?t?(i(se|sing|sement|ca))?[_.-]/
 /^(.+[_.-]?)?re[ck]l?(ama)?([\d]+)?[_.-]/
+/^(.+[_.-]?)?analy((ti|zer)([\W\w]+)?)?([\d]+)?[_.-]/
 /^n[0-9]{2,4}adserv\.\w+$/
 ||adcolony.com^
 ||adform.net^
@@ -23,7 +24,6 @@
 ||an.facebook.com^
 ||an.mail.ru^
 ||an.yandex.*^
-||analyticsnew.overwolf.com^
 ||android-stat.acestream.net^
 ||app-measurement.com^
 ||app.link^
