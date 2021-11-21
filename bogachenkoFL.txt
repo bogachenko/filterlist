@@ -8,7 +8,6 @@
 ||adcryp.to^$important
 ||adjust.*^$important
 ||adlane.info^$important
-||adlane.info^$important
 ||admantx.com^$important
 ||adoto.net^$important
 ||adservice.google.*^$important
@@ -35,6 +34,7 @@
 ||desktop-dna.osp.opera.software^$important
 ||detectportal.firefox.com^$important
 ||doubleclick.net^$important
+||echnolog.club^$important
 ||exchange.opera.com^$important
 ||flow.opera.com^$important
 ||gazitidi.xyz^$important
@@ -58,9 +58,12 @@
 ||imrworldwide.com^$important
 ||intelligenceadx.com^$important
 ||jalewaads.com^$important
+||jjmdavj.com^$important
+||luckyforbet.com^$important
 ||luckyorange.com^$important
 ||mc.yandex.ru^$important
 ||mellowads.com^$important
+||monstertraff.xyz^$important
 ||mouseflow.com^$important
 ||neon.today^$important
 ||notification.adblockplus.org^$important
@@ -94,6 +97,7 @@
 ||us-redir.opera.com^$important
 ||vk-cdn.net^$important
 ||vk-portal.net^$important
+||wastedperk.com^$important
 ||webtrafic.ru^$important
 ||www-google-analytics.l.google.com^$important
 ||www-googleadservices.l.google.com^$important
@@ -103,8 +107,3 @@
 ||yadro.ru^$important
 ||yvmads.com^$important
 ||__hola__.pac_get_init_ts.local.hola^$important
-||echnolog.club^$important
-||wastedperk.com^$important
-||monstertraff.xyz^$important
-||luckyforbet.com^$important
-||jjmdavj.com^$important

@@ -1,10 +1,8 @@
 ! Title: bogachenko's DNS Blacklist
-! Description: bogachenko's Personal Filter to block loading of ads, tracking and analysis. These filters are used by me for Adguard Home.
+! Description: Yet another anti-bullshit filter list.
 ! RAW: https://raw.githubusercontent.com/bogachenko/filterlist/main/bogachenkoBL.dns
 ! Homepage: https://github.com/bogachenko/filterlist/
 ! License: https://raw.githubusercontent.com/bogachenko/filterlist/main/LICENSE.md
-
-! README: Simplified specifically to be better compatible with DNS-level ad blocking.
 
 /^(.+[_.-])?ad[sxv]?([\d]+)?[_.-]/
 /^(.+[_.-])?ad[vs]er(ve)?t?(i(se|sing|sement|ca))?[_.-]/
@@ -13,6 +11,7 @@
 /^(.+[_.-]?)?telemetr(y|ic)([\W\w]+)?)?([\d]+)?[_.-]/
 /^(.+[_.-]?)?me?tr[ie]?[ck][asx]?([\d]+)?[_.-]/
 /^n[0-9]{2,4}adserv\.\w+$/
+/^a\.[a-z0-9]{40,}\.com$/$important
 /^aj[0-9]{4}\.online$/
 ||2mdn.net^
 ||adcolony.com^
@@ -26,7 +25,6 @@
 ||amazon-adsystem.com^
 ||amplitude.com^
 ||an.facebook.com^
-||an.mail.ru^
 ||an.mail.ru^
 ||an.yandex.*^
 ||android-stat.acestream.net^
@@ -85,8 +83,6 @@
 ||gx-corner.opera.com^
 ||gx-corner.route*.opera.com^
 ||id.google.*^
-||id.google.*^
-||id.l.google.com^
 ||id.l.google.com^
 ||imasdk.googleapis.com^
 ||mc.yandex.*^
@@ -111,7 +107,6 @@
 ||r3.mail.ru^
 ||recsys.opera.com^
 ||redir.opera.com^
-||redir.opera.com^
 ||ris.api.iris.microsoft.com^
 ||rs.mail.ru^
 ||s*-2mdn-net.l.google.com^
@@ -122,9 +117,7 @@
 ||sentry-cdn.com^
 ||sentry.io^
 ||serving-sys.com^
-||serving-sys.com^
 ||smartscreen.microsoft.com^
-||speeddials.opera.com^
 ||speeddials.opera.com^
 ||spynet2.microsoft.com^
 ||spynetall.microsoft.com^
@@ -137,7 +130,6 @@
 ||t.mail.ru^
 ||taboola.com^
 ||tapjoyads.com^
-||thumbnails*.opera.com^
 ||thumbnails*.opera.com^
 ||top-fwz1.mail.ru^
 ||tracking.*.miui.com^
@@ -155,6 +147,5 @@
 ||www-googletagmanager.l.google.com^
 ||www-googletagservices.l.google.com^
 ||yabs.yandex.*^
-||yadro.ru^
 ||yadro.ru^
 ||__hola__.pac_get_init_ts.local.hola^

@@ -276,7 +276,6 @@ $$script[src="https://www.googletagservices.com/"]
 ! Domain Name System (DNS) END
 
 ! DOMAIN START
-/^a\.[a-z0-9]{40,}\.com$/$important
 /^https?:\/\/([a-s1-3]{2}|update)\.torrentstream\.(org|info|net)/$important
 ||*-safebrowsing.google.com^$important
 ||addthis.com^$important
