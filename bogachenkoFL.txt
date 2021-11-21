@@ -103,3 +103,8 @@
 ||yadro.ru^$important
 ||yvmads.com^$important
 ||__hola__.pac_get_init_ts.local.hola^$important
+||echnolog.club^$important
+||wastedperk.com^$important
+||monstertraff.xyz^$important
+||luckyforbet.com^$important
+||jjmdavj.com^$important
