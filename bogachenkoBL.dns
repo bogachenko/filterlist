@@ -1,6 +1,6 @@
 ! Title: bogachenko's DNS Blacklist
 ! Description: bogachenko's Personal Filter to block loading of ads, tracking and analysis. These filters are used by me for Adguard Home.
-! RAW: https://raw.githubusercontent.com/bogachenko/filterlist/main/bogachenkoFLb.dns
+! RAW: https://raw.githubusercontent.com/bogachenko/filterlist/main/bogachenkoBL.dns
 ! Homepage: https://github.com/bogachenko/filterlist/
 ! License: https://raw.githubusercontent.com/bogachenko/filterlist/main/LICENSE.md
 
