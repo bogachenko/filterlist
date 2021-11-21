@@ -21,6 +21,7 @@
 ||an.mail.ru^$important
 ||an.yandex.ru^$important
 ||aniview.com^$important
+||appmetrica.yandex.*^$important
 ||appsflyer.com^$important
 ||ayelads.com^$important
 ||bicugesi.xyz^$important
@@ -65,6 +66,9 @@
 ||notification.adblockplus.org^$important
 ||ofa-sub.osp.opera.software^$important
 ||op-mobile.opera.com^$important
+||opera-api.com^$important
+||operacoinexchange.com^$important
+||opr.as^$important
 ||pagead*.l.doubleclick.net^$important
 ||pagead-googlehosted.l.google.com^$important
 ||pladform.ru^$important
@@ -88,6 +92,7 @@
 ||trafiframe.ru^$important
 ||tvxegkrad.xyz^$important
 ||us-redir.opera.com^$important
+||vk-cdn.net^$important
 ||vk-portal.net^$important
 ||webtrafic.ru^$important
 ||www-google-analytics.l.google.com^$important

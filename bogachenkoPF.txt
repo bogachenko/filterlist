@@ -282,7 +282,6 @@ $$script[src="https://www.googletagservices.com/"]
 ||addthis.com^$important
 ||addtoany.com^$important
 ||alt*-mtalk.google.com^$important
-||appmetrica.yandex.*^$important
 ||avast.com^$important
 ||brontp.yandex.ru^$important
 ||brozen.yandex.ru^$important
@@ -301,15 +300,10 @@ $$script[src="https://www.googletagservices.com/"]
 ||kaspersky-labs.com^$important
 ||kaspersky.*^$important,domain=~community.kaspersky.com|~forum.kaspersky.com|~support.kaspersky.ru|~opentip.kaspersky.com
 ||meetings.googleapis.com^$important
-||merchandise.opera-api.com^$important
 ||mobile-gtalk.l.google.com^$important
 ||msn.com^$important
 ||mtalk.google.com^$important
-||opera-api.com^$important
-||operacoinexchange.com^$important
-||opr.as^$important
 ||pluso.ru^$important
-||reef.vk-cdn.net^$important
 ||safe-browsing-quorum.privacy.ghostery.net^$important
 ||safe-browsing.ghostery.net^$important
 ||safebrowsing.googleapis.com^$important
