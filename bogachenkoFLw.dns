@@ -1,0 +1,11 @@
+! Title: bogachenko's DNS Whitelist
+! Description: 
+! RAW: https://raw.githubusercontent.com/bogachenko/filterlist/main/bogachenkoFLw.dns
+! Homepage: https://github.com/bogachenko/filterlist/
+! License: https://raw.githubusercontent.com/bogachenko/filterlist/main/LICENSE.md
+
+! README: Simplified specifically to be better compatible with DNS-level ad blocking.
+
+
+@@||metrika.yandex.ru^
+@@||analytics.google.com^
