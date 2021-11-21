@@ -1,0 +1,588 @@
+! Title: bogachenko's Filter List
+! Description: bogachenko's Personal Filter to block loading of ads, third-party, tracking, annoying and all other unjustified resources. These filters are used by me for uBlock Origin, AdGuard for Windows and AdGuard for Android.
+! Homepage: https://github.com/bogachenko/filterlist
+! RAW: https://raw.githubusercontent.com/bogachenko/filterlist/main/bogachenkoFL.txt
+! License: https://raw.githubusercontent.com/bogachenko/filterlist/main/LICENSE.md
+! Expires: 3 hours
+
+! CONDITIONS START
+!#if adguard
+$$script[src="//pagead2.googlesyndication.com/"]
+$$script[src="https://c1.popads.net/pop.js"]
+$$script[src="https://c2.popads.net/pop.js"]
+$$script[src="https://mc.yandex.ru/"]
+$$script[src="https://pagead2.googlesyndication.com/"]
+$$script[src="https://www.google-analytics.com/"]
+$$script[src="https://www.googleadservices.com/"]
+$$script[src="https://www.googletagmanager.com/"]
+$$script[src="https://www.googletagservices.com/"]
+!#endif
+!#if adguard_app_android
+@@||analyticsinsights-pa.clients6.google.com^$important,document
+@@||analytics.google.com^$important,document
+!#endif
+! CONDITIONS END
+
+! WHITELIST START
+@@/^https?:\/\/edge\.microsoft\.com\/(extension(webstorebase|installverifier)\/[a-z1-9.]{2,4}\/(installverify|(hash)?crx\?|log(extensionreliability|failureinfo)\?)|(redirector|hunspell)dictionaries\/)/$important
+@@||connectivitycheck.gstatic.com^$important
+@@||safebrowsing.clients.google.com^$document
+@@||local.adguard.org^$script
+@@||injections.adguard.org^$script
+! WHITELIST END
+
+! LAN START
+/^https?:\/\/192\.168\.[01]\.1/$third-party,domain=~0.0.0.0|~127.0.0.1|~192.168.0.1|~192.168.1.1|~[::1]|~[::]|~localhost|~10.0.0.1
+||0.0.0.0^$third-party,domain=~0.0.0.0|~127.0.0.1|~192.168.0.1|~192.168.1.1|~[::1]|~[::]|~localhost|~10.0.0.1
+||127.0.0.0^$third-party,domain=~0.0.0.0|~127.0.0.1|~192.168.0.1|~192.168.1.1|~[::1]|~[::]|~localhost|~10.0.0.1
+||10.0.0.1^$third-party,domain=~0.0.0.0|~127.0.0.1|~192.168.0.1|~192.168.1.1|~[::1]|~[::]|~localhost|~10.0.0.1
+||[::1]^$third-party,domain=~0.0.0.0|~127.0.0.1|~192.168.0.1|~192.168.1.1|~[::1]|~[::]|~localhost|~10.0.0.1
+||[::]^$third-party,domain=~0.0.0.0|~127.0.0.1|~192.168.0.1|~192.168.1.1|~[::1]|~[::]|~localhost|~10.0.0.1
+||localhost^$third-party,domain=~0.0.0.0|~127.0.0.1|~192.168.0.1|~192.168.1.1|~[::1]|~[::]|~localhost|~10.0.0.1
+! LAN END
+
+! Domain Name System (DNS) START
+103.229.10.134:443$network
+103.229.10.220:443$network
+104.155.184.63:443$network
+104.17.73.8:443$network
+104.20.2.47:443$network
+104.27.164.67:443$network
+106.11.95.4:443$network
+106.11.95.4:80$network
+108.161.188.158:443$network
+108.177.14.154:443$network
+108.177.14.155:443$network
+108.177.14.156:443$network
+108.177.14.157:443$network
+108.177.14.97:443$network
+119.255.133.27$network
+119.255.133.30$network
+119.255.133.33$network
+119.255.133.36$network
+119.255.133.57$network
+120.198.203.156:80$network
+13.224.143.39:443$network
+13.224.151.106:443$network
+13.224.151.55:443$network
+13.225.103.50:443$network
+13.225.157.114:443$network
+13.225.157.196:443$network
+13.225.157.82:443$network
+13.249.153.89:443$network
+13.249.166.157:443$network
+13.249.166.165:443$network
+13.249.166.218:443$network
+136.243.134.204:443$network
+140.205.172.65:80$network
+143.204.77.169:443$network
+143.204.77.220:443$network
+143.204.77.90:443$network
+147.75.92.149:443$network
+147.75.92.151:443$network
+147.75.92.61:443$network
+147.75.94.109:443$network
+147.75.94.117:443$network
+151.101.66.217:443$network
+152.199.20.243:443$network
+162.125.80.6:443$network
+168.235.203.193:443$network
+172.217.160.99:443$network
+172.217.20.34:443$network
+172.217.21.130:443$network
+172.217.21.162:443$network
+172.217.21.168:443$network
+172.217.22.162:443$network
+172.217.22.168:443$network
+173.194.220.136:443$network
+173.194.220.148:443$network
+173.194.220.156:443$network
+173.194.220.157:443$network
+173.194.221.100:443$network
+173.194.221.154:443$network
+173.194.221.155:443$network
+173.194.221.156:443$network
+173.194.221.157:443$network
+173.194.222.148:443$network
+173.194.222.154:443$network
+173.194.222.155:443$network
+173.194.222.156:443$network
+173.194.222.157:443$network
+173.194.222.97:443$network
+173.194.73.154:443$network
+173.194.73.155:443$network
+173.194.73.156:443$network
+173.194.73.157:443$network
+174.137.133.18:443$network
+185.146.158.61:443$network
+185.30.176.248:443$network
+185.5.137.178:443$network
+185.5.137.247:443$network
+185.88.180.108:443$network
+185.88.180.99:443$network
+188.72.202.155:443$network
+194.226.130.227:443$network
+194.226.130.228:443$network
+194.226.130.229:443$network
+195.209.108.36:443$network
+195.209.108.37:443$network
+195.209.108.39:443$network
+198.134.112.241:443$network
+198.134.112.242:443$network
+202.177.216.233$network
+202.177.216.236$network
+203.119.244.125:443$network
+203.119.244.125:80$network
+204.79.197.200$network
+205.185.216.42:443$network
+209.85.233.154:443$network
+209.85.233.155:443$network
+209.85.233.156:443$network
+209.85.233.157:443$network
+213.180.193.131:443$network
+213.180.193.210:443$network
+213.180.193.90:443$network
+213.180.204.131:443$network
+213.180.204.90:443$network
+213.180.204.91:443$network
+216.58.207.194:443$network
+216.58.207.225:443$network
+216.58.207.226:443$network
+216.58.207.232:443$network
+216.58.208.238:443$network
+216.58.223.110:443$network
+217.69.133.145:443$network
+217.69.139.244:443$network
+217.69.141.142:443$network
+23.210.249.164:443$network
+23.56.25.39:443$network
+27.111.185.138$network
+3.11.46.38:443$network
+34.199.118.167:443$network
+34.227.128.2:443$network
+34.98.67.61:443$network
+35.161.10.53:443$network
+35.186.205.6:443$network
+35.190.88.7:443$network
+37.157.6.251:443$network
+37.9.93.100:443$network
+37.9.93.97:443$network
+38.113.165.110$network
+38.113.165.68$network
+38.113.165.71$network
+38.113.165.74$network
+38.113.165.77$network
+38.113.165.86$network
+46.61.220.38:443$network
+47.246.4.225:80$network
+47.89.66.240:80$network
+52.35.83.137:443$network
+52.50.119.212:443$network
+52.73.50.87:443$network
+52.85.243.28:443$network
+54.171.241.184:443$network
+59.151.128.36:443$network
+62.128.100.35$network
+62.128.100.37$network
+62.128.100.39$network
+62.128.100.41$network
+62.128.100.43$network
+62.128.100.59$network
+62.128.100.61$network
+62.128.100.84$network
+62.128.100.92$network
+62.128.100.93$network
+62.128.100.94$network
+64.233.161.102:443$network
+64.233.161.154:443$network
+64.233.161.155:443$network
+64.233.161.156:443$network
+64.233.161.157:443$network
+64.233.161.97:443$network
+64.233.162.154:443$network
+64.233.162.155:443$network
+64.233.162.156:443$network
+64.233.162.157:443$network
+64.233.162.97:443$network
+64.233.163.154:443$network
+64.233.163.155:443$network
+64.233.163.156:443$network
+64.233.163.157:443$network
+64.233.163.97:443$network
+64.233.164.154:443$network
+64.233.164.155:443$network
+64.233.164.156:443$network
+64.233.164.157:443$network
+64.233.164.97:443$network
+64.233.165.148:443$network
+64.233.165.154:443$network
+64.233.165.155:443$network
+64.233.165.156:443$network
+64.233.165.157:443$network
+64.233.165.97:443$network
+74.125.205.100:443$network
+74.125.205.102:443$network
+74.125.205.113:443$network
+74.125.205.138:443$network
+74.125.205.148:443$network
+74.125.205.154:443$network
+74.125.205.155:443$network
+74.125.205.156:443$network
+74.125.205.157:443$network
+77.88.21.119:443$network
+77.88.21.131:443$network
+77.88.21.90:443$network
+8.253.207.117:443$network
+80.239.170.179$network
+80.252.91.52:443$network
+80.252.91.53:443$network
+81.19.104.24$network
+81.19.104.27$network
+81.19.104.30$network
+81.19.104.33$network
+81.19.104.39$network
+81.19.104.42$network
+81.19.104.45$network
+81.19.104.48$network
+82.145.216.19:443$network
+82.145.216.20:443$network
+84.17.57.7:443$network
+87.250.250.119:443$network
+87.250.250.131:443$network
+87.250.250.210:443$network
+87.250.250.254:443$network
+87.250.250.90:443$network
+87.250.250.91:443$network
+87.250.250.92:443$network
+87.250.251.119:443$network
+87.250.251.210:443$network
+88.212.201.198:443$network
+88.212.201.204:443$network
+88.212.201.216:443$network
+88.85.82.153:443$network
+93.158.134.131:443$network
+93.158.134.90:443$network
+93.158.134.91:443$network
+94.100.180.197:443$network
+94.100.180.72:443$network
+94.100.184.85:443$network
+95.100.178.68:443$network
+95.167.17.108:443$network
+95.167.17.115:443$network
+99.86.193.112:443$network
+99.86.193.113:443$network
+||212.122.5.136^
+||51.79.155.250^
+! Domain Name System (DNS) END
+
+! DOMAIN START
+/^a\.[a-z0-9]{40,}\.com$/$important
+/^https?:\/\/([a-s1-3]{2}|update)\.torrentstream\.(org|info|net)/$important
+||__hola__.pac_get_init_ts.local.hola^$important
+||meetings.googleapis.com^$important
+||addthis.com^$important
+||tracking-protection.cdn.mozilla.net^$important
+||addtoany.com^$important
+||adservice.google.*^$important
+||adservice.l.google.com^$important
+||2mdn.net^$important
+||alt*-mtalk.google.com^$important
+||amazon-adsystem.com^$important
+||*-safebrowsing.google.com^$important
+||avast.com^$important
+||brontp.yandex.ru^$important
+||brozen.yandex.ru^$important
+||appsflyer.com^$important
+||cackle.me^$important
+||vk-portal.net^$important
+||chatbro.com^$important
+||connect.facebook.net^$important
+||connect.mail.ru^$important
+||connect.ok.ru^$important
+||desktop-dna.osp.opera.software^$important
+||disqus.com^$important
+||disquscdn.com^$important
+||doubleclick.net^$important
+||edge.microsoft.com^$important
+||event.shelljacket.us^$important
+||pladform.ru^$important
+||exchange.opera.com^$important
+||flow.opera.com^$important
+||go.microsoft.com^$important
+||google-analytics.com^$important
+||googleadapis.l.google.com^$important
+||googleadservices.*^$important
+||googleadsserving.cn^$important
+||googleanalytics.com^$important
+||googleoptimize.com^$important
+||r.mail.ru^$important
+||r0.mail.ru^$important
+||top-fwz1.mail.ru^$important
+||r2.mail.ru^$important
+||r3.mail.ru^$important
+||yabs.yandex.*^$important
+||googlesyndication.com^$important
+||googletagmanager.com^$important
+||rs.mail.ru^$important
+||t.mail.ru^$important
+||an.mail.ru^$important
+||ad.mail.ru^$important
+||widgetbot.io^$important
+||googletagservices.com^$important
+||graph.facebook.com^$important
+||graph.instagram.com^$important
+||gx-corner.opera.com^$important
+||taboola.com^$important
+||gx-corner.route*.opera.com^$important
+||hypercomments.com^$important
+||id.google.*^$important
+||id.l.google.com^$important
+||client.hola.org^$important
+||imasdk.googleapis.com^$important
+||kas-labs.com^$important
+||kaspersky-labs.com^$important
+||kaspersky.*^$important,domain=~community.kaspersky.com|~forum.kaspersky.com|~support.kaspersky.ru|~opentip.kaspersky.com
+||merchandise.opera-api.com^$important
+||mobile-gtalk.l.google.com^$important
+||msn.com^$important
+||mtalk.google.com^$important
+||notification.adblockplus.org^$important
+||ofa-sub.osp.opera.software^$important
+||op-mobile.opera.com^$important
+||opera-api.com^$important
+||operacoinexchange.com^$important
+||yadro.ru^$important
+||opr.as^$important
+||pagead*.l.doubleclick.net^$important
+||pagead-googlehosted.l.google.com^$important
+||pluso.ru^$important
+||recsys.opera.com^$important
+||redir.opera.com^$important
+||reef.vk-cdn.net^$important
+||s*-2mdn-net.l.google.com^$important
+||safe-browsing-quorum.privacy.ghostery.net^$important
+||safe-browsing.ghostery.net^$important
+||safebrowsing.googleapis.com^$important
+||sb-ssl.google.com^$important
+||sb-ssl.l.google.com^$important
+||sb.l.google.com^$important
+||sd-images.operacdn.com^$important
+||sendpulse.com^$important
+||sentry-cdn.com^$important
+||serving-sys.com^$important
+||share.yandex.net^$important
+||sharethis.com^$important
+||sitecheck*.opera.com^$important
+||speeddials.opera.com^$important
+||thumbnails*.opera.com^$important
+||detectportal.firefox.com^$important
+||adjust.com^$important
+||uptolike.com^$important
+||us-redir.opera.com^$important
+||usocial.pro^$important
+||appmetrica.yandex.*^$important
+||mc.yandex.ru^$important
+||www-google-analytics.l.google.com^$important
+||www-googleadservices.l.google.com^$important
+||www-googletagmanager.l.google.com^$important
+||www-googletagservices.l.google.com^$important
+||xbox.com^$important
+||yastroka.yandex.net^$important
+||an.yandex.ru^$important
+||telemetry.mozilla.org^$important
+! DOMAIN END
+
+! IMAGE START
+/^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,important
+! IMAGE END
+
+! APP START
+/^(?!.*(lfnnmlimilinwvwlijljioeogq13\.club|(firebaseio|googleapis|pbssrv\-centralevents|verifykit)\.com)).*$/$important,app=app.source.getcontact
+||www.facebook.com^$important,app=system
+*$app=com.mi.android.globalFileexplorer|com.miui.cleaner|com.miui.securitycenter
+! APP END
+
+! SCRIPTLET START
+google.*##+js(remove-attr.js, ping, div[class] > a[ping])
+google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
+infourok.ru##+js(addEventListener-defuser.js, focus)
+infourok.ru##+js(addEventListener-defuser.js, focus, trigger)
+infourok.ru##+js(set-constant.js, monitorFocus, noopFunc)
+zloekino.ru##+js(cookie-remover.js)
+infourok.ru##+js(abort-on-property-write.js, document.ondragstart)
+infourok.ru##+js(abort-on-property-write.js, document.onselectstart)
+infourok.ru##+js(js-rm.js, yaCounter)
+! SCRIPTLET END
+
+! Cascading Style Sheets (CSS) START
+##iframe[src*="amazon-adsystem.com"]
+##iframe[src*="awaps.yandex.net"]
+##iframe[src*="imasdk.googleapis.com"]
+##iframe[src="about:blank"]
+aliexpress.*###j-festival-container > .festival-sub-venue, .multi-sidebar-outer-rus.multi-sidebar-outer, .product-fix-wrap, #J_xiaomi_dialog, .site-footer, .ng-mobile.ng-item, .hot-words, .top-banner-container, .site-server-box, .user-helper-footer, .fm-sns, .ams-region, .seo-container.product-container, .search-feedback-wrap, .footer-copywrite, #container-for-smart-banner, .header-right-content, .drogue-poplayer-modal, [class*="styles_bannerLink"], [class*="styles_body_"]
+freebitco.in###myModal22:has-text(Did you know?)
+freebitco.in##.daily_jackpot_main_container_div, #deposit_promo_message_regular, #play_without_captcha_container, .reveal-modal-bg
+yandex.ru##.media-grid_js_inited.font-regular.i-bem.media-grid_theme_white.media-grid_visible_yes.media-grid, .header-favorites-button_js_inited.header-favorites-button
+mail.yandex.ru##.mail-Placeholder-Text, .mail-ThreadSidebar-wrap.ns-view-thread-sidebar-wrap, .mail-MailProAnnouncingPromoLeftColumn
+music.yandex.ru##.duck__duckling.moving-slider, .multi-auth__plus, .teaser, .sidebar__under, .page-main__line_row.page-main__line_small-margin.page-main__line_personal-playlists.page-main__line, .notify_shown.deco-tooltip_notify, .footer, .metrika-app_shown_yes.metrika-app_js_inited.i-bem.metrika-app_type_desktop.metrika-app_lang_ru.metrika-app, .duck__angry-duck_left.duck__angry-duck.paused-slider, .bar-below_plus.bar-below, .subscription-hint_bottom.deco-pane-popup.popup.local-theme-black.subscription-hint, div.notify > div.deco-tooltip_notify.notify_shown, .overlay_gdpr.overlay_shown.deco-pane-overlay.overlay, .deco-pane-popup.popup.local-icon-theme-white.local-theme-white.gdpr-popup, .bar-below_unavaliable.bar-below, a.teaser__content[href="https://music.yandex.ru/family-plus"] > img.teaser__img, div.page-root.page-root_no-player.deco-pane-back > div[class][data-b="2"][style="display: block;"], .teaser ~ div, .page-root > div[data-b="2"], .sidebar > div > .teaser + div[data-b="18"], .deco-tooltip_to-right.popup_visible.popup_fade.local-theme-black.d-tooltip_min-width.deco-pane-popup.popup.deco-tooltip.d-tooltip, .overlay_shown.deco-pane-overlay.overlay, .popup_modal.deco-pane-popup.popup.local-icon-theme-white.local-theme-white.popup_compact.crackdown-popup, .teaser-nonmusic_visible.teaser-nonmusic, .progress__line__branding, .paused-slider_left.porsche.paused-slider, .bar__branding_picture, .bar-below__auth, .bar-below__content, .bar__branding, .subscription-hint.popup, .bar__addition-link, body > div[style^="min-height"] > .notify *, body > div[style^="min-height"] > div[class][style="display: block;"], body > div[style^="min-height"] > .notify, [class^="audio-advert"], .subscription-hint.popup, .bar.bar-below, .ads-block, .share-container, .share.unit, .notify__message, div.notify > div.deco-tooltip_notify.notify_shown, .d-overhead-mobile__content_app, a.teaser__content[href="https://music.yandex.ru/family-plus"] > img.teaser__img, .bar-below, .no-ads, .button-store_all, .app-sms, a[href="/contest/dogmoroz"], .subscription-hint, .bar__driver-container, .sidebar__placeholder .teaser ~ div, div[id^="ya_partner_R-A-"], .page-root > div.d-overhead, .audio-advert__block
+music.yandex.ru##span:contains(Отключить рекламу)
+trade.aliexpress.*##[href^="//simplee.aliexpress.com/"], [href^="//campaign.aliexpress.com/"]
+twitch.tv##.default-panel > :not([href*="vk.com"]):not([href*="donationalerts."]):not([href*="instagram.com"]):not([href*="youtube.com"]):not([href*="twitter.com"]):not([href*="steamcommunity.com"]):not([href*="discord.gg"]):not([href*="facebook.com"])
+twitch.tv##.channel-leaderboard
+vk.com###stl_left, #stl_side, .apps_feedRightAppsBlock_collaborative_recommend_apps.apps_feedRightAppsBlock.page_block, .apps_feedRightAppsBlock_new_apps.apps_feedRightAppsBlock.page_block, #ads_left, .right_list_header, #group_recom_rows, #group_recom_wrap, .feed_friends_recomm, div[data-ad], div[data-ad-view], [class^="ads_ad_"], #stories_feed_wrap, #profile_friends_recomm, .ads_ads_box, #system_msg, #utils, .apps_feedRightAppsBlock_single_app.apps_feedRightAppsBlock.page_block, .audio_promo, #feed_blog_reminder, a[href*="/app7399325"], #l_watch_home, a[href*="/covid19"], div.more_div, .installApp,#ui_rmenu_coronavirus, #ui_rmenu_stayhome, .wall_marked_as_ads, .item_share, .apps_feedRightAppsBlock__row, .videoplayer_action_button, .ads_ad_box, .ads_ad_box2, [id*="reply_box_donut-"], .ShortVideoFeedBlock.page_block, .feed_groups_recomm, .feedAssistance_recommendedGroups, .eltt_vis.eltt_top.eltt_align_left.eltt_arrow_size_normal.CatalogTooltip.TooltipAudioRecommendedPlaylists.feature_intro_tt.eltt, .feedAssistance_promoButton.feedAssistance.wall_item
+vk.com##._post_content:has-text(Осторожно: тут про 3 сентября)
+vk.com##[class="wall_item"]:has([class*="ads_mark"])
+vk.com#?#.wall_wrap div[id^="post-"][-ext-has='div.post_content > div.post_info > div.wall_text > div.wall_post_cont > div.wall_marked_as_ads']
+yadi.sk##.action-buttons__antifo-tooltip.tooltip_shown_yes.tooltip_theme_normal.tooltip_tone_default.tooltip_view_classic.tooltip_size_s.tooltip.popup2_target_anchor.popup2_visible_yes.popup2_direction_right-center.popup2_theme_normal.popup2_tone_default.popup2_view_classic.popup2, .mobile-badges, .software-header-product.hover-dropdown, .burger-sidebar__button.button2_theme_clear.button2_size_n.button2_view_classic.button2.control, .header__inline-services-menu.inline-services-menu, .app-promo-banner
+yandex.ru##^script:has-text(AwapsJsonAPI)
+youtube.com##.ytp-button.ytp-paid-content-overlay-text, div#player-ads, #player-ads, .ytp-ce-element.ytp-ce-video.ytp-ce-element-show.ytp-ce-top-left-quad, .style-scope.ytd-mealbar-promo-renderer, .ytp-ce-element.ytp-ce-video.ytp-ce-element-show.ytp-ce-top-left-quad, div#movie_player > .ytp-ce-channel.ytp-ce-channel-this.ytp-ce-element.ytp-ce-element-show.ytp-ce-size-640.ytp-ce-top-right-quad, ytd-companion-slot-renderer.ytd-player-legacy-desktop-watch-ads-renderer, #masthead-ad, #alert-banner, YTM-PROMOTED-VIDEO-RENDERER, .mealbar-promo-renderer, a[href*="/covid19"], #content > .ytd-rich-section-renderer.style-scope, .ytp-ad-module, .ytd-carousel-ad-renderer, ytd-video-masthead-ad-advertiser-info-renderer,ytm-promoted-sparkles-web-renderer, .ytp-ad-progress, #promotion-shelf, .masthead-ad-control, .ad-div, .pyv-afc-ads-container, #clarify-box > .ytd-watch-flexy.style-scope, #sponsor-button, yt-live-chat-viewer-engagement-message-renderer, .ytd-video-secondary-info-renderer.style-scope.sticky, .ytp-ce-video.ytp-ce-element, .ytp-endscreen-content, ytd-compact-movie-renderer.ytd-watch-next-secondary-results-renderer.style-scope, .ytp-impression-link, .ytp-show-cards-title.ytp-chrome-top, #live-chat-banner
+youtube.com##ytd-horizontal-card-list-renderer:has-text(Запросы, похожие на)
+youtube.com##ytd-horizontal-card-list-renderer:has-text(Похожие запросы)
+youtube.com###dismissable:has-text(Рекомендации на основе вашей истории поиска)
+youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope > .ytd-shelf-renderer.style-scope:has(.badges):has-text(/Купить/)
+youtube.com##ytd-playlist-panel-video-renderer#playlist-items.ytd-playlist-panel-renderer.style-scope:has-text(/Видео с ограниченным доступом|Видео удалено/)
+! Cascading Style Sheets (CSS) END
+
+! Content Security Policy (CSP) START
+/^https?:\/\/(www\.)?music\.yandex\.ru\//$important,csp=script-src 'unsafe-inline' 'unsafe-eval' music.yandex.ru *.youtube.com https://yastatic.net local.adguard.org injections.adguard.org *.jquery.com; connect-src 'self' data: music.yandex.ru storage.mds.yandex.net wss: https://api.passport.yandex.ru; img-src 'self' data: music.yandex.ru *.yandex.net yapic.yandex.ru *.ytimg.com; frame-src data: frontend.vh.yandex.ru *.youtube.com music.yandex.ru;
+||coub.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.google.com *.gstatic.com local.adguard.org injections.adguard.org *.google.com *.youtube.com coub.com *.akamai.net *.akamaized.net *.akamaihd.net;
+||twitch.tv^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: data: *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net *.recaptcha.net *.google.com *.gstatic.com *.algolia.net local.adguard.org injections.adguard.org *.cloudfront.net *.fastly.net;
+||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com *.google.com *.googleapis.com *.gstatic.com local.adguard.org injections.adguard.org;
+||vk.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.vkuseraudio.net *.userapi.com *.vk.com vk.com *.mycdn.me *.google.com *.gstatic.com local.adguard.org injections.adguard.org *.youtube.com coub.com *.akamai.net *.akamaized.net *.akamaihd.net *.googleapis.com *.api-maps.yandex.ru;
+! Content Security Policy (CSP) END
+
+! OTHER START
+/^(https?|ftp|wss?):\/\/((www|wap)[0-9]?\.)?ad[svbxo]?([0-9]{1,3})?\./$important,domain=~ads.google.com
+/^(https?|ftp|wss?):\/\/((www|wap)[0-9]?\.)?ad[vs]er(ve)?t?(i(se|sing|sement|ca)|[rs])?\./$important
+/^(https?|ftp|wss?):\/\/((www|wap)[0-9]?\.)?analy((ti|zer)([\W\w]+)?)?([0-9]{1,3})?\./$important,domain=~google.com|~google.ru
+/^(https?|ftp|wss?):\/\/((www|wap)[0-9]?\.)?geo([0-9]{1,3})?\./$important,domain=~google.com|~google.ru|~office.com|~sberbank.ru
+/^(https?|ftp|wss?):\/\/((www|wap)[0-9]?\.)?me?tr[ie]?[ck][asx]?([0-9]{1,3})?\./$important,domain=~metrica.yandex.com|~metrica.yandex.ru|~metrika.yandex.com|~metrika.yandex.ru
+/^(https?|ftp|wss?):\/\/((www|wap)[0-9]?\.)?telemetr(y|ics)?([0-9]{1,3})?\./$important
+/[&?]s(screen)?\=[0-9]{3,4}x[0-9]{3,4}[&?]/$important
+/[&?]s[cw]\=[0-9]{3,4}[&]sh\=[0-9]{3,4}[&]/$important
+/[-._?&=#/]beacon[-.0-9_?&=#/]?/$important
+/[-._?&=#/]me?tr[ie]?[ck][asx]?[-.0-9_?&=#/]?/$important,domain=~fandom.com|~metrika.yandex.ru|~office.com|~twitch.tv|~dropbox.com|~twitter.com
+/[-._?&=#/]preroll[-._?&=#/]/$important,domain=~mail.ru|~ttvnw.net
+/\.(a[cdefgilmnoqrstuwxz]|arpa|academy|accountants?|act(ive|tor)|adult|aero|agency|airforce|apartments|app|archi|army|africa|associates|asia|attorney|auction|audio|autos|art|b[abdefghijmnorstvuwyz]|biz|bzh|c[acdfghiklmnoruvxsyz]|com?|cat|coop|cym(ru)?|crimea|d[dejkmoz]|dance|dev|e[cegrstu]|eng(lish)?|edu|eus|f[ijkmor]|family|feedback|g[abdefghilmnpqrstuwy]|google|gov|gal|h[kmnrtu]|i[delmnoqrst]|info|int|j[deghikmnoprwyz]|jobs?|l[abcikrstuvy]|london|m[acdeghklmnopqrstuvwxyz]|mil|mobi|microsoft|moe|museum|n[acefgilopruz]|ninja|net|name|om|one|ong|onl(ine)?|org(anic)?|p[aefghklmnrstwy]|pink|part([ys]|ners?)|pizza|place|plu(s|mbing)?|pharmacy|photo(s|graphy)?|physio|pic(ture)?s?|poker|porn|post|press|pro(f|ductions|perties|perty)?|k[yehrw]|qa|qpon|quebec|r[eosuw]|raci(ng|pes)|red|rehab|ren(t|tals)?|rep(ort|air|ublican)|rest|reviews?|rich|rus(sian)?|s[abcdeghiljkmnortuvyz]|site|scot?|soc|t[cdfghjklmnoprtvwz]|tel|tra(de|vel)|u[agmksyz]|v[aceginu]|w[fs]|wales|y[etu]|yandex|yoga|z[armzw]|zone|x(xx|yz))\/ad[sv]?\//$important,domain=~yandex.ru|~yandex.com
+/^https?:\/\/[^\s]+\/[a-w]{3,4}\.php\?[a-z]{1,6}\=[0-9]{7}$/$third-party,important
+||up.downloadmaster.ru/dm/$important
+|http*:*?zoneid=$important
+|http*:*$important,beacon
+|http*:*$important,ping
+|http*:*$important,webrtc
+|http*:*/generate_204$important
+|http*:*/log/$important,domain=~aliexpress.com|~sberbank.ru
+|http*:*/log?$important
+|http*:*/pagead/$important
+|http*:*/serviceworker?$important
+||google.com/complete/$important
+||geo.opera.com/geolocation/$important
+||gew-spclient.spotify.com/*/logging/$important
+||mail.google.com/mail/ads/$important
+||meta^
+||mobilemaps-pa.googleapis.com/*.ads.$important
+||null^
+||spclient.wg.spotify.com/gabo-receiver-service/$important
+||spclient.wg.spotify.com/ad-logic/$important
+||spclient.wg.spotify.com/metrics-backend/$important
+||undefined^
+||yandex.*/clck/$important
+||yandex.*/geohelper/$important
+||yandex.*/portal/$important
+||yandex.net/get-direct$important
+||youtube.com/ptracking?$important
+! OTHER END
+
+! SUBDOCUMENT START
+/\/ads?\/(middle|bottom|right|top|left)\.html?\?/$important,subdocument
+! SUBDOCUMENT END
+
+! SCRIPT START
+/^https?:\/\/[^\s]+\/sw\.js\?[^\s]+$/$important,script
+/\%(2F|3F|26|3D|23|2D|2E|5F)sw\.js$/$important,script
+/\.[a-z]+\/\?pu\=/$third-party,important,script
+/\/js[a-z0-9]+\/[a-z0-9]{0,14}\.js$/$important,script
+/^https:\/\/.*?\/v2\/0\/[a-zA-Z0-9_-]{30,}$/$third-party,important,script
+/^https?:\/\/([A-Za-z0-9-.]+\/){5,}[A-Za-z0-9_-]+$/$third-party,important,script
+/^https?:\/\/(www\.)?[a-z]{7,15}\.[a-z]+\/[a-z]{1,6}\/[a-zA-Z0-9]{8}\.js$/$third-party,important,script
+/^https?:\/\/[^/]+/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
+/^https?:\/\/[^\s]+\/(([_a-z-]{3,12})?[-._?&=#/])?sw\.js/$important,script
+/^https?:\/\/[^\s]+\/(([_a-z-]{3,15})?[-._?&=#/]?)?[Ww]orker(.*)?\.js/$important,script,domain=~github.com|~google.com|~lelinhtinh.github.io|~obfuscator.io|~parimatch.ru|~twitch.tv|~web.telegram.org|~whoer.net|~z5h64q92x9.net|~vk.com|~recaptcha.net
+/^https?:\/\/[^\s]+\/[cs]sw\.js/$important,script
+/^https?:\/\/[^\s]+\/[Ww]orker([-._?&=#/]?([a-z]{5,6})?)?\.js/$important,script,domain=~lelinhtinh.github.io|~parimatch.ru
+/^https?:\/\/[^\s]+\/sw([-._?&=#/]([_a-z0-9-.]{1,12})?)?\.js/$important,script
+/^https?:\/\/[^\s]+\/sw[bwg]\.js/$important,script
+/^https?:\/\/[^\s]+\/wp\.js/$important,script
+/^https?:\/\/[a-z]+\.com\/[a-z]{1,2}\/[a-zA-Z0-9=]{65,}\.js$/$third-party,important,script
+/^https?:\/\/[a-z]{10,11}\.com\/[0-9a-f]{5}\.js$/$third-party,important,script
+/^https?:\/\/[a-z]{6,16}\.[a-z]+\/[0-9]{1}\?[a-z]{1}\=[0-9]{7}$/$important,script
+/^https?:\/\/[a-z]{6,16}\.[a-z]+\/akam\/11\/[a-f0-9]{8}/$important,script
+/^https?:\/\/[a-z]{6,16}\.[a-z]+\/pntnsw\/[0-9]{4,5}/$third-party,important,script
+/^https?:\/\/[a-z]{6}\..*\/[a-z0-9]{3,30}\/[a-z0-9]{5,}\.php$/$third-party,important,script
+/^https?:\/\/[a-zA-Z.]{15,}\/[\d]+\?[a-z]\=[\d]{5,7}$/$third-party,important,script
+/^https?:\/\/[A-Za-z0-9.-]{6,16}\.[a-z]+\/\?[a-zA-Z0-9]{30,}$/$third-party,important,script
+|http*:*/glp?r=*&rw=*&rh=*&ww=*&wh=$important,script
+|http*:*/glx_*.js$important,script
+|http*:*/invoke.js$important,script
+|http*:*/miner.js$important,script
+|http*:*/vastlist.js$important,script
+|http*:*/webworker.js$important,script,domain=~google.com|~recaptcha.net
+|http*:*/wl-http.js$important,script
+|http*:*/wl.js$important,script
+||scdn.co/cdn/js/gtag.$important,script,domain=spotify.com
+/^https?:\/\/[a-g0-9]{20,}\.online\/[a-g0-9]{20,}\.js$/$important,third-party,script
+||youtube.com/*/player/*/ad.js$script,important
+! SCRIPT END
+
+! XMLHTTPREQUEST START
+/^https?:\/\/[0-9a-z]{11,20}.*.com\/.*/$third-party,important,xmlhttprequest,domain=~aliexpress.com|~aliexpress.ru|~mts.ru|~ninjastream.to|~deepl.com
+/^https?:\/\/[^\s]+(\.wasm|\.wsm|\.wa)$/$important,xmlhttprequest,domain=~twitch.tv
+|http*:*/channels/*/extensions$important,xmlhttprequest,domain=twitch.tv
+||addons.opera.com/themes/$important,xmlhttprequest
+||google.com^*/viewerimpressions?$important,xmlhttprequest
+||music.yandex.*/handlers/experiment.jsx$important,xmlhttprequest
+||music.yandex.*/handlers/gdpr-welcome.jsx$important,xmlhttprequest
+||music.yandex.*/handlers/promo-feedback.jsx$important,xmlhttprequest
+||music.yandex.*/handlers/variabel.jsx$important,xmlhttprequest
+||video.google.com/api/stats/$important,xmlhttprequest
+||youtube.com/get_endscreen?$important,xmlhttprequest
+||youtube.com/get_midroll_info?$important,xmlhttprequest
+! XMLHTTPREQUEST END
+
+! COMBINED START
+/^https?:\/\/2ch\.\w+\/(images|banners?|makaba\/templates\/js\/events)\//$script,image,important
+/[-._?&=#/](event|stat)logs?(ging|ers?)?[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest
+/[-._?&=#/](logs?|img)[-._?&=#/]?(?:failure|info|type|events?|entry|request|statu?s?|view|edpage)[-._?&=#/]?/$image,important,other,script,xmlhttprequest
+/[-._?&=#/](player|client|csi|gen(erate)?|stream|logs?|live)[-._?&=#/]?204[-._?&=#/]?/$image,important,other,xmlhttprequest
+/[-._?&=#/][a-zA-Z]{8,}track(ers?|ing)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~ok.ru|~fandom.com
+/[-._?&=#/]analyti([\W\w]+)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~analytics.google.com|~analyticssuitefrontend-pa.clients6.google.com|~analyticsinsights-pa.clients6.google.com|~fandom.com|~aliexpress.ru|~aliexpress.com|~vk.com|~dropbox.com|~yota.ru|~ubisoft.com|~ubi.com|~sberbank.ru
+/[-._?&=#/]bann?ers?[-.0-9_?&=#/]/$image,important,script,subdocument,xmlhttprequest,domain=~aliexpress.com|~aliexpress.ru|~discord.com|~dropbox.com|~esetnod32.ru|~f-droid.org|~fandom.com|~gosuslugi.ru|~leon.ru|~live.com|~mts.ru|~office.com|~ok.ru|~rt.ru|~ru-mi.com|~sberbank.ru|~google.com|~twitch.tv|~radiorecord.ru|~yota.ru
+/[-._?&=#/]logs?(ging|impressions?|ers?)?[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~aliexpress.com|~aliexpress.ru|~dns-shop.ru|~docviewer.yandex.ru|~github.com|~gitlab.com|~instagram.com|~mi.com|~twitch.tv|~yadi.sk|~dropbox.com|~twitter.com
+/[-._?&=#/]piwik[-.0-9_?&=#/]/$image,important,script
+/[-._?&=#/]pixel[-._?&=#/]/$image,important,script,subdocument,xmlhttprequest,domain=~yandex.ru
+/[-._?&=#/]track(ers?|ing)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~alipay.com|~analytics.google.com|~fandom.com|~parimatch.ru|~pochta.ru|~yandex.ru|~aliexpress.com|~aliexpress.ru|~ubisoft.com|~ubi.com
+/[-._?&=#/]vast[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~github.com|~gitlab.com|~twitch.tv
+/^https?:\/\/[0-1]{5,}\.com/$third-party,important,script,xmlhttprequest
+/^https?:\/\/[^\s]+\/[a-w]{3,4}\.hh\?[a-z]\=[=&0-9a-zA-Z]{8,15}$/$script,subdocument,important
+||yastatic.net/awaps-ad-sdk-js/$important,script,xmlhttprequest
+||yastatic.net/daas/atom.js|$important,script,xmlhttprequest
+||youtube.com/api/stats/$image,important,other,xmlhttprequest
+||xn--$document,subdocument
+! COMBINED END
+
+! TRASH START
+@@||app.adjust.com^|$badfilter
+@@||www.googleadservices.com^|$badfilter
+@@||ttvnw.net^$xmlhttprequest
+infourok.ru##div#aa-popup
+@@||redirect.appmetrica.yandex.com^|$badfilter
+@@||imasdk.googleapis.com^|$badfilter
+@@||pagead.l.doubleclick.net^|$badfilter
+@@||www.googleadservices.com^|$badfilter
+@@||googleadapis.l.google.com^|$badfilter
+@@||launches.appsflyer.com^|$badfilter
+|http*$app=com.adups.fota.sysoper|com.adups.fota,badfilter
+||xyz^$third-party,script,xmlhttprequest,domain=~anidub.com|~animedia.pro|~animeheaven.ru|~animevibe.wtf|~app.element.io|~assistir-filme.biz|~auth.magic.link|~avtomaty-i-bonusy.com|~coomeet.com|~crackstreams.com|~crackstreams.ga|~csgoreports.com|~emblix.cc|~estream.to|~europixhd.io|~films.hds-stream.com|~flowcdn.nl|~funtik.tv|~getvi.tv|~github.io|~hanime.tv|~hentaiz.org|~herokuapp.com|~infoua.biz|~jokehd.com|~jokerswidget.com|~jokerswidget.org|~kinoguru.be|~kinoguru.me|~live-nhl.stream|~lookbase.xyz|~magicfilm.net|~mail.google.com|~map-a-date.cc|~matchat.online|~mikeamigorein.xyz|~miranimbus.ru|~my.mail.ru|~nccg.ru|~newdmn.icu|~odysee.com|~onmovies.se|~playjoke.xyz|~roadhub.ru|~roblox.com|~sextop.net|~soccer365.ru|~soonwalk.net|~sportsbay.org|~streetbee.io|~streetbee.ru|~telerium.club|~telerium.live|~uacycling.info|~uploadedpremiumlink.net|~vk-apps.com|~vk.com|~vmeste.tv|~web.app,badfilter
+||pw^$third-party,script,xmlhttprequest,domain=~adwiz.pp.ua|~forum.worldofwarships.ru|~hdvbplayer.tk|~live-gol.net|~panomama.ru|~philips.ru|~softpir.com|~sportsvideoline3.pw|~tefal.ru,badfilter
+||accounts.google.com/gsi/client$script,third-party,badfilter
+! TRASH END
