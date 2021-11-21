@@ -1,6 +1,7 @@
 ! Title: bogachenko's Filter List
 
 ||2mdn.net^$important
+||__hola__.pac_get_init_ts.local.hola^$important
 ||abtasty.com^$important
 ||actionpay.net^$important
 ||ad.mail.ru^$important
@@ -37,8 +38,6 @@
 ||echnolog.club^$important
 ||exchange.opera.com^$important
 ||flow.opera.com^$important
-||videoroll.net^$important
-||smartclip.net^$important
 ||gazitidi.xyz^$important
 ||go.microsoft.com^$important
 ||google-analytics.com^$important
@@ -89,6 +88,7 @@
 ||serving-sys.com^$important
 ||singular.net^$important
 ||sitecheck*.opera.com^$important
+||smartclip.net^$important
 ||speeddials.opera.com^$important
 ||supersonicads.com^$important
 ||t.mail.ru^$important
@@ -97,6 +97,7 @@
 ||trafiframe.ru^$important
 ||tvxegkrad.xyz^$important
 ||us-redir.opera.com^$important
+||videoroll.net^$important
 ||vk-cdn.net^$important
 ||vk-portal.net^$important
 ||wastedperk.com^$important
@@ -108,4 +109,3 @@
 ||yabs.yandex.*^$important
 ||yadro.ru^$important
 ||yvmads.com^$important
-||__hola__.pac_get_init_ts.local.hola^$important
