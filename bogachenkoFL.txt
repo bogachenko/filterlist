@@ -37,6 +37,8 @@
 ||echnolog.club^$important
 ||exchange.opera.com^$important
 ||flow.opera.com^$important
+||videoroll.net^$important
+||smartclip.net^$important
 ||gazitidi.xyz^$important
 ||go.microsoft.com^$important
 ||google-analytics.com^$important
