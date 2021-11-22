@@ -1,7 +1,7 @@
 ! Title: bogachenko's Personal Filters
 ! Description: bogachenko's Personal Filters to block loading of ads, third-party, tracking, annoying and all other unjustified resources. These filters are used by me for uBlock Origin, AdGuard for Windows and AdGuard for Android.
 ! Homepage: https://github.com/bogachenko/filterlist
-! RAW: https://raw.githubusercontent.com/bogachenko/filterlist/main/bogachenkoFL.txt
+! RAW: https://raw.githubusercontent.com/bogachenko/filterlist/main/bogachenkoPF.txt
 ! License: https://raw.githubusercontent.com/bogachenko/filterlist/main/LICENSE.md
 ! Expires: 3 hours
 
