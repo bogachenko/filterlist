@@ -319,6 +319,7 @@ $$script[src="https://www.googletagservices.com/"]
 ||widgetbot.io^$important
 ||xbox.com^$important
 ||yastroka.yandex.net^$important
+||qq.com^$important
 ! DOMAIN END
 
 ! IMAGE START

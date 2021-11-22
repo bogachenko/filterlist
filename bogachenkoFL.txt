@@ -28,6 +28,7 @@
 ||bitcoinad.io^$important
 ||bitmedia.io^$important
 ||bmcdn1.com^$important
+||appnext.com^$important
 ||bmcdn2.com^$important
 ||bmfads.com^$important
 ||client.hola.org^$important
@@ -82,6 +83,8 @@
 ||r3.mail.ru^$important
 ||recsys.opera.com^$important
 ||redir.opera.com^$important
+||my.com^$important
+||braze.com^$important
 ||rs.mail.ru^$important
 ||s*-2mdn-net.l.google.com^$important
 ||sd-images.operacdn.com^$important
@@ -107,5 +110,6 @@
 ||www-googletagmanager.l.google.com^$important
 ||www-googletagservices.l.google.com^$important
 ||yabs.yandex.*^$important
+||pagead.l.doubleclick.net^$important
 ||yadro.ru^$important
 ||yvmads.com^$important
