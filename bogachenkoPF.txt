@@ -18,7 +18,7 @@ $$script[src="https://www.googletagmanager.com/"]
 $$script[src="https://www.googletagservices.com/"]
 !#endif
 !#if adguard_app_android
-@@||analyticsinsights-pa.clients6.google.com^$important,document
+@@||analyticsinsights-pa.clients*.google.com^$important,document
 @@||analytics.google.com^$important,document
 !#endif
 ! CONDITIONS END
@@ -29,6 +29,7 @@ $$script[src="https://www.googletagservices.com/"]
 @@||safebrowsing.clients.google.com^$document
 @@||local.adguard.org^$script
 @@||injections.adguard.org^$script
+@@||metrika.yandex.ru^$document,important
 ! WHITELIST END
 
 ! LAN START
@@ -42,6 +43,8 @@ $$script[src="https://www.googletagservices.com/"]
 ! LAN END
 
 ! Domain Name System (DNS) START
+54.70.250.230:443^$network
+54.148.233.37:443^$network
 103.229.10.134:443$network
 103.229.10.220:443$network
 104.155.184.63:443$network

@@ -24,6 +24,7 @@
 ||amazon-adsystem.com^$important
 ||an.mail.ru^$important
 ||an.yandex.ru^$important
+||amplitude.com^$important
 ||aniview.com^$important
 ||appmetrica.yandex.*^$important
 ||appsflyer.com^$important
