@@ -102,6 +102,9 @@
 ||adform.com^$important
 ||adform.net^$important
 ||pagead-googlehosted.l.google.com^$important
+||sentry.io^$important
+||content.overwolf.com^$important
+||ar.overwolf.com^$important
 ||pladform.ru^$important
 ||r.mail.ru^$important
 ||r0.mail.ru^$important

@@ -6,7 +6,7 @@
 ! Expires: 3 hours
 
 ! CONDITIONS START
-!#if adguard
+!#if !ext_ublock
 $$script[src="//pagead2.googlesyndication.com/"]
 $$script[src="https://c1.popads.net/pop.js"]
 $$script[src="https://c2.popads.net/pop.js"]
