@@ -1,4 +1,8 @@
 ! Title: bogachenko's Filter List
+! Description: Yet another anti-bullshit filter list.
+! RAW: https://raw.githubusercontent.com/bogachenko/filterlist/main/bogachenkoFL.txt
+! Homepage: https://github.com/bogachenko/filterlist/
+! License: https://raw.githubusercontent.com/bogachenko/filterlist/main/LICENSE.md
 
 ||2mdn.net^$important
 ||__hola__.pac_get_init_ts.local.hola^$important
@@ -99,6 +103,7 @@
 ||operacoinexchange.com^$important
 ||opr.as^$important
 ||pagead*.l.doubleclick.net^$important
+||mgid.com^$important
 ||adform.com^$important
 ||adform.net^$important
 ||pagead-googlehosted.l.google.com^$important
@@ -109,6 +114,8 @@
 ||r.mail.ru^$important
 ||r0.mail.ru^$important
 ||r2.mail.ru^$important
+||inmobi.com^$important
+||dataxu.com^$important
 ||r3.mail.ru^$important
 ||revcontent.com^$important
 ||recsys.opera.com^$important
