@@ -43,8 +43,8 @@ $$script[src="https://www.googletagservices.com/"]
 ! LAN END
 
 ! Domain Name System (DNS) START
-54.70.250.230:443^$network
-54.148.233.37:443^$network
+54.70.250.230:443$network
+54.148.233.37:443$network
 103.229.10.134:443$network
 103.229.10.220:443$network
 104.155.184.63:443$network
@@ -274,13 +274,15 @@ $$script[src="https://www.googletagservices.com/"]
 95.167.17.115:443$network
 99.86.193.112:443$network
 99.86.193.113:443$network
-||212.122.5.136^
-||51.79.155.250^
+44.239.55.163:443^$network
+34.120.195.249:443^$network
+74.125.205.97:443^$network
 ! Domain Name System (DNS) END
 
 ! DOMAIN START
 /^https?:\/\/([a-s1-3]{2}|update)\.torrentstream\.(org|info|net)/$important
 ||*-safebrowsing.google.com^$important
+||apps.overwolf.com^$important
 ||addthis.com^$important
 ||addtoany.com^$important
 ||alt*-mtalk.google.com^$important
