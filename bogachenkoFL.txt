@@ -25,6 +25,7 @@
 ||an.mail.ru^$important
 ||an.yandex.ru^$important
 ||amplitude.com^$important
+||juicyads.com^$important
 ||aniview.com^$important
 ||appmetrica.yandex.*^$important
 ||appsflyer.com^$important
@@ -151,3 +152,4 @@
 ||pagead.l.doubleclick.net^$important
 ||yadro.ru^$important
 ||yvmads.com^$important
+||doubleclickbygoogle.com^$important

@@ -60,6 +60,7 @@
 ||content.overwolf.com^
 ||crashlytics.com^
 ||crashlytics.l.google.com^
+||countess.twitch.tv^
 ||d.ghostery.com^
 ||data.*.microsoft.com^
 ||data.*.miui.com^
@@ -103,6 +104,8 @@
 ||imasdk.googleapis.com^
 ||indexexchange.com^
 ||inmobi.com^
+||juicyads.com^
+||doubleclickbygoogle.com^
 ||lgsmartad.com^
 ||mc.yandex.*^
 ||mediamath.com^
@@ -165,6 +168,8 @@
 ||t.mail.ru^
 ||taboola.com^
 ||tapjoyads.com^
+||tapjoy.com^
+||tapjoy.net^
 ||thumbnails*.opera.com^
 ||top-fwz1.mail.ru^
 ||tracking.*.miui.com^
@@ -189,4 +194,5 @@
 ||xandr.com^
 ||yabs.yandex.*^
 ||yadro.ru^
+||yovoads.com^
 ||__hola__.pac_get_init_ts.local.hola^
