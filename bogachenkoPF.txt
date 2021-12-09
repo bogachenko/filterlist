@@ -381,34 +381,26 @@ youtube.com##ytd-playlist-panel-video-renderer#playlist-items.ytd-playlist-panel
 ! Content Security Policy (CSP) START
 /^https?:\/\/(www\.)?music\.yandex\.ru\//$important,csp=script-src 'unsafe-inline' 'unsafe-eval' music.yandex.ru *.youtube.com https://yastatic.net local.adguard.org injections.adguard.org *.jquery.com; connect-src 'self' data: music.yandex.ru storage.mds.yandex.net wss: https://api.passport.yandex.ru; img-src 'self' data: music.yandex.ru *.yandex.net yapic.yandex.ru *.ytimg.com; frame-src data: frontend.vh.yandex.ru *.youtube.com music.yandex.ru;
 ||coub.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.google.com *.gstatic.com local.adguard.org injections.adguard.org *.google.com *.youtube.com coub.com *.akamai.net *.akamaized.net *.akamaihd.net;
-||twitch.tv^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: data: *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net *.recaptcha.net *.google.com *.gstatic.com *.algolia.net local.adguard.org injections.adguard.org *.cloudfront.net *.fastly.net;
+||twitch.tv^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: data: *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net *.recaptcha.net *.google.com *.gstatic.com *.algolia.net local.adguard.org injections.adguard.org *.cloudfront.net *.fastly.net *.live-video.net;
 ||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com *.google.com *.googleapis.com *.gstatic.com local.adguard.org injections.adguard.org;
 ||vk.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.vkuseraudio.net *.userapi.com *.vk.com vk.com *.mycdn.me *.google.com *.gstatic.com local.adguard.org injections.adguard.org *.youtube.com coub.com *.akamai.net *.akamaized.net *.akamaihd.net *.googleapis.com *.api-maps.yandex.ru;
 ! Content Security Policy (CSP) END
 
 ! OTHER START
-/^(https?|ftp|wss?):\/\/((www|wap)[0-9]?\.)?ad[svbxo]?([0-9]{1,3})?\./$important,domain=~ads.google.com
-/^(https?|ftp|wss?):\/\/((www|wap)[0-9]?\.)?ad[vs]er(ve)?t?(i(se|sing|sement|ca)|[rs])?\./$important
-/^(https?|ftp|wss?):\/\/((www|wap)[0-9]?\.)?analy((ti|zer)([\W\w]+)?)?([0-9]{1,3})?\./$important,domain=~google.com|~google.ru
-/^(https?|ftp|wss?):\/\/((www|wap)[0-9]?\.)?geo([0-9]{1,3})?\./$important,domain=~google.com|~google.ru|~office.com|~sberbank.ru
-/^(https?|ftp|wss?):\/\/((www|wap)[0-9]?\.)?me?tr[ie]?[ck][asx]?([0-9]{1,3})?\./$important,domain=~metrica.yandex.com|~metrica.yandex.ru|~metrika.yandex.com|~metrika.yandex.ru
-/^(https?|ftp|wss?):\/\/((www|wap)[0-9]?\.)?telemetr(y|ics)?([0-9]{1,3})?\./$important
-/[&?]s(screen)?\=[0-9]{3,4}x[0-9]{3,4}[&?]/$important
-/[&?]s[cw]\=[0-9]{3,4}[&]sh\=[0-9]{3,4}[&]/$important
+/^https?:\/\/ad[svbxo]?([0-9]{1,3})?\./$important,domain=~ads.google.com
+/^https?:\/\/ad[vs]er(ve)?t?(i(se|sing|sement|ca)|[rs])?\./$important
+/^https?:\/\/analy((ti|zer)([\W\w]+)?)?([0-9]{1,3})?\./$important,domain=~google.com|~google.ru
+/^https?:\/\/geo([0-9]{1,3})?\./$important,domain=~google.com|~google.ru|~office.com|~sberbank.ru
+/^https?:\/\/me?tr[ie]?[ck][asx]?([0-9]{1,3})?\./$important,domain=~metrica.yandex.com|~metrica.yandex.ru|~metrika.yandex.com|~metrika.yandex.ru
+/^https?:\/\/telemetr(y|ics)?([0-9]{1,3})?\./$important
 /[-._?&=#/]beacon[-.0-9_?&=#/]?/$important
 /[-._?&=#/]me?tr[ie]?[ck][asx]?[-.0-9_?&=#/]?/$important,domain=~fandom.com|~metrika.yandex.ru|~office.com|~twitch.tv|~dropbox.com|~twitter.com
 /[-._?&=#/]preroll[-._?&=#/]/$important,domain=~mail.ru|~ttvnw.net
 /\.(a[cdefgilmnoqrstuwxz]|arpa|academy|accountants?|act(ive|tor)|adult|aero|agency|airforce|apartments|app|archi|army|africa|associates|asia|attorney|auction|audio|autos|art|b[abdefghijmnorstvuwyz]|biz|bzh|c[acdfghiklmnoruvxsyz]|com?|cat|coop|cym(ru)?|crimea|d[dejkmoz]|dance|dev|e[cegrstu]|eng(lish)?|edu|eus|f[ijkmor]|family|feedback|g[abdefghilmnpqrstuwy]|google|gov|gal|h[kmnrtu]|i[delmnoqrst]|info|int|j[deghikmnoprwyz]|jobs?|l[abcikrstuvy]|london|m[acdeghklmnopqrstuvwxyz]|mil|mobi|microsoft|moe|museum|n[acefgilopruz]|ninja|net|name|om|one|ong|onl(ine)?|org(anic)?|p[aefghklmnrstwy]|pink|part([ys]|ners?)|pizza|place|plu(s|mbing)?|pharmacy|photo(s|graphy)?|physio|pic(ture)?s?|poker|porn|post|press|pro(f|ductions|perties|perty)?|k[yehrw]|qa|qpon|quebec|r[eosuw]|raci(ng|pes)|red|rehab|ren(t|tals)?|rep(ort|air|ublican)|rest|reviews?|rich|rus(sian)?|s[abcdeghiljkmnortuvyz]|site|scot?|soc|t[cdfghjklmnoprtvwz]|tel|tra(de|vel)|u[agmksyz]|v[aceginu]|w[fs]|wales|y[etu]|yandex|yoga|z[armzw]|zone|x(xx|yz))\/ad[sv]?\//$important,domain=~yandex.ru|~yandex.com
-/^https?:\/\/[^\s]+\/[a-w]{3,4}\.php\?[a-z]{1,6}\=[0-9]{7}$/$third-party,important
-||up.downloadmaster.ru/dm/$important
 |http*:*?zoneid=$important
-|http*:*$important,beacon
-|http*:*$important,ping
-|http*:*$important,webrtc
-|http*:*/generate_204$important
+|http*:*$important,beacon,ping,webrtc
 |http*:*/log/$important,domain=~aliexpress.com|~sberbank.ru
 |http*:*/log?$important
-|http*:*/pagead/$important
 |http*:*/serviceworker?$important
 ||google.com/complete/$important
 ||geo.opera.com/geolocation/$important
