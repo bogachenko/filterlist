@@ -393,12 +393,13 @@ youtube.com##ytd-playlist-panel-video-renderer#playlist-items.ytd-playlist-panel
 /^https?:\/\/geo([0-9]{1,3})?\./$important,domain=~google.com|~google.ru|~office.com|~sberbank.ru
 /^https?:\/\/me?tr[ie]?[ck][asx]?([0-9]{1,3})?\./$important,domain=~metrica.yandex.com|~metrica.yandex.ru|~metrika.yandex.com|~metrika.yandex.ru
 /^https?:\/\/telemetr(y|ics)?([0-9]{1,3})?\./$important
-/[-._?&=#/]beacon[-.0-9_?&=#/]?/$important
-/[-._?&=#/]me?tr[ie]?[ck][asx]?[-.0-9_?&=#/]?/$important,domain=~fandom.com|~metrika.yandex.ru|~office.com|~twitch.tv|~dropbox.com|~twitter.com
-/[-._?&=#/]preroll[-._?&=#/]/$important,domain=~mail.ru|~ttvnw.net
+/[-._?]beacon[-.0-9_?&=#/]?/$important
+/[-._?]me?tr[ie]?[ck][asx]?[-.0-9_?&=#/]?/$important,domain=~fandom.com|~metrika.yandex.ru|~office.com|~twitch.tv|~dropbox.com|~twitter.com
+/[-._?]preroll[-._?]/$important,domain=~mail.ru|~ttvnw.net
 /\.(a[cdefgilmnoqrstuwxz]|arpa|academy|accountants?|act(ive|tor)|adult|aero|agency|airforce|apartments|app|archi|army|africa|associates|asia|attorney|auction|audio|autos|art|b[abdefghijmnorstvuwyz]|biz|bzh|c[acdfghiklmnoruvxsyz]|com?|cat|coop|cym(ru)?|crimea|d[dejkmoz]|dance|dev|e[cegrstu]|eng(lish)?|edu|eus|f[ijkmor]|family|feedback|g[abdefghilmnpqrstuwy]|google|gov|gal|h[kmnrtu]|i[delmnoqrst]|info|int|j[deghikmnoprwyz]|jobs?|l[abcikrstuvy]|london|m[acdeghklmnopqrstuvwxyz]|mil|mobi|microsoft|moe|museum|n[acefgilopruz]|ninja|net|name|om|one|ong|onl(ine)?|org(anic)?|p[aefghklmnrstwy]|pink|part([ys]|ners?)|pizza|place|plu(s|mbing)?|pharmacy|photo(s|graphy)?|physio|pic(ture)?s?|poker|porn|post|press|pro(f|ductions|perties|perty)?|k[yehrw]|qa|qpon|quebec|r[eosuw]|raci(ng|pes)|red|rehab|ren(t|tals)?|rep(ort|air|ublican)|rest|reviews?|rich|rus(sian)?|s[abcdeghiljkmnortuvyz]|site|scot?|soc|t[cdfghjklmnoprtvwz]|tel|tra(de|vel)|u[agmksyz]|v[aceginu]|w[fs]|wales|y[etu]|yandex|yoga|z[armzw]|zone|x(xx|yz))\/ad[sv]?\//$important,domain=~yandex.ru|~yandex.com
-|http*:*?zoneid=$important
-|http*:*$important,beacon,ping,webrtc
+|http*:*$important,beacon
+|http*:*$important,ping
+|http*:*$important,webrtc
 |http*:*/log/$important,domain=~aliexpress.com|~sberbank.ru
 |http*:*/log?$important
 |http*:*/serviceworker?$important
@@ -420,34 +421,17 @@ youtube.com##ytd-playlist-panel-video-renderer#playlist-items.ytd-playlist-panel
 ||youtube.com/ptracking?$important
 ! OTHER END
 
-! SUBDOCUMENT START
-/\/ads?\/(middle|bottom|right|top|left)\.html?\?/$important,subdocument
-! SUBDOCUMENT END
-
 ! SCRIPT START
 /^https?:\/\/[^\s]+\/sw\.js\?[^\s]+$/$important,script
 /\%(2F|3F|26|3D|23|2D|2E|5F)sw\.js$/$important,script
-/\.[a-z]+\/\?pu\=/$third-party,important,script
-/\/js[a-z0-9]+\/[a-z0-9]{0,14}\.js$/$important,script
-/^https:\/\/.*?\/v2\/0\/[a-zA-Z0-9_-]{30,}$/$third-party,important,script
-/^https?:\/\/([A-Za-z0-9-.]+\/){5,}[A-Za-z0-9_-]+$/$third-party,important,script
-/^https?:\/\/(www\.)?[a-z]{7,15}\.[a-z]+\/[a-z]{1,6}\/[a-zA-Z0-9]{8}\.js$/$third-party,important,script
 /^https?:\/\/[^/]+/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
-/^https?:\/\/[^\s]+\/(([_a-z-]{3,12})?[-._?&=#/])?sw\.js/$important,script
-/^https?:\/\/[^\s]+\/(([_a-z-]{3,15})?[-._?&=#/]?)?[Ww]orker(.*)?\.js/$important,script,domain=~github.com|~google.com|~lelinhtinh.github.io|~obfuscator.io|~parimatch.ru|~twitch.tv|~web.telegram.org|~whoer.net|~z5h64q92x9.net|~vk.com|~recaptcha.net
+/^https?:\/\/[^\s]+\/sw\.js/$important,script
+/^https?:\/\/[^\s]+\/worker(.*)?\.js/$important,script,domain=~github.com|~google.com|~lelinhtinh.github.io|~obfuscator.io|~parimatch.ru|~twitch.tv|~web.telegram.org|~whoer.net|~z5h64q92x9.net|~vk.com|~recaptcha.net
 /^https?:\/\/[^\s]+\/[cs]sw\.js/$important,script
-/^https?:\/\/[^\s]+\/[Ww]orker([-._?&=#/]?([a-z]{5,6})?)?\.js/$important,script,domain=~lelinhtinh.github.io|~parimatch.ru
-/^https?:\/\/[^\s]+\/sw([-._?&=#/]([_a-z0-9-.]{1,12})?)?\.js/$important,script
+/^https?:\/\/[^\s]+\/worker([-._?]?([a-z]{5,6})?)?\.js/$important,script,domain=~lelinhtinh.github.io|~parimatch.ru
+/^https?:\/\/[^\s]+\/sw([-._?]([_a-z0-9-.]{1,12})?)?\.js/$important,script
 /^https?:\/\/[^\s]+\/sw[bwg]\.js/$important,script
 /^https?:\/\/[^\s]+\/wp\.js/$important,script
-/^https?:\/\/[a-z]+\.com\/[a-z]{1,2}\/[a-zA-Z0-9=]{65,}\.js$/$third-party,important,script
-/^https?:\/\/[a-z]{10,11}\.com\/[0-9a-f]{5}\.js$/$third-party,important,script
-/^https?:\/\/[a-z]{6,16}\.[a-z]+\/[0-9]{1}\?[a-z]{1}\=[0-9]{7}$/$important,script
-/^https?:\/\/[a-z]{6,16}\.[a-z]+\/akam\/11\/[a-f0-9]{8}/$important,script
-/^https?:\/\/[a-z]{6,16}\.[a-z]+\/pntnsw\/[0-9]{4,5}/$third-party,important,script
-/^https?:\/\/[a-z]{6}\..*\/[a-z0-9]{3,30}\/[a-z0-9]{5,}\.php$/$third-party,important,script
-/^https?:\/\/[a-zA-Z.]{15,}\/[\d]+\?[a-z]\=[\d]{5,7}$/$third-party,important,script
-/^https?:\/\/[A-Za-z0-9.-]{6,16}\.[a-z]+\/\?[a-zA-Z0-9]{30,}$/$third-party,important,script
 |http*:*/glp?r=*&rw=*&rh=*&ww=*&wh=$important,script
 |http*:*/glx_*.js$important,script
 |http*:*/invoke.js$important,script
@@ -457,12 +441,10 @@ youtube.com##ytd-playlist-panel-video-renderer#playlist-items.ytd-playlist-panel
 |http*:*/wl-http.js$important,script
 |http*:*/wl.js$important,script
 ||scdn.co/cdn/js/gtag.$important,script,domain=spotify.com
-/^https?:\/\/[a-g0-9]{20,}\.online\/[a-g0-9]{20,}\.js$/$important,third-party,script
 ||youtube.com/*/player/*/ad.js$script,important
 ! SCRIPT END
 
 ! XMLHTTPREQUEST START
-/^https?:\/\/[0-9a-z]{11,20}.*.com\/.*/$third-party,important,xmlhttprequest,domain=~aliexpress.com|~aliexpress.ru|~mts.ru|~ninjastream.to|~deepl.com
 /^https?:\/\/[^\s]+(\.wasm|\.wsm|\.wa)$/$important,xmlhttprequest,domain=~twitch.tv
 |http*:*/channels/*/extensions$important,xmlhttprequest,domain=twitch.tv
 ||addons.opera.com/themes/$important,xmlhttprequest
@@ -478,19 +460,18 @@ youtube.com##ytd-playlist-panel-video-renderer#playlist-items.ytd-playlist-panel
 
 ! COMBINED START
 /^https?:\/\/2ch\.\w+\/(images|banners?|makaba\/templates\/js\/events)\//$script,image,important
-/[-._?&=#/](event|stat)logs?(ging|ers?)?[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest
-/[-._?&=#/](logs?|img)[-._?&=#/]?(?:failure|info|type|events?|entry|request|statu?s?|view|edpage)[-._?&=#/]?/$image,important,other,script,xmlhttprequest
-/[-._?&=#/](player|client|csi|gen(erate)?|stream|logs?|live)[-._?&=#/]?204[-._?&=#/]?/$image,important,other,xmlhttprequest
-/[-._?&=#/][a-zA-Z]{8,}track(ers?|ing)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~ok.ru|~fandom.com
-/[-._?&=#/]analyti([\W\w]+)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~analytics.google.com|~analyticssuitefrontend-pa.clients6.google.com|~analyticsinsights-pa.clients6.google.com|~fandom.com|~aliexpress.ru|~aliexpress.com|~vk.com|~dropbox.com|~yota.ru|~ubisoft.com|~ubi.com|~sberbank.ru
-/[-._?&=#/]bann?ers?[-.0-9_?&=#/]/$image,important,script,subdocument,xmlhttprequest,domain=~aliexpress.com|~aliexpress.ru|~discord.com|~dropbox.com|~esetnod32.ru|~f-droid.org|~fandom.com|~gosuslugi.ru|~leon.ru|~live.com|~mts.ru|~office.com|~ok.ru|~rt.ru|~ru-mi.com|~sberbank.ru|~google.com|~twitch.tv|~radiorecord.ru|~yota.ru
-/[-._?&=#/]logs?(ging|impressions?|ers?)?[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~aliexpress.com|~aliexpress.ru|~dns-shop.ru|~docviewer.yandex.ru|~github.com|~gitlab.com|~instagram.com|~mi.com|~twitch.tv|~yadi.sk|~dropbox.com|~twitter.com
-/[-._?&=#/]piwik[-.0-9_?&=#/]/$image,important,script
-/[-._?&=#/]pixel[-._?&=#/]/$image,important,script,subdocument,xmlhttprequest,domain=~yandex.ru
-/[-._?&=#/]track(ers?|ing)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~alipay.com|~analytics.google.com|~fandom.com|~parimatch.ru|~pochta.ru|~yandex.ru|~aliexpress.com|~aliexpress.ru|~ubisoft.com|~ubi.com
-/[-._?&=#/]vast[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~github.com|~gitlab.com|~twitch.tv
+/[-._?](event|stat)logs?(ging|ers?)?[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest
+/[-._?](logs?|img)[-._?]?(?:failure|info|type|events?|entry|request|statu?s?|view|edpage)[-._?]?/$image,important,other,script,xmlhttprequest
+/[-._?](player|client|csi|gen(erate)?|stream|logs?|live)[-._?]?204[-._?]?/$image,important,other,xmlhttprequest
+/[-._?][a-zA-Z]{8,}track(ers?|ing)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~ok.ru|~fandom.com
+/[-._?]analyti([\W\w]+)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~analytics.google.com|~analyticssuitefrontend-pa.clients6.google.com|~analyticsinsights-pa.clients6.google.com|~fandom.com|~aliexpress.ru|~aliexpress.com|~vk.com|~dropbox.com|~yota.ru|~ubisoft.com|~ubi.com|~sberbank.ru
+/[-._?]bann?ers?[-.0-9_?&=#/]/$image,important,script,subdocument,xmlhttprequest,domain=~aliexpress.com|~aliexpress.ru|~discord.com|~dropbox.com|~esetnod32.ru|~f-droid.org|~fandom.com|~gosuslugi.ru|~leon.ru|~live.com|~mts.ru|~office.com|~ok.ru|~rt.ru|~ru-mi.com|~sberbank.ru|~google.com|~twitch.tv|~radiorecord.ru|~yota.ru
+/[-._?]logs?(ging|impressions?|ers?)?[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~aliexpress.com|~aliexpress.ru|~dns-shop.ru|~docviewer.yandex.ru|~github.com|~gitlab.com|~instagram.com|~mi.com|~twitch.tv|~yadi.sk|~dropbox.com|~twitter.com
+/[-._?]piwik[-.0-9_?&=#/]/$image,important,script
+/[-._?]pixel[-._?]/$image,important,script,subdocument,xmlhttprequest,domain=~yandex.ru
+/[-._?]track(ers?|ing)[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~alipay.com|~analytics.google.com|~fandom.com|~parimatch.ru|~pochta.ru|~yandex.ru|~aliexpress.com|~aliexpress.ru|~ubisoft.com|~ubi.com
+/[-._?]vast[-.0-9_?&=#/]/$image,important,other,script,xmlhttprequest,domain=~github.com|~gitlab.com|~twitch.tv
 /^https?:\/\/[0-1]{5,}\.com/$third-party,important,script,xmlhttprequest
-/^https?:\/\/[^\s]+\/[a-w]{3,4}\.hh\?[a-z]\=[=&0-9a-zA-Z]{8,15}$/$script,subdocument,important
 ||yastatic.net/awaps-ad-sdk-js/$important,script,xmlhttprequest
 ||yastatic.net/daas/atom.js|$important,script,xmlhttprequest
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest
