@@ -6,6 +6,7 @@
 
 /^(.+[_.-])?ad[sxv]?([\d]+)?[_.-]/
 /^(.+[_.-])?ad[vs]er(ve)?t?(i(se|sing|sement|ca))?[_.-]/
+/^(.+[_.-])?counter([\d]+)?[_.-]/
 /^(.+[_.-]?)?analy([\W\w]+)?([\d]+)?[_.-]/
 /^(.+[_.-]?)?me?tr[ie]?[ck][asx]?([\d]+)?[_.-]/
 /^(.+[_.-]?)?re[ck]l?(ama)?([\d]+)?[_.-]/
@@ -57,6 +58,8 @@
 ||checkappexec.microsoft.com^
 ||choice.microsoft.com^
 ||client.hola.org^
+||rutarget.ru^
+||vlitag.com^
 ||collect.*.miui.com^
 ||content.overwolf.com^
 ||countess.twitch.tv^
@@ -94,7 +97,6 @@
 ||fundingchoices.google.com^
 ||fundingchoicesmessages.google.com^
 ||get.opera.com^
-||go.microsoft.com^
 ||goldbach.com^
 ||google-analytics.com^
 ||googleadapis.l.google.com^
@@ -154,6 +156,7 @@
 ||sentry-cdn.com^
 ||sentry.io^
 ||serving-sys.com^
+||otm-r.com^
 ||smaato.com^
 ||smartadserver.com^
 ||smartclip.net^

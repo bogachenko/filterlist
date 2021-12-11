@@ -323,8 +323,11 @@ $$script[src="https://www.googletagservices.com/"]
 ||usocial.pro^$important
 ||widgetbot.io^$important
 ||xbox.com^$important
+||go.microsoft.com^$important
 ||yastroka.yandex.net^$important
 ||qq.com^$important
+||smartscreen.microsoft.com^$important
+||smartscreen-prod.microsoft.com^$important
 ! DOMAIN END
 
 ! IMAGE START
