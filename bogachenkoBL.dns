@@ -6,10 +6,10 @@
 
 /^(.+[_.-])?ad[sxv]?([\d]+)?[_.-]/
 /^(.+[_.-])?ad[vs]er(ve)?t?(i(se|sing|sement|ca))?[_.-]/
-/^(.+[_.-]?)?analy((ti|zer)([\W\w]+)?)?([\d]+)?[_.-]/
+/^(.+[_.-]?)?analy([\W\w]+)?([\d]+)?[_.-]/
 /^(.+[_.-]?)?me?tr[ie]?[ck][asx]?([\d]+)?[_.-]/
 /^(.+[_.-]?)?re[ck]l?(ama)?([\d]+)?[_.-]/
-/^(.+[_.-]?)?telemetr(y|ic)([\W\w]+)?)?([\d]+)?[_.-]/
+/^(.+[_.-]?)?telemetr(y|ic)([\W\w]+)?([\d]+)?[_.-]/
 /^aj[0-9]{4}\.online$/
 /^a\.[a-z0-9]{40,}\.com$/
 /^n[0-9]{2,4}adserv\.\w+$/
@@ -159,6 +159,7 @@
 ||smartclip.net^
 ||smartscreen.microsoft.com^
 ||sovrn.com^
+||samsungadhub.com^
 ||speeddials.opera.com^
 ||spotx.tv^
 ||springserve.com^
@@ -192,6 +193,7 @@
 ||voodoo.io^
 ||watson.live.com^
 ||watson.microsoft.com^
+||watson.*.microsoft.com^
 ||wns.windows.com^
 ||www-google-analytics.l.google.com^
 ||www-googleadservices.l.google.com^
