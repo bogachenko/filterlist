@@ -478,7 +478,6 @@ infourok.ru##div#aa-popup
 @@||redirect.appmetrica.yandex.com^|$badfilter
 @@||imasdk.googleapis.com^|$badfilter
 @@||pagead.l.doubleclick.net^|$badfilter
-@@||www.googleadservices.com^|$badfilter
 @@||googleadapis.l.google.com^|$badfilter
 @@||app.appsflyer.com^|$badfilter
 @@||launches.appsflyer.com^|$badfilter

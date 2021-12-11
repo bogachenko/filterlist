@@ -20,6 +20,7 @@
 ||adform.com^
 ||adform.net^
 ||adform.net^
+||adgrx.com^
 ||adj.st^
 ||adjust.*^
 ||adroll.com^
@@ -58,9 +59,9 @@
 ||client.hola.org^
 ||collect.*.miui.com^
 ||content.overwolf.com^
+||countess.twitch.tv^
 ||crashlytics.com^
 ||crashlytics.l.google.com^
-||countess.twitch.tv^
 ||d.ghostery.com^
 ||data.*.microsoft.com^
 ||data.*.miui.com^
@@ -77,6 +78,7 @@
 ||districtm.net^
 ||dit.whatsapp.net^
 ||doubleclick.net^
+||doubleclickbygoogle.com^
 ||doublepimp.com^
 ||event.shelljacket.us^
 ||exponential.com^
@@ -105,7 +107,6 @@
 ||indexexchange.com^
 ||inmobi.com^
 ||juicyads.com^
-||doubleclickbygoogle.com^
 ||lgsmartad.com^
 ||mc.yandex.*^
 ||mediamath.com^
@@ -142,6 +143,11 @@
 ||rs.mail.ru^
 ||s*-2mdn-net.l.google.com^
 ||sa.api.intl.miui.com^
+||samsungacr.com^
+||samsungads.com^
+||samsungosp.com^
+||samsungotn.net^
+||samsungrm.net^
 ||scorecardresearch.com^
 ||sec.*.miui.com^
 ||sec.miui.com^
@@ -167,9 +173,9 @@
 ||synacor.com^
 ||t.mail.ru^
 ||taboola.com^
-||tapjoyads.com^
 ||tapjoy.com^
 ||tapjoy.net^
+||tapjoyads.com^
 ||thumbnails*.opera.com^
 ||top-fwz1.mail.ru^
 ||tracking.*.miui.com^
