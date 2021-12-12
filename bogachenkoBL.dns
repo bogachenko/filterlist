@@ -58,8 +58,6 @@
 ||checkappexec.microsoft.com^
 ||choice.microsoft.com^
 ||client.hola.org^
-||rutarget.ru^
-||vlitag.com^
 ||collect.*.miui.com^
 ||content.overwolf.com^
 ||countess.twitch.tv^
@@ -127,6 +125,7 @@
 ||openx.com^
 ||opera-api.com^
 ||osp.opera.software^
+||otm-r.com^
 ||pagead*.l.doubleclick.net^
 ||pagead-googlehosted.l.google.com^
 ||pagead.l.doubleclick.net^
@@ -143,9 +142,11 @@
 ||revcontent.com^
 ||ris.api.iris.microsoft.com^
 ||rs.mail.ru^
+||rutarget.ru^
 ||s*-2mdn-net.l.google.com^
 ||sa.api.intl.miui.com^
 ||samsungacr.com^
+||samsungadhub.com^
 ||samsungads.com^
 ||samsungosp.com^
 ||samsungotn.net^
@@ -156,13 +157,11 @@
 ||sentry-cdn.com^
 ||sentry.io^
 ||serving-sys.com^
-||otm-r.com^
 ||smaato.com^
 ||smartadserver.com^
 ||smartclip.net^
 ||smartscreen.microsoft.com^
 ||sovrn.com^
-||samsungadhub.com^
 ||speeddials.opera.com^
 ||spotx.tv^
 ||springserve.com^
@@ -192,11 +191,12 @@
 ||videoroll.net^
 ||vk-cdn.net^
 ||vk-portal.net^
+||vlitag.com^
 ||voodoo-tech.io^
 ||voodoo.io^
+||watson.*.microsoft.com^
 ||watson.live.com^
 ||watson.microsoft.com^
-||watson.*.microsoft.com^
 ||wns.windows.com^
 ||www-google-analytics.l.google.com^
 ||www-googleadservices.l.google.com^

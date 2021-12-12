@@ -470,7 +470,6 @@ youtube.com##ytd-playlist-panel-video-renderer#playlist-items.ytd-playlist-panel
 ||yastatic.net/awaps-ad-sdk-js/$important,script,xmlhttprequest
 ||yastatic.net/daas/atom.js|$important,script,xmlhttprequest
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest
-||xn--$document,subdocument
 ! COMBINED END
 
 ! TRASH START
