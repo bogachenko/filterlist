@@ -277,6 +277,7 @@ $$script[src="https://www.googletagservices.com/"]
 44.239.55.163:443^$network
 34.120.195.249:443^$network
 74.125.205.97:443^$network
+44.237.171.183:443^$network
 ! Domain Name System (DNS) END
 
 ! DOMAIN START
@@ -475,7 +476,6 @@ youtube.com##ytd-playlist-panel-video-renderer#playlist-items.ytd-playlist-panel
 ! TRASH START
 @@||app.adjust.com^|$badfilter
 @@||www.googleadservices.com^|$badfilter
-@@||ttvnw.net^$xmlhttprequest
 infourok.ru##div#aa-popup
 @@||redirect.appmetrica.yandex.com^|$badfilter
 @@||imasdk.googleapis.com^|$badfilter
