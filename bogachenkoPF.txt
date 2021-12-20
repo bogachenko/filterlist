@@ -481,9 +481,12 @@ youtube.com##ytd-playlist-panel-video-renderer#playlist-items.ytd-playlist-panel
 @@||app.adjust.com^|$badfilter
 @@||www.googleadservices.com^|$badfilter
 infourok.ru##div#aa-popup
+@@||awin1.com^|$badfilter
+@@||feed.adrelayer.com^|$badfilter
 @@||redirect.appmetrica.yandex.com^|$badfilter
 @@||imasdk.googleapis.com^|$badfilter
 @@||pagead.l.doubleclick.net^|$badfilter
+@@||guce.advertising.com^$badfilter
 @@||googleadapis.l.google.com^|$badfilter
 @@||app.appsflyer.com^|$badfilter
 @@||launches.appsflyer.com^|$badfilter

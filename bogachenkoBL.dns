@@ -25,6 +25,8 @@
 ||adgrx.com^
 ||adj.st^
 ||adjust.*^
+||awin1.com^
+||adrelayer.com^
 ||adroll.com^
 ||adservice.google.*^
 ||adservice.l.google.com^
@@ -199,6 +201,7 @@
 ||watson.live.com^
 ||watson.microsoft.com^
 ||wns.windows.com^
+||googleadservices.com^
 ||www-google-analytics.l.google.com^
 ||www-googleadservices.l.google.com^
 ||www-googletagmanager.l.google.com^
