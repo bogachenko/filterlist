@@ -4,7 +4,9 @@
 ! Homepage: https://github.com/bogachenko/filterlist/
 ! License: https://raw.githubusercontent.com/bogachenko/filterlist/main/LICENSE.md
 
-@@||metrika.yandex.ru^
 @@||analytics.google.com^
-@@||metrika.yandex.com^
 @@||analyticsinsights-pa.clients*.google.com^
+@@||injections.adguard.org^
+@@||local.adguard.org^
+@@||metrika.yandex.com^
+@@||metrika.yandex.ru^

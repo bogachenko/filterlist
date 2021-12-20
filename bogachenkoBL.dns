@@ -20,16 +20,16 @@
 ||adcolony.com^
 ||adform.com^
 ||adform.net^
-||vungle.com^
 ||adform.net^
 ||adgrx.com^
 ||adj.st^
 ||adjust.*^
-||awin1.com^
+||adnxs.com^
 ||adrelayer.com^
 ||adroll.com^
 ||adservice.google.*^
 ||adservice.l.google.com^
+||adwolf.ru^
 ||af.opera.com^
 ||amazon-adsystem.com^
 ||amplitude.com^
@@ -51,6 +51,7 @@
 ||ar.overwolf.com^
 ||atdmt.com^
 ||awaps.yandex.*^
+||awin1.com^
 ||bidmachine.io^
 ||branch.io^
 ||braze.com^
@@ -101,6 +102,7 @@
 ||goldbach.com^
 ||google-analytics.com^
 ||googleadapis.l.google.com^
+||googleadservices.com^
 ||gx-corner.opera.com^
 ||gx-corner.route*.opera.com^
 ||hotjar.com^
@@ -187,6 +189,7 @@
 ||tracking.*.miui.com^
 ||tracking.miui.com^
 ||tracking.overwolf.com^
+||tradedoubler.com^
 ||tradelab.com^
 ||unruly.co^
 ||us-redir.opera.com^
@@ -197,11 +200,11 @@
 ||vlitag.com^
 ||voodoo-tech.io^
 ||voodoo.io^
+||vungle.com^
 ||watson.*.microsoft.com^
 ||watson.live.com^
 ||watson.microsoft.com^
 ||wns.windows.com^
-||googleadservices.com^
 ||www-google-analytics.l.google.com^
 ||www-googleadservices.l.google.com^
 ||www-googletagmanager.l.google.com^
