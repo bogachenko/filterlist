@@ -7,12 +7,13 @@
 /^(.+[_.-])?ad[sxv]?([\d]+)?[_.-]/
 /^(.+[_.-])?ad[vs]er(ve)?t?(i(se|sing|sement|ca))?[_.-]/
 /^(.+[_.-])?counter([\d]+)?[_.-]/
+/^(.+[_.-])?vast([\d]+)?[_.-]/
 /^(.+[_.-]?)?analy([\W\w]+)?([\d]+)?[_.-]/
 /^(.+[_.-]?)?me?tr[ie]?[ck][asx]?([\d]+)?[_.-]/
 /^(.+[_.-]?)?re[ck]l?(ama)?([\d]+)?[_.-]/
 /^(.+[_.-]?)?telemetr(y|ic)([\W\w]+)?([\d]+)?[_.-]/
 /^aj[0-9]{4}\.online$/
-/^a\.[a-z0-9]{40,}\.com$/
+/^a\.[a-f0-9]{30,60}\.com$/
 /^n[0-9]{2,4}adserv\.\w+$/
 ||2mdn.net^
 ||33across.com^
@@ -43,6 +44,7 @@
 ||android-stat.acestream.net^
 ||app-measurement.com^
 ||app.link^
+||appads.com^
 ||appbaqend.com^
 ||appboy.com^
 ||applift.com^
@@ -118,6 +120,7 @@
 ||indexexchange.com^
 ||inmobi.com^
 ||inmobi.com^
+||juiceadv.com^
 ||juicyads.com^
 ||ketchapp.org^
 ||leanplum.com^
