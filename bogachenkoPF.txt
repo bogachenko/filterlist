@@ -301,7 +301,7 @@ $$script[src="https://www.googletagservices.com/"]
 ||hypercomments.com^$important
 ||kas-labs.com^$important
 ||kaspersky-labs.com^$important
-||kaspersky.*^$important,domain=~community.kaspersky.com|~forum.kaspersky.com|~support.kaspersky.ru|~opentip.kaspersky.com
+||kaspersky.*^$important,domain=~community.kaspersky.com|~forum.kaspersky.com|~support.kaspersky.ru|~opentip.kaspersky.com|~support.kaspersky.com
 ||meetings.googleapis.com^$important
 ||mobile-gtalk.l.google.com^$important
 ||msn.com^$important
@@ -336,9 +336,10 @@ $$script[src="https://www.googletagservices.com/"]
 ! IMAGE END
 
 ! APP START
-/^(?!.*(lfnnmlimilinwvwlijljioeogq13\.club|(firebaseio|googleapis|pbssrv\-centralevents|verifykit)\.com)).*$/$important,app=app.source.getcontact
+/^(?!.*(lfnnmlimilinwvwlijljioeogq13\.club|(firebaseio|googleapis|pbssrv\-centralevents|verifykit)\.com|cdngtc\.com)).*$/$important,app=app.source.getcontact
 ||www.facebook.com^$important,app=system
 *$app=com.mi.android.globalFileexplorer|com.miui.cleaner|com.miui.securitycenter|com.xiaomi.glgm
+/^(?!.*((spotify\.com|spotifycdn\.(com|.*\.fastly\.net)|scdn\.co|akamaized\.net)).*$/$important,app=com.spotify.music|Spotify.exe
 ! APP END
 
 ! SCRIPTLET START

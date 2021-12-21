@@ -16,14 +16,15 @@
 /^n[0-9]{2,4}adserv\.\w+$/
 ||2mdn.net^
 ||33across.com^
-||adfox.ru^
-||adforgames.com^
 ||acuityads.com^
+||adcamp.ru^
+||adcash.com^
 ||adcolony.com^
+||adforgames.com^
 ||adform.com^
-||startup.mobile.yandex.net^
 ||adform.net^
 ||adform.net^
+||adfox.ru^
 ||adgrx.com^
 ||adj.st^
 ||adjust.*^
@@ -36,8 +37,6 @@
 ||af.opera.com^
 ||amazon-adsystem.com^
 ||amplitude.com^
-||youmi.net^
-||youlamedia.com^
 ||an.facebook.com^
 ||an.mail.ru^
 ||an.yandex.*^
@@ -45,24 +44,18 @@
 ||app-measurement.com^
 ||app.link^
 ||appbaqend.com^
-||graph.facebook.com^
 ||appboy.com^
 ||applift.com^
 ||applovin.com^
-||leanplum.com^
 ||applvn.com^
 ||appmetrica.yandex.*^
 ||appnext.com^
 ||appsflyer.com^
 ||appstatic.opera.com^
-||adcash.com^
-||graph.instagram.com^
-||yuhuads.com^
 ||ar.overwolf.com^
 ||atdmt.com^
 ||awaps.yandex.*^
 ||awin1.com^
-||adcamp.ru^
 ||bidmachine.io^
 ||branch.io^
 ||braze.com^
@@ -87,7 +80,6 @@
 ||dc-int.services.visualstudio.com^
 ||dc.services.visualstudio.com^
 ||dds.microsoft.com^
-||ketchapp.org^
 ||desktop-dna.osp.opera.software^
 ||detectportal.firefox.com^
 ||dev.null^
@@ -115,6 +107,8 @@
 ||google-analytics.com^
 ||googleadapis.l.google.com^
 ||googleadservices.com^
+||graph.facebook.com^
+||graph.instagram.com^
 ||gx-corner.opera.com^
 ||gx-corner.route*.opera.com^
 ||hotjar.com^
@@ -123,7 +117,10 @@
 ||imasdk.googleapis.com^
 ||indexexchange.com^
 ||inmobi.com^
+||inmobi.com^
 ||juicyads.com^
+||ketchapp.org^
+||leanplum.com^
 ||lgsmartad.com^
 ||mc.yandex.*^
 ||mediamath.com^
@@ -131,6 +128,7 @@
 ||mgid.com^
 ||mistat.*.xiaomi.com^
 ||mistat.xiaomi.com^
+||mobfox.com^
 ||msitadfs.*.microsoft.com^
 ||my.com^
 ||network-n.com^
@@ -146,6 +144,7 @@
 ||pagead*.l.doubleclick.net^
 ||pagead-googlehosted.l.google.com^
 ||pagead.l.doubleclick.net^
+||partnerad.l.doubleclick.net^
 ||pipe.aria.microsoft.com^
 ||pladform.ru^
 ||privatestats.whatsapp.net^
@@ -156,6 +155,7 @@
 ||r3.mail.ru^
 ||recsys.opera.com^
 ||redir.opera.com^
+||reklamz.com^
 ||revcontent.com^
 ||ris.api.iris.microsoft.com^
 ||rs.mail.ru^
@@ -187,6 +187,7 @@
 ||spynetalt.microsoft.com^
 ||spyneteurope.microsoft.com^
 ||ssl-google-analytics.l.google.com^
+||startup.mobile.yandex.net^
 ||stat.mi.com^
 ||stat.xiaomi.com^
 ||sts.microsoft.com^
@@ -196,6 +197,7 @@
 ||tapjoy.com^
 ||tapjoy.net^
 ||tapjoyads.com^
+||teads.tv^
 ||thumbnails*.opera.com^
 ||top-fwz1.mail.ru^
 ||tracking.*.miui.com^
@@ -203,6 +205,7 @@
 ||tracking.overwolf.com^
 ||tradedoubler.com^
 ||tradelab.com^
+||trafficjunky.net^
 ||unruly.co^
 ||us-redir.opera.com^
 ||video-stats.l.google.com^
@@ -224,5 +227,8 @@
 ||xandr.com^
 ||yabs.yandex.*^
 ||yadro.ru^
+||youlamedia.com^
+||youmi.net^
 ||yovoads.com^
+||yuhuads.com^
 ||__hola__.pac_get_init_ts.local.hola^
