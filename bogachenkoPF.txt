@@ -281,7 +281,6 @@ $$script[src="https://www.googletagservices.com/"]
 ! Domain Name System (DNS) END
 
 ! DOMAIN START
-/^https?:\/\/([a-s1-3]{2}|update)\.torrentstream\.(org|info|net)/$important
 ||*-safebrowsing.google.com^$important
 ||apps.overwolf.com^$important
 ||addthis.com^$important
@@ -374,19 +373,17 @@ vk.com##[class="wall_item"]:has([class*="ads_mark"])
 yadi.sk##.action-buttons__antifo-tooltip.tooltip_shown_yes.tooltip_theme_normal.tooltip_tone_default.tooltip_view_classic.tooltip_size_s.tooltip.popup2_target_anchor.popup2_visible_yes.popup2_direction_right-center.popup2_theme_normal.popup2_tone_default.popup2_view_classic.popup2, .mobile-badges, .software-header-product.hover-dropdown, .burger-sidebar__button.button2_theme_clear.button2_size_n.button2_view_classic.button2.control, .header__inline-services-menu.inline-services-menu, .app-promo-banner, .software-header-product_win
 yandex.ru##^script:has-text(AwapsJsonAPI)
 youtube.com###player-ads, .ytd-mealbar-promo-renderer, #masthead-ad, #alert-banner, YTM-PROMOTED-VIDEO-RENDERER, .mealbar-promo-renderer, a[href*="/covid19"], .ytp-ad-module, .ytd-carousel-ad-renderer, .ytp-ad-progress, #promotion-shelf, .masthead-ad-control, .ad-div, .pyv-afc-ads-container, #sponsor-button, .ytp-endscreen-content, #live-chat-banner, .ytp-ad-progress-list, .subscribecard-endscreen, #ytd-promoted-video-renderer, [href="/premium"], [aria-label="Показать подсказки"], .ytd-player-legacy-desktop-watch-ads-renderer, .badge-style-type-ad, .ytp-ce-element, .iv-branding
-youtube.com##ytd-horizontal-card-list-renderer:has-text(Запросы, похожие на)
-youtube.com##ytd-horizontal-card-list-renderer:has-text(Похожие запросы)
+youtube.com##ytd-horizontal-card-list-renderer:has-text(/Запросы, похожие на|Похожие запросы/)
 youtube.com###dismissable:has-text(Рекомендации на основе вашей истории поиска)
-youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope > .ytd-shelf-renderer.style-scope:has(.badges):has-text(/Купить/)
 youtube.com##ytd-playlist-panel-video-renderer#playlist-items.ytd-playlist-panel-renderer.style-scope:has-text(/Видео с ограниченным доступом|Видео удалено/)
 ! Cascading Style Sheets (CSS) END
 
 ! Content Security Policy (CSP) START
 /^https?:\/\/(www\.)?music\.yandex\.ru\//$important,csp=script-src 'unsafe-inline' 'unsafe-eval' music.yandex.ru *.youtube.com https://yastatic.net local.adguard.org injections.adguard.org *.jquery.com; connect-src 'self' data: music.yandex.ru storage.mds.yandex.net wss: https://api.passport.yandex.ru; img-src 'self' data: music.yandex.ru *.yandex.net yapic.yandex.ru *.ytimg.com; frame-src data: frontend.vh.yandex.ru *.youtube.com music.yandex.ru;
-||coub.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.google.com *.gstatic.com local.adguard.org injections.adguard.org *.google.com *.youtube.com coub.com *.akamai.net *.akamaized.net *.akamaihd.net;
 ||twitch.tv^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: data: *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net *.recaptcha.net *.google.com *.gstatic.com *.algolia.net local.adguard.org injections.adguard.org *.cloudfront.net *.fastly.net *.live-video.net;
 ||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com *.google.com *.googleapis.com *.gstatic.com local.adguard.org injections.adguard.org;
 ||vk.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.vkuseraudio.net *.userapi.com *.vk.com vk.com *.mycdn.me *.google.com *.gstatic.com local.adguard.org injections.adguard.org *.youtube.com coub.com *.akamai.net *.akamaized.net *.akamaihd.net *.googleapis.com *.api-maps.yandex.ru api.ok.ru *.vkuservideo.net;
+||spotify.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: data: *.spotify.com *.akamai.net *.akamaized.net *.google.com *.gstatic.com *.scdn.co *.fastly.net;
 ! Content Security Policy (CSP) END
 
 ! OTHER START
@@ -435,13 +432,8 @@ youtube.com##ytd-playlist-panel-video-renderer#playlist-items.ytd-playlist-panel
 /^https?:\/\/[^\s]+\/sw([-._?]([_a-z0-9-.]{1,12})?)?\.js/$important,script
 /^https?:\/\/[^\s]+\/sw[bwg]\.js/$important,script
 /^https?:\/\/[^\s]+\/wp\.js/$important,script
-|http*:*/invoke.js$important,script
-|http*:*/miner.js$important,script
-|http*:*/vastlist.js$important,script
 |http*:*/webworker.js$important,script,domain=~google.com|~recaptcha.net
-|http*:*/wl-http.js$important,script
-|http*:*/wl.js$important,script
-||scdn.co/cdn/js/gtag.$important,script,domain=spotify.com
+|http*:*/endscreen.js$important,script,domain=youtube.com|youtu.be|youtube-nocookie.com
 ||youtube.com/*/player/*/ad.js$script,important
 ! SCRIPT END
 
