@@ -8,5 +8,4 @@
 @@||analyticsinsights-pa.clients*.google.com^
 @@||injections.adguard.org^
 @@||local.adguard.org^
-@@||metrika.yandex.com^
-@@||metrika.yandex.ru^
+@@||metrika.yandex.*^
