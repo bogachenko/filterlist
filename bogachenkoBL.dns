@@ -20,10 +20,8 @@
 ||33across.com^
 ||acuityads.com^
 ||adcamp.ru^
-||yandexadexchange.net^
 ||adcash.com^
 ||adcolony.com^
-||digitaltarget.ru^
 ||adforgames.com^
 ||adform.*^
 ||adfox.ru^
@@ -91,6 +89,7 @@
 ||detectportal.firefox.com^
 ||dev.null^
 ||diagnostics.support.microsoft.com^
+||digitaltarget.ru^
 ||districtm.net^
 ||dit.whatsapp.net^
 ||doubleclick.net^
@@ -114,6 +113,8 @@
 ||google-analytics.com^
 ||googleadapis.l.google.com^
 ||googleadservices.com^
+||googleoptimize.com^
+||googletagservices.com^
 ||graph.facebook.com^
 ||graph.instagram.com^
 ||gx-corner.opera.com^
@@ -136,6 +137,7 @@
 ||mistat.*.xiaomi.com^
 ||mistat.xiaomi.com^
 ||mobfox.com^
+||monitor.azure.com^
 ||mopub.com^
 ||msitadfs.*.microsoft.com^
 ||my.com^
@@ -215,12 +217,11 @@
 ||tradedoubler.com^
 ||tradelab.com^
 ||trafficjunky.net^
+||trk.mail.ru^
 ||unruly.co^
 ||us-redir.opera.com^
 ||video-stats.l.google.com^
 ||videoroll.net^
-||monitor.azure.com^
-||googletagservices.com^
 ||vk-cdn.net^
 ||vk-portal.net^
 ||vlitag.com^
@@ -228,7 +229,6 @@
 ||voodoo.io^
 ||vungle.com^
 ||watson.*.microsoft.com^
-||trk.mail.ru^
 ||watson.live.com^
 ||watson.microsoft.com^
 ||weborama.fr^
@@ -238,10 +238,10 @@
 ||www-googleadservices.l.google.com^
 ||www-googletagmanager.l.google.com^
 ||www-googletagservices.l.google.com^
-||googleoptimize.com^
 ||xandr.com^
 ||yabs.yandex.*^
 ||yadro.ru^
+||yandexadexchange.net^
 ||youlamedia.com^
 ||youmi.net^
 ||yovoads.com^
