@@ -81,6 +81,7 @@
 ||data.*.microsoft.com^
 ||data.*.miui.com^
 ||data.microsoft.com^
+||data.msn.com^
 ||datamart.windows.com^
 ||dataxu.com^
 ||dc-int.services.visualstudio.com^
@@ -218,6 +219,7 @@
 ||us-redir.opera.com^
 ||video-stats.l.google.com^
 ||videoroll.net^
+||monitor.azure.com^
 ||googletagservices.com^
 ||vk-cdn.net^
 ||vk-portal.net^
