@@ -15,7 +15,10 @@
 /^(.+[_.-]?)?telemetr(y|ic)([\W\w]+)?([\d]+)?[_.-]/
 /^aj[0-9]{4}\.online$/
 /^a\.[a-f0-9]{30,60}\.com$/
+/^beacons?([\d]+)?[_.-]/
+/^m[sr]ad[sx]\.net$/
 /^n[0-9]{2,4}adserv\.\w+$/
+/^pixel([\d]+)?[_.-]/
 /^r0?\.mradx\.net$/
 ||2mdn.net^
 ||33across.com^
@@ -30,7 +33,7 @@
 ||adgrx.com^
 ||adj.st^
 ||adjust.*^
-||admetrica.ru^
+||admob.com^
 ||adnxs.com^
 ||adrelayer.com^
 ||adroll.com^
@@ -53,7 +56,6 @@
 ||applift.com^
 ||applovin.com^
 ||applvn.com^
-||appmetrica.yandex.*^
 ||appnext.com^
 ||appsflyer.com^
 ||appstatic.opera.com^
@@ -86,7 +88,6 @@
 ||dc-int.services.visualstudio.com^
 ||dc.services.visualstudio.com^
 ||dds.microsoft.com^
-||desktop-dna.osp.opera.software^
 ||detectportal.firefox.com^
 ||dev.null^
 ||diagnostics.support.microsoft.com^
@@ -113,13 +114,10 @@
 ||fundingchoicesmessages.google.com^
 ||get.opera.com^
 ||goldbach.com^
-||google-analytics.com^
 ||googleadapis.l.google.com^
 ||googleadservices.com^
 ||googleoptimize.com^
 ||googletagservices.com^
-||graph.facebook.com^
-||graph.instagram.com^
 ||gx-corner.opera.com^
 ||gx-corner.route*.opera.com^
 ||hotjar.com^
@@ -150,17 +148,14 @@
 ||nexstardigital.net^
 ||next-services.apps.microsoft.com^
 ||notification.adblockplus.org^
-||ofa-sub.osp.opera.software^
 ||onesignal.com^
 ||op-mobile.opera.com^
 ||openx.com^
 ||opera-api.com^
 ||osp.opera.software^
 ||otm-r.com^
-||pagead*.l.doubleclick.net^
+||owneriq.*^
 ||pagead-googlehosted.l.google.com^
-||pagead.l.doubleclick.net^
-||partnerad.l.doubleclick.net^
 ||pipe.aria.microsoft.com^
 ||pladform.ru^
 ||primis.tech^
@@ -203,7 +198,6 @@
 ||spynetall.microsoft.com^
 ||spynetalt.microsoft.com^
 ||spyneteurope.microsoft.com^
-||ssl-google-analytics.l.google.com^
 ||startup.mobile.yandex.net^
 ||stat.mi.com^
 ||stat.xiaomi.com^
@@ -241,7 +235,6 @@
 ||weborama.fr^
 ||webvisor.org^
 ||wns.windows.com^
-||www-google-analytics.l.google.com^
 ||www-googleadservices.l.google.com^
 ||www-googletagmanager.l.google.com^
 ||www-googletagservices.l.google.com^
