@@ -4,4 +4,30 @@
 ! Homepage: https://github.com/bogachenko/filterlist/
 ! License: https://raw.githubusercontent.com/bogachenko/filterlist/main/LICENSE.md
 
-! 
+||adservice.google.*^$important
+||adservice.l.google.com^$important
+||doubleclick.net^$important
+||google-analytics.com^$important
+||googleadapis.l.google.com^$important
+||googleadservices.com^$important
+||googleadsserving.cn^$important
+||googleanalytics.com^$important
+||googleoptimize.com^$important
+||googlesyndication.com^$important
+||googletagmanager.com^$important
+||googletagservices.com^$important
+||www-googleadservices.l.google.com^$important
+||www-googletagmanager.l.google.com^$important
+||www-googletagservices.l.google.com^$important
+||googleadapis.l.google.com^$important
+||id.google.*^$important
+||id.l.google.com^$important
+||imasdk.googleapis.com^$important
+||pagead*.l.doubleclick.net^$important
+||pagead-googlehosted.l.google.com^$important
+||pagead.l.doubleclick.net^$important
+||s*-2mdn-net.l.google.com^$important
+||yabs.yandex.*^$important
+||mc.yandex.*^$important
+||an.yandex.ru^$important
+||appmetrica.yandex.*^$important
