@@ -7,7 +7,7 @@
 /^(.+[_.-])?ad[sxv]?([\d]+)?[_.-]/
 /^(.+[_.-])?ad[vs]er(ve)?t?(i(se|sing|sement|ca))?[_.-]/
 /^(.+[_.-])?vast([\d]+)?[_.-]/
-/^(.+[_.-])moviead(s|[0-9]{2})\.ru$/
+/^(.+[_.-])?moviead(s|[0-9]{2})\.ru$/
 /^(.+[_.-]?)?analy([\W\w]+)?([\d]+)?[_.-]/
 /^(.+[_.-]?)?counter([\d]+)?[_.-]/
 /^(.+[_.-]?)?me?tr[ie]?[ck][asx]?([\d]+)?[_.-]/
@@ -16,6 +16,7 @@
 /^aj[0-9]{4}\.online$/
 /^a\.[a-f0-9]{30,60}\.com$/
 /^beacons?([\d]+)?[_.-]/
+/^logs?([\d]+)?[_.-]/
 /^m[sr]ad[sx]\.net$/
 /^n[0-9]{2,4}adserv\.\w+$/
 /^pixel([\d]+)?[_.-]/
@@ -27,9 +28,11 @@
 ||adcash.com^
 ||adcolony.com^
 ||moatads.com^
+||adnium.com^
 ||adforgames.com^
 ||adform.*^
 ||adfox.ru^
+||exosrv.com^
 ||adfox.yandex.*^
 ||adgrx.com^
 ||adj.st^
@@ -38,6 +41,7 @@
 ||adnxs.com^
 ||adrelayer.com^
 ||adroll.com^
+||popads.net^
 ||adservice.google.*^
 ||adservice.l.google.com^
 ||advisor.api.2gis.ru^
@@ -232,6 +236,7 @@
 ||vlitag.com^
 ||voodoo-tech.io^
 ||voodoo.io^
+||googletagmanager.com^
 ||vungle.com^
 ||watson.*.microsoft.com^
 ||watson.live.com^
