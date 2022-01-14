@@ -24,6 +24,11 @@ $$script[src="https://www.googletagservices.com/"]
 !#endif
 ! CONDITIONS END
 
+! TEST START
+||s.yimg.com^
+||intl.miui.com^
+! TEST END
+
 ! WHITELIST START
 @@/^https?:\/\/edge\.microsoft\.com\/(extension(webstorebase|installverifier)\/[a-z1-9.]{2,4}\/(installverify|(hash)?crx\?|log(extensionreliability|failureinfo)\?)|(redirector|hunspell)dictionaries\/)/$important
 @@||connectivitycheck.gstatic.com^$important
@@ -331,6 +336,8 @@ $$script[src="https://www.googletagservices.com/"]
 ||xboxservices.com^$important
 ||push.services.mozilla.com^$important
 ||shavar.services.mozilla.com^$important
+||qq.com^$important
+||addthiscdn.com^$important
 ! DOMAIN END
 
 ! IMAGE START

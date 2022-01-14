@@ -6,6 +6,7 @@
 
 /^(.+[_.-])?ad[sxv]?([\d]+)?[_.-]/
 /^(.+[_.-])?ad[vs]er(v?e?t?r?)?(i((si)?ng|se(ment)?|c[ae]s?))?[_.-]/
+/^(.+[_.-])?beacons?([\d]+)?[_.-]/
 /^(.+[_.-])?moviead(s|[0-9]{2})\.ru$/
 /^(.+[_.-])?vast([\d]+)?[_.-]/
 /^(.+[_.-]?)?analy([\W\w]+)?([\d]+)?[_.-]/
@@ -15,12 +16,12 @@
 /^(.+[_.-]?)?telemetr(y|ic)([\W\w]+)?([\d]+)?[_.-]/
 /^aj[0-9]{4}\.online$/
 /^a\.[a-f0-9]{30,60}\.com$/
-/^beacons?([\d]+)?[_.-]/
 /^logs?([\d]+)?[_.-]/
 /^m[sr]ad[sx]\.net$/
 /^n[0-9]{2,4}adserv\.\w+$/
 /^pixel([\d]+)?[_.-]/
 /^r0?\.mradx\.net$/
+/^r[0-3]?\.mail\.ru$/
 ||2mdn.net^
 ||33across.com^
 ||acuityads.com^
@@ -37,6 +38,7 @@
 ||admob.com^
 ||admost.com^
 ||adnium.com^
+||adnow.com^
 ||adnxs.com^
 ||adrelayer.com^
 ||adroll.com^
@@ -76,6 +78,7 @@
 ||bugsnag.com^
 ||buzzoola.com^
 ||checkappexec.microsoft.com^
+||chitika.com^
 ||choice.microsoft.com^
 ||client.hola.org^
 ||collect.*.miui.com^
@@ -127,13 +130,13 @@
 ||goldbach.com^
 ||googleadapis.l.google.com^
 ||googleadservices.com^
-||googleanalytics.com^
 ||googleoptimize.com^
 ||googlesyndication.com^
 ||googletagmanager.com^
 ||googletagservices.com^
 ||gx-corner.opera.com^
 ||gx-corner.route*.opera.com^
+||heyzap.com^
 ||hotjar.com^
 ||iad.apple.com^
 ||iadsdk.apple.com^
@@ -148,6 +151,7 @@
 ||ketchapp.org^
 ||leanplum.com^
 ||lgsmartad.com^
+||lifestreet.com^
 ||main-tcod.com^
 ||major-t-code.com^
 ||mc.yandex.*^
@@ -157,6 +161,7 @@
 ||mistat.*.xiaomi.com^
 ||mistat.xiaomi.com^
 ||moatads.com^
+||mobclix.com^
 ||mobfox.com^
 ||mobileads.msn.com^
 ||monitor.azure.com^
@@ -183,14 +188,13 @@
 ||pipe.aria.microsoft.com^
 ||pladform.ru^
 ||popads.net^
+||popcash.net^
 ||primis.tech^
 ||privatestats.whatsapp.net^
+||propellerads.com^
 ||pubmatic.com^
-||r.mail.ru^
 ||r.msn.com^
-||r0.mail.ru^
-||r2.mail.ru^
-||r3.mail.ru^
+||rayjump.com^
 ||recsys.opera.com^
 ||redir.opera.com^
 ||reklamz.com^
@@ -233,8 +237,7 @@
 ||synacor.com^
 ||t.mail.ru^
 ||taboola.com^
-||tapjoy.com^
-||tapjoy.net^
+||tapjoy.*^
 ||tapjoyads.com^
 ||teads.tv^
 ||thumbnails*.opera.com^
@@ -257,6 +260,7 @@
 ||vlitag.com^
 ||voodoo-tech.io^
 ||voodoo.io^
+||vserv.mobi^
 ||vungle.com^
 ||watson.*.microsoft.com^
 ||watson.live.com^
@@ -271,6 +275,7 @@
 ||yabs.yandex.*^
 ||yadro.ru^
 ||yandexadexchange.net^
+||yllix.com^
 ||youlamedia.com^
 ||youmi.net^
 ||yovoads.com^
