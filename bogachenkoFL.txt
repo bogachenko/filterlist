@@ -32,3 +32,7 @@
 ||an.yandex.ru^$important
 ||appmetrica.yandex.*^$important
 ||s.youtube.com^$important
+||partnerad.l.google.com^$important
+||pagead.l.google.com^$important
+||pagead-tpc.l.google.com^$important
+||static-doubleclick-net.l.google.com^$important
