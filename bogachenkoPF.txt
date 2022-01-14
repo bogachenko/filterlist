@@ -21,12 +21,14 @@ $$script[src="https://www.googletagservices.com/"]
 @@||analyticsinsights-pa.clients*.google.com^$important,document
 @@||analytics.google.com^$important,document
 ||facebook.com^
+||firebaseinstallations.googleapis.com^
 !#endif
 ! CONDITIONS END
 
 ! TEST START
 ||s.yimg.com^
 ||intl.miui.com^
+||intl.xiaomi.com^
 ! TEST END
 
 ! WHITELIST START
