@@ -329,6 +329,7 @@ $$script[src="https://www.googletagservices.com/"]
 ||xboxlive.com^$important
 ||xboxservices.com^$important
 ||push.services.mozilla.com^$important
+||shavar.services.mozilla.com^$important
 ! DOMAIN END
 
 ! IMAGE START

@@ -31,3 +31,4 @@
 ||mc.yandex.*^$important
 ||an.yandex.ru^$important
 ||appmetrica.yandex.*^$important
+||s.youtube.com^$important

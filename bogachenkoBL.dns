@@ -94,7 +94,10 @@
 ||dds.microsoft.com^
 ||detectportal.firefox.com^
 ||dev.null^
-||diagnostics.support.microsoft.com^
+||diagnostics.*.microsoft.com^
+||diagnostics.*.office.com^
+||diagnostics.microsoft.com^
+||diagnostics.office.com^
 ||digitaltarget.ru^
 ||districtm.net^
 ||dit.whatsapp.net^
@@ -133,6 +136,7 @@
 ||id.google.*^
 ||id.l.google.com^
 ||imasdk.googleapis.com^
+||in.appcenter.ms^
 ||indexexchange.com^
 ||inmobi.com^
 ||juiceadv.com^
@@ -186,6 +190,7 @@
 ||rs.mail.ru^
 ||rutarget.ru^
 ||s*-2mdn-net.l.google.com^
+||s.youtube.com^
 ||sa.api.intl.miui.com^
 ||samsungacr.com^
 ||samsungadhub.com^
@@ -230,6 +235,7 @@
 ||tradedoubler.com^
 ||tradelab.com^
 ||trafficjunky.net^
+||trafficmagnet.net^
 ||trk.mail.ru^
 ||unruly.co^
 ||us-redir.opera.com^
@@ -244,9 +250,7 @@
 ||vungle.com^
 ||watson.*.microsoft.com^
 ||watson.live.com^
-||in.appcenter.ms^
 ||watson.microsoft.com^
-||diagnostics.office.com^
 ||weborama.fr^
 ||webvisor.org^
 ||wns.windows.com^
