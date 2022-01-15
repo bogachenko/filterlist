@@ -26,9 +26,7 @@ $$script[src="https://www.googletagservices.com/"]
 ! CONDITIONS END
 
 ! TEST START
-||s.yimg.com^
-||intl.miui.com^
-||intl.xiaomi.com^
+!
 ! TEST END
 
 ! WHITELIST START

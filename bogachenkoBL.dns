@@ -12,7 +12,7 @@
 /^(.+[_.-]?)?analy([\W\w]+)?([\d]+)?[_.-]/
 /^(.+[_.-]?)?counter([\d]+)?[_.-]/
 /^(.+[_.-]?)?me?tr[ie]?[ck][asx]?([\d]+)?[_.-]/
-/^(.+[_.-]?)?re[ck]l?(ama)?([\d]+)?[_.-]/
+/^(.+[_.-]?)?re[ck]l?(am[asz]?)?([\d]+)?[_.-]/
 /^(.+[_.-]?)?telemetr(y|ic)([\W\w]+)?([\d]+)?[_.-]/
 /^aj[0-9]{4}\.online$/
 /^a\.[a-f0-9]{30,60}\.com$/
@@ -202,7 +202,6 @@
 ||rayjump.com^
 ||recsys.opera.com^
 ||redir.opera.com^
-||reklamz.com^
 ||revcontent.com^
 ||ris.api.iris.microsoft.com^
 ||rutarget.ru^
