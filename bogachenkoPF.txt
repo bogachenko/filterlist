@@ -21,7 +21,6 @@ $$script[src="https://www.googletagservices.com/"]
 @@||analyticsinsights-pa.clients*.google.com^$important,document
 @@||analytics.google.com^$important,document
 ||facebook.com^
-||firebaseinstallations.googleapis.com^
 !#endif
 ! CONDITIONS END
 
@@ -338,6 +337,10 @@ $$script[src="https://www.googletagservices.com/"]
 ||shavar.services.mozilla.com^$important
 ||qq.com^$important
 ||addthiscdn.com^$important
+||share.yandex.ru^$important
+||firebaselogging-pa.googleapis.com^$important
+||firebaseinstallations.googleapis.com^$important
+||firebaseremoteconfig.googleapis.com^$important
 ! DOMAIN END
 
 ! IMAGE START

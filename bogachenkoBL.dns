@@ -43,6 +43,8 @@
 ||adrelayer.com^
 ||adroll.com^
 ||adsafeprotected.com^
+||adsdk.yandex.ru^
+||adspruce.com^
 ||adsyndication.msn.com^
 ||advisor.api.2gis.ru^
 ||adwolf.ru^
@@ -68,6 +70,8 @@
 ||atdmt.com^
 ||awaps.yandex.*^
 ||awin1.com^
+||awsync.yandex.*^
+||betrad.com^
 ||bidmachine.io^
 ||bingads.microsoft.com^
 ||blueserving.com^
@@ -86,6 +90,7 @@
 ||countess.twitch.tv^
 ||crashlytics.com^
 ||crashlytics.l.google.com^
+||crashlyticsreports-pa.googleapis.com^
 ||d.ghostery.com^
 ||data.*.microsoft.com^
 ||data.*.miui.com^
@@ -118,6 +123,7 @@
 ||fake.video.url.webm^
 ||feedback.*.microsoft.com^
 ||feedback.windows.com^
+||flashtalking.com^
 ||flurry.com^
 ||footprint.net^
 ||footprintdns.com^
@@ -148,6 +154,7 @@
 ||in.appcenter.ms^
 ||indexexchange.com^
 ||infinitedata-pa.googleapis.com^
+||informer.yandex.ru^
 ||inmobi.*^
 ||intl.miui.com^
 ||intl.xiaomi.com^
@@ -253,6 +260,7 @@
 ||trafficjunky.net^
 ||trafficmagnet.net^
 ||trk.mail.ru^
+||unityads.unity3d.com^
 ||unruly.co^
 ||us-redir.opera.com^
 ||vak345.com^
