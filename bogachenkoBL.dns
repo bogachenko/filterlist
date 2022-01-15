@@ -21,7 +21,7 @@
 /^n[0-9]{2,4}adserv\.\w+$/
 /^pixel([\d]+)?[_.-]/
 /^r0?\.mradx\.net$/
-/^r[0-3]?\.mail\.ru$/
+/^[rt]s?[0-3]?\.mail\.ru$/
 ||2mdn.net^
 ||33across.com^
 ||acuityads.com^
@@ -44,7 +44,6 @@
 ||adroll.com^
 ||adsafeprotected.com^
 ||adsyndication.msn.com^
-||taxi-promotions.*.yandex.net^
 ||advisor.api.2gis.ru^
 ||adwolf.ru^
 ||af.opera.com^
@@ -90,7 +89,9 @@
 ||d.ghostery.com^
 ||data.*.microsoft.com^
 ||data.*.miui.com^
+||data.*.msn.com^
 ||data.microsoft.com^
+||data.miui.com^
 ||data.msn.com^
 ||datamart.windows.com^
 ||dataxu.com^
@@ -146,7 +147,10 @@
 ||imasdk.googleapis.com^
 ||in.appcenter.ms^
 ||indexexchange.com^
+||infinitedata-pa.googleapis.com^
 ||inmobi.*^
+||intl.miui.com^
+||intl.xiaomi.com^
 ||juiceadv.com^
 ||juicyads.com^
 ||ketchapp.org^
@@ -201,11 +205,10 @@
 ||reklamz.com^
 ||revcontent.com^
 ||ris.api.iris.microsoft.com^
-||rs.mail.ru^
 ||rutarget.ru^
 ||s*-2mdn-net.l.google.com^
+||s.yimg.com^
 ||s.youtube.com^
-||sa.api.intl.miui.com^
 ||samsungacr.com^
 ||samsungadhub.com^
 ||samsungads.com^
@@ -236,10 +239,10 @@
 ||static-doubleclick-net.l.google.com^
 ||sts.microsoft.com^
 ||synacor.com^
-||t.mail.ru^
 ||taboola.com^
 ||tapjoy.*^
 ||tapjoyads.com^
+||taxi-promotions.*.yandex.net^
 ||teads.tv^
 ||thumbnails*.opera.com^
 ||top-fwz1.mail.ru^
@@ -267,12 +270,13 @@
 ||watson.live.com^
 ||watson.microsoft.com^
 ||weborama.fr^
-||webvisor.org^
+||webvisor.*^
 ||wns.windows.com^
 ||www-googleadservices.l.google.com^
 ||www-googletagmanager.l.google.com^
 ||www-googletagservices.l.google.com^
 ||xandr.com^
+||xray.mail.ru^
 ||yabs.yandex.*^
 ||yadro.ru^
 ||yandexadexchange.net^
