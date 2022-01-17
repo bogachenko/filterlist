@@ -21,6 +21,7 @@ $$script[src="https://www.googletagservices.com/"]
 @@||analyticsinsights-pa.clients*.google.com^$important,document
 @@||analytics.google.com^$important,document
 ||facebook.com^
+||bing.com^
 !#endif
 ! CONDITIONS END
 
@@ -287,10 +288,11 @@ $$script[src="https://www.googletagservices.com/"]
 
 ! DOMAIN START
 ||*-safebrowsing.google.com^$important
-||apps.overwolf.com^$important
 ||addthis.com^$important
+||addthiscdn.com^$important
 ||addtoany.com^$important
 ||alt*-mtalk.google.com^$important
+||apps.overwolf.com^$important
 ||avast.com^$important
 ||brontp.yandex.ru^$important
 ||brozen.yandex.ru^$important
@@ -302,6 +304,10 @@ $$script[src="https://www.googletagservices.com/"]
 ||disqus.com^$important
 ||disquscdn.com^$important
 ||edge.microsoft.com^$important
+||firebaseinstallations.googleapis.com^$important
+||firebaselogging-pa.googleapis.com^$important
+||firebaseremoteconfig.googleapis.com^$important
+||go.microsoft.com^$important
 ||hypercomments.com^$important
 ||kas-labs.com^$important
 ||kaspersky-labs.com^$important
@@ -311,6 +317,8 @@ $$script[src="https://www.googletagservices.com/"]
 ||msn.com^$important
 ||mtalk.google.com^$important
 ||pluso.ru^$important
+||push.services.mozilla.com^$important
+||qq.com^$important
 ||safe-browsing-quorum.privacy.ghostery.net^$important
 ||safe-browsing.ghostery.net^$important
 ||safebrowsing.googleapis.com^$important
@@ -320,27 +328,20 @@ $$script[src="https://www.googletagservices.com/"]
 ||sendpulse.com^$important
 ||sentry-cdn.com^$important
 ||share.yandex.net^$important
+||share.yandex.ru^$important
 ||sharethis.com^$important
+||shavar.services.mozilla.com^$important
+||smartscreen-prod.microsoft.com^$important
+||smartscreen.microsoft.com^$important
 ||tracking-protection.cdn.mozilla.net^$important
 ||uptolike.com^$important
 ||usocial.pro^$important
 ||widgetbot.io^$important
 ||xbox.com^$important
-||go.microsoft.com^$important
-||yastroka.yandex.net^$important
-||qq.com^$important
-||smartscreen.microsoft.com^$important
-||smartscreen-prod.microsoft.com^$important
 ||xboxlive.com^$important
 ||xboxservices.com^$important
-||push.services.mozilla.com^$important
-||shavar.services.mozilla.com^$important
-||qq.com^$important
-||addthiscdn.com^$important
-||share.yandex.ru^$important
-||firebaselogging-pa.googleapis.com^$important
-||firebaseinstallations.googleapis.com^$important
-||firebaseremoteconfig.googleapis.com^$important
+||yastroka.yandex.net^$important
+||location.services.mozilla.com^$important
 ! DOMAIN END
 
 ! IMAGE START
@@ -349,8 +350,7 @@ $$script[src="https://www.googletagservices.com/"]
 
 ! APP START
 /^(?!.*(lfnnmlimilinwvwlijljioeogq13\.club|(firebaseio|googleapis|pbssrv\-centralevents|verifykit)\.com|cdngtc\.com)).*$/$important,app=app.source.getcontact
-||www.facebook.com^$important,app=system
-*$app=com.mi.android.globalFileexplorer|com.miui.cleaner|com.miui.securitycenter|com.xiaomi.glgm|com.miui.videoplayer|com.miui.player
+*$app=com.mi.android.globalFileexplorer|com.miui.cleaner|com.miui.securitycenter|com.xiaomi.glgm|com.miui.videoplayer|com.miui.player|com.mi.globalbrowser
 /^(?!.*((spotify\.com|spotifycdn\.(com|.*\.fastly\.net)|scdn\.co|akamaized\.net)).*$/$important,app=com.spotify.music|Spotify.exe
 ! APP END
 
