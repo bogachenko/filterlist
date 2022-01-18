@@ -350,7 +350,7 @@ $$script[src="https://www.googletagservices.com/"]
 
 ! APP START
 /^(?!.*(lfnnmlimilinwvwlijljioeogq13\.club|(firebaseio|googleapis|pbssrv\-centralevents|verifykit)\.com|cdngtc\.com)).*$/$important,app=app.source.getcontact
-*$app=com.mi.android.globalFileexplorer|com.miui.cleaner|com.miui.securitycenter|com.xiaomi.glgm|com.miui.videoplayer|com.miui.player|com.mi.globalbrowser
+*$app=com.mi.android.globalFileexplorer|com.miui.cleaner|com.miui.securitycenter|com.xiaomi.glgm|com.miui.videoplayer|com.miui.player|com.mi.globalbrowser|com.miui.gallery
 /^(?!.*((spotify\.com|spotifycdn\.(com|.*\.fastly\.net)|scdn\.co|akamaized\.net)).*$/$important,app=com.spotify.music|Spotify.exe
 ! APP END
 
@@ -397,7 +397,7 @@ my.yota.ru##.y-expansion-panel, .promotion-offer
 ! Content Security Policy (CSP) START
 ||twitch.tv^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: data: *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net *.recaptcha.net *.google.com *.gstatic.com *.algolia.net local.adguard.org injections.adguard.org *.cloudfront.net *.fastly.net *.live-video.net;
 ||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com *.google.com *.googleapis.com *.gstatic.com local.adguard.org injections.adguard.org;
-||vk.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.vkuseraudio.net *.userapi.com *.vk.com vk.com *.mycdn.me *.google.com *.gstatic.com local.adguard.org injections.adguard.org *.youtube.com coub.com *.akamai.net *.akamaized.net *.akamaihd.net *.googleapis.com *.api-maps.yandex.ru api.ok.ru *.vkuservideo.net;
+||vk.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.vkuseraudio.net *.userapi.com *.vk.com vk.com *.mycdn.me *.google.com *.gstatic.com local.adguard.org injections.adguard.org *.youtube.com coub.com *.akamai.net *.akamaized.net *.akamaihd.net *.googleapis.com *.api-maps.yandex.ru api.ok.ru *.vkuservideo.net *.vkuser.net;
 ||spotify.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: data: *.spotify.com *.akamai.net *.akamaized.net *.google.com *.gstatic.com *.scdn.co *.fastly.net *.spotifycdn.com;
 ! Content Security Policy (CSP) END
 
