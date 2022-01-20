@@ -307,7 +307,6 @@ $$script[src="https://www.googletagservices.com/"]
 ||firebaseinstallations.googleapis.com^$important
 ||firebaselogging-pa.googleapis.com^$important
 ||firebaseremoteconfig.googleapis.com^$important
-||go.microsoft.com^$important
 ||hypercomments.com^$important
 ||kas-labs.com^$important
 ||kaspersky-labs.com^$important
@@ -392,6 +391,8 @@ youtube.com###dismissible.ytd-compact-video-renderer.style-scope:has(.badges):ha
 youtube.com###dismissible.ytd-compact-movie-renderer.style-scope:has(.badge):has-text(/Купить|Buy/)
 youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope > .ytd-shelf-renderer.style-scope:has(.ytd-badge-supported-renderer):has-text(/Купить|Buy/)
 my.yota.ru##.y-expansion-panel, .promotion-offer
+passageweather.com##.rightcolumn,.upperdiv,.header,#leftimages,.blackbottom,.bottombit,.footer,.gapfill,[onclick*="ga("]
+passageweather.com##.document:style(background-image: none!important;)
 ! Cascading Style Sheets (CSS) END
 
 ! Content Security Policy (CSP) START
