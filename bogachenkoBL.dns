@@ -26,7 +26,6 @@
 ||33across.com^
 ||acuityads.com^
 ||adcamp.ru^
-||relap.io^
 ||adcash.com^
 ||adcolony.com^
 ||adforgames.com^
@@ -143,6 +142,9 @@
 ||googlesyndication.com^
 ||googletagmanager.com^
 ||googletagservices.com^
+||graph.facebook.com^
+||graph.instagram.com^
+||graph.microsoft.com^
 ||gx-corner.opera.com^
 ||gx-corner.route*.opera.com^
 ||heyzap.com^
@@ -210,6 +212,7 @@
 ||rayjump.com^
 ||recsys.opera.com^
 ||redir.opera.com^
+||relap.io^
 ||revcontent.com^
 ||ris.api.iris.microsoft.com^
 ||rutarget.ru^
@@ -225,15 +228,16 @@
 ||scorecardresearch.com^
 ||sec.*.miui.com^
 ||sec.miui.com^
+||sendpulse.com^
 ||sentry-cdn.com^
 ||sentry.io^
 ||serving-sys.com^
 ||smaato.com^
 ||smartadserver.com^
-||sendpulse.com^
 ||smartclip.net^
 ||smartscreen.microsoft.com^
 ||sovrn.com^
+||spade.twitch.tv^
 ||speeddials.opera.com^
 ||spotx.tv^
 ||springserve.com^

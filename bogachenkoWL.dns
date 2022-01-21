@@ -6,13 +6,15 @@
 
 @@||analytics.google.com^
 @@||analyticsinsights-pa.clients*.google.com^
-@@||injections.adguard.org^
-@@||local.adguard.org^
-@@||metrika.yandex.*^
-@@||login.windows.net^
-@@||login.microsoftonline.com^
-@@||login.live.com^
-@@||update.code.visualstudio.com^
-@@||update.microsoft.com^
 @@||download.windowsupdate.com^
 @@||ecs.office.com^
+@@||injections.adguard.org^
+@@||local.adguard.org^
+@@||login.live.com^
+@@||login.microsoftonline.com^
+@@||login.windows.net^
+@@||login.yandex.ru^
+@@||metrika.yandex.*^
+@@||oauth.yandex.ru^
+@@||update.code.visualstudio.com^
+@@||update.microsoft.com^
