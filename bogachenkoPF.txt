@@ -341,7 +341,7 @@ $$script[src="https://www.googletagservices.com/"]
 ||xboxservices.com^$important
 ||yastroka.yandex.net^$important
 ||location.services.mozilla.com^$important
-||micloud.xiaomi.net^$important
+!||micloud.xiaomi.net^$important
 ! DOMAIN END
 
 ! IMAGE START
