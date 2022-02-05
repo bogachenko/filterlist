@@ -367,7 +367,7 @@ infourok.ru##+js(js-rm.js, yaCounter)
 ! SCRIPTLET END
 
 ! Cascading Style Sheets (CSS) START
-aliexpress.*###j-festival-container > .festival-sub-venue, .multi-sidebar-outer-rus.multi-sidebar-outer, .product-fix-wrap, #J_xiaomi_dialog, .site-footer, .ng-mobile.ng-item, .hot-words, .top-banner-container, .site-server-box, .user-helper-footer, .fm-sns, .ams-region, .seo-container.product-container, .search-feedback-wrap, .footer-copywrite, #container-for-smart-banner, .header-right-content, .drogue-poplayer-modal, [class*="styles_bannerLink"], [class*="styles_body_"]
+aliexpress.*###j-festival-container > .festival-sub-venue, .multi-sidebar-outer-rus.multi-sidebar-outer, .product-fix-wrap, #J_xiaomi_dialog, .site-footer, .ng-mobile.ng-item, .hot-words, .top-banner-container, .site-server-box, .user-helper-footer, .fm-sns, .ams-region, .seo-container.product-container, .search-feedback-wrap, .footer-copywrite, #container-for-smart-banner, .header-right-content, .drogue-poplayer-modal, [class*="styles_bannerLink"], [class*="styles_body_"], [class*="MultiSidebarTab"], [class*="TopBanner"], [class*="Footer_Footer__footer"]
 freebitco.in###myModal22:has-text(Did you know?)
 freebitco.in##.daily_jackpot_main_container_div, #deposit_promo_message_regular, #play_without_captcha_container, .reveal-modal-bg, #bottom_user_ads_container
 yandex.ru##.media-infinity-footer__content-inner, .serp-footer__main, .media-grid__media-content, .headline__market-cart, .services-new__content, .dist-popup, div[aria-label="Реклама"]
@@ -391,7 +391,7 @@ youtube.com###player-ads, .ytd-mealbar-promo-renderer, #masthead-ad, #alert-bann
 youtube.com###dismissible.ytd-compact-video-renderer.style-scope:has(.badges):has-text(/Сбор средств|Fundraiser/)
 youtube.com###dismissible.ytd-compact-movie-renderer.style-scope:has(.badge):has-text(/Купить|Buy/)
 youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope > .ytd-shelf-renderer.style-scope:has(.ytd-badge-supported-renderer):has-text(/Купить|Buy/)
-my.yota.ru##.y-expansion-panel, .promotion-offer
+my.yota.ru##.y-expansion-panel, .promotion-offer, app-slider-ma-symk, .y-swiper-track
 passageweather.com##.rightcolumn,.upperdiv,.header,#leftimages,.blackbottom,.bottombit,.footer,.gapfill,[onclick*="ga("]
 passageweather.com##.document:style(background-image: none!important;)
 ! Cascading Style Sheets (CSS) END
