@@ -98,6 +98,12 @@
 ||data.*.microsoft.com^
 ||data.*.miui.com^
 ||data.*.msn.com^
+||adaware.com^
+||adsrvr.org^
+||bench.utorrent.com^
+||smartadserver.com^
+||mathtag.com^
+||trontv.com^
 ||data.microsoft.com^
 ||data.miui.com^
 ||data.msn.com^
@@ -238,7 +244,6 @@
 ||sentry.io^
 ||serving-sys.com^
 ||smaato.com^
-||smartadserver.com^
 ||smartclip.net^
 ||smartscreen.microsoft.com^
 ||sovrn.com^
