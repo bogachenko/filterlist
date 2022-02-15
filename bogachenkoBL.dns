@@ -14,11 +14,11 @@
 /^(.+[_.-]?)?me?tr[ie]?[ck][asx]?([\d]+)?[_.-]/
 /^(.+[_.-]?)?re[ck]l?(am[asz]?)?([\d]+)?[_.-]/
 /^(.+[_.-]?)?telemetr(y|ic)([\W\w]+)?([\d]+)?[_.-]/
-/^n[0-9]{2,4}adserv\.\w+$/
 /^aj[0-9]{4}\.online$/
 /^a\.[a-f0-9]{30,60}\.com$/
 /^logs?([\d]+)?[_.-]/
 /^m[sr]ad[sx]\.net$/
+/^n[0-9]{2,4}adserv\.\w+$/
 /^pixel([\d]+)?[_.-]/
 /^r0?\.mradx\.net$/
 /^[ase1-5]{2}\.(torrent|ace)stream\.(info|org|net)$/
@@ -26,6 +26,7 @@
 ||2mdn.net^
 ||33across.com^
 ||acuityads.com^
+||adaware.com^
 ||adcamp.ru^
 ||adcash.com^
 ||adcolony.com^
@@ -48,6 +49,7 @@
 ||adsafeprotected.com^
 ||adsdk.yandex.ru^
 ||adspruce.com^
+||adsrvr.org^
 ||adsyndication.msn.com^
 ||advisor.api.2gis.ru^
 ||adwolf.ru^
@@ -74,6 +76,7 @@
 ||awaps.yandex.*^
 ||awin1.com^
 ||awsync.yandex.*^
+||bench.utorrent.com^
 ||betrad.com^
 ||bidmachine.io^
 ||bingads.microsoft.com^
@@ -98,12 +101,6 @@
 ||data.*.microsoft.com^
 ||data.*.miui.com^
 ||data.*.msn.com^
-||adaware.com^
-||adsrvr.org^
-||bench.utorrent.com^
-||smartadserver.com^
-||mathtag.com^
-||trontv.com^
 ||data.microsoft.com^
 ||data.miui.com^
 ||data.msn.com^
@@ -179,6 +176,7 @@
 ||m.acestream.net^
 ||main-tcod.com^
 ||major-t-code.com^
+||mathtag.com^
 ||mc.yandex.*^
 ||mediamath.com^
 ||metaservices.microsoft.com^
@@ -216,6 +214,7 @@
 ||popcash.net^
 ||primis.tech^
 ||privatestats.whatsapp.net^
+||prod-collecticon.outlookmobile.com^
 ||propellerads.com^
 ||pubmatic.com^
 ||r.acestream.net^
@@ -244,6 +243,7 @@
 ||sentry.io^
 ||serving-sys.com^
 ||smaato.com^
+||smartadserver.com^
 ||smartclip.net^
 ||smartscreen.microsoft.com^
 ||sovrn.com^
@@ -277,6 +277,7 @@
 ||trafficmagnet.net^
 ||trafficmanager.net^
 ||trk.mail.ru^
+||trontv.com^
 ||ts.acestream.net^
 ||unityads.unity3d.com^
 ||unruly.co^
@@ -310,5 +311,4 @@
 ||youmi.net^
 ||yovoads.com^
 ||yuhuads.com^
-||prod-collecticon.outlookmobile.com^
 ||__hola__.pac_get_init_ts.local.hola^

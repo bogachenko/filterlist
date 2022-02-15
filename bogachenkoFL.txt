@@ -36,3 +36,8 @@
 ||pagead.l.google.com^$important
 ||pagead-tpc.l.google.com^$important
 ||static-doubleclick-net.l.google.com^$important
+||aliascagesboxer.com^$important
+||scallionlaziness.com^$important
+||registeredbabbledrive.com^$important
+||adjust.*^$important
+||adj.st^$important
