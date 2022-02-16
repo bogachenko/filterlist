@@ -284,6 +284,7 @@ $$script[src="https://www.googletagservices.com/"]
 34.120.195.249:443^$network
 74.125.205.97:443^$network
 44.237.171.183:443^$network
+185.26.182.93:443^$network
 ! Domain Name System (DNS) END
 
 ! DOMAIN START
@@ -343,6 +344,9 @@ $$script[src="https://www.googletagservices.com/"]
 ||location.services.mozilla.com^$important
 ||micloud.xiaomi.net^$important
 ||crash-reports.mozilla.com^$important
+||mobile-gtalk.l.google.com^$important
+||getdify.com^$important
+||api.dify.cashback.ft-api.com^$important
 ! DOMAIN END
 
 ! IMAGE START
