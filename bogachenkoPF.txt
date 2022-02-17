@@ -347,6 +347,7 @@ $$script[src="https://www.googletagservices.com/"]
 ||mobile-gtalk.l.google.com^$important
 ||getdify.com^$important
 ||api.dify.cashback.ft-api.com^$important
+||avcdn.net^$important
 ! DOMAIN END
 
 ! IMAGE START
