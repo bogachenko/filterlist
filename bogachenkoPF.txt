@@ -348,6 +348,8 @@ $$script[src="https://www.googletagservices.com/"]
 ||getdify.com^$important
 ||api.dify.cashback.ft-api.com^$important
 ||avcdn.net^$important
+||tradingview-widget.com^$important
+||tradingview.com^$important
 ! DOMAIN END
 
 ! IMAGE START
