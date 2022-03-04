@@ -452,19 +452,16 @@ passageweather.com##.document:style(background-image: none!important;)
 ! SCRIPT START
 /^https?:\/\/[^\s]+\/sw\.js\?[^\s]+$/$important,script
 /\%(2F|3F|26|3D|23|2D|2E|5F)sw\.js$/$important,script
-/^https?:\/\/[^/]+/[a-z0-9]{15,}(\?hope=.*)?$/$important,script
 /^https?:\/\/[^\s]+\/sw\.js/$important,script
 /^https?:\/\/[^\s]+\/worker(.*)?\.js/$important,script,domain=~github.com|~google.com|~lelinhtinh.github.io|~obfuscator.io|~twitch.tv|~web.telegram.org|~whoer.net|~z5h64q92x9.net|~vk.com|~recaptcha.net
 /^https?:\/\/[^\s]+\/[cs]sw\.js/$important,script
-/^https?:\/\/[^\s]+\/worker([-._?]?([a-z]{5,6})?)?\.js/$important,script,domain=~lelinhtinh.github.io
-/^https?:\/\/[^\s]+\/sw([-._?]([_a-z0-9-.]{1,12})?)?\.js/$important,script
 /^https?:\/\/[^\s]+\/sw[bwg]\.js/$important,script
 /^https?:\/\/[^\s]+\/wp\.js/$important,script
 |http*:*/webworker.js$important,script,domain=~google.com|~recaptcha.net
 |http*:*/endscreen.js$important,script,domain=youtube.com|youtu.be|youtube-nocookie.com
 ||youtube.com/*/player/*/ad.js$script,important
 ||2ch.hk/makaba/templates/js/events/snow_miner_anon_ne_podozrevaet.js$script
-|http*:*/vast-im.js$important,script,third-party
+|http*:*/vast-im.js|$important,script,third-party
 ! SCRIPT END
 
 ! XMLHTTPREQUEST START
