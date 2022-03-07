@@ -377,6 +377,7 @@ infourok.ru##+js(js-rm.js, yaCounter)
 ! Cascading Style Sheets (CSS) START
 *##iframe[src="about:blank"]
 *##.adsbygoogle[data-ad-client][data-ad-slot]
+*##[data-ad-client^="ca-pub-"][data-ad-slot]
 aliexpress.*###j-festival-container > .festival-sub-venue, .multi-sidebar-outer-rus.multi-sidebar-outer, .product-fix-wrap, #J_xiaomi_dialog, .site-footer, .ng-mobile.ng-item, .hot-words, .top-banner-container, .site-server-box, .user-helper-footer, .fm-sns, .ams-region, .seo-container.product-container, .search-feedback-wrap, .footer-copywrite, #container-for-smart-banner, .header-right-content, .drogue-poplayer-modal, [class*="styles_bannerLink"], [class*="styles_body_"], [class*="MultiSidebarTab"], [class*="TopBanner"], [class*="Footer_Footer__footer"]
 freebitco.in###myModal22:has-text(Did you know?)
 freebitco.in##.daily_jackpot_main_container_div, #deposit_promo_message_regular, #play_without_captcha_container, .reveal-modal-bg, #bottom_user_ads_container
@@ -432,7 +433,6 @@ passageweather.com##.document:style(background-image: none!important;)
 |http*:*/log/$important,domain=~aliexpress.com|~sberbank.ru
 |http*:*/log?$important
 |http*:*/serviceworker?$important
-||google.com/complete/$important
 ||geo.opera.com/geolocation/$important
 ||gew-spclient.spotify.com/*/logging/$important
 ||meta^
@@ -476,6 +476,7 @@ passageweather.com##.document:style(background-image: none!important;)
 ||video.google.com/api/stats/$important,xmlhttprequest
 ||youtube.com/get_endscreen?$important,xmlhttprequest
 ||youtube.com/get_midroll_info?$important,xmlhttprequest
+/^https?:\/\/[^\s]+\.com\/[a-z0-9]{11}\.php$/$xmlhttprequest,important,third-party
 ! XMLHTTPREQUEST END
 
 ! COMBINED START
@@ -509,4 +510,5 @@ infourok.ru##div#aa-popup
 @@||launches.appsflyer.com^|$badfilter
 @@||app.adjust.com^|$badfilter
 @@||www.googleadservices.com^|$badfilter
+||google.com/complete/$important
 ! TRASH END
