@@ -378,6 +378,7 @@ infourok.ru##+js(js-rm.js, yaCounter)
 *##iframe[src="about:blank"]
 *##.adsbygoogle[data-ad-client][data-ad-slot]
 *##[data-ad-client^="ca-pub-"][data-ad-slot]
+*##[src^="//ad.a-ads.com/"]
 aliexpress.*###j-festival-container > .festival-sub-venue, .multi-sidebar-outer-rus.multi-sidebar-outer, .product-fix-wrap, #J_xiaomi_dialog, .site-footer, .ng-mobile.ng-item, .hot-words, .top-banner-container, .site-server-box, .user-helper-footer, .fm-sns, .ams-region, .seo-container.product-container, .search-feedback-wrap, .footer-copywrite, #container-for-smart-banner, .header-right-content, .drogue-poplayer-modal, [class*="styles_bannerLink"], [class*="styles_body_"], [class*="MultiSidebarTab"], [class*="TopBanner"], [class*="Footer_Footer__footer"]
 freebitco.in###myModal22:has-text(Did you know?)
 freebitco.in##.daily_jackpot_main_container_div, #deposit_promo_message_regular, #play_without_captcha_container, .reveal-modal-bg, #bottom_user_ads_container
@@ -460,8 +461,8 @@ passageweather.com##.document:style(background-image: none!important;)
 |http*:*/webworker.js$important,script,domain=~google.com|~recaptcha.net
 |http*:*/endscreen.js$important,script,domain=youtube.com|youtu.be|youtube-nocookie.com
 ||youtube.com/*/player/*/ad.js$script,important
-||2ch.hk/makaba/templates/js/events/snow_miner_anon_ne_podozrevaet.js$script
 |http*:*/vast-im.js|$important,script,third-party
+||yastatic.net/awaps-ad-sdk-js/$important,script
 ! SCRIPT END
 
 ! XMLHTTPREQUEST START
@@ -490,9 +491,8 @@ passageweather.com##.document:style(background-image: none!important;)
 /[-._?]logs?(ging|impressions?|ers?)?[-.0-9_?]/$image,important,other,script,xmlhttprequest,domain=~aliexpress.com|~aliexpress.ru|~dns-shop.ru|~docviewer.yandex.ru|~github.com|~gitlab.com|~instagram.com|~mi.com|~twitch.tv|~yadi.sk|~dropbox.com|~twitter.com
 /[-._?]track(ers?|ing)[-.0-9_?]/$image,important,other,script,xmlhttprequest,domain=~alipay.com|~analytics.google.com|~fandom.com|~pochta.ru|~yandex.ru|~aliexpress.com|~aliexpress.ru|~ubisoft.com|~ubi.com
 /[-._?]vast[-.0-9_?]/$image,important,other,script,xmlhttprequest,domain=~github.com|~gitlab.com|~twitch.tv
-||yastatic.net/awaps-ad-sdk-js/$important,script,xmlhttprequest
-||yastatic.net/daas/atom.js|$important,script,xmlhttprequest
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest
+/^https?:\/\/[0-9a-zA-Z]{10,16}\.cloudfront\.net\/\?[a-z]{3,7}=\d{4,8}$/$script,xmlhttprequest,third-party,important
 ! COMBINED END
 
 ! TRASH START
@@ -511,4 +511,6 @@ infourok.ru##div#aa-popup
 @@||app.adjust.com^|$badfilter
 @@||www.googleadservices.com^|$badfilter
 ||google.com/complete/$important
+||2ch.hk/makaba/templates/js/events/snow_miner_anon_ne_podozrevaet.js$script
+||yastatic.net/daas/atom.js|$important,script,xmlhttprequest
 ! TRASH END

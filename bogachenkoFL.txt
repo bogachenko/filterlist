@@ -42,3 +42,4 @@
 ||adjust.*^$important
 ||adj.st^$important
 ||hhymyinoy.com^$important
+||avcdn.net^$important
