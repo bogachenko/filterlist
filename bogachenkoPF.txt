@@ -453,7 +453,6 @@ passageweather.com##.document:style(background-image: none!important;)
 ! SCRIPT START
 /^https?:\/\/[^\s]+\/sw\.js\?[^\s]+$/$important,script
 /\%(2F|3F|26|3D|23|2D|2E|5F)sw\.js$/$important,script
-/^https?:\/\/[^\s]+\/sw\.js/$important,script
 /^https?:\/\/[^\s]+\/worker(.*)?\.js/$important,script,domain=~github.com|~google.com|~lelinhtinh.github.io|~obfuscator.io|~twitch.tv|~web.telegram.org|~whoer.net|~z5h64q92x9.net|~vk.com|~recaptcha.net
 /^https?:\/\/[^\s]+\/[cs]sw\.js/$important,script
 /^https?:\/\/[^\s]+\/sw[bwg]\.js/$important,script
@@ -477,7 +476,7 @@ passageweather.com##.document:style(background-image: none!important;)
 ||video.google.com/api/stats/$important,xmlhttprequest
 ||youtube.com/get_endscreen?$important,xmlhttprequest
 ||youtube.com/get_midroll_info?$important,xmlhttprequest
-/^https?:\/\/[^\s]+\.com\/[a-z0-9]{11}\.php$/$xmlhttprequest,important,third-party
+/^https?:\/\/[^\s]+\.(com|net)\/[a-z0-9]{11}\.php$/$xmlhttprequest,important,third-party
 ! XMLHTTPREQUEST END
 
 ! COMBINED START
@@ -493,6 +492,7 @@ passageweather.com##.document:style(background-image: none!important;)
 /[-._?]vast[-.0-9_?]/$image,important,other,script,xmlhttprequest,domain=~github.com|~gitlab.com|~twitch.tv
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest
 /^https?:\/\/[0-9a-zA-Z]{10,16}\.cloudfront\.net\/\?[a-z]{3,7}=\d{4,8}$/$script,xmlhttprequest,third-party,important
+/^https?:\/\/[^\s]+\/sw\.js/$important,script,xmlhttprequest
 ! COMBINED END
 
 ! TRASH START
