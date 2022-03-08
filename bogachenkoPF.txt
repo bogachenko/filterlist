@@ -451,13 +451,6 @@ passageweather.com##.document:style(background-image: none!important;)
 ! OTHER END
 
 ! SCRIPT START
-/^https?:\/\/[^\s]+\/sw\.js\?[^\s]+$/$important,script
-/\%(2F|3F|26|3D|23|2D|2E|5F)sw\.js$/$important,script
-/^https?:\/\/[^\s]+\/worker(.*)?\.js/$important,script,domain=~github.com|~google.com|~lelinhtinh.github.io|~obfuscator.io|~twitch.tv|~web.telegram.org|~whoer.net|~z5h64q92x9.net|~vk.com|~recaptcha.net
-/^https?:\/\/[^\s]+\/[cs]sw\.js/$important,script
-/^https?:\/\/[^\s]+\/sw[bwg]\.js/$important,script
-/^https?:\/\/[^\s]+\/wp\.js/$important,script
-|http*:*/webworker.js$important,script,domain=~google.com|~recaptcha.net
 |http*:*/endscreen.js$important,script,domain=youtube.com|youtu.be|youtube-nocookie.com
 ||youtube.com/*/player/*/ad.js$script,important
 |http*:*/vast-im.js|$important,script,third-party
@@ -477,6 +470,7 @@ passageweather.com##.document:style(background-image: none!important;)
 ||youtube.com/get_endscreen?$important,xmlhttprequest
 ||youtube.com/get_midroll_info?$important,xmlhttprequest
 /^https?:\/\/[^\s]+\.(com|net)\/[a-z0-9]{11}\.php$/$xmlhttprequest,important,third-party
+/\.com\/custom$/$xmlhttprequest,third-party
 ! XMLHTTPREQUEST END
 
 ! COMBINED START
@@ -493,6 +487,10 @@ passageweather.com##.document:style(background-image: none!important;)
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest
 /^https?:\/\/[0-9a-zA-Z]{10,16}\.cloudfront\.net\/\?[a-z]{3,7}=\d{4,8}$/$script,xmlhttprequest,third-party,important
 /^https?:\/\/[^\s]+\/sw\.js/$important,script,xmlhttprequest
+/^https?:\/\/[^\s]+\/sw\.js\?[^\s]+$/$important,script,xmlhttprequest
+/\%(2F|3F|26|3D|23|2D|2E|5F)sw\.js$/$important,script,xmlhttprequest
+/^https?:\/\/[^\s]+\/[cs]sw\.js/$important,script,xmlhttprequest
+/^https?:\/\/[^\s]+\/sw[bwg]\.js/$important,script,xmlhttprequest
 ! COMBINED END
 
 ! TRASH START
