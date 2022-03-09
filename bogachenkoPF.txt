@@ -469,7 +469,7 @@ passageweather.com##.document:style(background-image: none!important;)
 ||video.google.com/api/stats/$important,xmlhttprequest
 ||youtube.com/get_endscreen?$important,xmlhttprequest
 ||youtube.com/get_midroll_info?$important,xmlhttprequest
-/^https?:\/\/[^\s]+\.(com|net)\/[a-z0-9]{11}\.php$/$xmlhttprequest,important,third-party
+/^https?:\/\/[^\s]+\.(com|net|xyz)\/[a-z0-9]{10,11}\.php$/$xmlhttprequest,important,third-party
 /\.com\/custom$/$xmlhttprequest,third-party
 ! XMLHTTPREQUEST END
 
