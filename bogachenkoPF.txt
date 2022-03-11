@@ -379,6 +379,8 @@ infourok.ru##+js(js-rm.js, yaCounter)
 *##.adsbygoogle[data-ad-client][data-ad-slot]
 *##[data-ad-client^="ca-pub-"][data-ad-slot]
 *##[src^="//ad.a-ads.com/"]
+*##.dfp-leaderboard-container
+*##[data-adsbygoogle-status]
 aliexpress.*###j-festival-container > .festival-sub-venue, .multi-sidebar-outer-rus.multi-sidebar-outer, .product-fix-wrap, #J_xiaomi_dialog, .site-footer, .ng-mobile.ng-item, .hot-words, .top-banner-container, .site-server-box, .user-helper-footer, .fm-sns, .ams-region, .seo-container.product-container, .search-feedback-wrap, .footer-copywrite, #container-for-smart-banner, .header-right-content, .drogue-poplayer-modal, [class*="styles_bannerLink"], [class*="styles_body_"], [class*="MultiSidebarTab"], [class*="TopBanner"], [class*="Footer_Footer__footer"]
 freebitco.in###myModal22:has-text(Did you know?)
 freebitco.in##.daily_jackpot_main_container_div, #deposit_promo_message_regular, #play_without_captcha_container, .reveal-modal-bg, #bottom_user_ads_container
