@@ -293,7 +293,6 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 ||addthis.com^$important
 ||addthiscdn.com^$important
 ||addtoany.com^$important
-!||alt*-mtalk.google.com^$important
 ||apps.overwolf.com^$important
 ||avast.com^$important
 ||brontp.yandex.ru^$important
@@ -314,9 +313,7 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 ||kaspersky-labs.com^$important
 ||kaspersky.*^$important,domain=~community.kaspersky.com|~forum.kaspersky.com|~support.kaspersky.ru|~opentip.kaspersky.com|~support.kaspersky.com
 ||meetings.googleapis.com^$important
-!||mobile-gtalk.l.google.com^$important
 ||msn.com^$important
-!||mtalk.google.com^$important
 ||pluso.ru^$important
 ||push.services.mozilla.com^$important
 ||qq.com^$important
