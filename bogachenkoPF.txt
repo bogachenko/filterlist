@@ -509,4 +509,5 @@ infourok.ru##div#aa-popup
 ||google.com/complete/$important
 ||2ch.hk/makaba/templates/js/events/snow_miner_anon_ne_podozrevaet.js$script
 ||yastatic.net/daas/atom.js|$important,script,xmlhttprequest
+||pastebin.com/themes/pastebin/img/no_war_ukraine.jpeg$image
 ! TRASH END
