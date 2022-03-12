@@ -316,7 +316,7 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 ||meetings.googleapis.com^$important
 ||mobile-gtalk.l.google.com^$important
 ||msn.com^$important
-||mtalk.google.com^$important
+!||mtalk.google.com^$important
 ||pluso.ru^$important
 ||push.services.mozilla.com^$important
 ||qq.com^$important
