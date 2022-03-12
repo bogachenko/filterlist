@@ -343,7 +343,7 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 ||micloud.xiaomi.net^$important
 ||crash-reports.mozilla.com^$important
 ||getdify.com^$important
-||api.dify.cashback.ft-api.com^$important
+||ft-api.com^$important
 ||avcdn.net^$important
 ||tradingview-widget.com^$important
 ||tradingview.com^$important
