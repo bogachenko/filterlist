@@ -342,7 +342,6 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 ||location.services.mozilla.com^$important
 ||micloud.xiaomi.net^$important
 ||crash-reports.mozilla.com^$important
-||mobile-gtalk.l.google.com^$important
 ||getdify.com^$important
 ||api.dify.cashback.ft-api.com^$important
 ||avcdn.net^$important
