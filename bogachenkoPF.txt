@@ -483,12 +483,13 @@ passageweather.com##.document:style(background-image: none!important;)
 /[-._?]track(ers?|ing)[-.0-9_?]/$image,important,other,script,xmlhttprequest,domain=~alipay.com|~analytics.google.com|~fandom.com|~pochta.ru|~yandex.ru|~aliexpress.com|~aliexpress.ru|~ubisoft.com|~ubi.com
 /[-._?]vast[-.0-9_?]/$image,important,other,script,xmlhttprequest,domain=~github.com|~gitlab.com|~twitch.tv
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest
-/^https?:\/\/[0-9a-zA-Z]{10,16}\.cloudfront\.net\/\?[a-z]{3,7}=\d{4,8}$/$script,xmlhttprequest,third-party,important
 /^https?:\/\/[^\s]+\/sw\.js/$important,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/sw\.js\?[^\s]+$/$important,script,xmlhttprequest
 /\%(2F|3F|26|3D|23|2D|2E|5F)sw\.js$/$important,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/[cs]sw\.js/$important,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/sw[bwg]\.js/$important,script,xmlhttprequest
+|http*:*.php?sw/$important,script,xmlhttprequest
+|http*:*/service_worker.js$important,script,xmlhttprequest
 ! COMBINED END
 
 ! TRASH START
