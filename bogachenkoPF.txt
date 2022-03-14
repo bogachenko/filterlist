@@ -49,6 +49,10 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 ||localhost^$third-party,domain=~0.0.0.0|~127.0.0.1|~192.168.0.1|~192.168.1.1|~[::1]|~[::]|~localhost|~10.0.0.1
 ! LAN END
 
+! DOCUMENT START
+|http*:*/page/bouncy.php?$document
+! DOCUMENT END
+
 ! Domain Name System (DNS) START
 54.70.250.230:443$network
 54.148.233.37:443$network
@@ -347,6 +351,8 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 ||avcdn.net^$important
 ||tradingview-widget.com^$important
 ||tradingview.com^$important
+||iyfbodn.com^$important
+||redirekted.com^$important
 ! DOMAIN END
 
 ! IMAGE START
@@ -453,6 +459,7 @@ passageweather.com##.document:style(background-image: none!important;)
 ||youtube.com/*/player/*/ad.js$script,important
 |http*:*/vast-im.js|$important,script,third-party
 ||yastatic.net/awaps-ad-sdk-js/$important,script
+|http*:*.cloudfront.net/registrar/$important,script,third-party
 ! SCRIPT END
 
 ! XMLHTTPREQUEST START
@@ -472,6 +479,7 @@ passageweather.com##.document:style(background-image: none!important;)
 ! XMLHTTPREQUEST END
 
 ! COMBINED START
+/google\.com\/afs\/ads[?/]/$subdocument,script,important
 /^https?:\/\/[01]{5,}\.com/$third-party,important,script,xmlhttprequest
 /[-._?](event|stat)logs?(ging|ers?)?[-.0-9_?]/$image,important,other,script,xmlhttprequest
 /[-._?](logs?|img)[-._?]?(?:failure|info|type|events?|entry|request|statu?s?|view|edpage)[-._?]?/$image,important,other,script,xmlhttprequest
