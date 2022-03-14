@@ -52,6 +52,7 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 ! DOCUMENT START
 |http*:*/page/bouncy.php?$document
 |http*:*/domain_profile.cfm?d=$document
+|http*:*/buy-domain/*?redirected=$document
 ! DOCUMENT END
 
 ! Domain Name System (DNS) START
@@ -499,8 +500,9 @@ passageweather.com##.document:style(background-image: none!important;)
 /\%(2F|3F|26|3D|23|2D|2E|5F)sw\.js$/$important,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/[cs]sw\.js/$important,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/sw[bwg]\.js/$important,script,xmlhttprequest
+/^https?:\/\/[^\s]+\/sw[-_]\w+\.js/$important,script,xmlhttprequest
 |http*:*.php?sw/$important,script,xmlhttprequest
-|http*:*/service_worker.js$important,script,xmlhttprequest
+/^https?:\/\/[^\s]+\/service[-_)worker\.js/$important,script,xmlhttprequest
 ! COMBINED END
 
 ! TRASH START
