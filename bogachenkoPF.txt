@@ -51,6 +51,7 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 
 ! DOCUMENT START
 |http*:*/page/bouncy.php?$document
+|http*:*/domain_profile.cfm?d=$document
 ! DOCUMENT END
 
 ! Domain Name System (DNS) START
@@ -459,6 +460,7 @@ passageweather.com##.document:style(background-image: none!important;)
 ||youtube.com/*/player/*/ad.js$script,important
 |http*:*/vast-im.js|$important,script,third-party
 ||yastatic.net/awaps-ad-sdk-js/$important,script
+||google.com/adsense/domains/caf.js|$important,script
 |http*:*.cloudfront.net/registrar/$important,script,third-party
 ! SCRIPT END
 
