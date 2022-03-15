@@ -427,7 +427,7 @@ passageweather.com##.document:style(background-image: none!important;)
 /^https?:\/\/ad[svbxo]?([\d]+)?\./$important,domain=~ads.google.com
 /^https?:\/\/ad[vs]er(v?e?t?r?)?(i((si)?ng|se(ment)?|c[ae]s?))?([\d]+)?\./$important
 /^https?:\/\/analy([\W\w]+)?([\d]+)?\./$important,domain=~google.com|~google.ru
-/^https?:\/\/geo([\d]+)?\./$important,domain=~google.com|~google.ru|~office.com|~sberbank.ru
+/^https?:\/\/geo([\d]+)?\./$important,domain=~google.com|~google.ru|~office.com|~sberbank.ru|~ritm.ru
 /^https?:\/\/me?tr[ie]?[ck][asx]?([\d]+)?\./$important,domain=~metrica.yandex.com|~metrica.yandex.ru|~metrika.yandex.com|~metrika.yandex.ru
 /^https?:\/\/telemetr(y|ics?)?([\d]+)?\./$important
 /[-._?]beacon[\d\D]?/$important
