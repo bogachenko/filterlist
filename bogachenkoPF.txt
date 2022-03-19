@@ -364,7 +364,7 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 
 ! APP START
 /^(?!.*(lfnnmlimilinwvwlijljioeogq13\.club|(firebaseio|g(oogleapis|static)|pbssrv\-centralevents|verifykit|cdngtc)\.com)).*$/$important,app=app.source.getcontact
-*$app=com.mi.android.globalFileexplorer|com.miui.cleaner|com.miui.securitycenter|com.xiaomi.glgm|com.miui.videoplayer|com.miui.player|com.mi.globalbrowser|com.miui.gallery
+*$important,app=com.mi.android.globalFileexplorer|com.miui.cleaner|com.miui.securitycenter|com.xiaomi.glgm|com.miui.videoplayer|com.miui.player|com.mi.globalbrowser|com.miui.gallery
 ! APP END
 
 ! SCRIPTLET START
@@ -502,7 +502,7 @@ passageweather.com##.document:style(background-image: none!important;)
 /^https?:\/\/[^\s]+\/sw[bwg]\.js/$important,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/sw[-_]\w+\.js/$important,script,xmlhttprequest
 |http*:*.php?sw/$important,script,xmlhttprequest
-/^https?:\/\/[^\s]+\/service[-_)worker\.js/$important,script,xmlhttprequest
+/^https?:\/\/[^\s]+\/service[-_]worker\.js/$important,script,xmlhttprequest
 ! COMBINED END
 
 ! TRASH START
