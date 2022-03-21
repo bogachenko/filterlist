@@ -357,6 +357,7 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 ||redirekted.com^$important
 ||cse.google.com^$important
 ||chatango.com^$important
+||chatra.io^$important
 ! DOMAIN END
 
 ! IMAGE START
@@ -525,4 +526,6 @@ infourok.ru##div#aa-popup
 ||2ch.hk/makaba/templates/js/events/snow_miner_anon_ne_podozrevaet.js$script
 ||yastatic.net/daas/atom.js|$important,script,xmlhttprequest
 ||pastebin.com/themes/pastebin/img/no_war_ukraine.jpeg$image
+/ads-prebid.js$script,redirect-rule=prebid-ads.js,badfilter
+/prebid-ads.js$script,redirect-rule=prebid-ads.js,domain=~exey.io,badfilter
 ! TRASH END
