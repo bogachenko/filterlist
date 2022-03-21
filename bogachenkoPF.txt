@@ -467,6 +467,7 @@ passageweather.com##.document:style(background-image: none!important;)
 ||yastatic.net/awaps-ad-sdk-js/$important,script
 ||google.com/adsense/domains/caf.js|$important,script
 |http*:*.cloudfront.net/registrar/$important,script,third-party
+/\/[0-9a-f]{32}\/invoke\.js$/$script,third-party,important
 ! SCRIPT END
 
 ! XMLHTTPREQUEST START
@@ -484,6 +485,10 @@ passageweather.com##.document:style(background-image: none!important;)
 /^https?:\/\/[^\s]+\.(com|net|xyz)\/[a-z0-9]{10,11}\.php$/$xmlhttprequest,important,third-party
 /\.com\/custom$/$xmlhttprequest,third-party
 ! XMLHTTPREQUEST END
+
+! SUBDOCUMENT START
+/\/[a-z0-9]{8}\?key=[0-9a-f]{32}$/$subdocument,third-party
+! SUBDOCUMENT END
 
 ! COMBINED START
 /google\.com\/afs\/ads[?/]/$subdocument,script,important
@@ -527,6 +532,4 @@ infourok.ru##div#aa-popup
 ||2ch.hk/makaba/templates/js/events/snow_miner_anon_ne_podozrevaet.js$script
 ||yastatic.net/daas/atom.js|$important,script,xmlhttprequest
 ||pastebin.com/themes/pastebin/img/no_war_ukraine.jpeg$image
-/ads-prebid.js$script,redirect-rule=prebid-ads.js,badfilter
-/prebid-ads.js$script,redirect-rule=prebid-ads.js,domain=~exey.io,badfilter
 ! TRASH END
