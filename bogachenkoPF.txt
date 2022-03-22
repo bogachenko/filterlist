@@ -1,9 +1,9 @@
 ! Title: bogachenko's Personal Filters
-! Description: bogachenko's Personal Filters to block loading of ads, third-party, tracking, annoying and all other unjustified resources. These filters are used by me for uBlock Origin, AdGuard for Windows and AdGuard for Android.
+! Description: bogachenko's Personal Filters to block loading of ads, tracking, annoying and all other unjustified resources. These filters are used by me for uBlock Origin, AdGuard for Windows and AdGuard for Android.
 ! Homepage: https://github.com/bogachenko/filterlist
 ! RAW: https://raw.githubusercontent.com/bogachenko/filterlist/main/bogachenkoPF.txt
 ! License: https://raw.githubusercontent.com/bogachenko/filterlist/main/LICENSE.md
-! Expires: 3 hours
+! Expires: 3 days
 
 ! CONDITIONS START
 !#if !ext_ublock
@@ -375,10 +375,10 @@ google.*#%#//scriptlet("remove-attr", "ping", "div[class] > a[ping]")
 infourok.ru##+js(addEventListener-defuser.js, focus)
 infourok.ru##+js(addEventListener-defuser.js, focus, trigger)
 infourok.ru##+js(set-constant.js, monitorFocus, noopFunc)
-zloekino.ru##+js(cookie-remover.js)
 infourok.ru##+js(abort-on-property-write.js, document.ondragstart)
 infourok.ru##+js(abort-on-property-write.js, document.onselectstart)
 infourok.ru##+js(js-rm.js, yaCounter)
+twitch.tv##+js(no-fetch-if.js, /video-edge-[^/]+ttvnw.net/ method:POST)
 ! SCRIPTLET END
 
 ! Cascading Style Sheets (CSS) START
@@ -407,7 +407,7 @@ vk.com##div.post_top_info_wall_reply:has([href="https://vk.com/covid19"])
 vk.com##div.post_top_info_wall_reply:has-text(/Возможны спойлеры/)
 vk.com##[class="_post_content"]:has([class*="promoted"])
 vk.com##[class="wall_item"]:has([class*="ads_mark"])
-yadi.sk##.action-buttons__antifo-tooltip.tooltip_shown_yes.tooltip_theme_normal.tooltip_tone_default.tooltip_view_classic.tooltip_size_s.tooltip.popup2_target_anchor.popup2_visible_yes.popup2_direction_right-center.popup2_theme_normal.popup2_tone_default.popup2_view_classic.popup2, .mobile-badges, .software-header-product.hover-dropdown, .burger-sidebar__button.button2_theme_clear.button2_size_n.button2_view_classic.button2.control, .header__inline-services-menu.inline-services-menu, .app-promo-banner, .software-header-product_win
+yadi.sk##.header__inline-services-menu.inline-services-menu, .app-promo-banner, .software-header-product_win
 yandex.ru##^script:has-text(AwapsJsonAPI)
 youtube.com###player-ads, .ytd-mealbar-promo-renderer, #masthead-ad, #alert-banner, YTM-PROMOTED-VIDEO-RENDERER, .mealbar-promo-renderer, a[href*="/covid19"], .ytp-ad-module, .ytd-carousel-ad-renderer, .ytp-ad-progress, #promotion-shelf, .masthead-ad-control, .ad-div, .pyv-afc-ads-container, #sponsor-button, .ytp-endscreen-content, #live-chat-banner, .ytp-ad-progress-list, .subscribecard-endscreen, [href="/premium"], [aria-label="Показать подсказки"], .ytd-player-legacy-desktop-watch-ads-renderer, .badge-style-type-ad, .ytp-ce-element, .iv-branding, .yt-live-chat-viewer-engagement-message-renderer, .ytd-search-pyv-renderer, .ytp-impression-link
 youtube.com###dismissible.ytd-compact-video-renderer.style-scope:has(.badges):has-text(/Сбор средств|Fundraiser/)
