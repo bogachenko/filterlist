@@ -383,6 +383,7 @@ twitch.tv##+js(no-fetch-if.js, /video-edge-[^/]+ttvnw.net/ method:POST)
 
 ! Cascading Style Sheets (CSS) START
 *##iframe[src="about:blank"]
+*##a[href^="http://ads.trafficjunky.net/"]
 *##.adsbygoogle[data-ad-client][data-ad-slot]
 *##[data-ad-client^="ca-pub-"][data-ad-slot]
 *##[src^="//ad.a-ads.com/"]
@@ -416,6 +417,7 @@ youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope > .ytd-she
 my.yota.ru##.y-expansion-panel, .promotion-offer, app-slider-ma-symk, .y-swiper-track
 passageweather.com##.rightcolumn,.upperdiv,.header,#leftimages,.blackbottom,.bottombit,.footer,.gapfill,[onclick*="ga("]
 passageweather.com##.document:style(background-image: none!important;)
+pornhub.com##.adContainer,[onclick*="ga('send'"],.premiumAdvertWrapper,div[id^="age-verification"],.adsbytrafficjunky
 ! Cascading Style Sheets (CSS) END
 
 ! Content Security Policy (CSP) START
