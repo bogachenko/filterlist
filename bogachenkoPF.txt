@@ -483,7 +483,7 @@ passageweather.com##.document:style(background-image: none!important;)
 ||youtube.com/get_midroll_info?$important,xmlhttprequest
 /^https?:\/\/[^\s]+\.(com|net|xyz)\/[a-z0-9]{10,11}\.php$/$xmlhttprequest,important,third-party
 /\.com\/custom$/$xmlhttprequest,third-party
-/^https?:\/\/[a-z]{6,13}\.com\/[a-z]{4,30}\.json$/$third-party,xmlhttprequest
+/^https?:\/\/[a-z]{6,13}\.(com|xyz)\/[a-z]{4,30}\.json$/$third-party,xmlhttprequest
 ! XMLHTTPREQUEST END
 
 ! SUBDOCUMENT START
