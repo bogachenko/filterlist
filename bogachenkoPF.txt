@@ -379,6 +379,7 @@ infourok.ru##+js(abort-on-property-write.js, document.ondragstart)
 infourok.ru##+js(abort-on-property-write.js, document.onselectstart)
 infourok.ru##+js(js-rm.js, yaCounter)
 twitch.tv##+js(no-fetch-if.js, /video-edge-[^/]+ttvnw.net/ method:POST)
+pornhub.com##+js(abort-on-property-write.js, interstitial)
 ! SCRIPTLET END
 
 ! Cascading Style Sheets (CSS) START
@@ -417,7 +418,7 @@ youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope > .ytd-she
 my.yota.ru##.y-expansion-panel, .promotion-offer, app-slider-ma-symk, .y-swiper-track
 passageweather.com##.rightcolumn,.upperdiv,.header,#leftimages,.blackbottom,.bottombit,.footer,.gapfill,[onclick*="ga("]
 passageweather.com##.document:style(background-image: none!important;)
-pornhub.com##.adContainer,[onclick*="ga('send'"],.premiumAdvertWrapper,div[id^="age-verification"],.adsbytrafficjunky
+pornhub.com##.adContainer,[onclick*="ga('send'"],.premiumAdvertWrapper,div[id^="age-verification"],.adsbytrafficjunky,.phpFreeBlock,[data-entrycode="Free_Premium_Video"]
 ! Cascading Style Sheets (CSS) END
 
 ! Content Security Policy (CSP) START
@@ -469,6 +470,9 @@ pornhub.com##.adContainer,[onclick*="ga('send'"],.premiumAdvertWrapper,div[id^="
 ||google.com/adsense/domains/caf.js|$important,script
 |http*:*.cloudfront.net/registrar/$important,script,third-party
 /\/[0-9a-f]{32}\/invoke\.js$/$script,third-party,important
+|http*:*/js/premium/premium-modals.js$script,domain=pornhub.com
+|http*:*/js/ph-footer.js$script,domain=pornhub.com
+|http*:*/js/htmlPauseRoll/pb_block.js$script,domain=pornhub.com
 ! SCRIPT END
 
 ! XMLHTTPREQUEST START
