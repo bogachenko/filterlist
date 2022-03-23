@@ -492,10 +492,6 @@ pornhub.com##.adContainer,[onclick*="ga('send'"],.premiumAdvertWrapper,div[id^="
 /^https?:\/\/[a-z]{6,13}\.(com|xyz)\/[a-z]{4,30}\.json$/$third-party,xmlhttprequest
 ! XMLHTTPREQUEST END
 
-! SUBDOCUMENT START
-/\/[a-z0-9]{8,9}\?key=[0-9a-f]{32}$/$important,subdocument,third-party
-! SUBDOCUMENT END
-
 ! COMBINED START
 /google\.com\/afs\/ads[?/]/$subdocument,script,important
 /^https?:\/\/[01]{5,}\.com/$third-party,important,script,xmlhttprequest
