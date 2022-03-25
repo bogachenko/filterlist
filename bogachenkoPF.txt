@@ -379,7 +379,6 @@ infourok.ru##+js(abort-on-property-write.js, document.ondragstart)
 infourok.ru##+js(abort-on-property-write.js, document.onselectstart)
 infourok.ru##+js(js-rm.js, yaCounter)
 twitch.tv##+js(no-fetch-if.js, /video-edge-[^/]+ttvnw.net/ method:POST)
-pornhub.com##+js(abort-on-property-write.js, interstitial)
 ! SCRIPTLET END
 
 ! Cascading Style Sheets (CSS) START
@@ -473,6 +472,7 @@ pornhub.com##.adContainer,[onclick*="ga('send'"],.premiumAdvertWrapper,div[id^="
 |http*:*/js/premium/premium-modals.js$script,domain=pornhub.com
 |http*:*/js/ph-footer.js$script,domain=pornhub.com
 |http*:*/js/htmlPauseRoll/pb_block.js$script,domain=pornhub.com
+/player/assets/devtools-detector/$script,third-party,important
 ! SCRIPT END
 
 ! XMLHTTPREQUEST START
