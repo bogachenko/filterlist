@@ -209,6 +209,7 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 62.128.100.92$network
 62.128.100.93$network
 62.128.100.94$network
+173.194.220.155:443^$network
 64.233.161.102:443$network
 64.233.161.154:443$network
 64.233.161.155:443$network
@@ -358,6 +359,8 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 ||cse.google.com^$important
 ||chatango.com^$important
 ||chatra.io^$important
+||adjust.*^$important
+||sentry.io^$important
 ! DOMAIN END
 
 ! IMAGE START
@@ -446,13 +449,18 @@ pornhub.com##.adContainer,.premiumAdvertWrapper,div[id^="age-verification"],.ads
 |http*:*/log/$domain=~aliexpress.com|~sberbank.ru
 |http*:*/log?
 ||geo.opera.com/geolocation/$important
-||gew-spclient.spotify.com/*/logging/$important
+||spotify.com/*/logging/$important
 ||meta^
 ||mobilemaps-pa.googleapis.com/*.ads.$important
 ||null^
-||spclient.wg.spotify.com/gabo-receiver-service/$important
-||spclient.wg.spotify.com/ad-logic/$important
-||spclient.wg.spotify.com/metrics-backend/$important
+||spotify.com/gabo-receiver-service/$important
+||spotify.com/ad-logic/$important
+||spotify.com/metrics-backend/$important
+||spotify.com/sponsored$important
+||spotify.com/facebook/$important
+||spotify.com/social-connect$important
+||spotify.com/metadata$important
+||spotify.com/extended-metadata$important
 ||undefined^
 ||yandex.*/clck/$important
 ||yandex.*/geohelper/$important
@@ -529,7 +537,6 @@ infourok.ru##div#aa-popup
 @@||www.googleadservices.com^|$badfilter
 @@||googleadapis.l.google.com^|$badfilter
 @@||launches.appsflyer.com^|$badfilter
-||adjust.*^$important
 @@||app.adjust.com^|$badfilter
 @@||www.googleadservices.com^|$badfilter
 ||google.com/complete/$important
