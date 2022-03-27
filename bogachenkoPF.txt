@@ -417,7 +417,7 @@ youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope > .ytd-she
 my.yota.ru##.y-expansion-panel, .promotion-offer, app-slider-ma-symk, .y-swiper-track
 passageweather.com##.rightcolumn,.upperdiv,.header,#leftimages,.blackbottom,.bottombit,.footer,.gapfill,[onclick*="ga("]
 passageweather.com##.document:style(background-image: none!important;)
-pornhub.com##.adContainer,[onclick*="ga('send'"],.premiumAdvertWrapper,div[id^="age-verification"],.adsbytrafficjunky,.phpFreeBlock,[data-entrycode="Free_Premium_Video"]
+pornhub.com##.adContainer,.premiumAdvertWrapper,div[id^="age-verification"],.adsbytrafficjunky,.phpFreeBlock,[data-entrycode="Free_Premium_Video"]
 ! Cascading Style Sheets (CSS) END
 
 ! Content Security Policy (CSP) START
@@ -529,10 +529,13 @@ infourok.ru##div#aa-popup
 @@||www.googleadservices.com^|$badfilter
 @@||googleadapis.l.google.com^|$badfilter
 @@||launches.appsflyer.com^|$badfilter
+||adjust.*^$important
 @@||app.adjust.com^|$badfilter
 @@||www.googleadservices.com^|$badfilter
 ||google.com/complete/$important
 ||2ch.hk/makaba/templates/js/events/snow_miner_anon_ne_podozrevaet.js$script
 ||yastatic.net/daas/atom.js|$important,script,xmlhttprequest
 ||pastebin.com/themes/pastebin/img/no_war_ukraine.jpeg$image
+||wl.spotify.com^$badfilter
+bpp.eset.com###show_sab_frame
 ! TRASH END
