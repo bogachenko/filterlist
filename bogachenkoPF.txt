@@ -459,8 +459,6 @@ pornhub.com##.adContainer,.premiumAdvertWrapper,div[id^="age-verification"],.ads
 ||spotify.com/sponsored$important
 ||spotify.com/facebook/$important
 ||spotify.com/social-connect$important
-||spotify.com/metadata$important
-||spotify.com/extended-metadata$important
 ||undefined^
 ||yandex.*/clck/$important
 ||yandex.*/geohelper/$important
@@ -479,7 +477,7 @@ pornhub.com##.adContainer,.premiumAdvertWrapper,div[id^="age-verification"],.ads
 /\/[0-9a-f]{32}\/invoke\.js$/$script,third-party,important
 |http*:*/js/premium/premium-modals.js$script,domain=pornhub.com
 |http*:*/js/ph-footer.js$script,domain=pornhub.com
-|http*:*/js/htmlPauseRoll/pb_block.js$script,domain=pornhub.com
+|http*:*/js/htmlpauseroll/pb_block.js$script,domain=pornhub.com
 /player/assets/devtools-detector/$script,third-party,important
 ! SCRIPT END
 
