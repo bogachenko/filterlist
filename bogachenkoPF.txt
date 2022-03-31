@@ -361,6 +361,9 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 ||chatra.io^$important
 ||adjust.*^$important
 ||sentry.io^$important
+||opera-api.com^$important
+||speeddials.opera.com^$important
+||recsys.opera.com^$important
 ! DOMAIN END
 
 ! IMAGE START
@@ -465,6 +468,9 @@ pornhub.com##.adContainer,.premiumAdvertWrapper,div[id^="age-verification"],.ads
 ||yandex.*/portal/$important
 ||yandex.net/get-direct$important
 ||youtube.com/ptracking?$important
+||operacdn.com/*/partnerrules/$important
+||operacdn.com/*/servicefiles/$important
+||opera.com/*/assistserv/$important
 ! OTHER END
 
 ! SCRIPT START
