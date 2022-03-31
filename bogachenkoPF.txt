@@ -27,7 +27,14 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 ! CONDITIONS END
 
 ! TEST START
-!
+! https://github.com/AdguardTeam/DnsLibs/issues/141
+||adjust.*^$important
+! https://github.com/AdguardTeam/AdguardForWindows/issues/4132
+||addealsnetwork.com^$important
+||g.bing.com^$important
+||smaato.net^$important
+||google-analytics.com^$important
+||sentry.io^$important
 ! TEST END
 
 ! WHITELIST START
@@ -359,11 +366,10 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 ||cse.google.com^$important
 ||chatango.com^$important
 ||chatra.io^$important
-||adjust.*^$important
-||sentry.io^$important
 ||opera-api.com^$important
 ||speeddials.opera.com^$important
 ||recsys.opera.com^$important
+||sitecheck.opera.com^$important
 ! DOMAIN END
 
 ! IMAGE START
@@ -488,7 +494,7 @@ pornhub.com##.adContainer,.premiumAdvertWrapper,div[id^="age-verification"],.ads
 ! SCRIPT END
 
 ! XMLHTTPREQUEST START
-/^https?:\/\/[^\s]+(\.wasm|\.wsm|\.wa)$/$important,xmlhttprequest,domain=~twitch.tv
+/^https?:\/\/[^\s]+(\.wasm|\.wsm|\.wa)$/$important,xmlhttprequest,domain=~twitch.tv|~telegram.org
 |http*:*/channels/*/extensions$important,xmlhttprequest,domain=twitch.tv
 ||addons.opera.com/themes/$important,xmlhttprequest
 ||google.com^*/viewerimpressions?$important,xmlhttprequest
