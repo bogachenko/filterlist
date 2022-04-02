@@ -428,9 +428,10 @@ youtube.com###dismissible.ytd-compact-video-renderer.style-scope:has(.badges):ha
 youtube.com###dismissible.ytd-compact-movie-renderer.style-scope:has(.badge):has-text(/Купить|Buy/)
 youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope > .ytd-shelf-renderer.style-scope:has(.ytd-badge-supported-renderer):has-text(/Купить|Buy/)
 my.yota.ru##.y-expansion-panel, .promotion-offer, app-slider-ma-symk, .y-swiper-track
-passageweather.com##.rightcolumn,.upperdiv,.header,#leftimages,.blackbottom,.bottombit,.footer,.gapfill,[onclick*="ga("]
+passageweather.com##.rightcolumn, .upperdiv, .header, #leftimages, .blackbottom, .bottombit, .footer, .gapfill, [onclick*="ga("]
 passageweather.com##.document:style(background-image: none!important;)
-pornhub.com##.adContainer,.premiumAdvertWrapper,div[id^="age-verification"],.adsbytrafficjunky,.phpFreeBlock,[data-entrycode="Free_Premium_Video"]
+pornhub.com##.adContainer, .premiumAdvertWrapper, div[id^="age-verification"], .adsbytrafficjunky, .phpFreeBlock, [data-entrycode="Free_Premium_Video"]
+twitter.com###layers > div[class] > div[class]:has(> div[class] div[role="button"] > div[dir="auto"] > span > span:contains(ookie))
 ! Cascading Style Sheets (CSS) END
 
 ! Content Security Policy (CSP) START
