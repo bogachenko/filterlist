@@ -478,7 +478,6 @@ twitter.com###layers > div[class] > div[class]:has(> div[class] div[role="button
 ||operacdn.com/*/partnerrules/$important
 ||operacdn.com/*/servicefiles/$important
 ||opera.com/*/assistserv/$important
-/^https?:\/\/[^\s]+\.(com|net|top|xyz)\/(bundle|warning|style|bootstrap|brand|reset|jquery-ui|styles|error|logo|index|favicon|star|header)\.(png|css)\?[A-Za-z0-9]{30,}.*/$third-party
 ! OTHER END
 
 ! SCRIPT START
@@ -492,7 +491,8 @@ twitter.com###layers > div[class] > div[class]:has(> div[class] div[role="button
 |http*:*/js/premium/premium-modals.js$script,domain=pornhub.com
 |http*:*/js/ph-footer.js$script,domain=pornhub.com
 |http*:*/js/htmlpauseroll/pb_block.js$script,domain=pornhub.com
-/player/assets/devtools-detector/$script,third-party,important
+|http*:*/player/assets/devtools-detector/$script,third-party,important
+||yastatic.net/share2/$third-party,important,script
 ! SCRIPT END
 
 ! XMLHTTPREQUEST START
