@@ -555,5 +555,5 @@ infourok.ru##div#aa-popup
 ||yastatic.net/daas/atom.js|$important,script,xmlhttprequest
 ||pastebin.com/themes/pastebin/img/no_war_ukraine.jpeg$image
 ||wl.spotify.com^$badfilter
-bpp.eset.com###show_sab_frame
+||click.redditmail.com^$badfilter
 ! TRASH END
