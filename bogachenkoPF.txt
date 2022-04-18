@@ -36,6 +36,9 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 ||google-analytics.com^$important
 ||sentry.io^$important
 ||adduplex.com^$important
+||doubleclick.net^$important
+||adservice.google.*^$important
+||googlesyndication.com^$important
 ! TEST END
 
 ! WHITELIST START
@@ -470,6 +473,11 @@ twitter.com###layers > div[class] > div[class]:has(> div[class] div[role="button
 ||operacdn.com/*/partnerrules/$important
 ||operacdn.com/*/servicefiles/$important
 ||opera.com/*/assistserv/$important
+||spotify.com/ad-logic/$important
+||spotify.com/ads/$important
+||spotify.com/facebook/$important
+||spotify.com/social-connect/$important
+||spotify.com/sponsored$important
 ! OTHER END
 
 ! SCRIPT START
