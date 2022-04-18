@@ -414,7 +414,7 @@ twitch.tv##.default-panel > :not([href*="vk.com"]):not([href*="donationalerts."]
 twitch.tv##.channel-leaderboard, .prime-offers, [aria-label="Рекомендуемые каналы"], [aria-label*="также смотрят"], [aria-label="Друзья в сети"], [aria-label="Bits"], [data-a-target="bits-button"], [data-a-target="subscribe-button"], [data-a-target="share-button"], .tw-tag
 twitch.tv##[class*="CoreButton"]:has-text(/Купить Bits|Get Bits/)
 twitch.tv##div.side-nav-section:has([aria-label]):has-text(/Рекомендуемые каналы|также смотрят|Viewers Also Watch|Recommended Channels/)
-vk.com###stl_left, #stl_side, .apps_feedRightAppsBlock, #ads_left, .right_list_header, #group_recom_rows, #group_recom_wrap, .feed_friends_recomm, div[data-ad], div[data-ad-view], [class^="ads_ad_"], #stories_feed_wrap, #profile_friends_recomm, .ads_ads_box, #system_msg, #utils, .audio_promo, #feed_blog_reminder, a[href*="/app7399325"], #l_watch_home, a[href*="/covid19"], .installApp, #ui_rmenu_coronavirus, #ui_rmenu_stayhome, .wall_marked_as_ads, .item_share, .apps_feedRightAppsBlock__row, .videoplayer_action_button, .ads_ad_box, .ads_ad_box2, [id*="reply_box_donut-"], .ShortVideoFeedBlock, .feed_groups_recomm, .feedAssistance_recommendedGroups, .feedAssistance_promoButton, #block_youla-recommendations-carousel, #block_aliexpress-recommendations-carousel, .RecommendedNarrativesBlock, .FeedVideosForYou, .GroupsRecommendedSlider, .friendsRecommendedSliderWrap, .friends_possible_block, .videoplayer_share_actions, #cover_list_app_widget, .EasterEggsContainer, .post_withExtraHeader.post_exploreBait.wall_item
+vk.com###stl_left, #stl_side, .apps_feedRightAppsBlock, #ads_left, .right_list_header, #group_recom_rows, #group_recom_wrap, .feed_friends_recomm, div[data-ad], div[data-ad-view], [class^="ads_ad_"], #stories_feed_wrap, #profile_friends_recomm, .ads_ads_box, #system_msg, #utils, .audio_promo, #feed_blog_reminder, a[href*="/app7399325"], #l_watch_home, a[href*="/covid19"], .installApp, #ui_rmenu_coronavirus, #ui_rmenu_stayhome, .wall_marked_as_ads, .item_share, .apps_feedRightAppsBlock__row, .videoplayer_action_button, .ads_ad_box, .ads_ad_box2, [id*="reply_box_donut-"], .ShortVideoFeedBlock, .feed_groups_recomm, .feedAssistance_recommendedGroups, .feedAssistance_promoButton, #block_youla-recommendations-carousel, #block_aliexpress-recommendations-carousel, .RecommendedNarrativesBlock, .FeedVideosForYou, .GroupsRecommendedSlider, .friendsRecommendedSliderWrap, .friends_possible_block, .videoplayer_share_actions, #cover_list_app_widget, .EasterEggsContainer, .post_withExtraHeader.post_exploreBait.wall_item, .VideoOwnerInfo
 vk.com##div.feed_row:has(.VideosFeedTitle):has-text(/Рекомендуемое видео/)
 vk.com##div.post_top_info_wall_reply:has([href="https://vk.com/covid19"])
 vk.com##div.post_top_info_wall_reply:has-text(/Возможны спойлеры/)
@@ -437,7 +437,6 @@ twitter.com###layers > div[class] > div[class]:has(> div[class] div[role="button
 ||twitch.tv^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: data: *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net *.recaptcha.net *.google.com *.gstatic.com *.algolia.net local.adguard.org injections.adguard.org *.cloudfront.net *.fastly.net *.live-video.net;
 ||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com *.google.com *.googleapis.com *.gstatic.com local.adguard.org injections.adguard.org;
 ||vk.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.vkuseraudio.net *.userapi.com *.vk.com vk.com *.mycdn.me *.google.com *.gstatic.com local.adguard.org injections.adguard.org *.youtube.com coub.com *.akamai.net *.akamaized.net *.akamaihd.net *.googleapis.com *.api-maps.yandex.ru api.ok.ru *.vkuservideo.net *.vkuser.net;
-||spotify.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: data: *.spotify.com *.akamai.net *.akamaized.net *.google.com *.gstatic.com *.scdn.co *.fastly.net *.spotifycdn.com;
 ! Content Security Policy (CSP) END
 
 ! OTHER START
@@ -459,16 +458,9 @@ twitter.com###layers > div[class] > div[class]:has(> div[class] div[role="button
 |http*:*/log/$domain=~aliexpress.com|~sberbank.ru
 |http*:*/log?
 ||geo.opera.com/geolocation/$important
-||spotify.com/*/logging/$important
 ||meta^
 ||mobilemaps-pa.googleapis.com/*.ads.$important
 ||null^
-||spotify.com/gabo-receiver-service/$important
-||spotify.com/ad-logic/$important
-||spotify.com/metrics-backend/$important
-||spotify.com/sponsored$important
-||spotify.com/facebook/$important
-||spotify.com/social-connect$important
 ||undefined^
 ||yandex.*/clck/$important
 ||yandex.*/geohelper/$important
