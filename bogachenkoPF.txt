@@ -22,6 +22,7 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 @@||analyticsinsights-pa.clients*.google.com^$important,document
 @@||analytics.google.com^$important,document
 ||facebook.com^
+||facebook.net^
 ||bing.com^
 !#endif
 ! CONDITIONS END
