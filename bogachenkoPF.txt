@@ -42,6 +42,7 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 ||smaato.net^$important
 ||adduplex.com^$important
 ||adeventtracker.spotify.com^$important
+||spotify.com/*/browse-page-cx-test?$important
 ! TEST END
 
 ! WHITELIST START
@@ -121,6 +122,7 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 172.217.20.34:443$network
 172.217.21.130:443$network
 172.217.21.162:443$network
+142.251.1.155:443^$network
 172.217.21.168:443$network
 172.217.22.162:443$network
 172.217.22.168:443$network
@@ -481,6 +483,7 @@ twitter.com###layers > div[class] > div[class]:has(> div[class] div[role="button
 ||spotify.com/facebook/$important
 ||spotify.com/social-connect/$important
 ||spotify.com/sponsored$important
+||spotify.com/*/showSponsors/$important
 ! OTHER END
 
 ! SCRIPT START
