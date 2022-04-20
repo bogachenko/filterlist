@@ -4,26 +4,26 @@
 ! Homepage: https://github.com/bogachenko/filterlist/
 ! License: https://raw.githubusercontent.com/bogachenko/filterlist/main/LICENSE.md
 
+@@||aadcdn.msauth.net^
+@@||aadcdn.msftauthimages.net^
 @@||analytics.google.com^
 @@||analyticsinsights-pa.clients*.google.com^
+@@||api.onedrive.com^
+@@||autodetect.outlookmobile.com^
+@@||dotnet.microsoft.com^
+@@||download.microsoft.com^
 @@||download.windowsupdate.com^
 @@||ecs.office.com^
+@@||edf.eset.com^
 @@||login.live.com^
 @@||login.microsoftonline.com^
 @@||login.windows.net^
 @@||metrika.yandex.*^
-@@||update.code.visualstudio.com^
-@@||update.microsoft.com^
-@@||time.windows.com^
-@@||update.intl.miui.com^
-@@||www.onedrive.com^
 @@||outlook.office.com^
 @@||outlook.office365.com^
-@@||edf.eset.com^
-@@||download.microsoft.com^
-@@||dotnet.microsoft.com^
-@@||autodetect.outlookmobile.com^
-@@||aadcdn.msftauthimages.net^
 @@||powerlift-frontdesk.acompli.net^
-@@||aadcdn.msauth.net^
-@@||api.onedrive.com^
+@@||time.windows.com^
+@@||update.code.visualstudio.com^
+@@||update.intl.miui.com^
+@@||update.microsoft.com^
+@@||www.onedrive.com^

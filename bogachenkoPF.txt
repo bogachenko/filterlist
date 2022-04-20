@@ -17,6 +17,12 @@ $$script[src="https://www.googleadservices.com/"]
 $$script[src="https://www.googletagmanager.com/"]
 $$script[src="https://www.googletagservices.com/"]
 $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
+||googletagservices.com^$important
+||doubleclick.net^$important
+||adservice.google.*^$important
+||googlesyndication.com^$important
+||google-analytics.com^$important
+||sentry.io^$important
 !#endif
 !#if adguard_app_android
 @@||analyticsinsights-pa.clients*.google.com^$important,document
@@ -34,14 +40,8 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 ||addealsnetwork.com^$important
 ||g.bing.com^$important
 ||smaato.net^$important
-||google-analytics.com^$important
-||sentry.io^$important
 ||adduplex.com^$important
-||doubleclick.net^$important
-||adservice.google.*^$important
-||googlesyndication.com^$important
 ||adeventtracker.spotify.com^$important
-||googletagservices.com^$important
 ! TEST END
 
 ! WHITELIST START
