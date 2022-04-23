@@ -362,7 +362,6 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 ||xboxservices.com^$important
 ||yastroka.yandex.net^$important
 ||location.services.mozilla.com^$important
-||micloud.xiaomi.net^$important
 ||crash-reports.mozilla.com^$important
 ||getdify.com^$important
 ||ft-api.com^$important
@@ -439,7 +438,7 @@ passageweather.com##.rightcolumn, .upperdiv, .header, #leftimages, .blackbottom,
 passageweather.com##.document:style(background-image: none!important;)
 pornhub.com##.adContainer, .premiumAdvertWrapper, div[id^="age-verification"], .adsbytrafficjunky, .phpFreeBlock, [data-entrycode="Free_Premium_Video"]
 twitter.com###layers > div[class] > div[class]:has(> div[class] div[role="button"] > div[dir="auto"] > span > span:contains(ookie))
-marinetraffic.com###topBanner
+marinetraffic.com###topBanner,div.hidden-print,div[style="position: relative; width: 100%; margin-top: 15px; margin-bottom: 15px; height: 90px;"]
 ! Cascading Style Sheets (CSS) END
 
 ! Content Security Policy (CSP) START
