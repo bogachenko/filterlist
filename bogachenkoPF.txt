@@ -571,4 +571,6 @@ infourok.ru##div#aa-popup
 ||click.redditmail.com^$badfilter
 /^https?:\/\/yastatic\.net\/www\/_\/[^\s]{150,}/$image,redirect-rule=empty,domain=yandex.by|yandex.kz|yandex.ru|yandex.uz,badfilter
 ||yandex.ru/suggest/$xmlhttprequest
+noodlemagazine.com#@#.verify
+xvideos.com##.banner-slider.embed-responsive
 ! TRASH END
