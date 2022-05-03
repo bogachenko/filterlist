@@ -310,6 +310,10 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 44.237.171.183:443^$network
 185.26.182.93:443^$network
 35.188.42.15:443^$network
+142.250.74.34:443^$network
+142.250.74.98:443^$network
+142.250.74.65:443^$network
+142.250.74.162:443^$network
 ! Domain Name System (DNS) END
 
 ! DOMAIN START
@@ -388,7 +392,7 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 ! APP START
 /^(?!.*(lfnnmlimilinwvwlijljioeogq13\.club|(firebaseio|g(oogleapis|static)|pbssrv\-centralevents|verifykit|cdngtc)\.com)).*$/$important,app=app.source.getcontact
 *$important,app=com.mi.android.globalFileexplorer|com.miui.cleaner|com.miui.securitycenter|com.xiaomi.glgm|com.miui.videoplayer|com.miui.player|com.mi.globalbrowser|com.miui.gallery
-/^(?!.*(35\.186\.224\.[0-9]{2}|151\.101\.86\.[0-9]{3})).*$/$network,app=Spotify.exe
+/^(?!.*(35\.186\.224\.[0-9]{2}|151\.101\.86\.24[89]|23\.73\.2\.[0-9]{2,3}|239\.255\.255\.250|192\.168\.[0-9]{2,3}\.[0-9]{2,3})).*$/$network,app=Spotify.exe
 ! APP END
 
 ! SCRIPTLET START
