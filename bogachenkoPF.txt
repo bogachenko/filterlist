@@ -36,18 +36,22 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 ! TEST START
 ! https://github.com/AdguardTeam/DnsLibs/issues/141
 ||adjust.*^$important
+||adj.st^$important
 ! https://github.com/AdguardTeam/AdguardForWindows/issues/4132
 ||addealsnetwork.com^$important
 ||g.bing.com^$important
 ||smaato.net^$important
 ||adduplex.com^$important
-||adeventtracker.spotify.com^$important
+||an.yandex.ru^$important
+||mc.yandex.ru^$important
+||yabs.yandex.ru^$important
 ! Spotify
 ||spotify.com/*/delta|$important
 ||spotify.com/gabo-receiver-service/*/events$important
 ||spotify.com/net-fortune/*/fortune$important
 ||spotify.com/*/browse-page-cx-test?$important
 ||spotify.com/quicksilver/$important
+||adeventtracker.spotify.com^$important
 ! TEST END
 
 ! WHITELIST START
@@ -72,7 +76,7 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 ! NETWORK START
 ! sentry.io
 35.188.42.15:443^$network
-! mc.yandex.ru
+! mc.yandex.ru yabs.yandex.ru
 /^93\.158\.134\.[0-9]{2,3}:443$/$network
 ! an.yandex.ru
 /^77\.88\.21\.[0-9]{2,3}:443$/$network
@@ -155,10 +159,6 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 ||egress.yandex.net^$important
 ! DOMAIN END
 
-! IMAGE START
-/^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,important
-! IMAGE END
-
 ! APP START
 /^(?!.*(lfnnmlimilinwvwlijljioeogq13\.club|(firebaseio|g(oogleapis|static)|pbssrv\-centralevents|verifykit|cdngtc)\.com)).*$/$important,app=app.source.getcontact
 *$important,app=com.mi.android.globalFileexplorer|com.miui.cleaner|com.miui.securitycenter|com.xiaomi.glgm|com.miui.videoplayer|com.miui.player|com.mi.globalbrowser|com.miui.gallery
@@ -189,7 +189,7 @@ twitch.tv##+js(no-fetch-if.js, /video-edge-[^/]+ttvnw.net/ method:POST)
 aliexpress.*###j-festival-container > .festival-sub-venue, .multi-sidebar-outer-rus.multi-sidebar-outer, .product-fix-wrap, #J_xiaomi_dialog, .site-footer, .ng-mobile.ng-item, .hot-words, .top-banner-container, .site-server-box, .user-helper-footer, .fm-sns, .ams-region, .seo-container.product-container, .search-feedback-wrap, .footer-copywrite, #container-for-smart-banner, .header-right-content, .drogue-poplayer-modal, [class*="styles_bannerLink"], [class*="styles_body_"], [class*="MultiSidebarTab"], [class*="TopBanner"], [class*="Footer_Footer__footer"]
 freebitco.in###myModal22:has-text(Did you know?)
 freebitco.in##.daily_jackpot_main_container_div, #deposit_promo_message_regular, #play_without_captcha_container, .reveal-modal-bg, #bottom_user_ads_container
-yandex.ru##.media-infinity-footer__content-inner, .serp-footer__main, .media-grid__media-content, .headline__market-cart, .dist-popup, div[aria-label="Реклама"], [id*="ya-block-between"], .Warning_type_roskomnadzor, .entity-search__clear.entity-search__social-sites, .VideoOwnerInfo, .audio-animation__fallback, .DistrSmartbanner, [href^="https://yabs.yandex."]
+yandex.ru##.media-infinity-footer__content-inner, .serp-footer__main, .media-grid__media-content, .headline__market-cart, .dist-popup, div[aria-label="Реклама"], [id*="ya-block-between"], .Warning_type_roskomnadzor, .entity-search__clear.entity-search__social-sites, .VideoOwnerInfo, .audio-animation__fallback, .DistrSmartbanner, [href^="https://yabs.yandex."], [href^="https://an.yandex."]
 yandex.ru##^script:has-text(AwapsJsonAPI)
 yandex.ru##div.serp-list__card:has([href*="https://yabs.yandex."])
 mail.yandex.ru##.mail-Placeholder-Text, .mail-ThreadSidebar-wrap.ns-view-thread-sidebar-wrap, .mail-MailProAnnouncingPromoLeftColumn, .subscriptionsBubble
@@ -212,11 +212,11 @@ youtube.com###dismissible.ytd-compact-video-renderer.style-scope:has(.badges):ha
 youtube.com###dismissible.ytd-compact-movie-renderer.style-scope:has(.badge):has-text(/Купить|Buy/)
 youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope > .ytd-shelf-renderer.style-scope:has(.ytd-badge-supported-renderer):has-text(/Купить|Buy/)
 my.yota.ru##.y-expansion-panel, .promotion-offer, app-slider-ma-symk, .y-swiper-track
-passageweather.com##.rightcolumn, .upperdiv, .header, #leftimages, .blackbottom, .bottombit, .footer, .gapfill, [onclick*="ga("]
+passageweather.com##.rightcolumn, .upperdiv, .header, #leftimages, .blackbottom, .bottombit, .footer, .gapfill, [onclick*="ga("], div.newsbox, div.noticebox, div.noticeboxtop
 passageweather.com##.document:style(background-image: none!important;)
 pornhub.com##.adContainer, .premiumAdvertWrapper, div[id^="age-verification"], .adsbytrafficjunky, .phpFreeBlock, [data-entrycode="Free_Premium_Video"]
 twitter.com###layers > div[class] > div[class]:has(> div[class] div[role="button"] > div[dir="auto"] > span > span:contains(ookie))
-marinetraffic.com###topBanner,div.hidden-print,div[style="position: relative; width: 100%; margin-top: 15px; margin-bottom: 15px; height: 90px;"], .underMapAdMobile
+marinetraffic.com###topBanner,div.hidden-print,div[style="position: relative; width: 100%; margin-top: 15px; margin-bottom: 15px; height: 90px;"], .underMapAdMobile, .smartbanner-android, .smartbanner-container
 ! Cascading Style Sheets (CSS) END
 
 ! Content Security Policy (CSP) START
@@ -327,6 +327,7 @@ marinetraffic.com###topBanner,div.hidden-print,div[style="position: relative; wi
 |http*:*.php?sw/$important,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/service[-_]worker\.js/$important,script,xmlhttprequest
 |http*:*/serviceworker?$important,script,xmlhttprequest
+/^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,popup,important
 ! COMBINED END
 
 ! TRASH START
