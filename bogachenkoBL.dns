@@ -163,9 +163,6 @@
 ||googlesyndication.com^
 ||googletagmanager.com^
 ||googletagservices.com^
-||graph.facebook.com^
-||graph.instagram.com^
-||graph.microsoft.com^
 ||gx-corner.opera.com^
 ||gx-corner.route*.opera.com^
 ||heyzap.com^
@@ -302,7 +299,6 @@
 ||traffer.net^
 ||trafficjunky.net^
 ||trafficmagnet.net^
-||trafficmanager.net^
 ||trk.mail.ru^
 ||trontv.com^
 ||ts.acestream.net^
