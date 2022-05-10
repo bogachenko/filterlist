@@ -77,7 +77,7 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 ! sentry.io
 35.188.42.15:443^$network
 ! mc.yandex.ru yabs.yandex.ru
-/^93\.158\.134\.[0-9]{2,3}:443$/$network
+/^93\.158\.134\.[0-9]{2,3}:443$/$network,app=~Y.Music.exe
 ! an.yandex.ru
 /^77\.88\.21\.[0-9]{2,3}:443$/$network
 ! sentry.io googlesyndication.com doubleclick.net adservice.google.com adservice.google.ru
