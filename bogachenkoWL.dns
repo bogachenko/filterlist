@@ -10,3 +10,7 @@
 !@@||api.*.intl.xiaomi.com^
 @@||market.intl.xiaomi.com^
 @@||update.intl.miui.com^
+@@||oauth.yandex.ru^
+@@||passport.yandex.*^
+@@||login.yandex.ru^
+@@||account.google.com^
