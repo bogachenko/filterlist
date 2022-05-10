@@ -4,13 +4,12 @@
 ! Homepage: https://github.com/bogachenko/filterlist/
 ! License: https://raw.githubusercontent.com/bogachenko/filterlist/main/LICENSE.md
 
+@@||account.google.com^
 @@||analytics.google.com^
 @@||analyticsinsights-pa.clients*.google.com^
-@@||metrika.yandex.*^
-!@@||api.*.intl.xiaomi.com^
+@@||login.yandex.ru^
 @@||market.intl.xiaomi.com^
-@@||update.intl.miui.com^
+@@||metrika.yandex.*^
 @@||oauth.yandex.ru^
 @@||passport.yandex.*^
-@@||login.yandex.ru^
-@@||account.google.com^
+@@||update.intl.miui.com^

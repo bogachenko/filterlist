@@ -51,8 +51,6 @@
 ||adnuntius.com^
 ||adnxs.com^
 ||adrelayer.com^
-||carbonads.com^
-||getsentry.com^
 ||adriver.ru^
 ||adroll.com^
 ||adsafeprotected.com^
@@ -98,6 +96,7 @@
 ||bs.yandex.*^
 ||bugsnag.com^
 ||buzzoola.com^
+||carbonads.com^
 ||checkappexec.microsoft.com^
 ||chitika.com^
 ||choice.microsoft.com^
@@ -156,6 +155,7 @@
 ||fundingchoicesmessages.google.com^
 ||g.bing.com^
 ||get.opera.com^
+||getsentry.com^
 ||goldbach.com^
 ||googleadapis.l.google.com^
 ||googleadservices.com^
@@ -212,6 +212,7 @@
 ||notification.adblockplus.org^
 ||o333o.com^
 ||officeci.azurewebsites.net^
+||onelink.me^
 ||onesignal.com^
 ||op-mobile.opera.com^
 ||openx.com^
@@ -292,7 +293,6 @@
 ||thumbnails*.opera.com^
 ||top-fwz1.mail.ru^
 ||tracking.*.miui.com^
-||onelink.me^
 ||tracking.miui.com^
 ||tracking.overwolf.com^
 ||tradedoubler.com^
