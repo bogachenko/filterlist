@@ -79,10 +79,6 @@ mail.yandex.ru#@#iframe[src="about:blank"]
 35.188.42.15:443^$network
 ! sentry.io googlesyndication.com doubleclick.net adservice.google.com adservice.google.ru
 /^(172\.217\.[12][0-9]{2,3}\.[0-9]{2,3}|216\.58\.2[0-9]{2}\.[0-9]{1,3}|142\.250\.74\.[0-9]{2,3}|35\.188\.42\.15):443$/$network,app=Spotify.exe|com.spotify.music
-! mc.yandex.ru yabs.yandex.ru
-!/^93\.158\.134\.[0-9]{2,3}:443$/$network,app=~Y.Music.exe|~firefox.exe|~opera.exe
-! an.yandex.ru
-!/^77\.88\.21\.[0-9]{2,3}:443$/$network,app=~firefox.exe|~opera.exe
 ! NETWORK END
 
 ! DOCUMENT START
@@ -180,10 +176,10 @@ twitch.tv##+js(no-fetch-if.js, /video-edge-[^/]+ttvnw.net/ method:POST)
 
 ! Cascading Style Sheets (CSS) START
 *##iframe[src="about:blank"]
-*##a[href^="http://ads.trafficjunky.net/"]
+*##a[href*="//ads."]
+*##a[href*="//ad."]
 *##.adsbygoogle[data-ad-client][data-ad-slot]
 *##[data-ad-client^="ca-pub-"][data-ad-slot]
-*##[src^="//ad.a-ads.com/"]
 *##.dfp-leaderboard-container
 *##[data-adsbygoogle-status]
 *##[id*="div-gpt-ad"]
