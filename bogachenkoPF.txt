@@ -154,6 +154,8 @@ mail.yandex.ru#@#iframe[src="about:blank"]
 ||recsys.opera.com^$important
 ||sitecheck.opera.com^$important
 ||egress.yandex.net^$important
+||allvideometrika.com^$important
+||hovels.info^$important
 ! DOMAIN END
 
 ! APP START
