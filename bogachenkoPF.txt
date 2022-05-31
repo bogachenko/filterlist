@@ -350,7 +350,7 @@ noodlemagazine.com#@#.verify
 xvideos.com##.banner-slider.embed-responsive
 ||yastatic.net/*/zen-lib/$script
 ||yandex.ru/search/touchcache.js|$script
-||yastatic.net/share2/$third-party,important,script
+||yastatic.net/share2/$third-party,important,script,domain=~radiorecord.ru
 ||yastatic.net/nearest.js|$script,important
 ||zen.yandex.*^$important
 ! TRASH END
