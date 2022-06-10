@@ -327,8 +327,8 @@ marinetraffic.com###topBanner, div.hidden-print, div[style="position: relative; 
 ! TRASH START
 infourok.ru##div#aa-popup
 |http*$app=com.adups.fota.sysoper|com.adups.fota,badfilter
-||xyz^$third-party,script,xmlhttprequest,domain=~anidub.com|~animedia.pro|~animeheaven.ru|~animevibe.wtf|~app.element.io|~assistir-filme.biz|~auth.magic.link|~avtomaty-i-bonusy.com|~coomeet.com|~crackstreams.com|~crackstreams.ga|~csgoreports.com|~emblix.cc|~estream.to|~europixhd.io|~films.hds-stream.com|~flowcdn.nl|~funtik.tv|~getvi.tv|~github.io|~gsmware.com|~hanime.tv|~hentaiz.org|~herokuapp.com|~infoua.biz|~jokehd.com|~jokerswidget.com|~jokerswidget.org|~kinoguru.be|~kinoguru.me|~live-nhl.stream|~live94today.com|~lookbase.xyz|~magicfilm.net|~mail.google.com|~map-a-date.cc|~matchat.online|~mikeamigorein.xyz|~miranimbus.ru|~my.mail.ru|~nccg.ru|~newdmn.icu|~odysee.com|~onmovies.se|~playjoke.xyz|~playmuvi.com|~roadhub.ru|~roblox.com|~sextop.net|~soccer365.ru|~soonwalk.net|~sportsbay.org|~streetbee.io|~streetbee.ru|~telerium.club|~telerium.live|~uacycling.info|~uploadedpremiumlink.net|~vk-apps.com|~vk.com|~vmeste.tv|~web.app,badfilter
-||pw^$third-party,script,xmlhttprequest,domain=~adwiz.pp.ua|~forum.worldofwarships.ru|~hdvbplayer.tk|~live-gol.net|~panomama.ru|~philips.ru|~softpir.com|~sportsvideoline3.pw|~tefal.ru,badfilter
+||xyz^$third-party,script,xmlhttprequest,domain=~anidub.com|~animedia.pro|~animeheaven.ru|~animevibe.wtf|~app.element.io|~assistir-filme.biz|~auth.magic.link|~avtomaty-i-bonusy.com|~baza.bz|~coomeet.com|~crackstreams.com|~crackstreams.ga|~csgoreports.com|~emblix.cc|~estream.to|~europixhd.io|~films.hds-stream.com|~flowcdn.nl|~funtik.tv|~getvi.tv|~github.io|~gsmware.com|~hanime.tv|~hentaiz.org|~herokuapp.com|~infoua.biz|~jokehd.com|~jokerswidget.com|~jokerswidget.org|~kinoguru.be|~kinoguru.me|~live-nhl.stream|~live94today.com|~lookbase.xyz|~magicfilm.net|~mail.google.com|~map-a-date.cc|~matchat.online|~mikeamigorein.xyz|~miranimbus.ru|~my.mail.ru|~nccg.ru|~newdmn.icu|~odysee.com|~onmovies.se|~playjoke.xyz|~playm4u.xyz|~playmuvi.com|~roadhub.ru|~roblox.com|~sextop.net|~soccer365.ru|~soonwalk.net|~sportsbay.org|~streetbee.io|~streetbee.ru|~telerium.club|~telerium.live|~uacycling.info|~uploadedpremiumlink.net|~vk-apps.com|~vk.com|~vmeste.tv|~web.app,badfilter
+||pw^$third-party,script,xmlhttprequest,domain=~adwiz.pp.ua|~forum.worldofwarships.ru|~hdvbplayer.tk|~live-gol.net|~panomama.ru|~philips.ru|~softpir.com|~sportsvideoline3.pw|~tefal.ru|~vulpecula.host,badfilter
 @@||s.youtube.com^|$badfilter
 @@||redirect.appmetrica.yandex.com^|$badfilter
 @@||imasdk.googleapis.com^|$badfilter
@@ -341,16 +341,15 @@ infourok.ru##div#aa-popup
 ||google.com/complete/$important
 ||2ch.hk/makaba/templates/js/events/snow_miner_anon_ne_podozrevaet.js$script
 ||yastatic.net/daas/atom.js|$important,script,xmlhttprequest
-||pastebin.com/themes/pastebin/img/no_war_ukraine.jpeg$image
 ||wl.spotify.com^$badfilter
 ||click.redditmail.com^$badfilter
 /^https?:\/\/yastatic\.net\/www\/_\/[^\s]{150,}/$image,redirect-rule=empty,domain=yandex.by|yandex.kz|yandex.ru|yandex.uz,badfilter
 ||yandex.ru/suggest/$xmlhttprequest
-noodlemagazine.com#@#.verify
 xvideos.com##.banner-slider.embed-responsive
 ||yastatic.net/*/zen-lib/$script
 ||yandex.ru/search/touchcache.js|$script
 ||yastatic.net/share2/$third-party,important,script,domain=~radiorecord.ru
 ||yastatic.net/nearest.js|$script,important
 ||zen.yandex.*^$important
+/^https?://(?![^\s]+\.rumer\.fun|[^\s]+\.streamvid\.club|[^\s]+\.takedwn\.ws|cdn\.jsdelivr\.net\/npm\/venom-player|cdn\.jsdelivr\.net\.cdn\.cloudflare\.net)/$third-party,domain=ameytools.club|buildplayer.com|delivembed.cc|embedstorage.net|kinogram.best|mir-dikogo-zapada.com|multikland.net|placehere.link|synchroncode.com|tobaco.ws,badfilter
 ! TRASH END
