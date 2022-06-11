@@ -279,6 +279,7 @@ marinetraffic.com###topBanner, div.hidden-print, div[style="position: relative; 
 ||twitchcdn.net/*.video-ads.*$script,important
 ||twitchcdn.net/*/sentry-$script,important
 ||twitchcdn.net/config/settings.$script,important
+||github.io/actualize.js|$script,important
 ! SCRIPT END
 
 ! XMLHTTPREQUEST START
