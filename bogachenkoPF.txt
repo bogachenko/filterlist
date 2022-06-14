@@ -271,7 +271,6 @@ marinetraffic.com###topBanner, div.hidden-print, div[style="position: relative; 
 ||yastatic.net/awaps-ad-sdk-js/$important,script
 ||google.com/adsense/domains/caf.js|$important,script
 |http*:*.cloudfront.net/registrar/$important,script,third-party
-/\/[0-9a-f]{32}\/invoke\.js$/$script,third-party,important
 |http*:*/js/premium/premium-modals.js$script,domain=pornhub.com
 |http*:*/js/ph-footer.js$script,domain=pornhub.com
 |http*:*/js/htmlpauseroll/pb_block.js$script,domain=pornhub.com
@@ -299,6 +298,10 @@ marinetraffic.com###topBanner, div.hidden-print, div[style="position: relative; 
 ||yandex.ru/ick/$xmlhttprequest
 /^https?:\/\/[a-z]{6,13}\.(com|xyz)\/[a-z]{4,30}\.json$/$third-party,xmlhttprequest
 ! XMLHTTPREQUEST END
+
+! SUBDOCUMENT START
+||video.sibnet.ru/my/settings/$subdocument
+! SUBDOCUMENT END
 
 ! COMBINED START
 /google\.com\/afs\/ads[?/]/$subdocument,script,important
