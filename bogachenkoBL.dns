@@ -24,6 +24,7 @@
 /^r0?\.mradx\.net$/
 /^[ase1-5]{2}\.(torrent|ace)stream\.(info|org|net)$/
 /^[rt]s?[0-3]?\.mail\.ru$/
+/^advast\./
 ||2mdn.net^
 ||33across.com^
 ||a-mo.net^
@@ -241,6 +242,8 @@
 ||propellerads.com^
 ||pubmatic.com^
 ||adsco.re^
+||netpub.media^
+||vdo.ai^
 ||quantumdex.io^
 ||r.acestream.net^
 ||r.msn.com^
