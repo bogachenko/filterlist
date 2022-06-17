@@ -156,6 +156,7 @@ mail.yandex.ru#@#iframe[src="about:blank"]
 ||egress.yandex.net^$important
 ||allvideometrika.com^$important
 ||hovels.info^$important
+/(0i){3}0\.com/$important
 ! DOMAIN END
 
 ! APP START

@@ -27,8 +27,10 @@
 /^[rt]s?[0-3]?\.mail\.ru$/
 /(^|\.)gath3r\.io$/
 /(^|\.)advast\./
+||adxadserv.com^
 ||2mdn.net^
 ||33across.com^
+||adoto.net^
 ||a-mo.net^
 ||themoneytizer.com^
 ||acuityads.com^
@@ -47,6 +49,10 @@
 ||adgrx.com^
 ||adhigh.net^
 ||adhunt.net^
+||adhitz.com^
+||adconity.com^
+||bmfads.com^
+||adhitzads.com^
 ||adj.st^
 ||adjust.*^
 ||admixer.net^
