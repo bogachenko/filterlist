@@ -37,14 +37,6 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 ! https://github.com/AdguardTeam/DnsLibs/issues/141
 ||adjust.*^$important
 ||adj.st^$important
-! https://github.com/AdguardTeam/AdguardForWindows/issues/4132
-||addealsnetwork.com^$important
-||g.bing.com^$important
-||smaato.net^$important
-||adduplex.com^$important
-||an.yandex.ru^$important
-||mc.yandex.ru^$important
-||yabs.yandex.ru^$important
 ! Spotify
 ||spotify.com/*/delta|$important
 ||spotify.com/gabo-receiver-service/*/events$important
