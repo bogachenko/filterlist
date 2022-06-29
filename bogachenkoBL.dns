@@ -4,8 +4,7 @@
 ! Homepage: https://github.com/bogachenko/filterlist/
 ! License: https://raw.githubusercontent.com/bogachenko/filterlist/main/LICENSE.md
 
-/(^|\.)advast\./
-/(^|\.)gath3r\.io$/
+/^(.+[_.-])?advast([\d]+)?[_.-]/
 /^(.+[_.-])?ad[sxv]?([\d]+)?[_.-]/
 /^(.+[_.-])?ad[vs]er(v?e?t?r?)?(i((si)?ng|se(ment)?|c[ae]s?))?[_.-]/
 /^(.+[_.-])?beacons?([\d]+)?[_.-]/
@@ -27,6 +26,7 @@
 /^[ase1-5]{2}\.(torrent|ace)stream\.(info|org|net)$/
 /^[rt]s?[0-3]?\.mail\.ru$/
 ||2mdn.net^
+||gath3r.io^
 ||jshosting.*^
 ||33across.com^
 ||a-mo.net^
@@ -35,22 +35,28 @@
 ||adcamp.ru^
 ||adcash.com^
 ||jsecoin.com^
+||adsniper.ru^
+||spylog.ru^
 ||hostingcloud.*^
 ||adcolony.com^
+||allbanners.ru^
 ||adconity.com^
 ||addealsnetwork.com^
 ||adduplex.com^
 ||adeventtracker.spotify.com^
 ||adforgames.com^
 ||coin-hive.com^
+||bannerbank.ru^
 ||adform.*^
 ||adfox.ru^
 ||adfox.yandex.*^
 ||adgrx.com^
+||gde.cash^
 ||adhigh.net^
 ||adhitz.com^
 ||adhitzads.com^
 ||adhunt.net^
+||huyandex.com^
 ||adj.st^
 ||adjust.*^
 ||admixer.net^
