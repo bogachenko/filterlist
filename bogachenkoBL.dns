@@ -34,10 +34,12 @@
 ||adaware.com^
 ||adcamp.ru^
 ||adcash.com^
+||adsterra.com^
 ||jsecoin.com^
 ||adsniper.ru^
 ||spylog.ru^
 ||hostingcloud.*^
+||monetiza.co^
 ||adcolony.com^
 ||allbanners.ru^
 ||adconity.com^
@@ -220,7 +222,7 @@
 ||mediamath.com^
 ||metaservices.microsoft.com^
 ||mgid.com^
-||mintegral.com^
+||mintegral.*^
 ||mistat.*.xiaomi.com^
 ||mistat.xiaomi.com^
 ||moatads.com^
@@ -288,6 +290,7 @@
 ||samsungotn.net^
 ||samsungrm.net^
 ||scorecardresearch.com^
+||supersonicads.com^
 ||sec.*.miui.com^
 ||sec.miui.com^
 ||sendpulse.com^

@@ -147,6 +147,7 @@ mail.yandex.ru#@#iframe[src="about:blank"]
 ||xboxlive.com^$important
 ||xboxservices.com^$important
 ||yastroka.yandex.net^$important
+||avlyun.sec.miui.com^
 ! DOMAIN END
 
 ! APP START
