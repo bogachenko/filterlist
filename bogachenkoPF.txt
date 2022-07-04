@@ -147,7 +147,8 @@ mail.yandex.ru#@#iframe[src="about:blank"]
 ||xboxlive.com^$important
 ||xboxservices.com^$important
 ||yastroka.yandex.net^$important
-||avlyun.sec.miui.com^
+||avlyun.sec.miui.com^$important
+||aviasales.ru^
 ! DOMAIN END
 
 ! APP START
@@ -202,6 +203,7 @@ yadi.sk##.header__inline-services-menu.inline-services-menu,.app-promo-banner,.s
 youtube.com###player-ads,.ytd-mealbar-promo-renderer, #masthead-ad, #alert-banner, YTM-PROMOTED-VIDEO-RENDERER,.mealbar-promo-renderer, a[href*="/covid19"],.ytp-ad-module,.ytd-carousel-ad-renderer,.ytp-ad-progress, #promotion-shelf,.masthead-ad-control,.ad-div,.pyv-afc-ads-container, #sponsor-button,.ytp-endscreen-content, #live-chat-banner,.ytp-ad-progress-list,.subscribecard-endscreen,[href="/premium"],[aria-label="Показать подсказки"],.ytd-player-legacy-desktop-watch-ads-renderer,.badge-style-type-ad,.ytp-ce-element,.iv-branding,.yt-live-chat-viewer-engagement-message-renderer,.ytd-search-pyv-renderer,.ytp-impression-link,.ytm-paid-content-overlay-link,.ytp-paid-content-overlay
 youtube.com###dismissible.ytd-compact-video-renderer.style-scope:has(.badges):has-text(/Сбор средств|Fundraiser/)
 youtube.com###dismissible.ytd-compact-movie-renderer.style-scope:has(.badge):has-text(/Купить|Buy/)
+youtube.com##ytd-grid-video-renderer.ytd-grid-renderer.style-scope:has([overlay-style="SHORTS"])
 my.yota.ru##.y-expansion-panel,.promotion-offer, app-slider-ma-symk,.y-swiper-track
 passageweather.com##.rightcolumn,.upperdiv,.header, #leftimages,.blackbottom,.bottombit,.footer,.gapfill,[onclick*="ga("], div.newsbox, div.noticebox, div.noticeboxtop
 passageweather.com##.document:style(background-image: none!important;)
