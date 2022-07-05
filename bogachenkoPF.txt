@@ -148,7 +148,6 @@ mail.yandex.ru#@#iframe[src="about:blank"]
 ||xboxservices.com^$important
 ||yastroka.yandex.net^$important
 ||avlyun.sec.miui.com^$important
-||aviasales.ru^
 ! DOMAIN END
 
 ! APP START
