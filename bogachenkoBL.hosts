@@ -27,12 +27,12 @@
 0.0.0.0 graph.facebook.com
 
 # [xiaomi.com]
+0.0.0.0 adv.sec.intl.miui.com
 0.0.0.0 api.ad.intl.xiaomi.com
 0.0.0.0 ad.xiaomi.com
 0.0.0.0 adv.sec.miui.com
 0.0.0.0 ad.mi.com
-0.0.0.0 privacy.api.intl.miui.com^
-0.0.0.0 mobile.yandexadexchange.net
+0.0.0.0 privacy.api.intl.miui.com
 
 # [mozilla.org]
 0.0.0.0 incoming.telemetry.mozilla.org
@@ -43,6 +43,20 @@
 0.0.0.0 bs.yandex.ru
 0.0.0.0 an.yandex.ru
 0.0.0.0 startup.mobile.yandex.net
+0.0.0.0 mobile.yandexadexchange.net
 
 # [appsflyer.com]
 0.0.0.0 launches.appsflyer.com
+0.0.0.0 inapps.appsflyer.com
+
+# [branch.io]
+0.0.0.0 api2.branch.io
+
+# [adjust.com]
+0.0.0.0 adj.st
+0.0.0.0 adjust.net.in
+0.0.0.0 adjust.world
+0.0.0.0 app.adjust.net.in
+0.0.0.0 app.adjust.world
+0.0.0.0 adjust.com
+0.0.0.0 app.adjust.com

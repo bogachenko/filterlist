@@ -44,6 +44,8 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 ||spotify.com/*/browse-page-cx-test?$important
 ||spotify.com/quicksilver/$important
 ||adeventtracker.spotify.com^$important
+!
+||market.mi-img.com^
 ! TEST END
 
 ! WHITELIST START
