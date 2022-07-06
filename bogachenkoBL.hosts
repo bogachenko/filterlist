@@ -108,3 +108,14 @@
 # [hotjar.com]
 0.0.0.0 hotjar.com
 0.0.0.0 static.hotjar.com
+
+# [mail.ru]
+0.0.0.0 ad.mail.ru
+0.0.0.0 r.mradx.net
+0.0.0.0 r3.mail.ru
+0.0.0.0 rs.mail.ru
+0.0.0.0 top-fwz1.mail.ru
+
+# [criteo.com]
+0.0.0.0 criteo.com
+0.0.0.0 gum.criteo.com
