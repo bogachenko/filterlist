@@ -32,6 +32,7 @@
 ||adaware.com^
 ||adcamp.ru^
 ||adcash.com^
+||adcel.co^
 ||adcolony.com^
 ||adconity.com^
 ||addealsnetwork.com^
@@ -41,6 +42,7 @@
 ||adform.*^
 ||adfox.ru^
 ||adfox.yandex.*^
+||adfstat.yandex.ru^
 ||adgrx.com^
 ||adhigh.net^
 ||adhitz.com^
@@ -114,6 +116,7 @@
 ||bugsnag.com^
 ||buzzoola.com^
 ||carbonads.com^
+||cc-api-data.adobe.io^
 ||checkappexec.microsoft.com^
 ||chitika.com^
 ||choice.microsoft.com^
@@ -127,6 +130,7 @@
 ||crashlytics.com^
 ||crashlytics.l.google.com^
 ||crashlyticsreports-pa.googleapis.com^
+||criteo.com^
 ||d.ghostery.com^
 ||data.*.microsoft.com^
 ||data.*.miui.com^
@@ -136,16 +140,15 @@
 ||data.msn.com^
 ||datamart.windows.com^
 ||dataxu.com^
-||criteo.com^
 ||dc-int.services.visualstudio.com^
 ||dc.services.visualstudio.com^
 ||dds.microsoft.com^
+||demdex.net^
 ||detectportal.firefox.com^
 ||dev.null^
 ||diagnostics.*.microsoft.com^
 ||diagnostics.*.office.com^
 ||diagnostics.microsoft.com^
-||firebaselogging-pa.googleapis.com^
 ||diagnostics.office.com^
 ||digitaltarget.ru^
 ||districtm.net^
@@ -163,6 +166,7 @@
 ||fake.video.url.webm^
 ||feedback.*.microsoft.com^
 ||feedback.windows.com^
+||firebaselogging-pa.googleapis.com^
 ||flashtalking.com^
 ||flurry.com^
 ||footprint.net^
@@ -175,16 +179,12 @@
 ||fundingchoices.google.com^
 ||fundingchoicesmessages.google.com^
 ||g.bing.com^
-||gather.network^
-||demdex.net^
 ||gath3r.io^
-||cc-api-data.adobe.io^
+||gather.network^
 ||gde.cash^
 ||get.opera.com^
 ||getsentry.com^
-||rubiconproject.com^
 ||goldbach.com^
-||omtrdc.net^
 ||googleadapis.l.google.com^
 ||googleadservices.com^
 ||googleoptimize.com^
@@ -250,6 +250,7 @@
 ||notification.adblockplus.org^
 ||o333o.com^
 ||officeci.azurewebsites.net^
+||omtrdc.net^
 ||onelink.me^
 ||onesignal.com^
 ||op-mobile.opera.com^
@@ -285,6 +286,7 @@
 ||relap.io^
 ||revcontent.com^
 ||ris.api.iris.microsoft.com^
+||rubiconproject.com^
 ||rutad.ru^
 ||rutarget.ru^
 ||s*-2mdn-net.l.google.com^
@@ -369,7 +371,6 @@
 ||watson.microsoft.com^
 ||webminepool.com^
 ||weborama.fr^
-||adfstat.yandex.ru^
 ||webvisor.*^
 ||wns.windows.com^
 ||www-googleadservices.l.google.com^
@@ -378,7 +379,6 @@
 ||xandr.com^
 ||xray.mail.ru^
 ||yabs.yandex.*^
-||adcel.co^
 ||yadro.ru^
 ||yandexadexchange.net^
 ||yllix.com^
