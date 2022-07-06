@@ -1,0 +1,37 @@
+# Title: bogachenko's Hosts Filter
+# Description: Yet another anti-bullshit filter list.
+# Homepage: https://github.com/bogachenko/filterlist
+# RAW: https://raw.githubusercontent.com/bogachenko/filterlist/main/bogachenkoBL.hosts
+
+# [google.com]
+0.0.0.0 ssl.google-analytics.com
+0.0.0.0 www.google-analytics.com
+0.0.0.0 infinitedata-pa.googleapis.com
+0.0.0.0 pagead2.googleadservices.com
+0.0.0.0 googleads.g.doubleclick.net
+
+# [whatsapp.com]
+0.0.0.0 dit.whatsapp.net
+
+# [microsoft.com]
+0.0.0.0 self.event.data.microsoft.com
+0.0.0.0 in.appcenter.ms
+0.0.0.0 app-measurement.com
+
+# [facebook.com]
+0.0.0.0 graph.facebook.com
+
+# [xiaomi.com]
+0.0.0.0 api.ad.intl.xiaomi.com
+0.0.0.0 ad.xiaomi.com
+0.0.0.0 adv.sec.miui.com
+0.0.0.0 ad.mi.com
+
+# [mozilla.org]
+0.0.0.0 incoming.telemetry.mozilla.org
+
+# [yandex.ru]
+0.0.0.0 yabs.yandex.ru
+0.0.0.0 mc.yandex.ru
+0.0.0.0 bs.yandex.ru
+0.0.0.0 an.yandex.ru
