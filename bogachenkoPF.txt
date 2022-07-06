@@ -337,7 +337,6 @@ infourok.ru##div#aa-popup
 @@||googleadapis.l.google.com^|$badfilter
 @@||launches.appsflyer.com^|$badfilter
 @@||app.adjust.com^|$badfilter
-@@||www.googleadservices.com^|$badfilter
 ||google.com/complete/$important
 ||2ch.hk/makaba/templates/js/events/snow_miner_anon_ne_podozrevaet.js$script
 ||yastatic.net/daas/atom.js|$important,script,xmlhttprequest
@@ -348,6 +347,7 @@ infourok.ru##div#aa-popup
 xvideos.com##.banner-slider.embed-responsive
 ||yastatic.net/*/zen-lib/$script
 ||yandex.ru/search/touchcache.js|$script
+@@||usher.ttvnw.net^$xmlhttprequest,other,app=tv.twitch.android.app
 ||yastatic.net/share2/$third-party,important,script,domain=~radiorecord.ru
 ||yastatic.net/nearest.js|$script,important
 @@||s-microsoft.com^$stylesheet

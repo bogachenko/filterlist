@@ -9,18 +9,23 @@
 0.0.0.0 adservice.google.com
 0.0.0.0 api.crashlytics.com
 0.0.0.0 app-measurement.com
+0.0.0.0 beacons.gvt2.com
 0.0.0.0 doubleclick.net
 0.0.0.0 firebase-settings.crashlytics.com
 0.0.0.0 firebaselogging-pa.googleapis.com
 0.0.0.0 google-analytics.com
+0.0.0.0 googleadapis.l.google.com
 0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 googleadservices.com
+0.0.0.0 imasdk.googleapis.com
 0.0.0.0 infinitedata-pa.googleapis.com
+0.0.0.0 pagead.l.doubleclick.net
 0.0.0.0 pagead2.googleadservices.com
 0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 ssl.google-analytics.com
 0.0.0.0 static.doubleclick.net
 0.0.0.0 www.google-analytics.com
+0.0.0.0 www.googleadservices.com
 
 # [whatsapp.com]
 0.0.0.0 dit.whatsapp.net
@@ -44,6 +49,8 @@
 0.0.0.0 adv.sec.intl.miui.com
 0.0.0.0 adv.sec.miui.com
 0.0.0.0 api.ad.intl.xiaomi.com
+0.0.0.0 api.sec.intl.miui.com
+0.0.0.0 authbe.sec.intl.miui.com
 0.0.0.0 data.mistat.india.xiaomi.com
 0.0.0.0 data.mistat.intl.xiaomi.com
 0.0.0.0 data.mistat.rus.xiaomi.com
@@ -72,6 +79,7 @@
 0.0.0.0 bs.yandex.ru
 0.0.0.0 mc.yandex.ru
 0.0.0.0 mobile.yandexadexchange.net
+0.0.0.0 redirect.appmetrica.yandex.com
 0.0.0.0 report.appmetrica.yandex.net
 0.0.0.0 startup.mobile.yandex.net
 0.0.0.0 yabs.yandex.ru
@@ -119,3 +127,15 @@
 # [criteo.com]
 0.0.0.0 criteo.com
 0.0.0.0 gum.criteo.com
+
+# [adfix.ru]
+0.0.0.0 content.adfox.ru
+
+# [amazon.com]
+0.0.0.0 amazon-adsystem.com
+0.0.0.0 s.amazon-adsystem.com
+
+# [twitch.tv]
+0.0.0.0 countess.twitch.tv
+0.0.0.0 edge.ads.twitch.tv
+0.0.0.0 spade.twitch.tv
