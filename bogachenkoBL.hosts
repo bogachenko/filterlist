@@ -26,6 +26,7 @@
 0.0.0.0 static.doubleclick.net
 0.0.0.0 www.google-analytics.com
 0.0.0.0 www.googleadservices.com
+0.0.0.0 footprints-pa.googleapis.com
 
 # [whatsapp.com]
 0.0.0.0 dit.whatsapp.net
