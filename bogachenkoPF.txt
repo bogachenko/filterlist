@@ -37,13 +37,6 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 ! https://github.com/AdguardTeam/DnsLibs/issues/141
 ||adjust.*^$important
 ||adj.st^$important
-! Spotify
-||spotify.com/*/delta|$important
-||spotify.com/gabo-receiver-service/*/events$important
-||spotify.com/net-fortune/*/fortune$important
-||spotify.com/*/browse-page-cx-test?$important
-||spotify.com/quicksilver/$important
-||adeventtracker.spotify.com^$important
 !
 ||market.mi-img.com^
 ! TEST END
@@ -84,6 +77,7 @@ mail.yandex.ru#@#iframe[src="about:blank"]
 ! DOMAIN START
 ||*-safebrowsing.google.com^$important
 ||addthis.com^$important
+||adeventtracker.spotify.com^$important
 ||addthiscdn.com^$important
 ||addtoany.com^$important
 ||allvideometrika.com^$important
@@ -154,9 +148,7 @@ mail.yandex.ru#@#iframe[src="about:blank"]
 /^(?!.*(lfnnmlimilinwvwlijljioeogq13\.club|(firebaseio|g(oogleapis|static)|pbssrv\-centralevents|verifykit|cdngtc)\.com)).*$/$important,app=app.source.getcontact
 *$important,app=com.mi.android.globalFileexplorer|com.miui.cleaner|com.miui.securitycenter|com.xiaomi.glgm|com.miui.videoplayer|com.miui.player|com.mi.globalbrowser|com.miui.gallery
 /^(?!.*(spotify\.com|spotifycdn\.com|fastly\.net|scdn\.co|akamaized\.net)).*$/$app=Spotify.exe|com.spotify.music
-||pbssrv-centralevents.com/*/subscription$app=app.source.getcontact
-||pbssrv-centralevents.com/*/marketing-event$app=app.source.getcontact
-||pbssrv-centralevents.com/*/ad-settings$app=app.source.getcontact
+/^https?:\/\/pbssrv\-centralevents\.com\/.*\/(subscription|marketing\-event|ad\-settings|spam\-info)$/$app=app.source.getcontact
 ! APP END
 
 ! SCRIPTLET START
@@ -262,6 +254,11 @@ marinetraffic.com###topBanner, div.hidden-print, div[style="position: relative; 
 ||yandex.*/clck/$important
 ||yandex.*/count/$important
 ||yandex.*/ads/$important
+||spotify.com/*/delta|$important
+||spotify.com/gabo-receiver-service/*/events$important
+||spotify.com/net-fortune/*/fortune$important
+||spotify.com/*/browse-page-cx-test?$important
+||spotify.com/quicksilver/$important
 ! OTHER END
 
 ! SCRIPT START
