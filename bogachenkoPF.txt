@@ -81,7 +81,6 @@ mail.yandex.ru#@#iframe[src="about:blank"]
 
 ! DOMAIN START
 ||*-safebrowsing.google.com^$important
-||0i0i0i0.com^$important
 ||addthis.com^$important
 ||addthiscdn.com^$important
 ||addtoany.com^$important
@@ -350,6 +349,7 @@ xvideos.com##.banner-slider.embed-responsive
 ||yandex.ru/search/touchcache.js|$script
 ||yastatic.net/share2/$third-party,important,script,domain=~radiorecord.ru
 ||yastatic.net/nearest.js|$script,important
+@@||s-microsoft.com^$stylesheet
 ||zen.yandex.*^$important
 geo.ritm.ru###audio-playback-firefox
 /^https?://(?![^\s]+\.rumer\.fun|[^\s]+\.streamvid\.club|[^\s]+\.takedwn\.ws|cdn\.jsdelivr\.net\/npm\/venom-player|cdn\.jsdelivr\.net\.cdn\.cloudflare\.net)/$third-party,domain=ameytools.club|buildplayer.com|delivembed.cc|embedstorage.net|kinogram.best|mir-dikogo-zapada.com|multikland.net|placehere.link|synchroncode.com|tobaco.ws,badfilter
