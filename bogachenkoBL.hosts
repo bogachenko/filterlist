@@ -8,10 +8,18 @@
 0.0.0.0 www.google-analytics.com
 0.0.0.0 infinitedata-pa.googleapis.com
 0.0.0.0 pagead2.googleadservices.com
+0.0.0.0 googleadservices.com
 0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 api.crashlytics.com
 0.0.0.0 firebaselogging-pa.googleapis.com
+0.0.0.0 pagead2.googlesyndication.com
+0.0.0.0 ads.google.com
+0.0.0.0 adservice.google.com
 0.0.0.0 firebase-settings.crashlytics.com
+0.0.0.0 ad.doubleclick.net
+0.0.0.0 static.doubleclick.net
+0.0.0.0 doubleclick.net
+0.0.0.0 google-analytics.com
 
 # [whatsapp.com]
 0.0.0.0 dit.whatsapp.net
@@ -33,6 +41,18 @@
 0.0.0.0 adv.sec.miui.com
 0.0.0.0 ad.mi.com
 0.0.0.0 privacy.api.intl.miui.com
+0.0.0.0 data.mistat.xiaomi.com
+0.0.0.0 data.mistat.intl.xiaomi.com
+0.0.0.0 data.mistat.india.xiaomi.com
+0.0.0.0 data.mistat.rus.xiaomi.com
+0.0.0.0 sdkconfig.ad.xiaomi.com
+0.0.0.0 globalapi.ad.xiaomi.com
+0.0.0.0 sdkconfig.ad.intl.xiaomi.com
+0.0.0.0 www.cdn.ad.xiaomi.com
+0.0.0.0 tracking.miui.com
+0.0.0.0 tracking.rus.miui.com
+0.0.0.0 tracking.india.miui.com
+0.0.0.0 tracking.intl.miui.com
 
 # [mozilla.org]
 0.0.0.0 incoming.telemetry.mozilla.org
@@ -44,6 +64,10 @@
 0.0.0.0 an.yandex.ru
 0.0.0.0 startup.mobile.yandex.net
 0.0.0.0 mobile.yandexadexchange.net
+0.0.0.0 adfstat.yandex.ru
+0.0.0.0 appmetrica.yandex.com
+0.0.0.0 adsdk.yandex.ru
+0.0.0.0 report.appmetrica.yandex.net
 
 # [appsflyer.com]
 0.0.0.0 launches.appsflyer.com
@@ -51,6 +75,12 @@
 
 # [branch.io]
 0.0.0.0 api2.branch.io
+
+# [sentry.io]
+0.0.0.0 sentry-cdn.com
+0.0.0.0 sentry.io
+0.0.0.0 browser.sentry-cdn.com
+0.0.0.0 app.getsentry.com
 
 # [adjust.com]
 0.0.0.0 adj.st
@@ -60,3 +90,10 @@
 0.0.0.0 app.adjust.world
 0.0.0.0 adjust.com
 0.0.0.0 app.adjust.com
+
+# [samsung.com]
+0.0.0.0 ad.samsungadhub.com
+0.0.0.0 samsungadhub.com
+0.0.0.0 samsungads.com
+0.0.0.0 smetrics.samsung.com
+0.0.0.0 nmetrics.samsung.com
