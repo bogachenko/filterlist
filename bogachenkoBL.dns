@@ -144,6 +144,7 @@
 ||diagnostics.*.microsoft.com^
 ||diagnostics.*.office.com^
 ||diagnostics.microsoft.com^
+||firebaselogging-pa.googleapis.com^
 ||diagnostics.office.com^
 ||digitaltarget.ru^
 ||districtm.net^

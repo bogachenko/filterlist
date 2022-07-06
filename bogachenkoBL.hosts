@@ -9,12 +9,17 @@
 0.0.0.0 infinitedata-pa.googleapis.com
 0.0.0.0 pagead2.googleadservices.com
 0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 api.crashlytics.com
+0.0.0.0 firebaselogging-pa.googleapis.com
+0.0.0.0 firebase-settings.crashlytics.com
 
 # [whatsapp.com]
 0.0.0.0 dit.whatsapp.net
 
 # [microsoft.com]
 0.0.0.0 self.event.data.microsoft.com
+0.0.0.0 ic3.event.data.microsoft.com
+0.0.0.0 teams.event.data.microsoft.com
 0.0.0.0 in.appcenter.ms
 0.0.0.0 app-measurement.com
 
@@ -26,6 +31,8 @@
 0.0.0.0 ad.xiaomi.com
 0.0.0.0 adv.sec.miui.com
 0.0.0.0 ad.mi.com
+0.0.0.0 privacy.api.intl.miui.com^
+0.0.0.0 mobile.yandexadexchange.net
 
 # [mozilla.org]
 0.0.0.0 incoming.telemetry.mozilla.org
@@ -35,3 +42,7 @@
 0.0.0.0 mc.yandex.ru
 0.0.0.0 bs.yandex.ru
 0.0.0.0 an.yandex.ru
+0.0.0.0 startup.mobile.yandex.net
+
+# [appsflyer.com]
+0.0.0.0 launches.appsflyer.com

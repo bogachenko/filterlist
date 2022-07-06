@@ -103,7 +103,6 @@ mail.yandex.ru#@#iframe[src="about:blank"]
 ||disquscdn.com^$important
 ||edge.microsoft.com^$important
 ||egress.yandex.net^$important
-||firebaselogging-pa.googleapis.com^$important
 ||ft-api.com^$important
 ||getdify.com^$important
 ||hovels.info^$important
