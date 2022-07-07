@@ -10,7 +10,9 @@
 0.0.0.0 api.crashlytics.com
 0.0.0.0 app-measurement.com
 0.0.0.0 beacons.gvt2.com
+0.0.0.0 beacons.gcp.gvt2.com
 0.0.0.0 doubleclick.net
+0.0.0.0 crashlyticsreports-pa.googleapis.com
 0.0.0.0 firebase-settings.crashlytics.com
 0.0.0.0 firebaselogging-pa.googleapis.com
 0.0.0.0 google-analytics.com
@@ -70,6 +72,7 @@
 0.0.0.0 tracking.miui.com
 0.0.0.0 tracking.rus.miui.com
 0.0.0.0 www.cdn.ad.xiaomi.com
+0.0.0.0 flash.sec.intl.miui.com
 
 # [mozilla.org]
 0.0.0.0 incoming.telemetry.mozilla.org

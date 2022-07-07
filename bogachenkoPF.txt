@@ -354,4 +354,8 @@ xvideos.com##.banner-slider.embed-responsive
 geo.ritm.ru###audio-playback-firefox
 /^https?://(?![^\s]+\.rumer\.fun|[^\s]+\.streamvid\.club|[^\s]+\.takedwn\.ws|cdn\.jsdelivr\.net\/npm\/venom-player|cdn\.jsdelivr\.net\.cdn\.cloudflare\.net)/$third-party,domain=ameytools.club|buildplayer.com|delivembed.cc|embedstorage.net|kinogram.best|mir-dikogo-zapada.com|multikland.net|placehere.link|synchroncode.com|tobaco.ws,badfilter
 ||checkadblock.ru^$document,csp=script-src 'self',badfilter
+xvideos.com#@%#//scriptlet('remove-class', 'has-banner', '#page > #main > #profile-title')
+xvideos.com#@%#Object.defineProperty(window, 'openpop', { get: function() { return; } });
+xvideos.com#@%#Object.defineProperty(Object.prototype, 'config/ads', { get: function() { return false; } });
+xvideos.com#@%#//scriptlet('abort-on-property-read', 'popns')
 ! TRASH END
