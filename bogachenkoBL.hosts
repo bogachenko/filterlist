@@ -27,6 +27,7 @@
 0.0.0.0 www.google-analytics.com
 0.0.0.0 www.googleadservices.com
 0.0.0.0 footprints-pa.googleapis.com
+0.0.0.0 www.googletagmanager.com
 
 # [whatsapp.com]
 0.0.0.0 dit.whatsapp.net
@@ -89,12 +90,17 @@
 0.0.0.0 startup.mobile.yandex.net
 0.0.0.0 yabs.yandex.ru
 
+# [my.com]
+0.0.0.0 tracker-api.my.com
+0.0.0.0 my.com
+
 # [appsflyer.com]
 0.0.0.0 inapps.appsflyer.com
 0.0.0.0 launches.appsflyer.com
 
 # [branch.io]
 0.0.0.0 api2.branch.io
+0.0.0.0 api.branch.io
 
 # [sentry.io]
 0.0.0.0 app.getsentry.com
@@ -135,6 +141,8 @@
 
 # [adfix.ru]
 0.0.0.0 content.adfox.ru
+0.0.0.0 ads.adfox.ru
+0.0.0.0 banners.adfox.ru
 
 # [amazon.com]
 0.0.0.0 amazon-adsystem.com
@@ -147,3 +155,10 @@
 
 # [shazam.com]
 0.0.0.0 beacon.shazam.com
+
+# [scorecardresearch.com]
+0.0.0.0 sb.scorecardresearch.com
+
+# [tns-counter.ru]
+0.0.0.0 tns-counter.ru
+0.0.0.0 www.tns-counter.ru
