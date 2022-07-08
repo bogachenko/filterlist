@@ -76,6 +76,8 @@
 
 # [mozilla.org]
 0.0.0.0 incoming.telemetry.mozilla.org
+0.0.0.0 probes.telemetry.mozilla.org
+0.0.0.0 telemetry.mozilla.org
 
 # [firefox.com]
 0.0.0.0 detectportal.firefox.com
@@ -93,6 +95,10 @@
 0.0.0.0 startup.mobile.yandex.net
 0.0.0.0 yabs.yandex.ru
 
+# [webvisor.com]
+0.0.0.0 u.startup.mobile.webvisor.com
+0.0.0.0 startup.mobile.webvisor.com
+
 # [my.com]
 0.0.0.0 tracker-api.my.com
 0.0.0.0 my.com
@@ -100,6 +106,8 @@
 # [appsflyer.com]
 0.0.0.0 inapps.appsflyer.com
 0.0.0.0 launches.appsflyer.com
+0.0.0.0 conversions.appsflyer.com
+0.0.0.0 appsflyer.com
 
 # [branch.io]
 0.0.0.0 api2.branch.io
