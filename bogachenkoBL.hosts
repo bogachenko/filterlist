@@ -92,12 +92,14 @@
 0.0.0.0 mobile.yandexadexchange.net
 0.0.0.0 redirect.appmetrica.yandex.com
 0.0.0.0 report.appmetrica.yandex.net
+0.0.0.0 rosenberg.appmetrica.yandex.net
 0.0.0.0 startup.mobile.yandex.net
 0.0.0.0 yabs.yandex.ru
 
 # [webvisor.com]
 0.0.0.0 u.startup.mobile.webvisor.com
 0.0.0.0 startup.mobile.webvisor.com
+0.0.0.0 webvisor.com
 
 # [my.com]
 0.0.0.0 tracker-api.my.com
