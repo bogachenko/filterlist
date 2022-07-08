@@ -37,9 +37,6 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 ! https://github.com/AdguardTeam/DnsLibs/issues/141
 ||adjust.*^$important
 ||adj.st^$important
-!
-mail.ru##.horoscope,.rates,.weather,.tabs-content,.tabs,.zeropixel,.search__top,.ph-projects,.mailbox-container
-mail.ru##[class*="-pulse"][href^="https://r.mail.ru"]:has([data-show-pixel*="https://rs.mail.ru/pixel/"] ~ [src*="https://r.mradx.net/"])
 ! TEST END
 
 ! WHITELIST START
