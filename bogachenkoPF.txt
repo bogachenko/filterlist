@@ -37,6 +37,8 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 ! https://github.com/AdguardTeam/DnsLibs/issues/141
 ||adjust.*^$important
 ||adj.st^$important
+!
+||blackblazeb2.com^
 ! TEST END
 
 ! WHITELIST START

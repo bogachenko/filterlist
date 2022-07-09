@@ -183,3 +183,16 @@
 # [tns-counter.ru]
 0.0.0.0 tns-counter.ru
 0.0.0.0 www.tns-counter.ru
+
+# [applovin.com]
+0.0.0.0 ms.applovin.com
+0.0.0.0 rt.applovin.com
+0.0.0.0 applovin.com
+
+# [appbrain.com]
+0.0.0.0 sdk.appbrain.com
+0.0.0.0 appbrain.com
+
+# [apptornado.com]
+0.0.0.0 sdk-b.apptornado.com
+0.0.0.0 apptornado.com
