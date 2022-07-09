@@ -39,6 +39,7 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 ||adj.st^$important
 !
 ||backblazeb2.com^
+||kitetech.co^
 ! TEST END
 
 ! WHITELIST START
@@ -153,6 +154,7 @@ mail.yandex.ru#@#iframe[src="about:blank"]
 /^(?!.*(spotify\.com|spotifycdn\.com|fastly\.net|scdn\.co|akamaized\.net|firebaseinstallations\.googleapis\.com)).*$/$app=Spotify.exe|com.spotify.music
 /^https?:\/\/pbssrv\-centralevents\.com\/.*\/(subscription|marketing\-event|ad\-settings|spam\-info)$/$app=app.source.getcontact
 |http*:*/statistics/appactive?$app=com.xiaomi.discover
+|http*:*$app=org.whiteglow.antinuisance
 ! APP END
 
 ! SCRIPTLET START
