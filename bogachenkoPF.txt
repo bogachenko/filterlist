@@ -38,7 +38,7 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 ||adjust.*^$important
 ||adj.st^$important
 !
-||blackblazeb2.com^
+||backblazeb2.com^
 ! TEST END
 
 ! WHITELIST START
@@ -263,6 +263,8 @@ marinetraffic.com###topBanner, div.hidden-print, div[style="position: relative; 
 ||spotify.com/net-fortune/*/fortune$important
 ||spotify.com/*/browse-page-cx-test?$important
 ||spotify.com/quicksilver/$important
+|http*:*/ads-tracking|
+|http*:*/request-ad|
 ! OTHER END
 
 ! SCRIPT START
