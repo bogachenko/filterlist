@@ -30,6 +30,7 @@
 0.0.0.0 www.googleadservices.com
 0.0.0.0 footprints-pa.googleapis.com
 0.0.0.0 www.googletagmanager.com
+0.0.0.0 firebaselogging.googleapis.com
 
 # [whatsapp.com]
 0.0.0.0 dit.whatsapp.net
@@ -74,6 +75,12 @@
 0.0.0.0 tracking.rus.miui.com
 0.0.0.0 www.cdn.ad.xiaomi.com
 0.0.0.0 flash.sec.intl.miui.com
+0.0.0.0 data.sec.miui.com
+0.0.0.0 data.sec.intl.miui.com
+0.0.0.0 mitv.tracking.rus.miui.com
+0.0.0.0 mitv.tracking.intl.miui.com
+0.0.0.0 mitv.tracking.miui.com
+0.0.0.0 mitv.tracking.india.miui.com
 
 # [mozilla.org]
 0.0.0.0 incoming.telemetry.mozilla.org
