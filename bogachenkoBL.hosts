@@ -199,3 +199,8 @@
 # [apptornado.com]
 0.0.0.0 sdk-b.apptornado.com
 0.0.0.0 apptornado.com
+
+# [instreamatic.com]
+0.0.0.0 xs.instreamatic.com
+0.0.0.0 x.instreamatic.com
+0.0.0.0 instreamatic.com
