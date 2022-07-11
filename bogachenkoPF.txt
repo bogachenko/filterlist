@@ -40,6 +40,8 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 !
 ||backblazeb2.com^
 ||kitetech.co^
+!
+@@||gosuslugi.ru^$stealth
 ! TEST END
 
 ! WHITELIST START
@@ -50,6 +52,7 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 @@||injections.adguard.org^$script
 @@||metrika.yandex.ru^$document,important
 mail.yandex.ru#@#iframe[src="about:blank"]
+@@||hybrid.api.2gis.com^$app=ru.dublgis.dgismobile
 ! WHITELIST END
 
 ! LAN START
@@ -244,7 +247,6 @@ marinetraffic.com###topBanner, div.hidden-print, div[style="position: relative; 
 ||undefined^
 ||yandex.*/clck/$important
 ||yandex.*/geohelper/$important
-||yandex.*/portal/$important
 ||yandex.net/get-direct$important
 ||youtube.com/ptracking?$important
 ||operacdn.com/*/partnerrules/$important

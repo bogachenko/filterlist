@@ -128,6 +128,7 @@
 0.0.0.0 browser.sentry-cdn.com
 0.0.0.0 sentry-cdn.com
 0.0.0.0 sentry.io
+0.0.0.0 ingest.sentry.io
 
 # [adjust.com]
 0.0.0.0 adj.st
@@ -204,3 +205,9 @@
 0.0.0.0 xs.instreamatic.com
 0.0.0.0 x.instreamatic.com
 0.0.0.0 instreamatic.com
+
+# [2gis.ru]
+0.0.0.0 advisor.api.2gis.ru
+
+# [amplitude.com]
+0.0.0.0 api2.amplitude.com
