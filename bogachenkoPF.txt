@@ -37,12 +37,12 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 ! https://github.com/AdguardTeam/DnsLibs/issues/141
 ||adjust.*^$important
 ||adj.st^$important
-!
-||backblazeb2.com^
-||kitetech.co^
-!
-@@||gosuslugi.ru^$stealth
 ! TEST END
+
+! STEALTH START
+@@||gosuslugi.ru^$stealth
+@@||wildberries.ru^$stealth
+! STEALTH END
 
 ! WHITELIST START
 @@/^https?:\/\/edge\.microsoft\.com\/(extension(webstorebase|installverifier)\/[a-z1-9.]{2,4}\/(installverify|(hash)?crx\?|log(extensionreliability|failureinfo)\?)|(redirector|hunspell)dictionaries\/)/$important
@@ -52,7 +52,6 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 @@||injections.adguard.org^$script
 @@||metrika.yandex.ru^$document,important
 mail.yandex.ru#@#iframe[src="about:blank"]
-@@||hybrid.api.2gis.com^$app=ru.dublgis.dgismobile
 ! WHITELIST END
 
 ! LAN START
@@ -79,9 +78,6 @@ mail.yandex.ru#@#iframe[src="about:blank"]
 ! DOCUMENT END
 
 ! DOMAIN START
-||mi.com^$important
-||mi-img.com^$important
-||micloud.xiaomi.net^$important
 ||*-safebrowsing.google.com^$important
 ||addthis.com^$important
 ||adeventtracker.spotify.com^$important
@@ -149,6 +145,8 @@ mail.yandex.ru#@#iframe[src="about:blank"]
 ||xboxservices.com^$important
 ||yastroka.yandex.net^$important
 ||avlyun.sec.miui.com^$important
+||backblazeb2.com^$important
+||kitetech.co^$important
 ! DOMAIN END
 
 ! APP START
@@ -368,4 +366,5 @@ xvideos.com#@%#//scriptlet('remove-class', 'has-banner', '#page > #main > #profi
 xvideos.com#@%#Object.defineProperty(window, 'openpop', { get: function() { return; } });
 xvideos.com#@%#Object.defineProperty(Object.prototype, 'config/ads', { get: function() { return false; } });
 xvideos.com#@%#//scriptlet('abort-on-property-read', 'popns')
+@@||hybrid.api.2gis.com^$app=ru.dublgis.dgismobile
 ! TRASH END
