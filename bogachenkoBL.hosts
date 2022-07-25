@@ -69,6 +69,9 @@
 0.0.0.0 privacy.api.intl.miui.com
 0.0.0.0 sdkconfig.ad.intl.xiaomi.com
 0.0.0.0 sdkconfig.ad.xiaomi.com
+0.0.0.0 sdkconfig.ad.rus.xiaomi.com
+0.0.0.0 sdkconfig.ad.india.xiaomi.com
+0.0.0.0 sdkconfig.ad.eu.xiaomi.com
 0.0.0.0 tracking.india.miui.com
 0.0.0.0 tracking.intl.miui.com
 0.0.0.0 tracking.miui.com
@@ -103,6 +106,7 @@
 0.0.0.0 rosenberg.appmetrica.yandex.net
 0.0.0.0 startup.mobile.yandex.net
 0.0.0.0 yabs.yandex.ru
+0.0.0.0 extmaps-api.yandex.net
 
 # [webvisor.com]
 0.0.0.0 u.startup.mobile.webvisor.com

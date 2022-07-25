@@ -37,6 +37,10 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 ! https://github.com/AdguardTeam/DnsLibs/issues/141
 ||adjust.*^$important
 ||adj.st^$important
+! Xiaomi
+||resolver.msg.global.xiaomi.net^
+||micloud.xiaomi.net^
+||chat.global.xiaomi.net^
 ! TEST END
 
 ! STEALTH START
@@ -145,8 +149,6 @@ mail.yandex.ru#@#iframe[src="about:blank"]
 ||xboxservices.com^$important
 ||yastroka.yandex.net^$important
 ||avlyun.sec.miui.com^$important
-||backblazeb2.com^$important
-||kitetech.co^$important
 ! DOMAIN END
 
 ! APP START
@@ -155,7 +157,6 @@ mail.yandex.ru#@#iframe[src="about:blank"]
 /^(?!.*(spotify\.com|spotifycdn\.com|fastly\.net|scdn\.co|akamaized\.net|firebaseinstallations\.googleapis\.com)).*$/$app=Spotify.exe|com.spotify.music
 /^https?:\/\/pbssrv\-centralevents\.com\/.*\/(subscription|marketing\-event|ad\-settings|spam\-info)$/$app=app.source.getcontact
 |http*:*/statistics/appactive?$app=com.xiaomi.discover
-|http*:*$app=org.whiteglow.antinuisance
 ! APP END
 
 ! SCRIPTLET START
@@ -265,8 +266,12 @@ marinetraffic.com###topBanner, div.hidden-print, div[style="position: relative; 
 ||spotify.com/net-fortune/*/fortune$important
 ||spotify.com/*/browse-page-cx-test?$important
 ||spotify.com/quicksilver/$important
+||yandex-net.ru/analytics$important
+||translate.yandex.net/experiments$important
 |http*:*/ads-tracking|
 |http*:*/request-ad|
+|http*:*?advertising_id=
+|http*:*?advert_page_id=
 ! OTHER END
 
 ! SCRIPT START
@@ -317,7 +322,7 @@ marinetraffic.com###topBanner, div.hidden-print, div[style="position: relative; 
 /[-._?]analyti([\W\w]+)[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~analytics.google.com|~analyticssuitefrontend-pa.clients6.google.com|~analyticsinsights-pa.clients6.google.com|~fandom.com|~aliexpress.ru|~aliexpress.com|~vk.com|~dropbox.com|~yota.ru|~ubisoft.com|~ubi.com|~sberbank.ru|~twitter.com|~github.com|~vtb.ru|~flightaware.com
 /[-._?]bann?ers?[-.0-9_?]/$image,script,subdocument,xmlhttprequest,domain=~aliexpress.com|~aliexpress.ru|~discord.com|~dropbox.com|~esetnod32.ru|~f-droid.org|~fandom.com|~gosuslugi.ru|~live.com|~mts.ru|~office.com|~ok.ru|~rt.ru|~ru-mi.com|~sberbank.ru|~google.com|~twitch.tv|~radiorecord.ru|~yota.ru|~qiwi.com
 /[-._?]logs?(ging|impressions?|ers?)?[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~aliexpress.com|~aliexpress.ru|~dns-shop.ru|~docviewer.yandex.ru|~github.com|~gitlab.com|~instagram.com|~mi.com|~twitch.tv|~yadi.sk|~dropbox.com|~twitter.com
-/[-._?]track(ers?|ing)[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~alipay.com|~analytics.google.com|~fandom.com|~pochta.ru|~yandex.ru|~aliexpress.com|~aliexpress.ru|~ubisoft.com|~ubi.com
+/[-._?]track(ers?|ing)[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~alipay.com|~analytics.google.com|~fandom.com|~pochta.ru|~yandex.ru|~aliexpress.com|~aliexpress.ru|~ubisoft.com|~ubi.com|~yoomoney.ru
 /[-._?]vast[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~github.com|~gitlab.com|~twitch.tv|~spankbang.com
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest
 /^https?:\/\/[^\s]+\/sw\.js/$important,script,xmlhttprequest
@@ -366,5 +371,5 @@ xvideos.com#@%#//scriptlet('remove-class', 'has-banner', '#page > #main > #profi
 xvideos.com#@%#Object.defineProperty(window, 'openpop', { get: function() { return; } });
 xvideos.com#@%#Object.defineProperty(Object.prototype, 'config/ads', { get: function() { return false; } });
 xvideos.com#@%#//scriptlet('abort-on-property-read', 'popns')
-@@||hybrid.api.2gis.com^$app=ru.dublgis.dgismobile
+@@||tc.mobile.yandex.net/*&metrica_device_id=$app=ru.yandex.taxi
 ! TRASH END
