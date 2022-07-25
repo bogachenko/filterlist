@@ -107,6 +107,7 @@
 0.0.0.0 startup.mobile.yandex.net
 0.0.0.0 yabs.yandex.ru
 0.0.0.0 extmaps-api.yandex.net
+0.0.0.0 taxi-promotions.s3.yandex.net
 
 # [webvisor.com]
 0.0.0.0 u.startup.mobile.webvisor.com
@@ -114,6 +115,8 @@
 0.0.0.0 webvisor.com
 
 # [my.com]
+0.0.0.0 ip6.tracker-api.my.com
+0.0.0.0 ip4.tracker-api.my.com
 0.0.0.0 tracker-api.my.com
 0.0.0.0 my.com
 
