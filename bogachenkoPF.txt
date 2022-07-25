@@ -270,8 +270,7 @@ marinetraffic.com###topBanner, div.hidden-print, div[style="position: relative; 
 ||translate.yandex.net/experiments$important
 |http*:*/ads-tracking|
 |http*:*/request-ad|
-|http*:*?advertising_id=
-|http*:*?advert_page_id=
+/\?advert((ising)|\_page)?\_id=/
 ! OTHER END
 
 ! SCRIPT START
@@ -313,7 +312,7 @@ marinetraffic.com###topBanner, div.hidden-print, div[style="position: relative; 
 ! SUBDOCUMENT END
 
 ! COMBINED START
-/google\.com\/afs\/ads[?/]/$subdocument,script,important
+/\/afs\/ads[?/]/$subdocument,script,important
 /^https?:\/\/[01]{5,}\.com/$third-party,important,script,xmlhttprequest
 /[-._?](event|stat)logs?(ging|ers?)?[-.0-9_?]/$image,other,script,xmlhttprequest
 /[-._?](logs?|img)[-._?]?(?:failure|info|type|events?|entry|request|statu?s?|view|edpage)[-._?]?/$image,other,script,xmlhttprequest
