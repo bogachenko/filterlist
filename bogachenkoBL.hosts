@@ -221,3 +221,11 @@
 
 # [relap.io]
 0.0.0.0 relap.io
+
+# [flurry.com]
+0.0.0.0 flurry.com
+0.0.0.0 data.flurry.com
+
+# [indicative.com]
+0.0.0.0 indicative.com
+0.0.0.0 api.indicative.com

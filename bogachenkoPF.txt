@@ -278,6 +278,8 @@ xvideos.com##.banner-slider.embed-responsive
 /\?advert((ising)|\_page)?\_id=/
 |http*:*/billboards?
 |http*:*/?sentry_key=
+||discord.com/api/*/science|$important
+||discord.com/api/*/experiments|$important
 ! OTHER END
 
 ! SCRIPT START
