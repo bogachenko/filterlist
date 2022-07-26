@@ -216,6 +216,7 @@ passageweather.com##.document:style(background-image: none!important;)
 pornhub.com##.adContainer,.premiumAdvertWrapper, div[id^="age-verification"],.adsbytrafficjunky,.phpFreeBlock,[data-entrycode="Free_Premium_Video"],.cookiesBanner
 twitter.com###layers > div[class] > div[class]:has(> div[class] div[role="button"] > div[dir="auto"] > span > span:contains(ookie))
 marinetraffic.com###topBanner, div.hidden-print, div[style="position: relative; width: 100%; margin-top: 15px; margin-bottom: 15px; height: 90px;"],.underMapAdMobile,.smartbanner-android,.smartbanner-container
+xvideos.com##.banner-slider.embed-responsive
 ! Cascading Style Sheets (CSS) END
 
 ! Content Security Policy (CSP) START
@@ -276,6 +277,7 @@ marinetraffic.com###topBanner, div.hidden-print, div[style="position: relative; 
 |http*:*/request-ad|
 /\?advert((ising)|\_page)?\_id=/
 |http*:*/billboards?
+|http*:*/?sentry_key=
 ! OTHER END
 
 ! SCRIPT START
@@ -362,11 +364,12 @@ infourok.ru##div#aa-popup
 ||wl.spotify.com^$badfilter
 ||click.redditmail.com^$badfilter
 /^https?:\/\/yastatic\.net\/www\/_\/[^\s]{150,}/$image,redirect-rule=empty,domain=yandex.by|yandex.kz|yandex.ru|yandex.uz,badfilter
-xvideos.com##.banner-slider.embed-responsive
 @@/^(.+[_.-])?ad[sxv]?([\d]+)?[_.-]/$other,app=ru.dublgis.dgismobile
 @@||usher.ttvnw.net^$xmlhttprequest,other,app=tv.twitch.android.app
+@@/^(.+[_.-]?)?me?tr[ie]?[ck][asx]?([\d]+)?[_.-]/$other,xmlhttprequest,app=ru.yandex.taxi
 ||yastatic.net/share2/$third-party,important,script,domain=~radiorecord.ru
 noodlemagazine.com#@#.verify
 geo.ritm.ru###audio-playback-firefox
 ||checkadblock.ru^$document,csp=script-src 'self',badfilter
+@@||api.browser.yandex.*^$badfilter
 ! TRASH END

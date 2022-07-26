@@ -218,3 +218,6 @@
 
 # [amplitude.com]
 0.0.0.0 api2.amplitude.com
+
+# [relap.io]
+0.0.0.0 relap.io
