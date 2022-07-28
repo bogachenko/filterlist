@@ -200,6 +200,8 @@
 0.0.0.0 ms.applvn.com
 0.0.0.0 rt.applvn.com
 0.0.0.0 a.applovin.com
+0.0.0.0 d.applovin.com
+0.0.0.0 a.applvn.com
 
 # [appbrain.com]
 0.0.0.0 sdk.appbrain.com
@@ -234,6 +236,7 @@
 # [inmobi.com]
 0.0.0.0 config.inmobi.com
 0.0.0.0 telemetry.sdk.inmobi.com
+0.0.0.0 ads.inmobi.com
 
 # [adcolony.com]
 0.0.0.0 wd.adcolony.com
@@ -243,6 +246,9 @@
 0.0.0.0 analytics.rayjump.com
 0.0.0.0 check.rayjump.com
 0.0.0.0 hb.rayjump.com
+0.0.0.0 lazy.rayjump.com
+0.0.0.0 policy.rayjump.com
+0.0.0.0 configure.rayjump.com
 
 # [vungle.com]
 0.0.0.0 ads.api.vungle.com
