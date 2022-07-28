@@ -202,6 +202,10 @@
 0.0.0.0 a.applovin.com
 0.0.0.0 d.applovin.com
 0.0.0.0 a.applvn.com
+0.0.0.0 a4.applovin.com
+0.0.0.0 assets.applovin.com
+0.0.0.0 pdn.applovin.com
+0.0.0.0 img.applovin.com
 
 # [appbrain.com]
 0.0.0.0 sdk.appbrain.com
@@ -261,3 +265,9 @@
 
 # [mintegral.net]
 0.0.0.0 pok.mintegral.net
+
+# [bidease.com]
+0.0.0.0 creative.bidease.com
+
+# [psvgamestudio.com]
+0.0.0.0 psvpromo.psvgamestudio.com
