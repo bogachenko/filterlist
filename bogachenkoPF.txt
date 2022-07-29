@@ -161,6 +161,7 @@ mail.yandex.ru#@#iframe[src="about:blank"]
 /^(?!.*(spotify\.com|spotifycdn\.com|fastly\.net|scdn\.co|akamaized\.net|firebaseinstallations\.googleapis\.com)).*$/$app=Spotify.exe|com.spotify.music
 /^https?:\/\/pbssrv\-centralevents\.com\/.*\/(subscription|marketing\-event|ad\-settings|spam\-info)$/$app=app.source.getcontact
 |http*:*/statistics/appactive?$app=com.xiaomi.discover
+/^(?!.*(temp\-mail)\.org).*$/$important,app=com.tempmail
 ! APP END
 
 ! SCRIPTLET START
@@ -278,6 +279,8 @@ xvideos.com##.banner-slider.embed-responsive
 /\?advert((ising)|\_page)?\_id=/
 |http*:*/billboards?
 |http*:*/?sentry_key=
+|http*:*&monetized=
+|http*:*&EATargetAdOptOut=
 ||discord.com/api/*/science|$important
 ||discord.com/api/*/experiments|$important
 ! OTHER END
@@ -368,7 +371,9 @@ infourok.ru##div#aa-popup
 /^https?:\/\/yastatic\.net\/www\/_\/[^\s]{150,}/$image,redirect-rule=empty,domain=yandex.by|yandex.kz|yandex.ru|yandex.uz,badfilter
 @@/^(.+[_.-])?ad[sxv]?([\d]+)?[_.-]/$other,app=ru.dublgis.dgismobile
 @@||usher.ttvnw.net^$xmlhttprequest,other,app=tv.twitch.android.app
+@@/^(.+[_.-])?ad[sxv]?([\d]+)?[_.-]/$other,app=ru.dublgis.dgismobile
 @@/^(.+[_.-]?)?me?tr[ie]?[ck][asx]?([\d]+)?[_.-]/$other,xmlhttprequest,app=ru.yandex.taxi
+@@/[-._?]bann?ers?[-.0-9_?]/$image,app=ru.mts.mtstv
 ||yastatic.net/share2/$third-party,important,script,domain=~radiorecord.ru
 noodlemagazine.com#@#.verify
 geo.ritm.ru###audio-playback-firefox

@@ -229,3 +229,6 @@
 # [indicative.com]
 0.0.0.0 indicative.com
 0.0.0.0 api.indicative.com
+
+# [twitter.com]
+0.0.0.0 analytics.twitter.com
