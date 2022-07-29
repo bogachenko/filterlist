@@ -168,7 +168,7 @@
 0.0.0.0 criteo.com
 0.0.0.0 gum.criteo.com
 
-# [adfix.ru]
+# [adfox.ru]
 0.0.0.0 content.adfox.ru
 0.0.0.0 ads.adfox.ru
 0.0.0.0 banners.adfox.ru
@@ -199,6 +199,14 @@
 0.0.0.0 applvn.com
 0.0.0.0 ms.applvn.com
 0.0.0.0 rt.applvn.com
+0.0.0.0 a.applovin.com
+0.0.0.0 d.applovin.com
+0.0.0.0 a.applvn.com
+0.0.0.0 a4.applovin.com
+0.0.0.0 assets.applovin.com
+0.0.0.0 pdn.applovin.com
+0.0.0.0 img.applovin.com
+0.0.0.0 d.applvn.com
 
 # [appbrain.com]
 0.0.0.0 sdk.appbrain.com
@@ -229,6 +237,41 @@
 # [indicative.com]
 0.0.0.0 indicative.com
 0.0.0.0 api.indicative.com
+
+# [inmobi.com]
+0.0.0.0 config.inmobi.com
+0.0.0.0 telemetry.sdk.inmobi.com
+0.0.0.0 ads.inmobi.com
+
+# [adcolony.com]
+0.0.0.0 wd.adcolony.com
+0.0.0.0 adc3-launch.adcolony.com
+
+# [rayjump.com]
+0.0.0.0 analytics.rayjump.com
+0.0.0.0 check.rayjump.com
+0.0.0.0 hb.rayjump.com
+0.0.0.0 lazy.rayjump.com
+0.0.0.0 policy.rayjump.com
+0.0.0.0 configure.rayjump.com
+
+# [vungle.com]
+0.0.0.0 ads.api.vungle.com
+
+# [supersonicads.com]
+0.0.0.0 init.supersonicads.com
+
+# [unity3d.com]
+0.0.0.0 configv2.unityads.unity3d.com
+
+# [mintegral.net]
+0.0.0.0 pok.mintegral.net
+
+# [bidease.com]
+0.0.0.0 creative.bidease.com
+
+# [psvgamestudio.com]
+0.0.0.0 psvpromo.psvgamestudio.com
 
 # [twitter.com]
 0.0.0.0 analytics.twitter.com
