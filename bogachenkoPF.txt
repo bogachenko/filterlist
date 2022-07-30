@@ -207,7 +207,6 @@ yadi.sk##.header__inline-services-menu.inline-services-menu,.app-promo-banner,.s
 youtube.com###player-ads,.ytd-mealbar-promo-renderer, #masthead-ad, #alert-banner, YTM-PROMOTED-VIDEO-RENDERER,.mealbar-promo-renderer, a[href*="/covid19"],.ytp-ad-module,.ytd-carousel-ad-renderer,.ytp-ad-progress, #promotion-shelf,.masthead-ad-control,.ad-div,.pyv-afc-ads-container, #sponsor-button,.ytp-endscreen-content, #live-chat-banner,.ytp-ad-progress-list,.subscribecard-endscreen,[href="/premium"],[aria-label="Показать подсказки"],.ytd-player-legacy-desktop-watch-ads-renderer,.badge-style-type-ad,.ytp-ce-element,.iv-branding,.yt-live-chat-viewer-engagement-message-renderer,.ytd-search-pyv-renderer,.ytp-impression-link,.ytm-paid-content-overlay-link,.ytp-paid-content-overlay
 youtube.com###dismissible.ytd-compact-video-renderer.style-scope:has(.badges):has-text(/Сбор средств|Fundraiser/)
 youtube.com###dismissible.ytd-compact-movie-renderer.style-scope:has(.badge):has-text(/Купить|Buy/)
-youtube.com##ytd-grid-video-renderer.ytd-grid-renderer.style-scope:has([overlay-style="SHORTS"])
 my.yota.ru##.y-expansion-panel,.promotion-offer, app-slider-ma-symk,.y-swiper-track
 passageweather.com##.rightcolumn,.upperdiv,.header, #leftimages,.blackbottom,.bottombit,.footer,.gapfill,[onclick*="ga("], div.newsbox, div.noticebox, div.noticeboxtop
 passageweather.com##.document:style(background-image: none!important;)
@@ -232,8 +231,8 @@ xvideos.com##.banner-slider.embed-responsive
 /^https?:\/\/me?tr[ie]?[ck][asx]?([\d]+)?\./$domain=~metrica.yandex.com|~metrica.yandex.ru|~metrika.yandex.com|~metrika.yandex.ru
 /^https?:\/\/telemetr(y|ics?)?([\d]+)?\./
 /[-._?]beacon[\d\D]?/
-/[-._?]me?tr[ie]?[ck][asx]?[\d\D]?/$domain=~fandom.com|~metrika.yandex.ru|~office.com|~twitch.tv|~dropbox.com|~twitter.com|~github.com|~tc.mobile.yandex.net
-/[-._?]preroll[\d\D]/$domain=~mail.ru|~ttvnw.net|~twitch.tv|~support.google.com
+/[-._?]me?tr[ie]?[ck][asx]?[\d\D]?/$domain=~fandom.com|~metrika.yandex.ru|~office.com|~twitch.tv|~dropbox.com|~twitter.com|~github.com|~tc.mobile.yandex.net|~support.google.com
+/[-._?]preroll[\d\D]/$domain=~mail.ru|~ttvnw.net|~twitch.tv
 /\.(a[cdefgilmnoqrstuwxz]|arpa|academy|accountants?|act(ive|tor)|adult|aero|agency|airforce|apartments|app|archi|army|africa|associates|asia|attorney|auction|audio|autos|art|b[abdefghijmnorstvuwyz]|biz|bzh|c[acdfghiklmnoruvxsyz]|com?|cat|coop|cym(ru)?|crimea|d[dejkmoz]|dance|dev|e[cegrstu]|eng(lish)?|edu|eus|f[ijkmor]|family|feedback|g[abdefghilmnpqrstuwy]|google|gov|gal|h[kmnrtu]|i[delmnoqrst]|info|int|j[deghikmnoprwyz]|jobs?|l[abcikrstuvy]|london|m[acdeghklmnopqrstuvwxyz]|mil|mobi|microsoft|moe|museum|n[acefgilopruz]|ninja|net|name|om|one|ong|onl(ine)?|org(anic)?|p[aefghklmnrstwy]|pink|part([ys]|ners?)|pizza|place|plu(s|mbing)?|pharmacy|photo(s|graphy)?|physio|pic(ture)?s?|poker|porn|post|press|pro(f|ductions|perties|perty)?|k[yehrw]|qa|qpon|quebec|r[eosuw]|raci(ng|pes)|red|rehab|ren(t|tals)?|rep(ort|air|ublican)|rest|reviews?|rich|rus(sian)?|s[abcdeghiljkmnortuvyz]|site|scot?|soc|t[cdfghjklmnoprtvwz]|tel|tra(de|vel)|u[agmksyz]|v[aceginu]|w[fs]|wales|y[etu]|yandex|yoga|z[armzw]|zone|x(xx|yz))\/ad[sv]?\//$domain=~yandex.ru|~yandex.com
 /\_shutdown\?token\=[a-zA-Z0-9]{10,}$/$important
 |http*:*$important,beacon
