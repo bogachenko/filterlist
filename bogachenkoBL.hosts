@@ -9,12 +9,14 @@
 0.0.0.0 adservice.google.com
 0.0.0.0 api.crashlytics.com
 0.0.0.0 app-measurement.com
-0.0.0.0 beacons.gvt2.com
 0.0.0.0 beacons.gcp.gvt2.com
-0.0.0.0 doubleclick.net
+0.0.0.0 beacons.gvt2.com
 0.0.0.0 crashlyticsreports-pa.googleapis.com
+0.0.0.0 doubleclick.net
 0.0.0.0 firebase-settings.crashlytics.com
 0.0.0.0 firebaselogging-pa.googleapis.com
+0.0.0.0 firebaselogging.googleapis.com
+0.0.0.0 footprints-pa.googleapis.com
 0.0.0.0 google-analytics.com
 0.0.0.0 googleadapis.l.google.com
 0.0.0.0 googleads.g.doubleclick.net
@@ -28,19 +30,17 @@
 0.0.0.0 static.doubleclick.net
 0.0.0.0 www.google-analytics.com
 0.0.0.0 www.googleadservices.com
-0.0.0.0 footprints-pa.googleapis.com
 0.0.0.0 www.googletagmanager.com
-0.0.0.0 firebaselogging.googleapis.com
 
 # [whatsapp.com]
 0.0.0.0 dit.whatsapp.net
 
 # [microsoft.com]
+0.0.0.0 browser.pipe.aria.microsoft.com
 0.0.0.0 ic3.events.data.microsoft.com
 0.0.0.0 in.appcenter.ms
 0.0.0.0 self.events.data.microsoft.com
 0.0.0.0 teams.events.data.microsoft.com
-0.0.0.0 browser.pipe.aria.microsoft.com
 
 # [live.com]
 0.0.0.0 nexus.officeapps.live.com
@@ -65,25 +65,25 @@
 0.0.0.0 data.mistat.intl.xiaomi.com
 0.0.0.0 data.mistat.rus.xiaomi.com
 0.0.0.0 data.mistat.xiaomi.com
+0.0.0.0 data.sec.intl.miui.com
+0.0.0.0 data.sec.miui.com
+0.0.0.0 flash.sec.intl.miui.com
 0.0.0.0 globalapi.ad.xiaomi.com
+0.0.0.0 mitv.tracking.india.miui.com
+0.0.0.0 mitv.tracking.intl.miui.com
+0.0.0.0 mitv.tracking.miui.com
+0.0.0.0 mitv.tracking.rus.miui.com
 0.0.0.0 privacy.api.intl.miui.com
-0.0.0.0 sdkconfig.ad.intl.xiaomi.com
-0.0.0.0 sdkconfig.ad.xiaomi.com
-0.0.0.0 sdkconfig.ad.rus.xiaomi.com
-0.0.0.0 sdkconfig.ad.india.xiaomi.com
 0.0.0.0 sdkconfig.ad.eu.xiaomi.com
+0.0.0.0 sdkconfig.ad.india.xiaomi.com
+0.0.0.0 sdkconfig.ad.intl.xiaomi.com
+0.0.0.0 sdkconfig.ad.rus.xiaomi.com
+0.0.0.0 sdkconfig.ad.xiaomi.com
 0.0.0.0 tracking.india.miui.com
 0.0.0.0 tracking.intl.miui.com
 0.0.0.0 tracking.miui.com
 0.0.0.0 tracking.rus.miui.com
 0.0.0.0 www.cdn.ad.xiaomi.com
-0.0.0.0 flash.sec.intl.miui.com
-0.0.0.0 data.sec.miui.com
-0.0.0.0 data.sec.intl.miui.com
-0.0.0.0 mitv.tracking.rus.miui.com
-0.0.0.0 mitv.tracking.intl.miui.com
-0.0.0.0 mitv.tracking.miui.com
-0.0.0.0 mitv.tracking.india.miui.com
 
 # [mozilla.org]
 0.0.0.0 incoming.telemetry.mozilla.org
@@ -99,17 +99,17 @@
 0.0.0.0 an.yandex.ru
 0.0.0.0 appmetrica.yandex.com
 0.0.0.0 bs.yandex.ru
+0.0.0.0 extmaps-api.yandex.net
 0.0.0.0 mc.yandex.ru
 0.0.0.0 mobile.yandexadexchange.net
 0.0.0.0 redirect.appmetrica.yandex.com
 0.0.0.0 report.appmetrica.yandex.net
 0.0.0.0 rosenberg.appmetrica.yandex.net
-0.0.0.0 startup.mobile.yandex.net
-0.0.0.0 yabs.yandex.ru
-0.0.0.0 extmaps-api.yandex.net
-0.0.0.0 taxi-promotions.s3.yandex.net
 0.0.0.0 startup-mobile.ap.yandex-net.ru
 0.0.0.0 startup-mobile.yandex.net
+0.0.0.0 startup.mobile.yandex.net
+0.0.0.0 taxi-promotions.s3.yandex.net
+0.0.0.0 yabs.yandex.ru
 
 # [webvisor.com]
 0.0.0.0 u.startup.mobile.webvisor.com
@@ -117,39 +117,52 @@
 0.0.0.0 webvisor.com
 
 # [my.com]
-0.0.0.0 ip6.tracker-api.my.com
 0.0.0.0 ip4.tracker-api.my.com
-0.0.0.0 tracker-api.my.com
+0.0.0.0 ip6.tracker-api.my.com
 0.0.0.0 my.com
+0.0.0.0 tracker-api.my.com
 
 # [appsflyer.com]
+0.0.0.0 appsflyer.com
+0.0.0.0 conversions.appsflyer.com
 0.0.0.0 inapps.appsflyer.com
 0.0.0.0 launches.appsflyer.com
-0.0.0.0 conversions.appsflyer.com
-0.0.0.0 appsflyer.com
 
 # [branch.io]
-0.0.0.0 api2.branch.io
 0.0.0.0 api.branch.io
+0.0.0.0 api2.branch.io
 
 # [sentry.io]
 0.0.0.0 app.getsentry.com
 0.0.0.0 browser.sentry-cdn.com
+0.0.0.0 ingest.sentry.io
 0.0.0.0 sentry-cdn.com
 0.0.0.0 sentry.io
-0.0.0.0 ingest.sentry.io
 
 # [adjust.com]
+0.0.0.0 3p3x.adj.st
+0.0.0.0 7wmw.adj.st
+0.0.0.0 94vs.adj.st
+0.0.0.0 4495.adj.st
 0.0.0.0 adj.st
 0.0.0.0 adjust.com
 0.0.0.0 adjust.net.in
 0.0.0.0 adjust.world
+0.0.0.0 af4a.adj.st
 0.0.0.0 app.adjust.com
 0.0.0.0 app.adjust.net.in
 0.0.0.0 app.adjust.world
+0.0.0.0 bhpz.adj.st
+0.0.0.0 nu9k.adj.st
+0.0.0.0 q4mn.adj.st
+0.0.0.0 qqrp.adj.st
+0.0.0.0 r8qs.adj.st
+0.0.0.0 sxj8.adj.st
 
 # [samsung.com]
 0.0.0.0 ad.samsungadhub.com
+0.0.0.0 ads.samsungads.com
+0.0.0.0 config.samsungads.com
 0.0.0.0 nmetrics.samsung.com
 0.0.0.0 samsungadhub.com
 0.0.0.0 samsungads.com
@@ -171,12 +184,15 @@
 0.0.0.0 gum.criteo.com
 
 # [adfox.ru]
-0.0.0.0 content.adfox.ru
+0.0.0.0 adfox.ru
 0.0.0.0 ads.adfox.ru
 0.0.0.0 banners.adfox.ru
+0.0.0.0 content.adfox.ru
 
 # [amazon.com]
 0.0.0.0 amazon-adsystem.com
+0.0.0.0 c.amazon-adsystem.com
+0.0.0.0 mads.amazon-adsystem.com
 0.0.0.0 s.amazon-adsystem.com
 
 # [twitch.tv]
@@ -188,6 +204,7 @@
 0.0.0.0 beacon.shazam.com
 
 # [scorecardresearch.com]
+0.0.0.0 scorecardresearch.com
 0.0.0.0 sb.scorecardresearch.com
 
 # [tns-counter.ru]
@@ -195,33 +212,34 @@
 0.0.0.0 www.tns-counter.ru
 
 # [applovin.com]
-0.0.0.0 ms.applovin.com
-0.0.0.0 rt.applovin.com
-0.0.0.0 applovin.com
-0.0.0.0 applvn.com
-0.0.0.0 ms.applvn.com
-0.0.0.0 rt.applvn.com
 0.0.0.0 a.applovin.com
-0.0.0.0 d.applovin.com
 0.0.0.0 a.applvn.com
 0.0.0.0 a4.applovin.com
+0.0.0.0 applovin.com
+0.0.0.0 applvn.com
+0.0.0.0 applvn.com
 0.0.0.0 assets.applovin.com
-0.0.0.0 pdn.applovin.com
-0.0.0.0 img.applovin.com
+0.0.0.0 d.applovin.com
 0.0.0.0 d.applvn.com
+0.0.0.0 img.applovin.com
+0.0.0.0 ms.applovin.com
+0.0.0.0 ms.applvn.com
+0.0.0.0 pdn.applovin.com
+0.0.0.0 rt.applovin.com
+0.0.0.0 rt.applvn.com
 
 # [appbrain.com]
-0.0.0.0 sdk.appbrain.com
 0.0.0.0 appbrain.com
+0.0.0.0 sdk.appbrain.com
 
 # [apptornado.com]
-0.0.0.0 sdk-b.apptornado.com
 0.0.0.0 apptornado.com
+0.0.0.0 sdk-b.apptornado.com
 
 # [instreamatic.com]
-0.0.0.0 xs.instreamatic.com
-0.0.0.0 x.instreamatic.com
 0.0.0.0 instreamatic.com
+0.0.0.0 x.instreamatic.com
+0.0.0.0 xs.instreamatic.com
 
 # [2gis.ru]
 0.0.0.0 advisor.api.2gis.ru
@@ -241,34 +259,42 @@
 0.0.0.0 api.indicative.com
 
 # [inmobi.com]
+0.0.0.0 inmobi.com
+0.0.0.0 ads.inmobi.com
 0.0.0.0 config.inmobi.com
 0.0.0.0 telemetry.sdk.inmobi.com
-0.0.0.0 ads.inmobi.com
 
 # [adcolony.com]
-0.0.0.0 wd.adcolony.com
+0.0.0.0 adc3-assets.adcolony.com
 0.0.0.0 adc3-launch.adcolony.com
+0.0.0.0 adcolony.com
+0.0.0.0 wd.adcolony.com
 
 # [rayjump.com]
 0.0.0.0 analytics.rayjump.com
 0.0.0.0 check.rayjump.com
+0.0.0.0 configure.rayjump.com
 0.0.0.0 hb.rayjump.com
 0.0.0.0 lazy.rayjump.com
 0.0.0.0 policy.rayjump.com
-0.0.0.0 configure.rayjump.com
+0.0.0.0 rayjump.com
 
 # [vungle.com]
 0.0.0.0 ads.api.vungle.com
+0.0.0.0 api.vungle.com
+0.0.0.0 vungle.com
 
 # [supersonicads.com]
+0.0.0.0 supersonicads.com
 0.0.0.0 init.supersonicads.com
 
 # [unity3d.com]
 0.0.0.0 configv2.unityads.unity3d.com
+0.0.0.0 unityads.unity3d.com
 
 # [mintegral.net]
-0.0.0.0 pok.mintegral.net
 0.0.0.0 mintegral.net
+0.0.0.0 pok.mintegral.net
 
 # [bidease.com]
 0.0.0.0 creative.bidease.com
@@ -283,9 +309,29 @@
 0.0.0.0 catalog-ads.wildberries.ru
 
 # [mobileapptracking.com]
-0.0.0.0 943.engine.mobileapptracking.com
+0.0.0.0 deeplink.mobileapptracking.com
+0.0.0.0 7336.deeplink.mobileapptracking.com
 0.0.0.0 engine.mobileapptracking.com
-0.0.0.0 mobileapptracking.com
+0.0.0.0 10148.engine.mobileapptracking.com
+0.0.0.0 167126.engine.mobileapptracking.com
+0.0.0.0 167154.engine.mobileapptracking.com
+0.0.0.0 17058.engine.mobileapptracking.com
+0.0.0.0 17908.engine.mobileapptracking.com
+0.0.0.0 189358.engine.mobileapptracking.com
+0.0.0.0 189904.engine.mobileapptracking.com
+0.0.0.0 190107.engine.mobileapptracking.com
+0.0.0.0 190829.engine.mobileapptracking.com
+0.0.0.0 194192.engine.mobileapptracking.com
+0.0.0.0 194985.engine.mobileapptracking.com
+0.0.0.0 195724.engine.mobileapptracking.com
+0.0.0.0 199107.engine.mobileapptracking.com
+0.0.0.0 20298.engine.mobileapptracking.com
+0.0.0.0 22006.engine.mobileapptracking.com
+0.0.0.0 7336.engine.mobileapptracking.com
+0.0.0.0 8604.engine.mobileapptracking.com
+0.0.0.0 943.engine.mobileapptracking.com
+0.0.0.0 9864.engine.mobileapptracking.com
 
 # [popcap.com]
 0.0.0.0 draper.popcap.com
+0.0.0.0 stats.popcap.com
