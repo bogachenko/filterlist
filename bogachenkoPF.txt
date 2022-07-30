@@ -233,7 +233,7 @@ xvideos.com##.banner-slider.embed-responsive
 /^https?:\/\/telemetr(y|ics?)?([\d]+)?\./
 /[-._?]beacon[\d\D]?/
 /[-._?]me?tr[ie]?[ck][asx]?[\d\D]?/$domain=~fandom.com|~metrika.yandex.ru|~office.com|~twitch.tv|~dropbox.com|~twitter.com|~github.com|~tc.mobile.yandex.net
-/[-._?]preroll[\d\D]/$domain=~mail.ru|~ttvnw.net|~twitch.tv
+/[-._?]preroll[\d\D]/$domain=~mail.ru|~ttvnw.net|~twitch.tv|~support.google.com
 /\.(a[cdefgilmnoqrstuwxz]|arpa|academy|accountants?|act(ive|tor)|adult|aero|agency|airforce|apartments|app|archi|army|africa|associates|asia|attorney|auction|audio|autos|art|b[abdefghijmnorstvuwyz]|biz|bzh|c[acdfghiklmnoruvxsyz]|com?|cat|coop|cym(ru)?|crimea|d[dejkmoz]|dance|dev|e[cegrstu]|eng(lish)?|edu|eus|f[ijkmor]|family|feedback|g[abdefghilmnpqrstuwy]|google|gov|gal|h[kmnrtu]|i[delmnoqrst]|info|int|j[deghikmnoprwyz]|jobs?|l[abcikrstuvy]|london|m[acdeghklmnopqrstuvwxyz]|mil|mobi|microsoft|moe|museum|n[acefgilopruz]|ninja|net|name|om|one|ong|onl(ine)?|org(anic)?|p[aefghklmnrstwy]|pink|part([ys]|ners?)|pizza|place|plu(s|mbing)?|pharmacy|photo(s|graphy)?|physio|pic(ture)?s?|poker|porn|post|press|pro(f|ductions|perties|perty)?|k[yehrw]|qa|qpon|quebec|r[eosuw]|raci(ng|pes)|red|rehab|ren(t|tals)?|rep(ort|air|ublican)|rest|reviews?|rich|rus(sian)?|s[abcdeghiljkmnortuvyz]|site|scot?|soc|t[cdfghjklmnoprtvwz]|tel|tra(de|vel)|u[agmksyz]|v[aceginu]|w[fs]|wales|y[etu]|yandex|yoga|z[armzw]|zone|x(xx|yz))\/ad[sv]?\//$domain=~yandex.ru|~yandex.com
 /\_shutdown\?token\=[a-zA-Z0-9]{10,}$/$important
 |http*:*$important,beacon
@@ -372,6 +372,7 @@ infourok.ru##div#aa-popup
 @@/[-._?]bann?ers?[-.0-9_?]/$image,app=ru.mts.mtstv
 ||yastatic.net/share2/$third-party,important,script,domain=~radiorecord.ru
 noodlemagazine.com#@#.verify
+pay.google.com#@#iframe[src="about:blank"]
 geo.ritm.ru###audio-playback-firefox
 ||checkadblock.ru^$document,csp=script-src 'self',badfilter
 @@||api.browser.yandex.*^$badfilter
