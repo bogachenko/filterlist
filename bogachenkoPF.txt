@@ -276,6 +276,7 @@ xvideos.com##.banner-slider.embed-responsive
 |http*:*/billboards?
 |http*:*/?sentry_key=
 |http*:*&monetized=
+|http*:*/show-ads?
 |http*:*&EATargetAdOptOut=
 ||discord.com/api/*/science|$important
 ||discord.com/api/*/experiments|$important

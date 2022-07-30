@@ -335,3 +335,11 @@
 # [popcap.com]
 0.0.0.0 draper.popcap.com
 0.0.0.0 stats.popcap.com
+
+# [appbaqend.com]
+0.0.0.0 appbaqend.com
+0.0.0.0 a.appbaqend.com
+
+# [zaycev.net]
+0.0.0.0 applog.zaycev.net
+0.0.0.0 rttr2.zaycev.net
