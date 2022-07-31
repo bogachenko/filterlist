@@ -263,11 +263,6 @@ xvideos.com##.banner-slider.embed-responsive
 ||yandex.*/clck/$important
 ||yandex.*/count/$important
 ||yandex.*/ads/$important
-||spotify.com/*/delta|$important
-||spotify.com/gabo-receiver-service/*/events$important
-||spotify.com/net-fortune/*/fortune$important
-||spotify.com/*/browse-page-cx-test?$important
-||spotify.com/quicksilver/$important
 ||yandex-net.ru/analytics$important
 ||translate.yandex.net/experiments$important
 |http*:*/ads-tracking|
