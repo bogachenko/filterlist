@@ -31,6 +31,8 @@
 0.0.0.0 www.google-analytics.com
 0.0.0.0 www.googleadservices.com
 0.0.0.0 www.googletagmanager.com
+0.0.0.0 id.google.com
+0.0.0.0 id.google.ru
 
 # [whatsapp.com]
 0.0.0.0 dit.whatsapp.net
@@ -346,3 +348,13 @@
 # [zaycev.net]
 0.0.0.0 applog.zaycev.net
 0.0.0.0 rttr2.zaycev.net
+
+# [mts.ru]
+0.0.0.0 msdk.rtb.mts.ru
+
+# [dynamicyield.com]
+0.0.0.0 st-eu.dynamicyield.com
+
+# [yadro.ru]
+0.0.0.0 www.yadro.ru
+0.0.0.0 counter.yadro.ru
