@@ -253,6 +253,8 @@
 # [flurry.com]
 0.0.0.0 flurry.com
 0.0.0.0 data.flurry.com
+0.0.0.0 ads.flurry.com
+0.0.0.0 ad.flurry.com
 
 # [indicative.com]
 0.0.0.0 indicative.com
@@ -339,6 +341,7 @@
 # [appbaqend.com]
 0.0.0.0 appbaqend.com
 0.0.0.0 a.appbaqend.com
+0.0.0.0 www.appbaqend.com
 
 # [zaycev.net]
 0.0.0.0 applog.zaycev.net
