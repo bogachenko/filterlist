@@ -358,3 +358,24 @@
 # [yadro.ru]
 0.0.0.0 www.yadro.ru
 0.0.0.0 counter.yadro.ru
+
+# [aj1907.online]
+0.0.0.0 aj1052.online
+0.0.0.0 aj1090.online
+0.0.0.0 aj1432.online
+0.0.0.0 aj1574.online
+0.0.0.0 aj1602.online
+0.0.0.0 aj1907.online
+0.0.0.0 aj1913.online
+0.0.0.0 aj2208.online
+0.0.0.0 aj2275.online
+
+# [pubnative.net]
+0.0.0.0 pubnative.net
+0.0.0.0 pubnative.info
+
+# [ziffdavis.com]
+0.0.0.0 ziffdavis.com
+
+# [qonversion.io]
+0.0.0.0 qonversion.io
