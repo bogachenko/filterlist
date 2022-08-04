@@ -144,24 +144,13 @@
 0.0.0.0 sentry.io
 
 # [adjust.com]
-0.0.0.0 3p3x.adj.st
-0.0.0.0 7wmw.adj.st
-0.0.0.0 94vs.adj.st
-0.0.0.0 4495.adj.st
 0.0.0.0 adj.st
 0.0.0.0 adjust.com
 0.0.0.0 adjust.net.in
 0.0.0.0 adjust.world
-0.0.0.0 af4a.adj.st
 0.0.0.0 app.adjust.com
 0.0.0.0 app.adjust.net.in
 0.0.0.0 app.adjust.world
-0.0.0.0 bhpz.adj.st
-0.0.0.0 nu9k.adj.st
-0.0.0.0 q4mn.adj.st
-0.0.0.0 qqrp.adj.st
-0.0.0.0 r8qs.adj.st
-0.0.0.0 sxj8.adj.st
 
 # [samsung.com]
 0.0.0.0 ad.samsungadhub.com
@@ -297,6 +286,8 @@
 # [unity3d.com]
 0.0.0.0 configv2.unityads.unity3d.com
 0.0.0.0 unityads.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 config.uca.cloud.unity3d.com
 
 # [mintegral.net]
 0.0.0.0 mintegral.net
@@ -318,27 +309,7 @@
 
 # [mobileapptracking.com]
 0.0.0.0 deeplink.mobileapptracking.com
-0.0.0.0 7336.deeplink.mobileapptracking.com
 0.0.0.0 engine.mobileapptracking.com
-0.0.0.0 10148.engine.mobileapptracking.com
-0.0.0.0 167126.engine.mobileapptracking.com
-0.0.0.0 167154.engine.mobileapptracking.com
-0.0.0.0 17058.engine.mobileapptracking.com
-0.0.0.0 17908.engine.mobileapptracking.com
-0.0.0.0 189358.engine.mobileapptracking.com
-0.0.0.0 189904.engine.mobileapptracking.com
-0.0.0.0 190107.engine.mobileapptracking.com
-0.0.0.0 190829.engine.mobileapptracking.com
-0.0.0.0 194192.engine.mobileapptracking.com
-0.0.0.0 194985.engine.mobileapptracking.com
-0.0.0.0 195724.engine.mobileapptracking.com
-0.0.0.0 199107.engine.mobileapptracking.com
-0.0.0.0 20298.engine.mobileapptracking.com
-0.0.0.0 22006.engine.mobileapptracking.com
-0.0.0.0 7336.engine.mobileapptracking.com
-0.0.0.0 8604.engine.mobileapptracking.com
-0.0.0.0 943.engine.mobileapptracking.com
-0.0.0.0 9864.engine.mobileapptracking.com
 
 # [popcap.com]
 0.0.0.0 draper.popcap.com
@@ -384,3 +355,11 @@
 
 # [qonversion.io]
 0.0.0.0 qonversion.io
+
+# [isnssdk.com]
+0.0.0.0 mon.isnssdk.com
+0.0.0.0 isnssdk.com
+
+# [tiktok.com]
+0.0.0.0 log-va.tiktokv.com
+0.0.0.0 log16-normal-alisg.tiktokv.com
