@@ -188,6 +188,7 @@
 ||g.bing.com^
 ||gath3r.io^
 ||gather.network^
+||api-hotjar.com^
 ||gde.cash^
 ||get.opera.com^
 ||getsentry.com^
@@ -195,6 +196,7 @@
 ||affiliationjs.s3.amazonaws.com^
 ||amazonaax.com^
 ||amazonclix.com^
+||mouseflow.com^
 ||assoc-amazon.com^
 ||adtago.s3.amazonaws.com^
 ||googleadapis.l.google.com^
@@ -350,7 +352,7 @@
 ||taboola.com^
 ||tapjoy.*^
 ||tapjoyads.com^
-||taxi-promotions.*.yandex.net^
+||taxi-promotions.s3.yandex.net^
 ||teads.tv^
 ||themoneytizer.com^
 ||thumbnails*.opera.com^

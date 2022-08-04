@@ -15,6 +15,7 @@
 0.0.0.0 doubleclick.net
 0.0.0.0 m.doubleclick.net
 0.0.0.0 mediavisor.doubleclick.net
+0.0.0.0 ads.youtube.com
 0.0.0.0 firebase-settings.crashlytics.com
 0.0.0.0 firebaselogging-pa.googleapis.com
 0.0.0.0 firebaselogging.googleapis.com
@@ -56,6 +57,10 @@
 
 # [facebook.com]
 0.0.0.0 graph.facebook.com
+0.0.0.0 analytics.facebook.com
+0.0.0.0 pixel.facebook.com
+0.0.0.0 an.facebook.com
+0.0.0.0 ads.facebook.com
 
 # [xiaomi.com]
 0.0.0.0 ad.mi.com
@@ -89,6 +94,8 @@
 0.0.0.0 tracking.miui.com
 0.0.0.0 tracking.rus.miui.com
 0.0.0.0 www.cdn.ad.xiaomi.com
+0.0.0.0 app.chat.xiaomi.net
+0.0.0.0 sa.api.intl.miui.com
 
 # [mozilla.org]
 0.0.0.0 incoming.telemetry.mozilla.org
@@ -107,6 +114,7 @@
 0.0.0.0 bs.yandex.ru
 0.0.0.0 extmaps-api.yandex.net
 0.0.0.0 mc.yandex.ru
+0.0.0.0 yandexadexchange.net
 0.0.0.0 mobile.yandexadexchange.net
 0.0.0.0 redirect.appmetrica.yandex.com
 0.0.0.0 report.appmetrica.yandex.net
@@ -166,6 +174,8 @@
 # [hotjar.com]
 0.0.0.0 hotjar.com
 0.0.0.0 static.hotjar.com
+0.0.0.0 api-hotjar.com
+0.0.0.0 hotjar-analytics.com
 
 # [mail.ru]
 0.0.0.0 ad.mail.ru
@@ -312,6 +322,8 @@
 # [twitter.com]
 0.0.0.0 analytics.twitter.com
 0.0.0.0 ads-api.twitter.com
+0.0.0.0 ads-twitter.com
+0.0.0.0 static.ads-twitter.com
 0.0.0.0 advertising.twitter.com
 
 # [wildberries.ru]
@@ -373,9 +385,30 @@
 # [tiktok.com]
 0.0.0.0 log-va.tiktokv.com
 0.0.0.0 log16-normal-alisg.tiktokv.com
+0.0.0.0 analytics.tiktok.com
+0.0.0.0 ads.tiktok.com
+0.0.0.0 analytics-sg.tiktok.com
+0.0.0.0 ads-sg.tiktok.com
 
 # [media.net]
 0.0.0.0 static.media.net
 0.0.0.0 media.net
 0.0.0.0 adservetx.media.net
+
+# [mouseflow.com]
+0.0.0.0 mouseflow.com
+0.0.0.0 a.mouseflow.com
+
+# [bugsnag.com]
+0.0.0.0 bugsnag.com
+0.0.0.0 notify.bugsnag.com
+0.0.0.0 sessions.bugsnag.com
+0.0.0.0 api.bugsnag.com
+0.0.0.0 app.bugsnag.com
+
+# [yahoo.com]
+0.0.0.0 ads.yahoo.com
+0.0.0.0 global.adserver.yahoo.com
+0.0.0.0 analytics.yahoo.com
+0.0.0.0 ads.yap.yahoo.com
 
