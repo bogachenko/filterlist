@@ -33,6 +33,7 @@
 0.0.0.0 static.doubleclick.net
 0.0.0.0 www.google-analytics.com
 0.0.0.0 www.googleadservices.com
+0.0.0.0 securepubads.g.doubleclick.net
 0.0.0.0 www.googletagmanager.com
 0.0.0.0 id.google.com
 0.0.0.0 id.google.ru
@@ -66,6 +67,7 @@
 0.0.0.0 ad.mi.com
 0.0.0.0 ad.xiaomi.com
 0.0.0.0 adv.sec.intl.miui.com
+0.0.0.0 api.accelerator.intl.miui.com
 0.0.0.0 adv.sec.miui.com
 0.0.0.0 api.ad.intl.xiaomi.com
 0.0.0.0 api.sec.intl.miui.com
@@ -293,6 +295,7 @@
 0.0.0.0 lazy.rayjump.com
 0.0.0.0 policy.rayjump.com
 0.0.0.0 rayjump.com
+0.0.0.0 net.rayjump.com
 
 # [vungle.com]
 0.0.0.0 ads.api.vungle.com
@@ -383,8 +386,6 @@
 0.0.0.0 isnssdk.com
 
 # [tiktok.com]
-0.0.0.0 log-va.tiktokv.com
-0.0.0.0 log16-normal-alisg.tiktokv.com
 0.0.0.0 analytics.tiktok.com
 0.0.0.0 ads.tiktok.com
 0.0.0.0 analytics-sg.tiktok.com
@@ -412,3 +413,6 @@
 0.0.0.0 analytics.yahoo.com
 0.0.0.0 ads.yap.yahoo.com
 
+# [appnext.com]
+0.0.0.0 cdn.appnext.com
+0.0.0.0 appnext.com

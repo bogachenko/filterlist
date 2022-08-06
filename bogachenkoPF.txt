@@ -40,7 +40,6 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 ! Xiaomi
 ||resolver.msg.global.xiaomi.net^
 ||micloud.xiaomi.net^
-||chat.global.xiaomi.net^
 ! TEST END
 
 ! STEALTH START
@@ -150,6 +149,8 @@ mail.yandex.ru#@#iframe[src="about:blank"]
 ||yastroka.yandex.net^$important
 ||avlyun.sec.miui.com^$important
 ||zen.yandex.*^$important
+||anythinktech.com^$important
+||sohu.com^$important
 ! DOMAIN END
 
 ! APP START
