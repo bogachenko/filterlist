@@ -416,3 +416,9 @@
 # [appnext.com]
 0.0.0.0 cdn.appnext.com
 0.0.0.0 appnext.com
+
+# [fingersoft.net]
+0.0.0.0 ads3.fingersoft.net
+
+# [apkpure.net]
+0.0.0.0 t.apkpure.net
