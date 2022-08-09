@@ -330,6 +330,7 @@
 0.0.0.0 advertising.twitter.com
 
 # [wildberries.ru]
+0.0.0.0 carousel-ads.wildberries.ru
 0.0.0.0 catalog-ads.wildberries.ru
 
 # [mobileapptracking.com]
@@ -384,6 +385,7 @@
 # [isnssdk.com]
 0.0.0.0 mon.isnssdk.com
 0.0.0.0 isnssdk.com
+0.0.0.0 i.isnssdk.com
 
 # [tiktok.com]
 0.0.0.0 analytics.tiktok.com
