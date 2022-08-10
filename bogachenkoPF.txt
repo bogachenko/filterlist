@@ -196,6 +196,7 @@ yandex.ru##body[class*="b-page"] .widgets[role="main"] :not(div) :not(div):first
 yandex.ru##body[class*="b-page"] .widgets[role="main"] div[class]:matches-css(margin-top: 24px)
 yandex.ru##.datetime:style(height: 300px;)
 yandex.ru##.geoblock__group > :has([href^="https://an.yandex."])
+yandex.ru##.geoblock__group > [class]:not([data-blockname="informer"]):not([data-blockname="notif"])
 mail.yandex.ru##.mail-Placeholder-Text,.mail-ThreadSidebar-wrap.ns-view-thread-sidebar-wrap,.mail-MailProAnnouncingPromoLeftColumn,.subscriptionsBubble
 music.yandex.ru##.sidebar__under
 music.yandex.ru##span:contains(Отключить рекламу)

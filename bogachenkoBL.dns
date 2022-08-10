@@ -25,6 +25,7 @@
 /^vii[a-z]{3}\.com$/
 /^[ase1-5]{2}\.(torrent|ace)stream\.(info|org|net)$/
 /^[rt]s?[0-3]?\.mail\.ru$/
+/^frane[cs]ki\.net$/
 ||2mdn.net^
 ||33across.com^
 ||a-mo.net^
@@ -106,6 +107,7 @@
 ||awaps.yandex.*^
 ||awin1.com^
 ||awin1.com^
+||nogravity.fun^
 ||awsync.yandex.*^
 ||bannerbank.ru^
 ||bench.utorrent.com^
@@ -183,8 +185,6 @@
 ||footprintdns.com^
 ||footprintpredict.com^
 ||footprints-pa.googleapis.com^
-||franecki.net^
-||franeski.net^
 ||freewheel.com^
 ||fundingchoices.google.com^
 ||fundingchoicesmessages.google.com^
