@@ -228,6 +228,7 @@ xvideos.com##.banner-slider.embed-responsive
 ! Content Security Policy (CSP) END
 
 ! OTHER START
+/\?advert((ising)|\_page)?\_id=/
 /^https?:\/\/bann?ers?([\d]+)?\./
 /^https?:\/\/ad[svbxo]?([\d]+)?\./
 /^https?:\/\/ad[vs]er(v?e?t?r?)?(i((si)?ng|se(ment)?|c[ae]s?))?([\d]+)?\./
@@ -272,13 +273,11 @@ xvideos.com##.banner-slider.embed-responsive
 ||translate.yandex.net/experiments$important
 |http*:*/ads-tracking|
 |http*:*/request-ad|
-/\?advert((ising)|\_page)?\_id=/
 |http*:*/billboards?
 |http*:*/?sentry_key=
 |http*:*&monetized=
 |http*:*/show-ads?
 |http*:*/vpaid/
-|http*:*&EATargetAdOptOut=
 ||discord.com/api/*/science|$important
 ||discord.com/api/*/experiments|$important
 ||google.*/velog/$important
@@ -374,6 +373,7 @@ infourok.ru##div#aa-popup
 @@/^(.+[_.-]?)?me?tr[ie]?[ck][asx]?([\d]+)?[_.-]/$other,xmlhttprequest,app=ru.yandex.taxi
 @@/[-._?]bann?ers?[-.0-9_?]/$image,xmlhttprequest,app=ru.mts.mtstv
 @@/^(.+[_.-]?)?analy([\W\w]+)?([\d]+)?[_.-]/$xmlhttprequest,app=ru.mts.mtstv
+@@/\?advert((ising)|\_page)?\_id=/$other,app=ru.yandex.yandexmaps
 ||yastatic.net/share2/$third-party,important,script,domain=~radiorecord.ru
 noodlemagazine.com#@#.verify
 pay.google.com#@#iframe[src="about:blank"]
