@@ -220,6 +220,7 @@ pornhub.com##.adContainer,.premiumAdvertWrapper, div[id^="age-verification"],.ad
 twitter.com###layers > div[class] > div[class]:has(> div[class] div[role="button"] > div[dir="auto"] > span > span:contains(ookie))
 marinetraffic.com###topBanner, div.hidden-print, div[style="position: relative; width: 100%; margin-top: 15px; margin-bottom: 15px; height: 90px;"],.underMapAdMobile,.smartbanner-android,.smartbanner-container
 xvideos.com##.banner-slider.embed-responsive
+sharepoint.com##.ms-Modal:has([class*="mobileWebToAppUpsell"])
 ! Cascading Style Sheets (CSS) END
 
 ! Content Security Policy (CSP) START
@@ -381,4 +382,6 @@ pay.google.com#@#iframe[src="about:blank"]
 geo.ritm.ru###audio-playback-firefox
 ||checkadblock.ru^$document,csp=script-src 'self',badfilter
 @@||api.browser.yandex.*^$badfilter
+/templates/*/images/like.gif$image
+@@||gstatic.com/*/firebase-analytics.js$script
 ! TRASH END
