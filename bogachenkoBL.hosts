@@ -9,6 +9,7 @@
 0.0.0.0 adservice.google.com
 0.0.0.0 api.crashlytics.com
 0.0.0.0 app-measurement.com
+0.0.0.0 settings.crashlytics.com
 0.0.0.0 beacons.gcp.gvt2.com
 0.0.0.0 beacons.gvt2.com
 0.0.0.0 crashlyticsreports-pa.googleapis.com
@@ -356,6 +357,7 @@
 
 # [mts.ru]
 0.0.0.0 msdk.rtb.mts.ru
+0.0.0.0 mtsopros.mts.ru
 
 # [dynamicyield.com]
 0.0.0.0 st-eu.dynamicyield.com
