@@ -192,6 +192,9 @@
 0.0.0.0 rs.mail.ru
 0.0.0.0 top-fwz1.mail.ru
 
+# [vk.com]
+0.0.0.0 stacks.vk-portal.net
+
 # [criteo.com]
 0.0.0.0 criteo.com
 0.0.0.0 gum.criteo.com

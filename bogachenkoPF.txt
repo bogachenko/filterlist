@@ -153,6 +153,7 @@ mail.yandex.ru#@#iframe[src="about:blank"]
 ||zen.yandex.*^$important
 ||anythinktech.com^$important
 ||sohu.com^$important
+||webcompat.com^$important
 ! DOMAIN END
 
 ! APP START
@@ -220,7 +221,6 @@ pornhub.com##.adContainer,.premiumAdvertWrapper,div[id^="age-verification"],.ads
 twitter.com###layers > div[class] > div[class]:has(> div[class] div[role="button"] > div[dir="auto"] > span > span:contains(ookie))
 marinetraffic.com###topBanner,div.hidden-print,div[style="position: relative; width: 100%; margin-top: 15px; margin-bottom: 15px; height: 90px;"],.underMapAdMobile,.smartbanner-android,.smartbanner-container
 xvideos.com##.banner-slider.embed-responsive
-sharepoint.com##.ms-Modal:has([class*="mobileWebToAppUpsell"])
 ! Cascading Style Sheets (CSS) END
 
 ! Content Security Policy (CSP) START
@@ -278,6 +278,7 @@ sharepoint.com##.ms-Modal:has([class*="mobileWebToAppUpsell"])
 |http*:*/billboards?
 |http*:*/?sentry_key=
 |http*:*&monetized=
+|http*:*/experiments?uuid=
 |http*:*/show-ads?
 |http*:*/vpaid/
 ||discord.com/api/*/science|$important
