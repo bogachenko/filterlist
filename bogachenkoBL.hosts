@@ -193,7 +193,7 @@
 0.0.0.0 top-fwz1.mail.ru
 
 # [vk.com]
-0.0.0.0 stacks.vk-portal.net
+0.0.0.0 stats.vk-portal.net
 
 # [criteo.com]
 0.0.0.0 criteo.com
@@ -422,3 +422,7 @@
 # [franecki.net]
 0.0.0.0 franecki.net
 0.0.0.0 franeski.net
+
+# [imrworldwide.com]
+0.0.0.0 imrworldwide.com
+0.0.0.0 secure-sts-prod.imrworldwide.com
