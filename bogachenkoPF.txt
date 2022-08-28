@@ -165,6 +165,7 @@ mail.yandex.ru#@#iframe[src="about:blank"]
 /^(?!.*(temp\-mail)\.org).*$/$important,app=com.tempmail
 ||amazonaws.com^$important,app=ru.yandex.merto
 ||dns.google^$app=com.zhiliaoapp.musically
+/^https?:\/\/(www\.)?[^\s]+\/ad[svbxo]?[-_]?[a-z]{1,15}\.js/$important,script,xmlhttprequest,app=ru.ivi.client
 ! APP END
 
 ! SCRIPTLET START
@@ -281,6 +282,8 @@ xvideos.com##.banner-slider.embed-responsive
 |http*:*/experiments?uuid=
 |http*:*/show-ads?
 |http*:*/vpaid/
+|http*:*/vast/
+|http*:*/getad?
 ||discord.com/api/*/science|$important
 ||discord.com/api/*/experiments|$important
 ||google.*/velog/$important
