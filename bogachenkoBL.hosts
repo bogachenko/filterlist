@@ -127,6 +127,7 @@
 0.0.0.0 startup.mobile.yandex.net
 0.0.0.0 taxi-promotions.s3.yandex.net
 0.0.0.0 yabs.yandex.ru
+0.0.0.0 log.strm.yandex.ru
 
 # [webvisor.com]
 0.0.0.0 u.startup.mobile.webvisor.com
