@@ -159,6 +159,7 @@
 0.0.0.0 ingest.sentry.io
 0.0.0.0 sentry-cdn.com
 0.0.0.0 sentry.io
+0.0.0.0 o64374.ingest.sentry.io
 
 # [adjust.com]
 0.0.0.0 adj.st
