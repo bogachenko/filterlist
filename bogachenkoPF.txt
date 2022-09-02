@@ -286,6 +286,7 @@ xvideos.com##.banner-slider.embed-responsive
 |http*:*/vast/
 |http*:*/getad?
 ||discord.com/api/*/experiments|$important
+||discord.com/api/*/science|$important
 ||google.*/velog/$important
 ||cloudfront.net/hostsetting?open=
 ||rocket.ivi.ru/event/
