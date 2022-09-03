@@ -148,6 +148,7 @@
 0.0.0.0 cdn-settings.appsflyersdk.com
 0.0.0.0 dlsdk.appsflyer.com
 0.0.0.0 appsflyersdk.com
+0.0.0.0 cdn.appsflyer.com
 
 # [branch.io]
 0.0.0.0 api.branch.io
@@ -429,3 +430,8 @@
 # [imrworldwide.com]
 0.0.0.0 imrworldwide.com
 0.0.0.0 secure-sts-prod.imrworldwide.com
+
+# [digitaltarget.ru]
+0.0.0.0 digitaltarget.ru
+0.0.0.0 dmg.digitaltarget.ru
+0.0.0.0 tag.digitaltarget.ru
