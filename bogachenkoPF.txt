@@ -82,6 +82,11 @@ mail.yandex.ru#@#iframe[src="about:blank"]
 |http*:*/buy-domain/*?redirected=$document
 ! DOCUMENT END
 
+! HOSTS START
+0.0.0.0 web.facebook.com
+0.0.0.0 graph.facebook.com
+! HOSTS END
+
 ! DOMAIN START
 ||*-safebrowsing.google.com^$important
 ||addthis.com^$important
@@ -285,6 +290,7 @@ xvideos.com##.banner-slider.embed-responsive
 |http*:*/vpaid/
 |http*:*/vast/
 |http*:*/getad?
+|http*:*/adfox/
 ||discord.com/api/*/experiments|$important
 ||discord.com/api/*/science|$important
 ||google.*/velog/$important
