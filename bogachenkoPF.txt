@@ -85,6 +85,8 @@ mail.yandex.ru#@#iframe[src="about:blank"]
 ! HOSTS START
 0.0.0.0 web.facebook.com
 0.0.0.0 graph.facebook.com
+0.0.0.0 facebook.com
+0.0.0.0 b-www.facebook.com
 ! HOSTS END
 
 ! DOMAIN START
