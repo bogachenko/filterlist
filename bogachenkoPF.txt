@@ -299,6 +299,8 @@ xvideos.com##.banner-slider.embed-responsive
 ||cloudfront.net/hostsetting?open=
 ||rocket.ivi.ru/event/
 ||rocket.ivi.ru/playback/event/
+||yandex.ru/appcry|
+/^https?:\/\/yandex\.ru\/appcry\/[a-zA-Z0-9]{5,}\//
 ! OTHER END
 
 ! SCRIPT START
