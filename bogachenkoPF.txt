@@ -162,6 +162,8 @@ mail.yandex.ru#@#iframe[src="about:blank"]
 ||anythinktech.com^$important
 ||sohu.com^$important
 ||webcompat.com^$important
+||f4cebacks.com^
+||fartmoda.com^
 ! DOMAIN END
 
 ! APP START
@@ -317,7 +319,6 @@ xvideos.com##.banner-slider.embed-responsive
 |http*:*/player/assets/devtools-detector/$script,third-party,important
 ||twitchcdn.net/*.video-ads.*$script,important
 ||twitchcdn.net/*/sentry-$script,important
-||twitchcdn.net/config/settings.$script,important
 ||github.io/actualize.js|$script,important
 ||yastatic.net/nearest.js|$script,important
 ||2ch.hk/makaba/templates/js/events/snow_miner_anon_ne_podozrevaet.js$script,important
