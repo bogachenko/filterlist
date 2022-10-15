@@ -81,6 +81,8 @@ mail.yandex.ru#@#iframe[src="about:blank"]
 |http*:*/page/bouncy.php?$document
 |http*:*/domain_profile.cfm?d=$document
 |http*:*/buy-domain/*?redirected=$document
+||ttk.ru/?order=$document
+||warning.rt.ru^$document
 ! DOCUMENT END
 
 ! HOSTS START
@@ -164,6 +166,7 @@ mail.yandex.ru#@#iframe[src="about:blank"]
 ||webcompat.com^$important
 ||f4cebacks.com^
 ||fartmoda.com^
+||xewuzetus.com^
 ! DOMAIN END
 
 ! APP START
