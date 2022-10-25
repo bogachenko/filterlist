@@ -38,6 +38,7 @@
 0.0.0.0 www.googletagmanager.com
 0.0.0.0 id.google.com
 0.0.0.0 id.google.ru
+0.0.0.0 s.youtube.com
 
 # [whatsapp.com]
 0.0.0.0 dit.whatsapp.net
@@ -344,6 +345,7 @@
 
 # [mobileapptracking.com]
 0.0.0.0 deeplink.mobileapptracking.com
+0.0.0.0 mobileapptracking.com
 0.0.0.0 engine.mobileapptracking.com
 
 # [popcap.com]
