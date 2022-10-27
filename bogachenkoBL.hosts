@@ -6,17 +6,14 @@
 # [google.com]
 0.0.0.0 ad.doubleclick.net
 0.0.0.0 ads.google.com
+0.0.0.0 ads.youtube.com
 0.0.0.0 adservice.google.com
 0.0.0.0 api.crashlytics.com
 0.0.0.0 app-measurement.com
-0.0.0.0 settings.crashlytics.com
 0.0.0.0 beacons.gcp.gvt2.com
 0.0.0.0 beacons.gvt2.com
 0.0.0.0 crashlyticsreports-pa.googleapis.com
 0.0.0.0 doubleclick.net
-0.0.0.0 m.doubleclick.net
-0.0.0.0 mediavisor.doubleclick.net
-0.0.0.0 ads.youtube.com
 0.0.0.0 firebase-settings.crashlytics.com
 0.0.0.0 firebaselogging-pa.googleapis.com
 0.0.0.0 firebaselogging.googleapis.com
@@ -25,20 +22,26 @@
 0.0.0.0 googleadapis.l.google.com
 0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 googleadservices.com
+0.0.0.0 id.google.com
+0.0.0.0 id.google.com
+0.0.0.0 id.google.ru
+0.0.0.0 id.google.ru
 0.0.0.0 imasdk.googleapis.com
 0.0.0.0 infinitedata-pa.googleapis.com
+0.0.0.0 m.doubleclick.net
+0.0.0.0 mediavisor.doubleclick.net
 0.0.0.0 pagead.l.doubleclick.net
 0.0.0.0 pagead2.googleadservices.com
 0.0.0.0 pagead2.googlesyndication.com
+0.0.0.0 s.yimg.com
+0.0.0.0 s.youtube.com
+0.0.0.0 securepubads.g.doubleclick.net
+0.0.0.0 settings.crashlytics.com
 0.0.0.0 ssl.google-analytics.com
 0.0.0.0 static.doubleclick.net
 0.0.0.0 www.google-analytics.com
 0.0.0.0 www.googleadservices.com
-0.0.0.0 securepubads.g.doubleclick.net
 0.0.0.0 www.googletagmanager.com
-0.0.0.0 id.google.com
-0.0.0.0 id.google.ru
-0.0.0.0 s.youtube.com
 
 # [whatsapp.com]
 0.0.0.0 dit.whatsapp.net
@@ -59,20 +62,22 @@
 0.0.0.0 dc.services.visualstudio.com
 
 # [facebook.com]
-0.0.0.0 graph.facebook.com
-0.0.0.0 analytics.facebook.com
-0.0.0.0 pixel.facebook.com
-0.0.0.0 an.facebook.com
 0.0.0.0 ads.facebook.com
+0.0.0.0 an.facebook.com
+0.0.0.0 analytics.facebook.com
+0.0.0.0 graph.facebook.com
+0.0.0.0 pixel.facebook.com
 
 # [xiaomi.com]
 0.0.0.0 ad.mi.com
 0.0.0.0 ad.xiaomi.com
 0.0.0.0 adv.sec.intl.miui.com
-0.0.0.0 api.accelerator.intl.miui.com
 0.0.0.0 adv.sec.miui.com
+0.0.0.0 api.accelerator.intl.miui.com
 0.0.0.0 api.ad.intl.xiaomi.com
+0.0.0.0 api.ad.xiaomi.com
 0.0.0.0 api.sec.intl.miui.com
+0.0.0.0 app.chat.xiaomi.net
 0.0.0.0 authbe.sec.intl.miui.com
 0.0.0.0 data.mistat.india.xiaomi.com
 0.0.0.0 data.mistat.intl.xiaomi.com
@@ -82,12 +87,12 @@
 0.0.0.0 data.sec.miui.com
 0.0.0.0 flash.sec.intl.miui.com
 0.0.0.0 globalapi.ad.xiaomi.com
-0.0.0.0 api.ad.xiaomi.com
 0.0.0.0 mitv.tracking.india.miui.com
 0.0.0.0 mitv.tracking.intl.miui.com
 0.0.0.0 mitv.tracking.miui.com
 0.0.0.0 mitv.tracking.rus.miui.com
 0.0.0.0 privacy.api.intl.miui.com
+0.0.0.0 sa.api.intl.miui.com
 0.0.0.0 sdkconfig.ad.eu.xiaomi.com
 0.0.0.0 sdkconfig.ad.india.xiaomi.com
 0.0.0.0 sdkconfig.ad.intl.xiaomi.com
@@ -98,8 +103,6 @@
 0.0.0.0 tracking.miui.com
 0.0.0.0 tracking.rus.miui.com
 0.0.0.0 www.cdn.ad.xiaomi.com
-0.0.0.0 app.chat.xiaomi.net
-0.0.0.0 sa.api.intl.miui.com
 
 # [mozilla.org]
 0.0.0.0 incoming.telemetry.mozilla.org
@@ -117,8 +120,8 @@
 0.0.0.0 appmetrica.yandex.com
 0.0.0.0 bs.yandex.ru
 0.0.0.0 extmaps-api.yandex.net
+0.0.0.0 log.strm.yandex.ru
 0.0.0.0 mc.yandex.ru
-0.0.0.0 yandexadexchange.net
 0.0.0.0 mobile.yandexadexchange.net
 0.0.0.0 redirect.appmetrica.yandex.com
 0.0.0.0 report.appmetrica.yandex.net
@@ -128,7 +131,7 @@
 0.0.0.0 startup.mobile.yandex.net
 0.0.0.0 taxi-promotions.s3.yandex.net
 0.0.0.0 yabs.yandex.ru
-0.0.0.0 log.strm.yandex.ru
+0.0.0.0 yandexadexchange.net
 
 # [webvisor.com]
 0.0.0.0 u.startup.mobile.webvisor.com
@@ -139,17 +142,18 @@
 0.0.0.0 ip4.tracker-api.my.com
 0.0.0.0 ip6.tracker-api.my.com
 0.0.0.0 my.com
+0.0.0.0 ru.tracker-api.my.com
 0.0.0.0 tracker-api.my.com
 
 # [appsflyer.com]
 0.0.0.0 appsflyer.com
+0.0.0.0 appsflyersdk.com
+0.0.0.0 cdn-settings.appsflyersdk.com
+0.0.0.0 cdn.appsflyer.com
 0.0.0.0 conversions.appsflyer.com
+0.0.0.0 dlsdk.appsflyer.com
 0.0.0.0 inapps.appsflyer.com
 0.0.0.0 launches.appsflyer.com
-0.0.0.0 cdn-settings.appsflyersdk.com
-0.0.0.0 dlsdk.appsflyer.com
-0.0.0.0 appsflyersdk.com
-0.0.0.0 cdn.appsflyer.com
 
 # [branch.io]
 0.0.0.0 api.branch.io
@@ -161,8 +165,6 @@
 0.0.0.0 ingest.sentry.io
 0.0.0.0 sentry-cdn.com
 0.0.0.0 sentry.io
-0.0.0.0 o432808.ingest.sentry.io
-0.0.0.0 o64374.ingest.sentry.io
 
 # [adjust.com]
 0.0.0.0 adj.st
@@ -183,16 +185,16 @@
 0.0.0.0 smetrics.samsung.com
 
 # [hotjar.com]
-0.0.0.0 hotjar.com
-0.0.0.0 static.hotjar.com
 0.0.0.0 api-hotjar.com
 0.0.0.0 hotjar-analytics.com
+0.0.0.0 hotjar.com
+0.0.0.0 static.hotjar.com
 
 # [mail.ru]
 0.0.0.0 ad.mail.ru
 0.0.0.0 r.mradx.net
-0.0.0.0 r0.mradx.net
 0.0.0.0 r0.mail.ru
+0.0.0.0 r0.mradx.net
 0.0.0.0 r3.mail.ru
 0.0.0.0 rs.mail.ru
 0.0.0.0 top-fwz1.mail.ru
@@ -211,18 +213,18 @@
 0.0.0.0 content.adfox.ru
 
 # [amazon.com]
+0.0.0.0 adtago.s3.amazonaws.com
+0.0.0.0 advertising-api-eu.amazon.com
+0.0.0.0 advice-ads.s3.amazonaws.com
+0.0.0.0 affiliationjs.s3.amazonaws.com
 0.0.0.0 amazon-adsystem.com
+0.0.0.0 amazonaax.com
+0.0.0.0 amazonclix.com
+0.0.0.0 analyticsengine.s3.amazonaws.com
+0.0.0.0 assoc-amazon.com
 0.0.0.0 c.amazon-adsystem.com
 0.0.0.0 mads.amazon-adsystem.com
 0.0.0.0 s.amazon-adsystem.com
-0.0.0.0 adtago.s3.amazonaws.com
-0.0.0.0 analyticsengine.s3.amazonaws.com
-0.0.0.0 advice-ads.s3.amazonaws.com
-0.0.0.0 affiliationjs.s3.amazonaws.com
-0.0.0.0 advertising-api-eu.amazon.com
-0.0.0.0 amazonaax.com
-0.0.0.0 amazonclix.com
-0.0.0.0 assoc-amazon.com
 
 # [twitch.tv]
 0.0.0.0 countess.twitch.tv
@@ -269,25 +271,26 @@
 0.0.0.0 advisor.api.2gis.ru
 
 # [amplitude.com]
+0.0.0.0 amplitude.com
 0.0.0.0 api2.amplitude.com
 
 # [relap.io]
 0.0.0.0 relap.io
 
 # [flurry.com]
-0.0.0.0 flurry.com
-0.0.0.0 data.flurry.com
-0.0.0.0 ads.flurry.com
 0.0.0.0 ad.flurry.com
+0.0.0.0 ads.flurry.com
+0.0.0.0 data.flurry.com
+0.0.0.0 flurry.com
 
 # [indicative.com]
-0.0.0.0 indicative.com
 0.0.0.0 api.indicative.com
+0.0.0.0 indicative.com
 
 # [inmobi.com]
-0.0.0.0 inmobi.com
 0.0.0.0 ads.inmobi.com
 0.0.0.0 config.inmobi.com
+0.0.0.0 inmobi.com
 0.0.0.0 telemetry.sdk.inmobi.com
 
 # [adcolony.com]
@@ -302,9 +305,9 @@
 0.0.0.0 configure.rayjump.com
 0.0.0.0 hb.rayjump.com
 0.0.0.0 lazy.rayjump.com
+0.0.0.0 net.rayjump.com
 0.0.0.0 policy.rayjump.com
 0.0.0.0 rayjump.com
-0.0.0.0 net.rayjump.com
 
 # [vungle.com]
 0.0.0.0 ads.api.vungle.com
@@ -312,32 +315,32 @@
 0.0.0.0 vungle.com
 
 # [supersonicads.com]
-0.0.0.0 supersonicads.com
 0.0.0.0 init.supersonicads.com
+0.0.0.0 supersonicads.com
 
 # [unity3d.com]
-0.0.0.0 configv2.unityads.unity3d.com
-0.0.0.0 unityads.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 configv2.unityads.unity3d.com
+0.0.0.0 unityads.unity3d.com
 
 # [mintegral.net]
 0.0.0.0 mintegral.net
 0.0.0.0 pok.mintegral.net
 
 # [bidease.com]
-0.0.0.0 creative.bidease.com
 0.0.0.0 bidease.com
+0.0.0.0 creative.bidease.com
 
 # [psvgamestudio.com]
 0.0.0.0 psvpromo.psvgamestudio.com
 
 # [twitter.com]
-0.0.0.0 analytics.twitter.com
 0.0.0.0 ads-api.twitter.com
 0.0.0.0 ads-twitter.com
-0.0.0.0 static.ads-twitter.com
 0.0.0.0 advertising.twitter.com
+0.0.0.0 analytics.twitter.com
+0.0.0.0 static.ads-twitter.com
 
 # [wildberries.ru]
 0.0.0.0 carousel-ads.wildberries.ru
@@ -369,50 +372,50 @@
 0.0.0.0 st-eu.dynamicyield.com
 
 # [yadro.ru]
-0.0.0.0 www.yadro.ru
 0.0.0.0 counter.yadro.ru
+0.0.0.0 www.yadro.ru
 
 # [pubnative.net]
-0.0.0.0 pubnative.net
 0.0.0.0 pubnative.info
+0.0.0.0 pubnative.net
 
 # [ziffdavis.com]
-0.0.0.0 ziffdavis.com
 0.0.0.0 m.optout.ziffdavis.com
+0.0.0.0 ziffdavis.com
 
 # [qonversion.io]
 0.0.0.0 qonversion.io
 
 # [isnssdk.com]
-0.0.0.0 mon.isnssdk.com
-0.0.0.0 isnssdk.com
 0.0.0.0 i.isnssdk.com
+0.0.0.0 isnssdk.com
+0.0.0.0 mon.isnssdk.com
 
 # [media.net]
-0.0.0.0 static.media.net
-0.0.0.0 media.net
 0.0.0.0 adservetx.media.net
+0.0.0.0 media.net
+0.0.0.0 static.media.net
 
 # [mouseflow.com]
-0.0.0.0 mouseflow.com
 0.0.0.0 a.mouseflow.com
+0.0.0.0 mouseflow.com
 
 # [bugsnag.com]
+0.0.0.0 api.bugsnag.com
+0.0.0.0 app.bugsnag.com
 0.0.0.0 bugsnag.com
 0.0.0.0 notify.bugsnag.com
 0.0.0.0 sessions.bugsnag.com
-0.0.0.0 api.bugsnag.com
-0.0.0.0 app.bugsnag.com
 
 # [yahoo.com]
 0.0.0.0 ads.yahoo.com
-0.0.0.0 global.adserver.yahoo.com
-0.0.0.0 analytics.yahoo.com
 0.0.0.0 ads.yap.yahoo.com
+0.0.0.0 analytics.yahoo.com
+0.0.0.0 global.adserver.yahoo.com
 
 # [appnext.com]
-0.0.0.0 cdn.appnext.com
 0.0.0.0 appnext.com
+0.0.0.0 cdn.appnext.com
 
 # [fingersoft.net]
 0.0.0.0 ads3.fingersoft.net
