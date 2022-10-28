@@ -361,13 +361,6 @@ xvideos.com##.banner-slider.embed-responsive
 /[-._?/]track(ers?|ing)[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~alipay.com|~analytics.google.com|~fandom.com|~pochta.ru|~yandex.ru|~aliexpress.*|~ubisoft.com|~ubi.com|~yoomoney.ru|~wildberries.ru
 /[-._?/]vast[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~github.com|~gitlab.com|~twitch.tv|~spankbang.com
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest
-/^https?:\/\/[^\s]+\/sw\.js/$important,script,xmlhttprequest
-/^https?:\/\/[^\s]+\/sw(\d+)?\.js\?[^\s]+$/$important,script,xmlhttprequest
-/\%(2F|3F|26|3D|23|2D|2E|5F)sw\.js$/$important,script,xmlhttprequest
-/^https?:\/\/[^\s]+\/[cs]sw\.js/$important,script,xmlhttprequest
-/^https?:\/\/[^\s]+\/sw[bwg]\.js/$important,script,xmlhttprequest
-/^https?:\/\/[^\s]+\/sw[-_]\w+\.js/$important,script,xmlhttprequest
-|http*:*.php?sw/$important,script,xmlhttprequest
 /^https?:\/\/[^\s]+\/service[-_]worker\.js/$important,script,xmlhttprequest
 |http*:*/serviceworker?$important,script,xmlhttprequest
 /^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,popup,important
