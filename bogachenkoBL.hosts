@@ -42,6 +42,7 @@
 0.0.0.0 www.google-analytics.com
 0.0.0.0 www.googleadservices.com
 0.0.0.0 www.googletagmanager.com
+0.0.0.0 ade.googlesyndication.com
 
 # [whatsapp.com]
 0.0.0.0 dit.whatsapp.net
@@ -237,6 +238,7 @@
 # [scorecardresearch.com]
 0.0.0.0 scorecardresearch.com
 0.0.0.0 sb.scorecardresearch.com
+0.0.0.0 udm.scorecardresearch.com
 
 # [tns-counter.ru]
 0.0.0.0 tns-counter.ru
@@ -441,3 +443,14 @@
 
 # [ozon.ru]
 0.0.0.0 xapi.ozon.ru
+
+# [braze.com]
+0.0.0.0 sdk.iad-01.braze.com
+0.0.0.0 braze.com
+
+# [soundcloud.com]
+0.0.0.0 telemetry.soundcloud.com
+
+# [appboy.com]
+0.0.0.0 serpens.iad.appboy.com
+0.0.0.0 appboy.com
