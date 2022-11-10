@@ -453,6 +453,7 @@
 
 # [soundcloud.com]
 0.0.0.0 telemetry.soundcloud.com
+0.0.0.0 promoted.soundcloud.com
 
 # [appboy.com]
 0.0.0.0 serpens.iad.appboy.com
