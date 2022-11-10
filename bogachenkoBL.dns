@@ -4,7 +4,6 @@
 ! Homepage: https://github.com/bogachenko/filterlist/
 ! License: https://raw.githubusercontent.com/bogachenko/filterlist/main/LICENSE.md
 
-/^(.+[_.-])?advast([\d]+)?[_.-]/
 /^(.+[_.-])?ad[sxv]?([\d]+)?[_.-]/
 /^(.+[_.-])?ad[vs]er(v?e?t?r?)?(i((si)?ng|se(ment)?|c[ae]s?))?[_.-]/
 /^(.+[_.-])?beacons?([\d]+)?[_.-]/
@@ -15,9 +14,10 @@
 /^(.+[_.-]?)?counter([\d]+)?[_.-]/
 /^(.+[_.-]?)?easyads[0-9]{2}\.(mobi|pro|info)$/
 /^(.+[_.-]?)?me?tr[ie]?[ck][asx]?([\d]+)?[_.-]/
+/^(.+[_.-]?)?promo(t(ed?|i(ng|on)))?([\d]+)?[_.-]/
 /^(.+[_.-]?)?re[ck]l?(am[asz]?)?([\d]+)?[_.-]/
 /^(.+[_.-]?)?telemetr(y|ics?)([\d]+)?[_.-]/
-/^(.+[_.-]?)?promo(t(ed?|i(ng|on)))?([\d]+)?[_.-]/
+/^advast([\d]+)?[_.-]/
 /^a\.[a-f0-9]{30,60}\.com$/
 /^frane[cs]ki\.net$/
 /^logs?([\d]+)?[_.-]/
@@ -332,11 +332,11 @@
 ||samsungadhub.com^
 ||samsungads.com^
 ||samsungotn.net^
-||segment.com^
 ||samsungrm.net^
 ||scorecardresearch.com^
 ||sec.*.miui.com^
 ||sec.miui.com^
+||segment.com^
 ||sendpulse.com^
 ||sentry-cdn.com^
 ||sentry.io^
