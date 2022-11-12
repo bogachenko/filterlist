@@ -13,16 +13,16 @@
 /^(.+[_.-]?)?analy([\W\w]+)?([\d]+)?[_.-]/
 /^(.+[_.-]?)?counter([\d]+)?[_.-]/
 /^(.+[_.-]?)?easyads[0-9]{2}\.(mobi|pro|info)$/
+/^(.+[_.-]?)?frane[cs]ki\.net$/
+/^(.+[_.-]?)?juic[ey]ad[vs]\.com$/
 /^(.+[_.-]?)?me?tr[ie]?[ck][asx]?([\d]+)?[_.-]/
+/^(.+[_.-]?)?m[sr]ad[sx]\.net$/
+/^(.+[_.-]?)?n[0-9]{2,4}adserv\.\w+$/
 /^(.+[_.-]?)?promo(t(ed?|i(ng|on)))?([\d]+)?[_.-]/
 /^(.+[_.-]?)?re[ck]l?(am[asz]?)?([\d]+)?[_.-]/
 /^(.+[_.-]?)?telemetr(y|ics?)([\d]+)?[_.-]/
-/^advast([\d]+)?[_.-]/
 /^a\.[a-f0-9]{30,60}\.com$/
-/^frane[cs]ki\.net$/
 /^logs?([\d]+)?[_.-]/
-/^m[sr]ad[sx]\.net$/
-/^n[0-9]{2,4}adserv\.\w+$/
 /^pixel([\d]+)?[_.-]/
 /^vii[a-z]{3}\.com$/
 /^[ase1-5]{2}\.(torrent|ace)stream\.(info|org|net)$/
@@ -114,7 +114,6 @@
 ||assoc-amazon.com^
 ||atdmt.com^
 ||awaps.yandex.*^
-||awin1.com^
 ||awin1.com^
 ||awsync.yandex.*^
 ||ayelads.com^
@@ -237,8 +236,6 @@
 ||isnssdk.com^
 ||jsecoin.com^
 ||jshosting.*^
-||juiceadv.com^
-||juicyads.com^
 ||ketchapp.org^
 ||leanplum.com^
 ||lgsmartad.com^
@@ -341,8 +338,7 @@
 ||sentry-cdn.com^
 ||sentry.io^
 ||serving-sys.com^
-||smaato.com^
-||smaato.net^
+||smaato.*^
 ||smartadserver.com^
 ||smartclip.net^
 ||smartscreen.microsoft.com^
