@@ -462,3 +462,7 @@
 # [segment.com]
 0.0.0.0 segment.com
 0.0.0.0 cdn-settings.segment.com
+
+# [buzzoola.com]
+0.0.0.0 exchange.buzzoola.com
+0.0.0.0 buzzoola.com
