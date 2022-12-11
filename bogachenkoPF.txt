@@ -180,6 +180,7 @@ mail.yandex.ru#@#iframe[src="about:blank"]
 ||dns.google^$app=com.zhiliaoapp.musically
 /^https?:\/\/(www\.)?[^\s]+\/ad[svbxo]?[-_]?[a-z]{1,15}\.js/$important,script,xmlhttprequest,app=ru.ivi.client
 ||config.teams.microsoft.com^$important,app=com.microsoft.teams
+||config.edge.skype.com^$important,app=com.microsoft.office.outlook
 ! APP END
 
 ! SCRIPTLET START
@@ -301,6 +302,7 @@ yandex.ru##[class*="_animation_"][class*="_layout_simple"][class*="_hasShadow"]
 ||yandex.ru/appcry|
 /^https?:\/\/yandex\.ru\/appcry\/[a-zA-Z0-9]{5,}\//
 ||yandex.ru/an/
+|http*:*&oad=
 ! OTHER END
 
 ! SCRIPT START
@@ -361,10 +363,10 @@ yandex.ru##[class*="_animation_"][class*="_layout_simple"][class*="_hasShadow"]
 /[-._?/]track(ers?|ing)[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~alipay.com|~analytics.google.com|~fandom.com|~pochta.ru|~yandex.ru|~aliexpress.*|~ubisoft.com|~ubi.com|~yoomoney.ru|~wildberries.ru
 /[-._?/]vast[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~github.com|~gitlab.com|~twitch.tv|~spankbang.com
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest
-/^https?:\/\/[^\s]+\/service[-_]worker\.js/$important,script,xmlhttprequest
 |http*:*/serviceworker?$important,script,xmlhttprequest
 /^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,popup,important
 ||yastatic.net/daas/atom.js|$important,script,xmlhttprequest
+||youtube.com/*/activeview?$important,script,xmlhttprequest
 ! COMBINED END
 
 ! TRASH START
