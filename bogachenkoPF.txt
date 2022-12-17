@@ -398,6 +398,7 @@ geo.ritm.ru###audio-playback-firefox
 /templates/*/images/like.gif$image
 @@||gstatic.com/*/firebase-analytics.js$script
 ||t.co^$badfilter
+||lan02.bid^
 ||filmitorrents.ru^
 @@/[-._?/]track(ers?|ing)[-.0-9_?]/$image,other,script,xmlhttprequest,app=com.wildberries.ru
 ||ad.mail.ru/$script,redirect-rule=empty,badfilter
