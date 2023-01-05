@@ -232,6 +232,7 @@ twitter.com###layers > div[class] > div[class]:has(> div[class] div[role="button
 marinetraffic.com###topBanner,div.hidden-print,div[style="position: relative; width: 100%; margin-top: 15px; margin-bottom: 15px; height: 90px;"],.underMapAdMobile,.smartbanner-android,.smartbanner-container
 xvideos.com##.banner-slider.embed-responsive
 yandex.ru##[class*="_animation_"][class*="_layout_simple"][class*="_hasShadow"]
+cdn.cdn-films.xyz##.registration-form-widget
 ! Cascading Style Sheets (CSS) END
 
 ! Content Security Policy (CSP) START
