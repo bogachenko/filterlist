@@ -466,3 +466,7 @@
 # [buzzoola.com]
 0.0.0.0 exchange.buzzoola.com
 0.0.0.0 buzzoola.com
+
+# [instabug.com]
+0.0.0.0 www.instabug.com
+0.0.0.0 api.instabug.com
