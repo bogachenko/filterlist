@@ -161,6 +161,7 @@
 0.0.0.0 launches.appsflyer.com
 0.0.0.0 gcdsdk.appsflyer.com
 0.0.0.0 inapps.appsflyersdk.com
+0.0.0.0 conversions.appsflyersdk.com
 
 # [branch.io]
 0.0.0.0 api.branch.io
