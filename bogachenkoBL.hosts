@@ -141,13 +141,23 @@
 0.0.0.0 u.startup.mobile.webvisor.com
 0.0.0.0 startup.mobile.webvisor.com
 0.0.0.0 webvisor.com
+0.0.0.0 rosenberg.appmetrica.webvisor.com
+0.0.0.0 report.appmetrica.webvisor.com
+0.0.0.0 appmetrica.webvisor.com
+0.0.0.0 mobile.webvisor.com
+0.0.0.0 startup.mobile.webvisor.com
 
 # [my.com]
 0.0.0.0 ip4.tracker-api.my.com
 0.0.0.0 ip6.tracker-api.my.com
 0.0.0.0 my.com
+0.0.0.0 eu.tracker-api.my.com
 0.0.0.0 ru.tracker-api.my.com
 0.0.0.0 tracker-api.my.com
+0.0.0.0 ip4.ru.tracker-api.my.com
+0.0.0.0 ip6.ru.tracker-api.my.com
+0.0.0.0 ip4.eu.tracker-api.my.com
+0.0.0.0 ip6.eu.tracker-api.my.com
 
 # [appsflyer.com]
 0.0.0.0 appsflyer.com
@@ -166,6 +176,72 @@
 # [branch.io]
 0.0.0.0 api.branch.io
 0.0.0.0 api2.branch.io
+
+# [torrentstream.net]
+0.0.0.0 a1.torrentstream.info
+0.0.0.0 a1.torrentstream.net
+0.0.0.0 a1.torrentstream.org
+0.0.0.0 a2.torrentstream.info
+0.0.0.0 a2.torrentstream.net
+0.0.0.0 a2.torrentstream.org
+0.0.0.0 a3.torrentstream.info
+0.0.0.0 a3.torrentstream.net
+0.0.0.0 a3.torrentstream.org
+0.0.0.0 a4.torrentstream.info
+0.0.0.0 a4.torrentstream.net
+0.0.0.0 a4.torrentstream.org
+0.0.0.0 a5.torrentstream.info
+0.0.0.0 a5.torrentstream.net
+0.0.0.0 a5.torrentstream.org
+0.0.0.0 e1.torrentstream.info
+0.0.0.0 e1.torrentstream.net
+0.0.0.0 e1.torrentstream.org
+0.0.0.0 e2.torrentstream.info
+0.0.0.0 e2.torrentstream.net
+0.0.0.0 e2.torrentstream.org
+0.0.0.0 e3.torrentstream.info
+0.0.0.0 e3.torrentstream.net
+0.0.0.0 e3.torrentstream.org
+0.0.0.0 e4.torrentstream.info
+0.0.0.0 e4.torrentstream.net
+0.0.0.0 e4.torrentstream.org
+0.0.0.0 e5.torrentstream.info
+0.0.0.0 e5.torrentstream.net
+0.0.0.0 e5.torrentstream.org
+0.0.0.0 s1.torrentstream.info
+0.0.0.0 s1.torrentstream.net
+0.0.0.0 s1.torrentstream.org
+0.0.0.0 s2.torrentstream.info
+0.0.0.0 s2.torrentstream.net
+0.0.0.0 s2.torrentstream.org
+0.0.0.0 s3.torrentstream.info
+0.0.0.0 s3.torrentstream.net
+0.0.0.0 s3.torrentstream.org
+0.0.0.0 s4.torrentstream.info
+0.0.0.0 s4.torrentstream.net
+0.0.0.0 s4.torrentstream.org
+0.0.0.0 s5.torrentstream.info
+0.0.0.0 s5.torrentstream.net
+0.0.0.0 s5.torrentstream.org
+
+# [acestream.net]
+0.0.0.0 a1.acestream.net
+0.0.0.0 a2.acestream.net
+0.0.0.0 a3.acestream.net
+0.0.0.0 a4.acestream.net
+0.0.0.0 a5.acestream.net
+0.0.0.0 e1.acestream.net
+0.0.0.0 e2.acestream.net
+0.0.0.0 e3.acestream.net
+0.0.0.0 e4.acestream.net
+0.0.0.0 e5.acestream.net
+0.0.0.0 r.acestream.net
+0.0.0.0 s1.acestream.net
+0.0.0.0 s2.acestream.net
+0.0.0.0 s3.acestream.net
+0.0.0.0 s4.acestream.net
+0.0.0.0 s5.acestream.net
+0.0.0.0 ts.acestream.net
 
 # [sentry.io]
 0.0.0.0 app.getsentry.com
@@ -206,6 +282,7 @@
 0.0.0.0 r3.mail.ru
 0.0.0.0 rs.mail.ru
 0.0.0.0 top-fwz1.mail.ru
+0.0.0.0 m.mradx.net
 
 # [vk.com]
 0.0.0.0 stats.vk-portal.net
@@ -333,8 +410,9 @@
 0.0.0.0 configv2.unityads.unity3d.com
 0.0.0.0 unityads.unity3d.com
 
-# [mintegral.net]
+# [mintegral.com]
 0.0.0.0 mintegral.net
+0.0.0.0 mintegral.com
 0.0.0.0 pok.mintegral.net
 
 # [bidease.com]
@@ -471,3 +549,4 @@
 # [instabug.com]
 0.0.0.0 www.instabug.com
 0.0.0.0 api.instabug.com
+0.0.0.0 instabug.com
