@@ -42,6 +42,7 @@
 0.0.0.0 www.google-analytics.com
 0.0.0.0 www.googleadservices.com
 0.0.0.0 www.googletagmanager.com
+0.0.0.0 improving.duckduckgo.com
 0.0.0.0 ade.googlesyndication.com
 
 # [whatsapp.com]
@@ -135,6 +136,7 @@
 0.0.0.0 startup.mobile.yandex.net
 0.0.0.0 taxi-promotions.s3.yandex.net
 0.0.0.0 yabs.yandex.ru
+0.0.0.0 informer.yandex.ru
 0.0.0.0 yandexadexchange.net
 
 # [webvisor.com]

@@ -88,13 +88,14 @@ mail.yandex.ru#@#iframe[src="about:blank"]
 ! DOMAIN START
 ||*-safebrowsing.google.com^$important
 ||addthis.com^$important
-||adeventtracker.spotify.com^$important
 ||addthiscdn.com^$important
 ||addtoany.com^$important
+||adeventtracker.spotify.com^$important
 ||allvideometrika.com^$important
 ||apps.overwolf.com^$important
 ||avast.com^$important
 ||avcdn.net^$important
+||avlyun.sec.miui.com^$important
 ||brontp.yandex.ru^$important
 ||brozen.yandex.ru^$important
 ||cackle.me^$important
@@ -114,18 +115,14 @@ mail.yandex.ru#@#iframe[src="about:blank"]
 ||getdify.com^$important
 ||hovels.info^$important
 ||hypercomments.com^$important
-||iyfbodn.com^$important
 ||kas-labs.com^$important
 ||kaspersky-labs.com^$important
 ||kaspersky.*^$important,domain=~community.kaspersky.com|~forum.kaspersky.com|~support.kaspersky.ru|~opentip.kaspersky.com|~support.kaspersky.com
-||location.services.mozilla.com^$important
 ||meetings.googleapis.com^$important
 ||msn.com^$important
 ||opera-api.com^$important
 ||pluso.ru^$important
-||push.services.mozilla.com^$important
 ||recsys.opera.com^$important
-||redirekted.com^$important
 ||safe-browsing-quorum.privacy.ghostery.net^$important
 ||safe-browsing.ghostery.net^$important
 ||safebrowsing.googleapis.com^$important
@@ -136,29 +133,27 @@ mail.yandex.ru#@#iframe[src="about:blank"]
 ||sentry-cdn.com^$important
 ||share.yandex.*^$important
 ||sharethis.com^$important
-||shavar.services.mozilla.com^$important
 ||sitecheck.opera.com^$important
 ||smartscreen-prod.microsoft.com^$important
 ||smartscreen.microsoft.com^$important
 ||speeddials.opera.com^$important
-||tracking-protection.cdn.mozilla.net^$important
 ||tradingview-widget.com^$important
 ||tradingview.com^$important
 ||uptolike.com^$important
 ||usocial.pro^$important
-||widgetbot.io^$important
-||xbox.com^$important
-||xboxlive.com^$important
-||xboxservices.com^$important
-||yastroka.yandex.net^$important
-||avlyun.sec.miui.com^$important
-||zen.yandex.*^$important
-||anythinktech.com^$important
-||sohu.com^$important
 ||webcompat.com^$important
+||widgetbot.io^$important
+||yastroka.yandex.net^$important
+||anythinktech.com^
+||redirekted.com^
+||sohu.com^
 ||f4cebacks.com^
 ||fartmoda.com^
 ||xewuzetus.com^
+||premiumkc.cdngtc.com^
+||highly-fantastic-defense.net^
+||premium.getcontact.com^
+||iyfbodn.com
 ! DOMAIN END
 
 ! APP START
