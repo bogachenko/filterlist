@@ -31,25 +31,19 @@
 ||33across.com^
 ||4251.tech^
 ||a-mo.net^
-||go-mpulse.net^
 ||acuityads.com^
 ||adaware.com^
 ||adcamp.ru^
 ||adcash.com^
 ||adcel.co^
-||plrjs.org^
 ||adcolony.com^
 ||adconity.com^
 ||addealsnetwork.com^
 ||adduplex.com^
 ||adeventtracker.spotify.com^
 ||adforgames.com^
-||ascstats.iobit.com^
-||stats.iobit.com^
 ||adform.*^
-||instabug.com^
 ||adfox.ru^
-||digitalcaramel.com^
 ||adfox.yandex.*^
 ||adfstat.yandex.ru^
 ||adgrx.com^
@@ -117,6 +111,7 @@
 ||appstatic.opera.com^
 ||apptornado.com^
 ||ar.overwolf.com^
+||ascstats.iobit.com^
 ||assoc-amazon.com^
 ||atdmt.com^
 ||awaps.yandex.*^
@@ -136,10 +131,9 @@
 ||bs-meta.yandex.ru^
 ||bs.yandex.*^
 ||bugsnag.com^
+||buysellads.net^
 ||buzzoola.com^
 ||carbonads.com^
-||buysellads.net^
-||sgali-mcs.byteoversea.com^
 ||cc-api-data.adobe.io^
 ||chat.global.xiaomi.net^
 ||chat.xiaomi.net^
@@ -177,6 +171,7 @@
 ||diagnostics.*.office.com^
 ||diagnostics.microsoft.com^
 ||diagnostics.office.com^
+||digitalcaramel.com^
 ||digitaltarget.ru^
 ||districtm.net^
 ||dit.whatsapp.net^
@@ -212,6 +207,7 @@
 ||get.opera.com^
 ||getsentry.com^
 ||gibevay.ru^
+||go-mpulse.net^
 ||goldbach.com^
 ||googleadapis.l.google.com^
 ||googleadservices.com^
@@ -239,6 +235,7 @@
 ||infinitedata-pa.googleapis.com^
 ||informer.yandex.ru^
 ||inmobi.*^
+||instabug.com^
 ||intl.miui.com^
 ||intl.xiaomi.com^
 ||isnssdk.com^
@@ -282,6 +279,7 @@
 ||nexusrules.officeapps.live.com^
 ||nogravity.fun^
 ||notification.adblockplus.org^
+||null^
 ||o333o.com^
 ||officeci.azurewebsites.net^
 ||omtrdc.net^
@@ -303,6 +301,7 @@
 ||pipe.aria.microsoft.com^
 ||pladform.ru^
 ||playjusting.com^
+||plrjs.org^
 ||popads.net^
 ||popcash.net^
 ||pophandler.net^
@@ -346,6 +345,7 @@
 ||sentry-cdn.com^
 ||sentry.io^
 ||serving-sys.com^
+||sgali-mcs.byteoversea.com^
 ||smaato.*^
 ||smartadserver.com^
 ||smartclip.net^
@@ -368,6 +368,7 @@
 ||stat.mi.com^
 ||stat.xiaomi.com^
 ||static-doubleclick-net.l.google.com^
+||stats.iobit.com^
 ||sts.microsoft.com^
 ||supersonicads.com^
 ||surfe.pro^
@@ -392,6 +393,7 @@
 ||trk.mail.ru^
 ||trontv.com^
 ||ts.acestream.net^
+||undefined^
 ||underdog.media^
 ||unibots.in^
 ||unityads.unity3d.com^
@@ -437,5 +439,3 @@
 ||yuhuads.com^
 ||ziffdavis.com^
 ||__hola__.pac_get_init_ts.local.hola^
-||null^
-||undefined^
