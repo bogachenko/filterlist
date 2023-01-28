@@ -186,9 +186,9 @@ ilovepdf.com##+js(cookie-remover.js, /^fp0$/)
 *##iframe[src="about:blank"]
 *##a[href*="//ads."]
 *##a[href*="//ad."]
+*##[id*="cookieConsentUR"]
 *##.adsbygoogle[data-ad-client][data-ad-slot]
 *##[data-ad-client^="ca-pub-"][data-ad-slot]
-*##.dfp-leaderboard-container
 *##[data-adsbygoogle-status]
 *##[class*="-banner-exoclick"]
 *##[id*="div-gpt-ad"]
@@ -225,7 +225,7 @@ cdn.cdn-films.xyz##.registration-form-widget
 ! Content Security Policy (CSP) START
 ||twitch.tv^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: data: *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net *.recaptcha.net *.google.com *.gstatic.com *.algolia.net local.adguard.org injections.adguard.org *.cloudfront.net *.fastly.net *.live-video.net;
 ||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com *.google.com *.googleapis.com *.gstatic.com local.adguard.org injections.adguard.org;
-||vk.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.vkuseraudio.net *.userapi.com *.vk.com vk.com *.mycdn.me *.google.com *.gstatic.com local.adguard.org injections.adguard.org *.youtube.com coub.com *.akamai.net *.akamaized.net *.akamaihd.net *.googleapis.com *.api-maps.yandex.ru api.ok.ru *.vkuservideo.net *.vkuser.net *.googlevideo.com youtube.com *.hostingradio.ru *.n340.com *.cdnvideo.ru *.101.ru;
+||vk.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.vkuseraudio.net *.userapi.com *.vk.com vk.com *.mycdn.me *.google.com *.gstatic.com local.adguard.org injections.adguard.org *.youtube.com coub.com *.akamai.net *.akamaized.net *.akamaihd.net *.googleapis.com *.api-maps.yandex.ru api.ok.ru *.vkuservideo.net *.vkuser.net *.googlevideo.com youtube.com *.hostingradio.ru *.n340.com *.cdnvideo.ru *.101.ru *.magonet.ru;
 ! Content Security Policy (CSP) END
 
 ! OTHER START
