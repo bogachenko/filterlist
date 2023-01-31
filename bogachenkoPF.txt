@@ -192,6 +192,7 @@ ilovepdf.com##+js(cookie-remover.js, /^fp0$/)
 *##[data-adsbygoogle-status]
 *##[class*="-banner-exoclick"]
 *##[id*="div-gpt-ad"]
+*##[id*="aswift"]
 aliexpress.*###j-festival-container > .festival-sub-venue,.multi-sidebar-outer-rus.multi-sidebar-outer,.product-fix-wrap,#J_xiaomi_dialog,.site-footer,.ng-mobile.ng-item,.hot-words,.top-banner-container,.site-server-box,.user-helper-footer,.fm-sns,.ams-region,.seo-container.product-container,.search-feedback-wrap,.footer-copywrite,#container-for-smart-banner,.header-right-content,.drogue-poplayer-modal,[class*="styles_bannerLink"],[class*="styles_body_"],[class*="MultiSidebarTab"],[class*="TopBanner"],[class*="Footer_Footer__footer"]
 freebitco.in###myModal22:has-text(Did you know?)
 freebitco.in##.daily_jackpot_main_container_div,#deposit_promo_message_regular,#play_without_captcha_container,.reveal-modal-bg,#bottom_user_ads_container
@@ -219,7 +220,6 @@ twitter.com###layers > div[class] > div[class]:has(> div[class] div[role="button
 marinetraffic.com###topBanner,div.hidden-print,div[style="position: relative; width: 100%; margin-top: 15px; margin-bottom: 15px; height: 90px;"],.underMapAdMobile,.smartbanner-android,.smartbanner-container
 xvideos.com##.banner-slider.embed-responsive
 yandex.ru##[class*="_animation_"][class*="_layout_simple"][class*="_hasShadow"]
-cdn.cdn-films.xyz##.registration-form-widget
 ! Cascading Style Sheets (CSS) END
 
 ! Content Security Policy (CSP) START
@@ -389,6 +389,7 @@ geo.ritm.ru###audio-playback-firefox
 @@||gstatic.com/*/firebase-analytics.js$script
 ||t.co^$badfilter
 ||lan02.bid^
+cdn.cdn-films.xyz##.registration-form-widget
 ||filmitorrents.ru^
 @@/[-._?/]track(ers?|ing)[-.0-9_?]/$image,other,script,xmlhttprequest,app=com.wildberries.ru
 ||ad.mail.ru/$script,redirect-rule=empty,badfilter
