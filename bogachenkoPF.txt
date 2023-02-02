@@ -389,6 +389,8 @@ geo.ritm.ru###audio-playback-firefox
 @@||gstatic.com/*/firebase-analytics.js$script
 ||t.co^$badfilter
 ||lan02.bid^
+||as.lencdn.com^
+/^https?:\/\/(.*\.)?lenkino\.adult\/([a-z0-9]{7}\/){2}$/$script
 cdn.cdn-films.xyz##.registration-form-widget
 ||filmitorrents.ru^
 @@/[-._?/]track(ers?|ing)[-.0-9_?]/$image,other,script,xmlhttprequest,app=com.wildberries.ru
