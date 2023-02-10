@@ -144,16 +144,9 @@ mail.yandex.ru#@#iframe[src="about:blank"]
 ||webcompat.com^$important
 ||widgetbot.io^$important
 ||yastroka.yandex.net^$important
-||anythinktech.com^
-||redirekted.com^
-||sohu.com^
-||f4cebacks.com^
-||fartmoda.com^
-||xewuzetus.com^
+||telegrambutton.com^$important
 ||premiumkc.cdngtc.com^
-||highly-fantastic-defense.net^
 ||premium.getcontact.com^
-||iyfbodn.com
 ! DOMAIN END
 
 ! APP START
@@ -273,6 +266,7 @@ yandex.ru##[class*="_animation_"][class*="_layout_simple"][class*="_hasShadow"]
 |http*:*/request-ad|
 |http*:*/billboards?
 |http*:*/?sentry_key=
+|http*:*?partner_apikey=
 |http*:*&monetized=
 |http*:*/experiments?uuid=
 |http*:*/show-ads?
@@ -395,4 +389,15 @@ cdn.cdn-films.xyz##.registration-form-widget
 ||filmitorrents.ru^
 @@/[-._?/]track(ers?|ing)[-.0-9_?]/$image,other,script,xmlhttprequest,app=com.wildberries.ru
 ||ad.mail.ru/$script,redirect-rule=empty,badfilter
+||bolayaros.com^
+||mpraven.org^
+||wishesen.com^
+||anythinktech.com^
+||redirekted.com^
+||sohu.com^
+||f4cebacks.com^
+||fartmoda.com^
+||xewuzetus.com^
+||highly-fantastic-defense.net^
+||iyfbodn.com^
 ! TRASH END

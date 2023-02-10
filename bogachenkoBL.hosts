@@ -47,6 +47,7 @@
 
 # [whatsapp.com]
 0.0.0.0 dit.whatsapp.net
+0.0.0.0 crashlogs.whatsapp.net
 
 # [microsoft.com]
 0.0.0.0 browser.pipe.aria.microsoft.com
@@ -578,3 +579,7 @@
 0.0.0.0 aj2345.online
 0.0.0.0 aj2392.online
 0.0.0.0 aj2396.online
+
+# [weborama.fr]
+0.0.0.0 wcm-ru.frontend.weborama.fr
+0.0.0.0 weborama.fr
