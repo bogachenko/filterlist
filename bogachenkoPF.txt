@@ -34,12 +34,13 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 ! CONDITIONS END
 
 ! TEMPORARY START
-! uBlock Origin - Abuse of the ban list https://www.reddit.com/r/uBlockOrigin/comments/111wlyu/abuse_of_the_banlist/
+! uBlock Origin - Abuse of the ban list
+! README: https://www.reddit.com/r/uBlockOrigin/comments/111wlyu/abuse_of_the_banlist/
 ||ublockorigin.github.io^
 ||ublockorigin.pages.dev^
 |http*:*/gh/uBlockOrigin/
 |http*:*/filters/badlists.txt$xmlhttprequest
-@@/^https?:\/\/(cdn|ublockorigin)\.(github|statically)\.(net|io)\/(gh\/(uBlockOrigin|gorhill)?\/uAssets(CDN[/@]main)?\/)?(thirdparties|filters|assets)\/(easy(privacy|list)|filters(\-[0-9]{4})?|annoyances|assets)\.(js|txt)/$xmlhttprequest,other
+@@/^https?:\/\/(cdn|ublockorigin)\.(github|statically)\.(net|io)\/(gh\/(uBlockOrigin|gorhill)?\/uAssets(CDN[/@]main)?\/)?(thirdparties|filters|assets|ublock)\/(easy(privacy|list)|filters(\-[0-9]{4})?|annoyances|assets)\.(json|txt)/$xmlhttprequest,other
 ! TEMPORARY END
 
 ! STEALTH START
@@ -54,7 +55,6 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 @@||local.adguard.org^$script
 @@||injections.adguard.org^$script
 @@||metrika.yandex.ru^$document,important
-mail.yandex.ru#@#iframe[src="about:blank"]
 @@||cdnjs.cloudflare.com^$script
 ! WHITELIST END
 
@@ -374,7 +374,7 @@ infourok.ru##div#aa-popup
 @@/\?advert((ising)|\_page)?\_id=/$other,app=ru.yandex.yandexmaps
 ||yastatic.net/share2/$third-party,important,script,domain=~radiorecord.ru
 noodlemagazine.com#@#.verify
-pay.google.com#@#iframe[src="about:blank"]
+pay.google.com,mail.yandex.ru#@#iframe[src="about:blank"]
 geo.ritm.ru###audio-playback-firefox
 ||checkadblock.ru^$document,csp=script-src 'self',badfilter
 ||iobit.com/appgoto.php$document
