@@ -287,8 +287,8 @@ yandex.ru##[class*="_animation_"][class*="_layout_simple"][class*="_hasShadow"]
 ||yandex.ru/an/
 |http*:*&oad=
 |http*:*/yabanner?url=
-||cdn.statically.io/gh/uBlockOrigin/
-||cdn.jsdelivr.net/gh/uBlockOrigin/
+|http*:*/gh/uBlockOrigin/
+|http*:*/gh/uBlockOrigin/
 ! OTHER END
 
 ! SCRIPT START
