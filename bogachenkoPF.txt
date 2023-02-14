@@ -39,7 +39,7 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 ||ublockorigin.pages.dev^
 |http*:*/gh/uBlockOrigin/
 |http*:*/filters/badlists.txt$xmlhttprequest
-@@/^https?:\/\/(ublockorigin\.(github\.io|pages\.dev)|cdn\.(statically\.io|jsdelivr\.net)\/gh\/uBlockOrigin)(\/uAssets(CDN[@/]main)?)?\/filters\/(annoyances|filters(\-[0-9]{4})?)\.txt/
+@@/^https?:\/\/(cdn|ublockorigin)\.(github|statically)\.(net|io)\/(gh\/(uBlockOrigin|gorhill)?\/uAssets(CDN[/@]main)?\/)?(thirdparties|filters|assets)\/(easy(privacy|list)|filters(\-[0-9]{4})?|annoyances|assets)\.(js|txt)/$xmlhttprequest,other
 ! TEMPORARY END
 
 ! STEALTH START
