@@ -33,14 +33,14 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 !#endif
 ! CONDITIONS END
 
-! TEST START
-! https://github.com/AdguardTeam/DnsLibs/issues/141
-||adjust.*^$important
-||adj.st^$important
-! Xiaomi
-||resolver.msg.global.xiaomi.net^
-||micloud.xiaomi.net^
-! TEST END
+! TEMPORARY START
+! uBlock Origin - Abuse of the ban list https://www.reddit.com/r/uBlockOrigin/comments/111wlyu/abuse_of_the_banlist/
+||ublockorigin.github.io^
+||ublockorigin.pages.dev^
+|http*:*/gh/uBlockOrigin/
+|http*:*/filters/badlists.txt$xmlhttprequest
+@@/^https?:\/\/(ublockorigin\.(github\.io|pages\.dev)|cdn\.(statically\.io|jsdelivr\.net)\/gh\/uBlockOrigin)(\/uAssets(CDN[@/]main)?)?\/filters\/(annoyances|filters(\-[0-9]{4})?)\.txt/
+! TEMPORARY END
 
 ! STEALTH START
 @@||gosuslugi.ru^$stealth
@@ -147,8 +147,6 @@ mail.yandex.ru#@#iframe[src="about:blank"]
 ||telegrambutton.com^$important
 ||premiumkc.cdngtc.com^
 ||premium.getcontact.com^
-||ublockorigin.github.io^
-||ublockorigin.pages.dev^
 ! DOMAIN END
 
 ! APP START
@@ -287,8 +285,6 @@ yandex.ru##[class*="_animation_"][class*="_layout_simple"][class*="_hasShadow"]
 ||yandex.ru/an/
 |http*:*&oad=
 |http*:*/yabanner?url=
-|http*:*/gh/uBlockOrigin/
-|http*:*/gh/uBlockOrigin/
 ! OTHER END
 
 ! SCRIPT START
@@ -326,7 +322,6 @@ yandex.ru##[class*="_animation_"][class*="_layout_simple"][class*="_hasShadow"]
 /^https?:\/\/[^\s]+\.(com|net|xyz)\/[a-z0-9]{10,11}\.php$/$xmlhttprequest,important,third-party
 /\.com\/custom$/$xmlhttprequest,third-party
 ||yandex.ru/ick/$xmlhttprequest
-|http*:*/filters/badlists.txt$xmlhttprequest
 ! XMLHTTPREQUEST END
 
 ! SUBDOCUMENT START
