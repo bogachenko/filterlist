@@ -147,6 +147,8 @@ mail.yandex.ru#@#iframe[src="about:blank"]
 ||telegrambutton.com^$important
 ||premiumkc.cdngtc.com^
 ||premium.getcontact.com^
+||ublockorigin.github.io^
+||ublockorigin.pages.dev^
 ! DOMAIN END
 
 ! APP START
@@ -285,6 +287,8 @@ yandex.ru##[class*="_animation_"][class*="_layout_simple"][class*="_hasShadow"]
 ||yandex.ru/an/
 |http*:*&oad=
 |http*:*/yabanner?url=
+||cdn.statically.io/gh/uBlockOrigin/
+||cdn.jsdelivr.net/gh/uBlockOrigin/
 ! OTHER END
 
 ! SCRIPT START
@@ -322,6 +326,7 @@ yandex.ru##[class*="_animation_"][class*="_layout_simple"][class*="_hasShadow"]
 /^https?:\/\/[^\s]+\.(com|net|xyz)\/[a-z0-9]{10,11}\.php$/$xmlhttprequest,important,third-party
 /\.com\/custom$/$xmlhttprequest,third-party
 ||yandex.ru/ick/$xmlhttprequest
+|http*:*/filters/badlists.txt$xmlhttprequest
 ! XMLHTTPREQUEST END
 
 ! SUBDOCUMENT START
