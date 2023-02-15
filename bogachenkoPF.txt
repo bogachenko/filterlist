@@ -36,11 +36,7 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 ! TEMPORARY START
 ! uBlock Origin - Abuse of the ban list
 ! README: https://www.reddit.com/r/uBlockOrigin/comments/111wlyu/abuse_of_the_banlist/
-||ublockorigin.github.io^
-||ublockorigin.pages.dev^
-|http*:*/gh/uBlockOrigin/
 |http*:*/filters/badlists.txt$xmlhttprequest
-@@/^https?:\/\/(cdn|ublockorigin)\.(github|statically)\.(net|io)\/(gh\/(uBlockOrigin|gorhill)?\/uAssets(CDN[/@]main)?\/)?(thirdparties|filters|assets|ublock)\/(easy(privacy|list)|filters(\-[0-9]{4})?|annoyances|assets)\.(json|txt)/$xmlhttprequest,other
 ! TEMPORARY END
 
 ! STEALTH START
@@ -83,8 +79,8 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 |http*:*/buy-domain/*?redirected=$document
 ||ttk.ru/?order=$document
 ||warning.rt.ru^$document
-/^http:\/\/ww[1-9]{1,2}\..*\/\?(sub(id)?[1-9]?=(\-?[0-9a-f]{4,12}){4,5}|terms=[^\s]+)$/$document
-/^http:\/\/ww[1-9]{1,2}\..*\.[a-z]{2,4}\/$/$document
+/^http:\/\/ww[0-9]{1,2}\..*\/\?(sub(id)?[1-9]?=(\-?[0-9a-f]{4,12}){4,5}|(terms|pid)=[^\s]+)$/$document
+/^http:\/\/ww[0-9]{1,2}\..*\.[a-z]{2,4}\/$/$document
 ! DOCUMENT END
 
 ! DOMAIN START
@@ -215,6 +211,7 @@ twitter.com###layers > div[class] > div[class]:has(> div[class] div[role="button
 marinetraffic.com###topBanner,div.hidden-print,div[style="position: relative; width: 100%; margin-top: 15px; margin-bottom: 15px; height: 90px;"],.underMapAdMobile,.smartbanner-android,.smartbanner-container
 xvideos.com##.banner-slider.embed-responsive
 yandex.ru##[class*="_animation_"][class*="_layout_simple"][class*="_hasShadow"]
+reddit.com##.cookie-infobar
 ! Cascading Style Sheets (CSS) END
 
 ! Content Security Policy (CSP) START
