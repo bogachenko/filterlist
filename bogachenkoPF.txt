@@ -79,8 +79,7 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 |http*:*/buy-domain/*?redirected=$document
 ||ttk.ru/?order=$document
 ||warning.rt.ru^$document
-/^http:\/\/ww[0-9]{1,2}\..*\/\?(sub(id)?[1-9]?=(\-?[0-9a-f]{4,12}){4,5}|(terms|pid)=[^\s]+)$/$document
-/^http:\/\/ww[0-9]{1,2}\..*\.[a-z]{2,4}\/$/$document
+/^http:\/\/ww[0-9]{1,2}\..*\.[a-z]{2,4}\/(\?(sub(id)?[1-9]?=(\-?[0-9a-f]{4,12}){4,5}|(terms|pid)=[^\s]+))?$/$document
 ! DOCUMENT END
 
 ! DOMAIN START
