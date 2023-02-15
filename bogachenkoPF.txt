@@ -83,6 +83,7 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 |http*:*/buy-domain/*?redirected=$document
 ||ttk.ru/?order=$document
 ||warning.rt.ru^$document
+/^https?:\/\/ww[0-9]{2}\..*\/\?subid1=(\-?[0-9a-f]{4,12}){4,5}/$document
 ! DOCUMENT END
 
 ! DOMAIN START
