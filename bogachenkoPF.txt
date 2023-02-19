@@ -39,6 +39,19 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 |http*:*/filters/badlists.txt$xmlhttprequest
 ! TEMPORARY END
 
+! TEST START
+||matrix-sector.com^
+||hotcryp.to^
+||rollercoin.com^
+||cryptohunter.me^
+||bitko.ng^
+||rotator.top^
+||dogeminingpaid.com^
+||bitgamble.org^
+||firefaucet.win^
+||cryptoshots.biz^
+! TEST END
+
 ! STEALTH START
 @@||gosuslugi.ru^$stealth
 @@||wildberries.ru^$stealth
@@ -170,6 +183,7 @@ infourok.ru##+js(abort-on-property-write.js, document.onselectstart)
 infourok.ru##+js(js-rm.js, yaCounter)
 twitch.tv##+js(no-fetch-if.js, /video-edge-[^/]+ttvnw.net/ method:POST)
 ilovepdf.com##+js(cookie-remover.js, /^fp0$/)
+faucetcrypto.com##+js(disable-newtab-links.js)
 ! SCRIPTLET END
 
 ! Cascading Style Sheets (CSS) START
@@ -211,6 +225,7 @@ marinetraffic.com###topBanner,div.hidden-print,div[style="position: relative; wi
 xvideos.com##.banner-slider.embed-responsive
 yandex.ru##[class*="_animation_"][class*="_layout_simple"][class*="_hasShadow"]
 reddit.com##.cookie-infobar
+faucetcrypto.com##iframe[id$="-ad-iframe"]:upward(1)
 ! Cascading Style Sheets (CSS) END
 
 ! Content Security Policy (CSP) START
@@ -324,6 +339,7 @@ reddit.com##.cookie-infobar
 
 ! SUBDOCUMENT START
 ||video.sibnet.ru/my/settings/$subdocument
+|http*:*$frame,domain=faucetcrypto.com
 ! SUBDOCUMENT END
 
 ! IMAGE START
@@ -343,7 +359,6 @@ reddit.com##.cookie-infobar
 /[-._?/]track(ers?|ing)[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~alipay.com|~analytics.google.com|~fandom.com|~pochta.ru|~yandex.ru|~aliexpress.*|~ubisoft.com|~ubi.com|~yoomoney.ru|~wildberries.ru
 /[-._?/]vast[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~github.com|~gitlab.com|~twitch.tv|~spankbang.com
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest
-|http*:*/serviceworker?$important,script,xmlhttprequest
 /^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,popup,important
 ||yastatic.net/daas/atom.js|$important,script,xmlhttprequest
 ||youtube.com/*/activeview?$important,script,xmlhttprequest
@@ -351,7 +366,7 @@ reddit.com##.cookie-infobar
 
 ! TRASH START
 infourok.ru##div#aa-popup
-||xyz^$third-party,script,xmlhttprequest,domain=~anidub.com|~animedia.pro|~animeheaven.ru|~animevibe.wtf|~app.element.io|~assistir-filme.biz|~auth.magic.link|~avtomaty-i-bonusy.com|~baza.bz|~bdnewszh.com|~capshd.xyz|~cdnmovies.be|~cdnmovies.cc|~cdnmovies.nl|~coomeet.com|~crackstreams.com|~crackstreams.ga|~csgoreports.com|~emblix.cc|~espnfree.xyz|~estream.to|~europixhd.io|~films.hds-stream.com|~flowcdn.nl|~fyshare.info|~getvi.tv|~github.io|~gsmware.com|~hanime.tv|~hentaiz.org|~herokuapp.com|~infoua.biz|~jokehd.com|~jokerswidget.com|~jokerswidget.org|~kinoguru.be|~kinoguru.me|~live-nhl.stream|~live94today.com|~lookbase.xyz|~lyra.finance|~mail.google.com|~mangahere.fit|~map-a-date.cc|~mas-stream2021.xyz|~matchat.online|~mikeamigorein.xyz|~miranimbus.ru|~my.mail.ru|~nccg.ru|~newdmn.icu|~odysee.com|~onmovies.se|~playjoke.xyz|~playm4u.xyz|~playmuvi.com|~roadhub.ru|~roblox.com|~sextop.net|~soccer365.ru|~soonwalk.net|~sportsbay.org|~streetbee.io|~streetbee.ru|~telerium.club|~telerium.live|~uacycling.info|~uploadedpremiumlink.net|~vercel.app|~vk-apps.com|~vk.com|~vmeste.tv|~web.app|~webflow.io,badfilter
+||xyz^$third-party,script,xmlhttprequest,domain=~anidub.com|~anidub.vip|~anidubonline.com|~animedia.pro|~animeheaven.ru|~animevibe.wtf|~app.element.io|~assistir-filme.biz|~auth.magic.link|~avtomaty-i-bonusy.com|~baza.bz|~bdnewszh.com|~capshd.xyz|~cdnmovies.be|~cdnmovies.cc|~cdnmovies.nl|~coomeet.com|~crackstreams.com|~crackstreams.ga|~csgoreports.com|~emblix.cc|~espnfree.xyz|~estream.to|~europixhd.io|~films.hds-stream.com|~flowcdn.nl|~fyshare.info|~getvi.tv|~github.io|~gsmware.com|~hanime.tv|~hentaiz.org|~herokuapp.com|~infoua.biz|~jokehd.com|~jokerswidget.com|~jokerswidget.org|~kinoguru.be|~kinoguru.me|~live-nhl.stream|~live94today.com|~lookbase.xyz|~lyra.finance|~mail.google.com|~mangahere.fit|~map-a-date.cc|~mas-stream2021.xyz|~matchat.online|~mikeamigorein.xyz|~miranimbus.ru|~my.mail.ru|~nccg.ru|~newdmn.icu|~odysee.com|~onmovies.se|~playjoke.xyz|~playm4u.xyz|~playmuvi.com|~roadhub.ru|~roblox.com|~sextop.net|~soccer365.ru|~soonwalk.net|~sportsbay.org|~streetbee.io|~streetbee.ru|~telerium.club|~telerium.live|~uacycling.info|~uploadedpremiumlink.net|~vercel.app|~vk-apps.com|~vk.com|~vmeste.tv|~web.app|~webflow.io,badfilter
 ||pw^$third-party,script,xmlhttprequest,domain=~adwiz.pp.ua|~forum.worldofwarships.eu|~forum.worldofwarships.ru|~hdvbplayer.tk|~herokuapp.com|~live-gol.net|~movielab.pro|~panomama.ru|~philips.ru|~purina.ru|~softpir.com|~sportsvideoline3.pw|~tefal.ru|~tikkurila.ru|~vk-apps.com|~vulpecula.host,badfilter
 @@||s.youtube.com^|$badfilter
 @@||redirect.appmetrica.yandex.com^|$badfilter
@@ -377,6 +392,7 @@ geo.ritm.ru###audio-playback-firefox
 ||checkadblock.ru^$document,csp=script-src 'self',badfilter
 ||iobit.com/appgoto.php$document
 @@||api.browser.yandex.*^$badfilter
+||browserleaks.com/proxy$document,csp=script-src 'unsafe-inline',badfilter
 /templates/*/images/like.gif$image
 @@||gstatic.com/*/firebase-analytics.js$script
 ||t.co^$badfilter
