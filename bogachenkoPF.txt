@@ -155,8 +155,10 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 ||widgetbot.io^$important
 ||yastroka.yandex.net^$important
 ||telegrambutton.com^$important
-||premiumkc.cdngtc.com^
-||premium.getcontact.com^
+||premiumkc.cdngtc.com^$important
+||premium.getcontact.com^$important
+||p.ozone.ru^$important
+||v.ozone.ru^$important
 ! DOMAIN END
 
 ! APP START
@@ -168,7 +170,6 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 ||amazonaws.com^$important,app=ru.yandex.merto
 ||dns.google^$app=com.zhiliaoapp.musically
 /^https?:\/\/(www\.)?[^\s]+\/ad[svbxo]?[-_]?[a-z]{1,15}\.js/$important,script,xmlhttprequest,app=ru.ivi.client
-||v.ozone.ru^$app=ru.ozon.app.android
 ||ozone.ru/stream/$app=ru.ozon.app.android
 ! APP END
 
@@ -300,6 +301,7 @@ faucetcrypto.com##iframe[id$="-ad-iframe"]:upward(1)
 |http*:*/yabanner?url=
 |http*:*/sellerassets/
 |http*:*?payload=
+|http*:*?advert=
 ! OTHER END
 
 ! SCRIPT START
