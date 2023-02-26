@@ -168,6 +168,8 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 ||amazonaws.com^$important,app=ru.yandex.merto
 ||dns.google^$app=com.zhiliaoapp.musically
 /^https?:\/\/(www\.)?[^\s]+\/ad[svbxo]?[-_]?[a-z]{1,15}\.js/$important,script,xmlhttprequest,app=ru.ivi.client
+||v.ozone.ru^$app=ru.ozon.app.android
+||ozone.ru/stream/$app=ru.ozon.app.android
 ! APP END
 
 ! SCRIPTLET START
@@ -207,7 +209,7 @@ twitch.tv##.channel-leaderboard,.prime-offers,[aria-label="Друзья в се�
 twitch.tv##[class*="CoreButton"]:has-text(/Купить Bits|Get Bits/)
 twitch.tv##div.side-nav-section:has([aria-label]):has-text(/Рекомендуемые каналы|также смотрят|Viewers Also Watch|Recommended Channels/)
 vk.com###stl_left,#stl_side,.apps_feedRightAppsBlock,#ads_left,.right_list_header,#group_recom_rows,#group_recom_wrap,.feed_friends_recomm,div[data-ad],div[data-ad-view],[class^="ads_ad_"],#stories_feed_wrap,#profile_friends_recomm,.ads_ads_box,#system_msg,#utils,.audio_promo,#feed_blog_reminder,a[href*="/app7399325"],#l_watch_home,a[href*="/covid19"],.installApp,#ui_rmenu_coronavirus,#ui_rmenu_stayhome,.wall_marked_as_ads,.item_share,.apps_feedRightAppsBlock__row,.videoplayer_action_button,.ads_ad_box,.ads_ad_box2,[id*="reply_box_donut-"],.ShortVideoFeedBlock,.feed_groups_recomm,.feedAssistance_recommendedGroups,.feedAssistance_promoButton,#block_youla-recommendations-carousel,#block_aliexpress-recommendations-carousel,.RecommendedNarrativesBlock,.FeedVideosForYou,.GroupsRecommendedSlider,.friendsRecommendedSliderWrap,.friends_possible_block,.videoplayer_share_actions,#cover_list_app_widget,.EasterEggsContainer,.post_withExtraHeader.post_exploreBait.wall_item,.VideoOwnerInfo,.NeuroHdHint__button,.InterestsBlock__inner
-vk.com##div.feed_row:has-text(/Может быть интересно|Рекомендуемые новости|Рекомендуемое видео/)
+vk.com##div.feed_row:has-text(/Может быть интересно|Рекомендуемые новости|Рекомендуемое видео|Реклама в сообществе/)
 vk.com##[id^="post-"]:has([class*="copyright"]):has-text(/Источник:/)
 vk.com##[class="wall_item"]:has([class*="ads_mark"])
 yadi.sk##.header__inline-services-menu.inline-services-menu,.app-promo-banner,.software-header-product_win
@@ -296,6 +298,8 @@ faucetcrypto.com##iframe[id$="-ad-iframe"]:upward(1)
 ||yandex.ru/an/
 |http*:*&oad=
 |http*:*/yabanner?url=
+|http*:*/sellerassets/
+|http*:*?payload=
 ! OTHER END
 
 ! SCRIPT START
