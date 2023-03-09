@@ -210,11 +210,14 @@
 ||go-mpulse.net^
 ||goldbach.com^
 ||googleadapis.l.google.com^
+||mcs-va.tiktokv.com^
 ||googleadservices.com^
 ||googleoptimize.com^
 ||googlesyndication.com^
 ||googletagmanager.com^
 ||googletagservices.com^
+||mon-*.tiktokv.com^
+||mon.tiktokv.com^
 ||gx-corner.opera.com^
 ||gx-corner.route*.opera.com^
 ||hdbcome.com^
@@ -222,6 +225,7 @@
 ||hostingcloud.*^
 ||hotjar.com^
 ||hovels.info^
+||log*-*.tiktokv.com^
 ||huyandex.com^
 ||iad.apple.com^
 ||iadsdk.apple.com^
