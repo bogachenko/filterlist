@@ -198,6 +198,7 @@ faucetcrypto.com##+js(disable-newtab-links.js)
 *##[class*="-banner-exoclick"]
 *##[id*="div-gpt-ad"]
 *##[id*="aswift"]
+*###DidYouLikeIt.active
 aliexpress.*###j-festival-container > .festival-sub-venue,.multi-sidebar-outer-rus.multi-sidebar-outer,.product-fix-wrap,#J_xiaomi_dialog,.site-footer,.ng-mobile.ng-item,.hot-words,.top-banner-container,.site-server-box,.user-helper-footer,.fm-sns,.ams-region,.seo-container.product-container,.search-feedback-wrap,.footer-copywrite,#container-for-smart-banner,.header-right-content,.drogue-poplayer-modal,[class*="styles_bannerLink"],[class*="styles_body_"],[class*="MultiSidebarTab"],[class*="TopBanner"],[class*="Footer_Footer__footer"]
 freebitco.in###myModal22:has-text(Did you know?)
 freebitco.in##.daily_jackpot_main_container_div,#deposit_promo_message_regular,#play_without_captcha_container,.reveal-modal-bg,#bottom_user_ads_container
@@ -206,7 +207,7 @@ music.yandex.ru##.sidebar__under
 music.yandex.ru##span:contains(Отключить рекламу)
 trade.aliexpress.*##[href^="//simplee.aliexpress.com/"],[href^="//campaign.aliexpress.com/"]
 twitch.tv##.default-panel > :not([href*="vk.com"]):not([href*="donationalerts."]):not([href*="instagram.com"]):not([href*="youtube.com"]):not([href*="twitter.com"]):not([href*="steamcommunity.com"]):not([href*="discord.gg"]):not([href*="facebook.com"])
-twitch.tv##.channel-leaderboard,.prime-offers,[aria-label="Друзья в сети"],[aria-label="Bits"],[data-a-target="bits-button"],[data-a-target="subscribe-button"],[data-a-target="share-button"],.tw-tag,.extension-panel
+twitch.tv##.channel-leaderboard,.prime-offers,[aria-label="Друзья в сети"],[aria-label="Bits"],[data-a-target="bits-button"],[data-a-target="subscribe-button"],[data-a-target="share-button"],.tw-tag,.extension-panel,.htmBdw
 twitch.tv##[class*="CoreButton"]:has-text(/Купить Bits|Get Bits/)
 twitch.tv##div.side-nav-section:has([aria-label]):has-text(/Рекомендуемые каналы|также смотрят|Viewers Also Watch|Recommended Channels/)
 vk.com###stl_left,#stl_side,.apps_feedRightAppsBlock,#ads_left,.right_list_header,#group_recom_rows,#group_recom_wrap,.feed_friends_recomm,div[data-ad],div[data-ad-view],[class^="ads_ad_"],#stories_feed_wrap,#profile_friends_recomm,.ads_ads_box,#system_msg,#utils,.audio_promo,#feed_blog_reminder,a[href*="/app7399325"],#l_watch_home,a[href*="/covid19"],.installApp,#ui_rmenu_coronavirus,#ui_rmenu_stayhome,.wall_marked_as_ads,.item_share,.apps_feedRightAppsBlock__row,.videoplayer_action_button,.ads_ad_box,.ads_ad_box2,[id*="reply_box_donut-"],.ShortVideoFeedBlock,.feed_groups_recomm,.feedAssistance_recommendedGroups,.feedAssistance_promoButton,#block_youla-recommendations-carousel,#block_aliexpress-recommendations-carousel,.RecommendedNarrativesBlock,.FeedVideosForYou,.GroupsRecommendedSlider,.friendsRecommendedSliderWrap,.friends_possible_block,.videoplayer_share_actions,#cover_list_app_widget,.EasterEggsContainer,.post_withExtraHeader.post_exploreBait.wall_item,.VideoOwnerInfo,.NeuroHdHint__button,.InterestsBlock__inner
@@ -220,7 +221,9 @@ youtube.com###dismissible.ytd-compact-movie-renderer.style-scope:has(.badge):has
 my.yota.ru##.y-expansion-panel,.promotion-offer, app-slider-ma-symk,.y-swiper-track
 passageweather.com##.rightcolumn,.upperdiv,.header,#leftimages,.blackbottom,.bottombit,.footer,.gapfill,[onclick*="ga("],div.newsbox,div.noticebox,div.noticeboxtop
 passageweather.com##.document:style(background-image: none!important;)
-pornhub.com##.adContainer,.premiumAdvertWrapper,div[id^="age-verification"],.adsbytrafficjunky,.phpFreeBlock,[data-entrycode="Free_Premium_Video"],.cookiesBanner
+pornhub.com##.adContainer,.premiumAdvertWrapper,div[id^="age-verification"],.adsbytrafficjunky,.phpFreeBlock,[data-entrycode="Free_Premium_Video"],.cookiesBanner,#modalWrapMTubes,#js-networkBar
+pornhub.com##body:style(overflow: auto !important)
+pornhub.com##.sectionWrapper > :has([class^="premiumIcon"])
 twitter.com###layers > div[class] > div[class]:has(> div[class] div[role="button"] > div[dir="auto"] > span > span:contains(ookie))
 marinetraffic.com###topBanner,div.hidden-print,div[style="position: relative; width: 100%; margin-top: 15px; margin-bottom: 15px; height: 90px;"],.underMapAdMobile,.smartbanner-android,.smartbanner-container
 xvideos.com##.banner-slider.embed-responsive
@@ -382,6 +385,8 @@ infourok.ru##div#aa-popup
 @@||app.adjust.com^|$badfilter
 ||wl.spotify.com^$badfilter
 ||click.redditmail.com^$badfilter
+||juristfind.ru/e0849bec3fed8d3ea4a7bd84d6c640c0/
+||pravozash.com/768112e5729a
 /^https?:\/\/yastatic\.net\/www\/_\/[^\s]{150,}/$image,redirect-rule=empty,domain=yandex.by|yandex.kz|yandex.ru|yandex.uz,badfilter
 @@/^(.+[_.-])?ad[sxv]?([\d]+)?[_.-]/$other,xmlhttprequest,app=ru.dublgis.dgismobile
 @@||usher.ttvnw.net^$xmlhttprequest,other,app=tv.twitch.android.app
