@@ -218,7 +218,7 @@ youtube.com###dismissible.ytd-compact-movie-renderer.style-scope:has(.badge):has
 my.yota.ru##.y-expansion-panel,.promotion-offer, app-slider-ma-symk,.y-swiper-track
 passageweather.com##.rightcolumn,.upperdiv,.header,#leftimages,.blackbottom,.bottombit,.footer,.gapfill,[onclick*="ga("],div.newsbox,div.noticebox,div.noticeboxtop
 passageweather.com##.document:style(background-image: none!important;)
-pornhub.com##.adContainer,.premiumAdvertWrapper,div[id^="age-verification"],.adsbytrafficjunky,.phpFreeBlock,[data-entrycode="Free_Premium_Video"],.cookiesBanner,#modalWrapMTubes,#js-networkBar
+pornhub.com##.adContainer,.premiumAdvertWrapper,div[id^="age-verification"],.adsbytrafficjunky,.phpFreeBlock,[data-entrycode="Free_Premium_Video"],.cookiesBanner,#modalWrapMTubes,#welcome,#countryRedirectMessage,.livesex
 pornhub.com##body:style(overflow: auto !important)
 pornhub.com##.sectionWrapper > :has([class^="premiumIcon"])
 twitter.com###layers > div[class] > div[class]:has(> div[class] div[role="button"] > div[dir="auto"] > span > span:contains(ookie))
@@ -233,6 +233,7 @@ faucetcrypto.com##iframe[id$="-ad-iframe"]:upward(1)
 ||twitch.tv^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: data: *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net *.recaptcha.net *.google.com *.gstatic.com *.algolia.net local.adguard.org injections.adguard.org *.cloudfront.net *.fastly.net *.live-video.net;
 ||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com *.google.com *.googleapis.com *.gstatic.com local.adguard.org injections.adguard.org;
 ||vk.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.vkuseraudio.net *.userapi.com *.vk.com *.vk.ru *.mycdn.me *.google.com *.gstatic.com local.adguard.org injections.adguard.org *.youtube.com coub.com *.akamai.net *.akamaized.net *.akamaihd.net *.googleapis.com *.api-maps.yandex.ru api.ok.ru *.vkuservideo.net *.vkuser.net *.googlevideo.com youtube.com *.hostingradio.ru *.n340.com *.cdnvideo.ru *.101.ru *.magonet.ru;
+||tiktok.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ttwstatic.com *.tiktokcdn.com *.tiktok.com *.tiktokcdn-us.com *.byteoversea.com local.adguard.org injections.adguard.org;
 ! Content Security Policy (CSP) END
 
 ! OTHER START
