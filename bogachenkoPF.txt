@@ -161,7 +161,7 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 ! APP START
 /^(?!.*(lfnnmlimilinwvwlijljioeogq13\.club|(firebaseio|g(oogleapis|static)|pbssrv\-centralevents|verifykit|cdngtc)\.com)).*$/$important,app=app.source.getcontact
 *$important,app=com.mi.android.globalFileexplorer|com.miui.cleaner|com.miui.securitycenter|com.xiaomi.glgm|com.miui.videoplayer|com.miui.player|com.mi.globalbrowser|com.miui.gallery
-/^(?!.*(spotify\.com|spotifycdn\.com|fastly\.net|scdn\.co|akamaized\.net|(firebaseinstallations|update)\.googleapis\.com|payments\.braintree\-api\.com|api\.braintreegateway\.com)).*$/$important,app=Spotify.exe|com.spotify.music
+/^(?!.*(spotify\.com|spotifycdn\.com|fastly\.net|scdn\.co|akamaized\.net|(firebaseinstallations|update)\.googleapis\.com|payments\.braintree\-api\.com|api\.braintreegateway\.com|paypal\.com|ebanxpay\.com)).*$/$important,app=Spotify.exe|com.spotify.music
 /^https?:\/\/pbssrv\-centralevents\.com\/.*\/(subscription|marketing\-event|ad\-settings|spam\-info)$/$important,app=app.source.getcontact
 /^(?!.*(temp\-mail)\.org).*$/$important,app=com.tempmail
 ||amazonaws.com^$important,app=ru.yandex.merto
@@ -271,6 +271,7 @@ faucetcrypto.com##iframe[id$="-ad-iframe"]:upward(1)
 ||spotify.com/social-connect/$important
 ||spotify.com/socialgraph/$important
 ||spotify.com/sponsored$important
+||spclient.wg.spotify.com/device-capabilities/$important
 ||spotify.com/*/showSponsors/$important
 ||yandex.*/clck/$important
 ||yandex.*/count/$important
@@ -280,7 +281,7 @@ faucetcrypto.com##iframe[id$="-ad-iframe"]:upward(1)
 |http*:*/ads-tracking|
 |http*:*/request-ad|
 |http*:*/billboards?
-|http*:*/?sentry_key=
+|http*:*?sentry_key=
 |http*:*?partner_apikey=
 |http*:*&monetized=
 |http*:*/experiments?uuid=
