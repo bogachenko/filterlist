@@ -93,6 +93,7 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 ||ttk.ru/?order=$document
 ||warning.rt.ru^$document
 /^http:\/\/ww[0-9]{1,2}\..*\.[a-z]{2,4}\/(\?(sub(id)?[1-9]?=(\-?[0-9a-f]{4,12}){4,5}|(terms|pid)=[^\s]+))?$/$document
+|http*:*?redirect_id=$document
 ! DOCUMENT END
 
 ! DOMAIN START
@@ -226,7 +227,7 @@ marinetraffic.com###topBanner,div.hidden-print,div[style="position: relative; wi
 xvideos.com##.banner-slider.embed-responsive
 yandex.ru##[class*="_animation_"][class*="_layout_simple"][class*="_hasShadow"]
 reddit.com##.cookie-infobar
-faucetcrypto.com##iframe[id$="-ad-iframe"]:upward(1)
+online.vtb.ru##[class*="NoRussianCertificatesBanner"]
 ! Cascading Style Sheets (CSS) END
 
 ! Content Security Policy (CSP) START
@@ -271,7 +272,7 @@ faucetcrypto.com##iframe[id$="-ad-iframe"]:upward(1)
 ||spotify.com/social-connect/$important
 ||spotify.com/socialgraph/$important
 ||spotify.com/sponsored$important
-||spclient.wg.spotify.com/device-capabilities/$important
+||spotify.com/device-capabilities/$important
 ||spotify.com/*/showSponsors/$important
 ||yandex.*/clck/$important
 ||yandex.*/count/$important
@@ -407,6 +408,8 @@ geo.ritm.ru###audio-playback-firefox
 @@||unpkg.com/videojs-vast-vpaid$script,third-party
 ||lan02.bid^
 ||as.lencdn.com^
+faucetcrypto.com##iframe[id$="-ad-iframe"]:upward(1)
+||clicktoads.cfd^
 /^https?:\/\/(.*\.)?lenkino\.adult\/([a-z0-9]{7}\/){2}$/$script
 cdn.cdn-films.xyz##.registration-form-widget
 ||filmitorrents.ru^
