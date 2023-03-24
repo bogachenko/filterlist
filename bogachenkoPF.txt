@@ -233,8 +233,8 @@ online.vtb.ru##[class*="NoRussianCertificatesBanner"]
 ! Content Security Policy (CSP) START
 ||twitch.tv^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' wss: blob: data: *.jtvnw.net *.ttvnw.net *.twitchcdn.net *.twitch.tv *.facebook.com *.facebook.net *.recaptcha.net *.google.com *.gstatic.com *.algolia.net local.adguard.org injections.adguard.org *.cloudfront.net *.fastly.net *.live-video.net;
 ||youtube.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ggpht.com *.googlevideo.com *.ytimg.com *.googleusercontent.com *.google.com *.googleapis.com *.gstatic.com local.adguard.org injections.adguard.org;
-||vk.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.vkuseraudio.net *.userapi.com *.vk.com *.vk.ru *.mycdn.me *.google.com *.gstatic.com local.adguard.org injections.adguard.org *.youtube.com coub.com *.akamai.net *.akamaized.net *.akamaihd.net *.googleapis.com *.api-maps.yandex.ru api.ok.ru *.vkuservideo.net *.vkuser.net *.googlevideo.com youtube.com *.hostingradio.ru *.n340.com *.cdnvideo.ru *.101.ru *.magonet.ru;
-||tiktok.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ttwstatic.com *.tiktokcdn.com *.tiktok.com *.tiktokcdn-us.com *.byteoversea.com local.adguard.org injections.adguard.org;
+||vk.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.vk.com *.vk.ru *.google.com *.gstatic.com local.adguard.org injections.adguard.org; connect-src 'self' *.vkuseraudio.net *.userapi.com *.vk.com vk.com *.mycdn.me; media-src 'self' data: *.mycdn.me *.vkuser.net; img-src 'self' data: *.mycdn.me *.userapi.com *.vk.com; font-src 'self' data: *.vk.com;
+||tiktok.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.ttwstatic.com *.tiktokcdn.com *.tiktok.com *.tiktokcdn-us.com *.byteoversea.com local.adguard.org injections.adguard.org *.ibyteimg.com;
 ! Content Security Policy (CSP) END
 
 ! OTHER START
@@ -418,6 +418,7 @@ cdn.cdn-films.xyz##.registration-form-widget
 ||bolayaros.com^
 ||mpraven.org^
 ||wishesen.com^
+||cse.google.com/adsense/search/async-ads.js$important
 ||anythinktech.com^
 ||redirekted.com^
 ||sohu.com^
