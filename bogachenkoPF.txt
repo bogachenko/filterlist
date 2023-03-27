@@ -254,6 +254,7 @@ online.vtb.ru##[class*="NoRussianCertificatesBanner"]
 |http*:*$important,webrtc
 |http*:*/log/$domain=~aliexpress.com|~sberbank.ru
 |http*:*/log?
+|http*:*/pre-roll|
 |http*:*.com/pagead/
 ||geo.opera.com/geolocation/$important
 ||meta^
@@ -354,6 +355,10 @@ online.vtb.ru##[class*="NoRussianCertificatesBanner"]
 |http*:*/image/px?$image
 ! IMAGE END
 
+! MEDIA START
+/\/banner(\d+)?\.mp4$/$media
+! MEDIA END
+
 ! COMBINED START
 /\/afs\/ads[?/]/$subdocument,script,important
 /^https?:\/\/[01]{5,}\.com/$third-party,important,script,xmlhttprequest
@@ -387,6 +392,7 @@ infourok.ru##div#aa-popup
 @@||app.adjust.com^|$badfilter
 ||wl.spotify.com^$badfilter
 ||click.redditmail.com^$badfilter
+||accounts.google.com/gsi/button$subdocument
 ||juristfind.ru/e0849bec3fed8d3ea4a7bd84d6c640c0/
 ||pravozash.com/768112e5729a
 /^https?:\/\/yastatic\.net\/www\/_\/[^\s]{150,}/$image,redirect-rule=empty,domain=yandex.by|yandex.kz|yandex.ru|yandex.uz,badfilter
