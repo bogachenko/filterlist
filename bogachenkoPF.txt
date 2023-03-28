@@ -65,6 +65,7 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 @@||injections.adguard.org^$script
 @@||metrika.yandex.ru^$document,important
 @@||cdnjs.cloudflare.com^$script
+@@/\/embed\/[a-zA-Z0-9]{5,17}\/\?.*&logo=https?:\/\/ads\..*\.(png|jpe?g)&link=/$subdocument
 ! WHITELIST END
 
 ! LAN START
@@ -353,10 +354,15 @@ online.vtb.ru##[class*="NoRussianCertificatesBanner"]
 
 ! IMAGE START
 |http*:*/image/px?$image
+/\/rek/\w+\.gif$/$image
+/\/wp\-content\/uploads\/\d{4}\/\d{2}\/.*\.(webp|gif)$/$image,~third-party
 ! IMAGE END
 
 ! MEDIA START
 /\/banner(\d+)?\.mp4$/$media
+/\/rek\/\w+\.mp4$/$media
+/videos/ads-*.mp4|$media
+/^https?:\/\/ads\..*\.mp4$/$media
 ! MEDIA END
 
 ! COMBINED START
@@ -418,6 +424,8 @@ geo.ritm.ru###audio-playback-firefox
 ||as.lencdn.com^
 faucetcrypto.com##iframe[id$="-ad-iframe"]:upward(1)
 ||clicktoads.cfd^
+||188league.com^
+||lockdown1681.com^
 /^https?:\/\/(.*\.)?lenkino\.adult\/([a-z0-9]{7}\/){2}$/$script
 cdn.cdn-films.xyz##.registration-form-widget
 ||filmitorrents.ru^
@@ -435,6 +443,5 @@ cdn.cdn-films.xyz##.registration-form-widget
 ||fartmoda.com^
 ||xewuzetus.com^
 ||highly-fantastic-defense.net^
-/\/((Indo|Gitar)Togel|Jokernet|BroVegas|(Wigo|Rgo|DM|Toto|AHA)BET|PokerBoya|(Jaya|Texas)Poker|HKIndo|SepakolaCC)\.(webp|gif)$/$image
 ||iyfbodn.com^
 ! TRASH END
