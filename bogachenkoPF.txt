@@ -354,15 +354,15 @@ online.vtb.ru##[class*="NoRussianCertificatesBanner"]
 
 ! IMAGE START
 |http*:*/image/px?$image
-/\/rek/\w+\.gif$/$image
+/rek/*.gif|$image
 /\/wp\-content\/uploads\/\d{4}\/\d{2}\/.*\.(webp|gif)$/$image,~third-party
 ! IMAGE END
 
 ! MEDIA START
 /\/banner(\d+)?\.mp4$/$media
-/\/rek\/\w+\.mp4$/$media
 /videos/ads-*.mp4|$media
-/^https?:\/\/ads\..*\.mp4$/$media
+/ads/*.mp4|$media
+/rek/*.mp4|$media
 ! MEDIA END
 
 ! COMBINED START
@@ -436,6 +436,8 @@ cdn.cdn-films.xyz##.registration-form-widget
 ||cse.google.com/adsense/search/async-ads.js$important
 ||anythinktech.com^
 ||redirekted.com^
+||whamiwiwu.pro^
+||clickatdcode.com^
 ||sohu.com^
 ||btcnews.one^
 ||earn-bitcoins.net^
