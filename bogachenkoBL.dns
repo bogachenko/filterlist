@@ -11,14 +11,13 @@
 /^(.+[_.-])?bann?ers?([\d]+)?[_.-]/
 /^(.+[_.-])?beacons?([\d]+)?[_.-]/
 /^(.+[_.-])?counter([\d]+)?[_.-]/
-/^(.+[_.-])?moviead(s|[0-9]{2})\.ru$/
-/^(.+[_.-])?partners?([\d]+)?[_.-]/
-/^(.+[_.-])?vast([\d]+)?[_.-]/
 /^(.+[_.-])?me?tr[ie]?[ck][asx]?([\d]+)?[_.-]/
 /^(.+[_.-])?n[0-9]{2,4}adserv\.\w+$/
+/^(.+[_.-])?partners?([\d]+)?[_.-]/
 /^(.+[_.-])?promo(t(ed?|i(ng|on)))?([\d]+)?[_.-]/
 /^(.+[_.-])?re[ck]l?(am[asz]?)?([\d]+)?[_.-]/
 /^(.+[_.-])?telemetr(y|ics?)([\d]+)?[_.-]/
+/^(.+[_.-])?vast([\d]+)?[_.-]/
 /^a\.[a-f0-9]{30,60}\.com$/
 /^logs?([\d]+)?[_.-]/
 /^pixel([\d]+)?[_.-]/
@@ -281,6 +280,7 @@
 ||monitor.azure.com^
 ||mopub.com^
 ||mouseflow.com^
+||moviead*.ru^
 ||mradx.net^
 ||mradx.net^
 ||msads.net^
@@ -363,7 +363,6 @@
 ||sendpulse.com^
 ||sentry-cdn.com^
 ||sentry.io^
-||serv01001.xyz^
 ||serv01001.xyz^
 ||serving-sys.com^
 ||sgali-mcs.byteoversea.com^
