@@ -327,6 +327,7 @@ online.vtb.ru##[class*="NoRussianCertificatesBanner"]
 ||2ch.hk/makaba/templates/js/events/snow_miner_anon_ne_podozrevaet.js$script,important
 ||yandex.ru/search/touchcache.js|$script,important
 ||yastatic.net/*/zen-lib/$script,important
+/\/bens\/vinos\.js\?\d{5}&/$script,important,third-party
 ! SCRIPT END
 
 ! XMLHTTPREQUEST START
@@ -348,7 +349,7 @@ online.vtb.ru##[class*="NoRussianCertificatesBanner"]
 
 ! SUBDOCUMENT START
 ||video.sibnet.ru/my/settings/$subdocument
-/728x90$subdocument,third-party
+/[_-/.]\d{3}x\d{2,3}[_-/.]/$subdocument,third-party
 |http*:*$frame,domain=faucetcrypto.com
 ! SUBDOCUMENT END
 
