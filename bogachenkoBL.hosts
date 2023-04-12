@@ -313,6 +313,7 @@
 0.0.0.0 assoc-amazon.com
 0.0.0.0 c.amazon-adsystem.com
 0.0.0.0 mads.amazon-adsystem.com
+0.0.0.0 aax-us.amazon-adsystem.com
 0.0.0.0 s.amazon-adsystem.com
 
 # [twitch.tv]
@@ -471,6 +472,7 @@
 # [pubnative.net]
 0.0.0.0 pubnative.info
 0.0.0.0 pubnative.net
+0.0.0.0 api.pubnative.net
 
 # [ziffdavis.com]
 0.0.0.0 m.optout.ziffdavis.com
@@ -587,3 +589,8 @@
 # [weborama.fr]
 0.0.0.0 wcm-ru.frontend.weborama.fr
 0.0.0.0 weborama.fr
+
+# [admost.com]
+0.0.0.0 admost.com
+0.0.0.0 cdn-api.admost.com
+0.0.0.0 med-api.admost.com
