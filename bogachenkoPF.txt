@@ -198,6 +198,7 @@ faucetcrypto.com##+js(disable-newtab-links.js)
 *##[id*="div-gpt-ad"]
 *##[id*="aswift"]
 *###DidYouLikeIt.active
+*##[src="/knopki/bub1.png"]
 aliexpress.*###j-festival-container > .festival-sub-venue,.multi-sidebar-outer-rus.multi-sidebar-outer,.product-fix-wrap,#J_xiaomi_dialog,.site-footer,.ng-mobile.ng-item,.hot-words,.top-banner-container,.site-server-box,.user-helper-footer,.fm-sns,.ams-region,.seo-container.product-container,.search-feedback-wrap,.footer-copywrite,#container-for-smart-banner,.header-right-content,.drogue-poplayer-modal,[class*="styles_bannerLink"],[class*="styles_body_"],[class*="MultiSidebarTab"],[class*="TopBanner"],[class*="Footer_Footer__footer"]
 freebitco.in###myModal22:has-text(Did you know?)
 freebitco.in##.daily_jackpot_main_container_div,#deposit_promo_message_regular,#play_without_captcha_container,.reveal-modal-bg,#bottom_user_ads_container
@@ -307,6 +308,7 @@ online.vtb.ru##[class*="NoRussianCertificatesBanner"]
 |http*:*/sellerassets/
 |http*:*?payload=
 |http*:*?advert=
+|http*:*?promo=
 ! OTHER END
 
 ! SCRIPT START
@@ -327,7 +329,7 @@ online.vtb.ru##[class*="NoRussianCertificatesBanner"]
 ||2ch.hk/makaba/templates/js/events/snow_miner_anon_ne_podozrevaet.js$script,important
 ||yandex.ru/search/touchcache.js|$script,important
 ||yastatic.net/*/zen-lib/$script,important
-/\/bens\/vinos\.js\?\d{5}&/$script,important,third-party
+/\/bens\/vinos\.js\?\d{4,5}&/$script,important,third-party
 /^https?:\/\/[a-z]{8}\.site\/u(v2|niversal)\.js\?u=\d{2,3}&s=\d{2,3}$/$script,third-party
 ! SCRIPT END
 
@@ -452,4 +454,7 @@ cdn.cdn-films.xyz##.registration-form-widget
 ||tofilego.site^
 ||sofrtoda.site^
 ||newrotatormarch23.bid^
+||wadescoch.com^
+||smatr.icu^
+||lujacej.com^
 ! TRASH END
