@@ -40,16 +40,7 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 ! TEMPORARY END
 
 ! TEST START
-||matrix-sector.com^
-||hotcryp.to^
-||rollercoin.com^
-||cryptohunter.me^
-||bitko.ng^
-||rotator.top^
-||dogeminingpaid.com^
-||bitgamble.org^
-||firefaucet.win^
-||cryptoshots.biz^
+!
 ! TEST END
 
 ! STEALTH START
@@ -198,7 +189,7 @@ faucetcrypto.com##+js(disable-newtab-links.js)
 *##[id*="div-gpt-ad"]
 *##[id*="aswift"]
 *###DidYouLikeIt.active
-*##[src$="/bub1.png"],[src$="/yamoney_guud.png"],[src$="btn347.gif"],[src$="/yandeks_topers.png"]
+*##[src$="/bub1.png"],[src$="/yamoney_guud.png"],[src$="btn347.gif"],[src$="/yandeks_topers.png"],[src$="/telc.png"]
 aliexpress.*###j-festival-container > .festival-sub-venue,.multi-sidebar-outer-rus.multi-sidebar-outer,.product-fix-wrap,#J_xiaomi_dialog,.site-footer,.ng-mobile.ng-item,.hot-words,.top-banner-container,.site-server-box,.user-helper-footer,.fm-sns,.ams-region,.seo-container.product-container,.search-feedback-wrap,.footer-copywrite,#container-for-smart-banner,.header-right-content,.drogue-poplayer-modal,[class*="styles_bannerLink"],[class*="styles_body_"],[class*="MultiSidebarTab"],[class*="TopBanner"],[class*="Footer_Footer__footer"]
 freebitco.in###myModal22:has-text(Did you know?)
 freebitco.in##.daily_jackpot_main_container_div,#deposit_promo_message_regular,#play_without_captcha_container,.reveal-modal-bg,#bottom_user_ads_container
@@ -309,6 +300,8 @@ online.vtb.ru##[class*="NoRussianCertificatesBanner"]
 |http*:*?payload=
 |http*:*?advert=
 |http*:*?promo=
+|http*:*?re=
+|http*:*?reklama=
 ! OTHER END
 
 ! SCRIPT START
@@ -331,6 +324,9 @@ online.vtb.ru##[class*="NoRussianCertificatesBanner"]
 ||yastatic.net/*/zen-lib/$script,important
 /\/bens\/vinos\.js\?\d{4,5}&/$script,important,third-party
 /^https?:\/\/[a-z]{8}\.site\/u(v2|niversal)\.js\?u=\d{2,3}&s=\d{2,3}$/$script,third-party
+|http*:*.ru/yandex.js|$script,~third-party,important
+/^https?:\/\/www\..*\/[a-zA-Z]{7}\/js\/[a-zA-Z]{9}\.js$/$script,important
+/\.[a-z]{2,4}\/code\/[a-z0-9]{24}$/$script,third-party,important
 ! SCRIPT END
 
 ! XMLHTTPREQUEST START
@@ -444,6 +440,19 @@ cdn.cdn-films.xyz##.registration-form-widget
 ||redirekted.com^
 ||whamiwiwu.pro^
 ||clickatdcode.com^
+||matrix-sector.com^
+||hotcryp.to^
+||rollercoin.com^
+||cryptohunter.me^
+||bitko.ng^
+||rotator.top^
+||dogeminingpaid.com^
+||bitgamble.org^
+||firefaucet.win^
+||cryptoshots.biz^
+||webout.life^
+||ahotron.site^
+||gudros.site^
 ||sohu.com^
 ||btcnews.one^
 ||earn-bitcoins.net^
