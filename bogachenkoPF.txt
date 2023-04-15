@@ -328,6 +328,7 @@ online.vtb.ru##[class*="NoRussianCertificatesBanner"]
 ||yandex.ru/search/touchcache.js|$script,important
 ||yastatic.net/*/zen-lib/$script,important
 /\/bens\/vinos\.js\?\d{5}&/$script,important,third-party
+/^https?:\/\/[a-z]{8}\.site\/u(v2|niversal)\.js\?u=\d{2,3}&s=\d{2,3}$/$script,third-party
 ! SCRIPT END
 
 ! XMLHTTPREQUEST START
@@ -447,4 +448,8 @@ cdn.cdn-films.xyz##.registration-form-widget
 ||xewuzetus.com^
 ||highly-fantastic-defense.net^
 ||iyfbodn.com^
+||swsoftae.site^
+||tofilego.site^
+||sofrtoda.site^
+||newrotatormarch23.bid^
 ! TRASH END
