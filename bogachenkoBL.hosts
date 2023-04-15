@@ -415,6 +415,7 @@
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 configv2.unityads.unity3d.com
 0.0.0.0 unityads.unity3d.com
+0.0.0.0 config.unityads.unity3d.com
 
 # [mintegral.com]
 0.0.0.0 mintegral.net
