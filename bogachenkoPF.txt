@@ -198,7 +198,7 @@ faucetcrypto.com##+js(disable-newtab-links.js)
 *##[id*="div-gpt-ad"]
 *##[id*="aswift"]
 *###DidYouLikeIt.active
-*##[src="/knopki/bub1.png"]
+*##[src$="/bub1.png"],[src$="/yamoney_guud.png"],[src$="btn347.gif"],[src$="/yandeks_topers.png"]
 aliexpress.*###j-festival-container > .festival-sub-venue,.multi-sidebar-outer-rus.multi-sidebar-outer,.product-fix-wrap,#J_xiaomi_dialog,.site-footer,.ng-mobile.ng-item,.hot-words,.top-banner-container,.site-server-box,.user-helper-footer,.fm-sns,.ams-region,.seo-container.product-container,.search-feedback-wrap,.footer-copywrite,#container-for-smart-banner,.header-right-content,.drogue-poplayer-modal,[class*="styles_bannerLink"],[class*="styles_body_"],[class*="MultiSidebarTab"],[class*="TopBanner"],[class*="Footer_Footer__footer"]
 freebitco.in###myModal22:has-text(Did you know?)
 freebitco.in##.daily_jackpot_main_container_div,#deposit_promo_message_regular,#play_without_captcha_container,.reveal-modal-bg,#bottom_user_ads_container
@@ -397,6 +397,7 @@ infourok.ru##div#aa-popup
 @@||imasdk.googleapis.com^|$badfilter
 @@||pagead.l.doubleclick.net^|$badfilter
 @@||www.googleadservices.com^|$badfilter
+/^https?:\/\/tiranator\.com\/[a-z0-9]{7}\.php$/$script
 @@||googleadapis.l.google.com^|$badfilter
 @@||launches.appsflyer.com^|$badfilter
 @@||app.adjust.com^|$badfilter
@@ -436,6 +437,7 @@ cdn.cdn-films.xyz##.registration-form-widget
 @@/[-._?/]track(ers?|ing)[-.0-9_?]/$image,other,script,xmlhttprequest,app=com.wildberries.ru
 ||bolayaros.com^
 ||mpraven.org^
+||jifikev.com^
 ||wishesen.com^
 ||cse.google.com/adsense/search/async-ads.js$important
 ||anythinktech.com^
@@ -452,6 +454,9 @@ cdn.cdn-films.xyz##.registration-form-widget
 ||iyfbodn.com^
 ||swsoftae.site^
 ||tofilego.site^
+||gridsiali.com^
+||pushluck.fun^
+||wadescoch.com^
 ||sofrtoda.site^
 ||newrotatormarch23.bid^
 ||wadescoch.com^
