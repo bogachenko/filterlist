@@ -327,6 +327,7 @@ online.vtb.ru##[class*="NoRussianCertificatesBanner"]
 |http*:*.ru/yandex.js|$script,~third-party,important
 /^https?:\/\/www\..*\/[a-zA-Z]{7}\/js\/[a-zA-Z]{9}\.js$/$script,important
 /\.[a-z]{2,4}\/code\/[a-z0-9]{24}$/$script,third-party,important
+/^https?:\/\/.*\.(ru|com)\/[a-z0-9]{7}\.php$/$script,~third-party
 ! SCRIPT END
 
 ! XMLHTTPREQUEST START
@@ -393,7 +394,6 @@ infourok.ru##div#aa-popup
 @@||imasdk.googleapis.com^|$badfilter
 @@||pagead.l.doubleclick.net^|$badfilter
 @@||www.googleadservices.com^|$badfilter
-/^https?:\/\/tiranator\.com\/[a-z0-9]{7}\.php$/$script
 @@||googleadapis.l.google.com^|$badfilter
 @@||launches.appsflyer.com^|$badfilter
 @@||app.adjust.com^|$badfilter
@@ -441,6 +441,7 @@ cdn.cdn-films.xyz##.registration-form-widget
 ||whamiwiwu.pro^
 ||clickatdcode.com^
 ||matrix-sector.com^
+||meet-buddy.com^
 ||hotcryp.to^
 ||rollercoin.com^
 ||cryptohunter.me^
