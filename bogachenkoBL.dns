@@ -26,8 +26,6 @@
 /^[rt]s?[0-3]?\.mail\.ru$/
 ||2mdn.net^
 ||33across.com^
-||futureocto.com^
-||atdmaincode.com^
 ||4251.tech^
 ||a-mo.net^
 ||acuityads.com^
@@ -59,7 +57,6 @@
 ||admost.com^
 ||adnium.com^
 ||adnow.com^
-||top100.ru^
 ||adnuntius.com^
 ||adnxs.com^
 ||adoto.net^
@@ -116,6 +113,7 @@
 ||ar.overwolf.com^
 ||ascstats.iobit.com^
 ||assoc-amazon.com^
+||atdmaincode.com^
 ||atdmt.com^
 ||awaps.yandex.*^
 ||awin1.com^
@@ -210,6 +208,7 @@
 ||freewheel.com^
 ||fundingchoices.google.com^
 ||fundingchoicesmessages.google.com^
+||futureocto.com^
 ||g.bing.com^
 ||gath3r.io^
 ||gather.network^
@@ -333,6 +332,7 @@
 ||psvpromo.psvgamestudio.com^
 ||pubmatic.com^
 ||pubnative.*^
+||pubnative.net^
 ||qonversion.io^
 ||quantcast.com^
 ||quantumdex.io^
@@ -406,6 +406,7 @@
 ||themoneytizer.com^
 ||thumbnails*.opera.com^
 ||top-fwz1.mail.ru^
+||top100.ru^
 ||tracking.*.miui.com^
 ||tracking.miui.com^
 ||tracking.overwolf.com^
@@ -441,7 +442,6 @@
 ||vungle.com^
 ||watson.*.microsoft.com^
 ||watson.live.com^
-||pubnative.net^
 ||watson.microsoft.com^
 ||webminepool.com^
 ||weborama.fr^
