@@ -198,18 +198,17 @@ music.yandex.ru##.sidebar__under
 music.yandex.ru##span:contains(Отключить рекламу)
 trade.aliexpress.*##[href^="//simplee.aliexpress.com/"],[href^="//campaign.aliexpress.com/"]
 twitch.tv##.default-panel > :not([href*="vk.com"]):not([href*="donationalerts."]):not([href*="instagram.com"]):not([href*="youtube.com"]):not([href*="twitter.com"]):not([href*="steamcommunity.com"]):not([href*="discord.gg"]):not([href*="facebook.com"])
-twitch.tv##.channel-leaderboard,.prime-offers,[aria-label="Друзья в сети"],[aria-label="Bits"],[data-a-target="bits-button"],[data-a-target="subscribe-button"],[data-a-target="share-button"],.tw-tag,.extension-panel,.htmBdw
+twitch.tv##.channel-leaderboard,.prime-offers,[aria-label="Друзья в сети"],[aria-label="Bits"],[data-a-target="bits-button"],[data-a-target="subscribe-button"],[data-a-target="share-button"],.tw-tag,.extension-panel,.htmBdw,.chat-signup-gate-overlay,.consent-banner
 twitch.tv##[class*="CoreButton"]:has-text(/Купить Bits|Get Bits/)
-twitch.tv##div.side-nav-section:has([aria-label]):has-text(/Рекомендуемые каналы|также смотрят|Viewers Also Watch|Recommended Channels/)
+twitch.tv##.chat-room__content > div:has-text(/Подарить подписку|Подарите подписку/)
 vk.com###stl_left,#stl_side,.apps_feedRightAppsBlock,#ads_left,.right_list_header,#group_recom_rows,#group_recom_wrap,.feed_friends_recomm,div[data-ad],div[data-ad-view],[class^="ads_ad_"],#stories_feed_wrap,#profile_friends_recomm,.ads_ads_box,#system_msg,#utils,.audio_promo,#feed_blog_reminder,a[href*="/app7399325"],#l_watch_home,a[href*="/covid19"],.installApp,#ui_rmenu_coronavirus,#ui_rmenu_stayhome,.wall_marked_as_ads,.item_share,.apps_feedRightAppsBlock__row,.videoplayer_action_button,.ads_ad_box,.ads_ad_box2,[id*="reply_box_donut-"],.ShortVideoFeedBlock,.feed_groups_recomm,.feedAssistance_recommendedGroups,.feedAssistance_promoButton,#block_youla-recommendations-carousel,#block_aliexpress-recommendations-carousel,.RecommendedNarrativesBlock,.FeedVideosForYou,.GroupsRecommendedSlider,.friendsRecommendedSliderWrap,.friends_possible_block,.videoplayer_share_actions,#cover_list_app_widget,.EasterEggsContainer,.post_withExtraHeader.post_exploreBait.wall_item,.VideoOwnerInfo,.NeuroHdHint__button,.InterestsBlock__inner
 vk.com##div.feed_row:has-text(/Может быть интересно|Рекомендуемые новости|Рекомендуемое видео|Реклама в сообществе/)
 vk.com##[id^="post-"]:has([class*="copyright"]):has-text(/Источник:/)
 vk.com##[class="wall_item"]:has([class*="ads_mark"])
 yadi.sk##.header__inline-services-menu.inline-services-menu,.app-promo-banner,.software-header-product_win
-youtube.com###player-ads,.ytd-mealbar-promo-renderer,#masthead-ad,#alert-banner, YTM-PROMOTED-VIDEO-RENDERER,.mealbar-promo-renderer,a[href*="/covid19"],.ytp-ad-module,.ytd-carousel-ad-renderer,.ytp-ad-progress,#promotion-shelf,.masthead-ad-control,.ad-div,.pyv-afc-ads-container,#sponsor-button,.ytp-endscreen-content,#live-chat-banner,.ytp-ad-progress-list,.subscribecard-endscreen,[href="/premium"],[aria-label="Показать подсказки"],.ytd-player-legacy-desktop-watch-ads-renderer,.badge-style-type-ad,.ytp-ce-element,.iv-branding,.yt-live-chat-viewer-engagement-message-renderer,.ytd-search-pyv-renderer,.ytp-impression-link,.ytm-paid-content-overlay-link,.ytp-paid-content-overlay
+youtube.com###player-ads,.ytd-mealbar-promo-renderer,#masthead-ad,#alert-banner,YTM-PROMOTED-VIDEO-RENDERER,.mealbar-promo-renderer,a[href*="/covid19"],.ytp-ad-module,.ytd-carousel-ad-renderer,.ytp-ad-progress,#promotion-shelf,.masthead-ad-control,.ad-div,.pyv-afc-ads-container,#sponsor-button,.ytp-endscreen-content,#live-chat-banner,.ytp-ad-progress-list,.subscribecard-endscreen,[href="/premium"],[aria-label="Показать подсказки"],.ytd-player-legacy-desktop-watch-ads-renderer,.badge-style-type-ad,.ytp-ce-element,.iv-branding,.yt-live-chat-viewer-engagement-message-renderer,.ytd-search-pyv-renderer,.ytp-impression-link,.ytm-paid-content-overlay-link,.ytp-paid-content-overlay
 youtube.com###dismissible.ytd-compact-video-renderer.style-scope:has(.badges):has-text(/Сбор средств|Fundraiser/)
 youtube.com###dismissible.ytd-compact-movie-renderer.style-scope:has(.badge):has-text(/Купить|Buy/)
-my.yota.ru##.y-expansion-panel,.promotion-offer, app-slider-ma-symk,.y-swiper-track
 passageweather.com##.rightcolumn,.upperdiv,.header,#leftimages,.blackbottom,.bottombit,.footer,.gapfill,[onclick*="ga("],div.newsbox,div.noticebox,div.noticeboxtop
 passageweather.com##.document:style(background-image: none!important;)
 pornhub.com##.adContainer,.premiumAdvertWrapper,div[id^="age-verification"],.adsbytrafficjunky,.phpFreeBlock,[data-entrycode="Free_Premium_Video"],.cookiesBanner,#modalWrapMTubes,#welcome,#countryRedirectMessage,.livesex
@@ -317,6 +316,7 @@ online.vtb.ru##[class*="NoRussianCertificatesBanner"]
 |http*:*/player/assets/devtools-detector/$script,third-party,important
 ||twitchcdn.net/*.video-ads.*$script,important
 ||twitchcdn.net/*/sentry-$script,important
+||twitchcdn.net/assets/features.dmca-strike-banner$script,important
 ||github.io/actualize.js|$script,important
 ||yastatic.net/nearest.js|$script,important
 ||2ch.hk/makaba/templates/js/events/snow_miner_anon_ne_podozrevaet.js$script,important
@@ -327,7 +327,7 @@ online.vtb.ru##[class*="NoRussianCertificatesBanner"]
 |http*:*.ru/yandex.js|$script,~third-party,important
 /^https?:\/\/www\..*\/[a-zA-Z]{7}\/js\/[a-zA-Z]{9}\.js$/$script,important
 /\.[a-z]{2,4}\/code\/[a-z0-9]{24}$/$script,third-party,important
-/^https?:\/\/.*\.(ru|com)\/[a-z0-9]{7}\.php$/$script,~third-party
+/^https?:\/\/.*\.(a[cdefgilmnoqrstuwxz]|arpa|academy|accountants?|act(ive|tor)|adult|aero|agency|airforce|apartments|app|archi|army|africa|associates|asia|attorney|auction|audio|autos|art|b[abdefghijmnorstvuwyz]|biz|bzh|c[acdfghiklmnoruvxsyz]|com?|cat|coop|cym(ru)?|crimea|d[dejkmoz]|dance|dev|e[cegrstu]|eng(lish)?|edu|eus|f[ijkmor]|family|feedback|g[abdefghilmnpqrstuwy]|google|gov|gal|h[kmnrtu]|i[delmnoqrst]|info|int|j[deghikmnoprwyz]|jobs?|l[abcikrstuvy]|london|m[acdeghklmnopqrstuvwxyz]|mil|mobi|microsoft|moe|museum|n[acefgilopruz]|ninja|net|name|om|one|ong|onl(ine)?|org(anic)?|p[aefghklmnrstwy]|pink|part([ys]|ners?)|pizza|place|plu(s|mbing)?|pharmacy|photo(s|graphy)?|physio|pic(ture)?s?|poker|porn|post|press|pro(f|ductions|perties|perty)?|k[yehrw]|qa|qpon|quebec|r[eosuw]|raci(ng|pes)|red|rehab|ren(t|tals)?|rep(ort|air|ublican)|rest|reviews?|rich|rus(sian)?|s[abcdeghiljkmnortuvyz]|site|scot?|soc|t[cdfghjklmnoprtvwz]|tel|tra(de|vel)|u[agmksyz]|v[aceginu]|w[fs]|wales|y[etu]|yandex|yoga|z[armzw]|zone|x(xx|yz))\/[a-z0-9]{7}\.php$/$script,~third-party
 ! SCRIPT END
 
 ! XMLHTTPREQUEST START
