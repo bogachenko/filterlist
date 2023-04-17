@@ -11,9 +11,9 @@
 /^(.+[_.-])?bann?ers?([\d]+)?[_.-]/
 /^(.+[_.-])?beacons?([\d]+)?[_.-]/
 /^(.+[_.-])?counter([\d]+)?[_.-]/
-/^(.+[_.-])?me?tr[ie]?[ck][asx]?([\d]+)?[_.-]/
+/^(.+[_.-])?me?tr[ie]?[ck][asx]?([\d]+)?[_.-]/$domain=~metrika.yandex.*
 /^(.+[_.-])?n[0-9]{2,4}adserv\.\w+$/
-/^(.+[_.-])?partners?([\d]+)?[_.-]/
+/^(.+[_.-])?partners?([\d]+)?[_.-]/$domain=~api-partner.spotify.com
 /^(.+[_.-])?promo(t(ed?|i(ng|on)))?([\d]+)?[_.-]/
 /^(.+[_.-])?re[ck]l?(am[asz]?)?([\d]+)?[_.-]/
 /^(.+[_.-])?telemetr(y|ics?)([\d]+)?[_.-]/
