@@ -42,8 +42,10 @@
 ||adeventtracker.spotify.com^
 ||adfinity.pro^
 ||adforgames.com^
-||adform.*^
-||adfox.*^
+||adform.net^
+||adform.com^
+||adfox.ru^
+||adfox.net^
 ||adfox.yandex.*^
 ||adfstat.yandex.ru^
 ||adgrx.com^
@@ -52,7 +54,9 @@
 ||adhitzads.com^
 ||adhunt.net^
 ||adj.st^
-||adjust.*^
+||adjust.com^
+||adjust.world^
+||adjust.net.in^
 ||admixer.net^
 ||admob.com^
 ||admost.com^
@@ -244,14 +248,16 @@
 ||indicative.com^
 ||infinitedata-pa.googleapis.com^
 ||informer.yandex.ru^
-||inmobi.*^
+||inmobicdn.net^
+||inmobi.com^
 ||instabug.com^
 ||intl.miui.com^
 ||intl.xiaomi.com^
 ||isnssdk.com^
 ||jsecoin.com^
 ||jshosting.*^
-||juiceadv.*^
+||juiceadv.com^
+||juiceadv.net^
 ||juicyads.com^
 ||kejasosy.com^
 ||ketchapp.org^
@@ -269,7 +275,7 @@
 ||mediamath.com^
 ||metaservices.microsoft.com^
 ||mgid.com^
-||mintegral.*^
+||mintegral.com^
 ||mistat.*.xiaomi.com^
 ||mistat.xiaomi.com^
 ||moatads.com^
@@ -284,7 +290,6 @@
 ||mopub.com^
 ||mouseflow.com^
 ||moviead*.ru^
-||mradx.net^
 ||mradx.net^
 ||msads.net^
 ||msitadfs.*.microsoft.com^
@@ -313,7 +318,7 @@
 ||osp.opera.software^
 ||otm-r.com^
 ||outbrain.com^
-||owneriq.*^
+||owneriq.net^
 ||pagead-googlehosted.l.google.com^
 ||pagead-tpc.l.google.com^
 ||pagead.l.google.com^
@@ -332,7 +337,6 @@
 ||propellerads.com^
 ||psvpromo.psvgamestudio.com^
 ||pubmatic.com^
-||pubnative.*^
 ||pubnative.net^
 ||qonversion.io^
 ||quantcast.com^
@@ -370,7 +374,7 @@
 ||serv01001.xyz^
 ||serving-sys.com^
 ||sgali-mcs.byteoversea.com^
-||smaato.*^
+||smaato.net^
 ||smartadserver.com^
 ||smartclip.net^
 ||smartscreen.microsoft.com^
@@ -400,7 +404,7 @@
 ||synacor.com^
 ||t.apkpure.net^
 ||taboola.com^
-||tapjoy.*^
+||tapjoy.com^
 ||tapjoyads.com^
 ||taxi-promotions.s3.yandex.net^
 ||teads.tv^
