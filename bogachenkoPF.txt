@@ -7,7 +7,6 @@
 
 ! CONDITIONS START
 !#if !ext_ublock
-$$script[src="//pagead2.googlesyndication.com/"]
 $$script[src="https://c1.popads.net/pop.js"]
 $$script[src="https://c2.popads.net/pop.js"]
 $$script[src="https://mc.yandex.ru/"]
@@ -16,7 +15,6 @@ $$script[src="https://www.google-analytics.com/"]
 $$script[src="https://www.googleadservices.com/"]
 $$script[src="https://www.googletagmanager.com/"]
 $$script[src="https://www.googletagservices.com/"]
-$$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 ||googletagservices.com^$important
 ||doubleclick.net^$important
 ||adservice.google.*^$important
@@ -27,9 +25,7 @@ $$script[wildcard="eyJhZGJsb2NrIjp7fSwiZXhjbHVkZXMiOiIifQ"]
 !#if adguard_app_android
 @@||analyticsinsights-pa.clients*.google.com^$important,document
 @@||analytics.google.com^$important,document
-||facebook.com^
-||facebook.net^
-||bing.com^
+@@||metrika.yandex.ru^$important,document
 !#endif
 ! CONDITIONS END
 
@@ -364,7 +360,6 @@ online.vtb.ru##[class*="NoRussianCertificatesBanner"]
 ! MEDIA END
 
 ! COMBINED START
-/\/afs\/ads[?/]/$subdocument,script,important
 /^https?:\/\/[01]{5,}\.com/$third-party,important,script,xmlhttprequest
 /[-._?/](event|stat)logs?(ging|ers?)?[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~wikipedia.org|~google.com
 /[-._?/](logs?|img)[-._?]?(?:failure|info|type|events?|entry|request|statu?s?|view|edpage)[-._?]?/$image,other,script,xmlhttprequest
@@ -394,6 +389,7 @@ infourok.ru##div#aa-popup
 @@||googleadapis.l.google.com^|$badfilter
 @@||launches.appsflyer.com^|$badfilter
 @@||app.adjust.com^|$badfilter
+/\/afs\/ads[?/]/$subdocument,script,important
 ||wl.spotify.com^$badfilter
 ||click.redditmail.com^$badfilter
 ||accounts.google.com/gsi/button$subdocument
@@ -462,6 +458,7 @@ cdn.cdn-films.xyz##.registration-form-widget
 ||iyfbodn.com^
 ||swsoftae.site^
 ||tofilego.site^
+@@||favicon.yandex.net^$image,domain=yandex.ru|yandex.com
 ||gridsiali.com^
 ||pushluck.fun^
 ||wadescoch.com^

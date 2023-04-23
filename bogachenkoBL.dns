@@ -12,9 +12,9 @@
 /^(.+[_.-])?beacons?([\d]+)?[_.-]/
 /^(.+[_.-])?counter([\d]+)?[_.-]/
 /^(.+[_.-])?crashes([\d]+)?[_.-]/
-/^(.+[_.-])?me?tr[ie]?[ck][asx]?([\d]+)?[_.-]/$domain=~metrika.yandex.*
+/^(.+[_.-])?me?tr[ie]?[ck][asx]?([\d]+)?[_.-]/
 /^(.+[_.-])?n[0-9]{2,4}adserv\.\w+$/
-/^(.+[_.-])?partners?([\d]+)?[_.-]/$domain=~api-partner.spotify.com
+/^(.+[_.-])?partners?([\d]+)?[_.-]/$denyallow=api-partner.spotify.com
 /^(.+[_.-])?promo(t(ed?|i(ng|on)))?([\d]+)?[_.-]/
 /^(.+[_.-])?re[ck]l?(am[asz]?)?([\d]+)?[_.-]/
 /^(.+[_.-])?telemetr(y|ics?)([\d]+)?[_.-]/
@@ -43,7 +43,7 @@
 ||adfinity.pro^
 ||adforgames.com^
 ||adform.*^
-||adfox.ru^
+||adfox.*^
 ||adfox.yandex.*^
 ||adfstat.yandex.ru^
 ||adgrx.com^
