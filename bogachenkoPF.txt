@@ -452,6 +452,7 @@ cdn.cdn-films.xyz##.registration-form-widget
 ||btcnews.one^
 ||earn-bitcoins.net^
 ||f4cebacks.com^
+/bannersdk/
 ||fartmoda.com^
 ||xewuzetus.com^
 ||highly-fantastic-defense.net^
