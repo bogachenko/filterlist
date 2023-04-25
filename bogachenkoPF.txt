@@ -145,6 +145,7 @@ $$script[src="https://www.googletagservices.com/"]
 ||premium.getcontact.com^$important
 ||p.ozone.ru^$important
 ||v.ozone.ru^$important
+||ko-fi.com^$important
 ! DOMAIN END
 
 ! APP START
@@ -213,6 +214,7 @@ marinetraffic.com###topBanner,div.hidden-print,div[style="position: relative; wi
 xvideos.com##.banner-slider.embed-responsive
 yandex.ru##[class*="_animation_"][class*="_layout_simple"][class*="_hasShadow"]
 online.vtb.ru##[class*="NoRussianCertificatesBanner"]
+steampowered.com##.saleEventBannerLink
 ! Cascading Style Sheets (CSS) END
 
 ! Content Security Policy (CSP) START
