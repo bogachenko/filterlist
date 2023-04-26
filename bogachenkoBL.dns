@@ -20,7 +20,7 @@
 /^(.+[_.-])?telemetr(y|ics?)([\d]+)?[_.-]/
 /^(.+[_.-])?vast([\d]+)?[_.-]/
 /^a\.[a-f0-9]{30,60}\.com$/
-/^logs?([\d]+)?[_.-]/
+/^log([ys]|g(er|ing))?([\d]+)?[_.-]/
 /^pixel([\d]+)?[_.-]/
 /^vii[a-z]{3}\.com$/
 /^[ase1-5]{2}\.(torrent|ace)stream\.(info|org|net)$/

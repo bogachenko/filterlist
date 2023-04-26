@@ -214,7 +214,7 @@ marinetraffic.com###topBanner,div.hidden-print,div[style="position: relative; wi
 xvideos.com##.banner-slider.embed-responsive
 yandex.ru##[class*="_animation_"][class*="_layout_simple"][class*="_hasShadow"]
 online.vtb.ru##[class*="NoRussianCertificatesBanner"]
-steampowered.com##.saleEventBannerLink
+steampowered.com##.saleEventBannerLink,.saleEventBannerStyle,.saleEventBannerBig
 ! Cascading Style Sheets (CSS) END
 
 ! Content Security Policy (CSP) START
