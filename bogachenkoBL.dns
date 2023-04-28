@@ -253,7 +253,7 @@
 ||inmobicdn.net^
 ||instabug.com^
 ||intl.miui.com^
-||intl.xiaomi.com^
+||intl.xiaomi.com^$denyallow=api.zhuti.intl.xiaomi.com
 ||isnssdk.com^
 ||jsecoin.com^
 ||jshosting.*^
