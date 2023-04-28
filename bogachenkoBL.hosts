@@ -166,11 +166,15 @@
 # [appsflyer.com]
 0.0.0.0 appsflyer.com
 0.0.0.0 appsflyersdk.com
+0.0.0.0 trheoi-conversions.appsflyersdk.com
+0.0.0.0 trheoi-cdn-settings.appsflyersdk.com
+0.0.0.0 trheoi-dlsdk.appsflyersdk.com
 0.0.0.0 cdn-settings.appsflyersdk.com
 0.0.0.0 cdn.appsflyer.com
 0.0.0.0 conversions.appsflyer.com
 0.0.0.0 dlsdk.appsflyer.com
 0.0.0.0 inapps.appsflyer.com
+0.0.0.0 register.appsflyersdk.com
 0.0.0.0 launches.appsflyersdk.com
 0.0.0.0 launches.appsflyer.com
 0.0.0.0 gcdsdk.appsflyer.com
@@ -281,6 +285,7 @@
 # [mail.ru]
 0.0.0.0 ad.mail.ru
 0.0.0.0 r.mradx.net
+0.0.0.0 xray.mail.ru
 0.0.0.0 r0.mail.ru
 0.0.0.0 r0.mradx.net
 0.0.0.0 r3.mail.ru

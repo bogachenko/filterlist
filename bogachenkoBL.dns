@@ -205,7 +205,7 @@
 ||firebaselogging-pa.googleapis.com^
 ||flashtalking.com^
 ||flurry.com^
-||footprint.net^
+||footprint.net^$denyallow=officecdn.microsoft.com
 ||footprintdns.com^
 ||footprintpredict.com^
 ||footprints-pa.googleapis.com^
