@@ -449,6 +449,7 @@ cdn.cdn-films.xyz##.registration-form-widget
 ||cryptoshots.biz^
 ||webout.life^
 ||ahotron.site^
+||alfvi-yti.com^
 ||gudros.site^
 ||sohu.com^
 ||btcnews.one^
