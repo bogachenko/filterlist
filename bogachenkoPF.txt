@@ -15,12 +15,6 @@ $$script[src="https://www.google-analytics.com/"]
 $$script[src="https://www.googleadservices.com/"]
 $$script[src="https://www.googletagmanager.com/"]
 $$script[src="https://www.googletagservices.com/"]
-||googletagservices.com^$important
-||doubleclick.net^$important
-||adservice.google.*^$important
-||googlesyndication.com^$important
-||google-analytics.com^$important
-||sentry.io^$important
 !#endif
 !#if adguard_app_android
 @@||analyticsinsights-pa.clients*.google.com^$important,document
@@ -31,7 +25,9 @@ $$script[src="https://www.googletagservices.com/"]
 
 ! TEMPORARY START
 ! uBlock Origin - Abuse of the ban list
-! README: https://www.reddit.com/r/uBlockOrigin/comments/111wlyu/abuse_of_the_banlist/
+! README:
+!   * https://www.reddit.com/r/uBlockOrigin/comments/111wlyu/abuse_of_the_banlist/
+!   * https://github.com/bogachenko/fuckfuckadblock/issues/423
 |http*:*/filters/badlists.txt$xmlhttprequest
 ! TEMPORARY END
 
@@ -145,6 +141,12 @@ $$script[src="https://www.googletagservices.com/"]
 ||p.ozone.ru^$important
 ||v.ozone.ru^$important
 ||ko-fi.com^$important
+||googletagservices.com^$important
+||doubleclick.net^$important
+||adservice.google.*^$important
+||googlesyndication.com^$important
+||google-analytics.com^$important
+||sentry.io^$important
 ! DOMAIN END
 
 ! APP START
@@ -297,6 +299,9 @@ steampowered.com##.saleEventBannerLink,.saleEventBannerStyle,.saleEventBannerBig
 |http*:*_promo-
 |http*:*?re=
 |http*:*?reklama=
+||multibonus.ru/*/OnlinePartner|
+||multibonus.ru/*/Banners|
+|http*:*?crashToken=
 ! OTHER END
 
 ! SCRIPT START
@@ -365,7 +370,7 @@ steampowered.com##.saleEventBannerLink,.saleEventBannerStyle,.saleEventBannerBig
 ! COMBINED START
 /^https?:\/\/[01]{5,}\.com/$third-party,important,script,xmlhttprequest
 /[-._?/](event|stat)logs?(ging|ers?)?[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~wikipedia.org|~google.com
-/[-._?/](logs?|img)[-._?]?(?:failure|info|type|events?|entry|request|statu?s?|view|edpage)[-._?]?/$image,other,script,xmlhttprequest
+/[-._?/](logs?|img)[-._?]?(?:failure|info|type|events?|entry|request|statu?s?|view|edpage)[-._?]?/$image,other,script,xmlhttprequest,domain=~wialon.com
 /[-._?/](player|client|csi|gen(erate)?|stream|logs?|live)[-._?]?204[-._?]?/$image,other,xmlhttprequest
 /[-._?/][a-zA-Z]{8,}track(ers?|ing)[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~ok.ru|~fandom.com|~github.com|~gitlab.com
 /[-._?/]analyti([\W\w]+)[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~analytics.google.com|~analyticssuitefrontend-pa.clients6.google.com|~analyticsinsights-pa.clients6.google.com|~fandom.com|~aliexpress.*|~vk.com|~dropbox.com|~yota.ru|~ubisoft.com|~ubi.com|~sberbank.ru|~twitter.com|~github.com|~vtb.ru|~flightaware.com|~kion.ru|~binance.com|~multibonus.ru|~youtube.com|~tiktok.com|~gitlab.com
@@ -423,6 +428,7 @@ faucetcrypto.com##iframe[id$="-ad-iframe"]:upward(1)
 ||clicktoads.cfd^
 ||188league.com^
 ||lockdown1681.com^
+||ymatuhin.ru/ads/ads.js$domain=checkadblock.ru,important
 /^https?:\/\/(.*\.)?lenkino\.adult\/([a-z0-9]{7}\/){2}$/$script
 cdn.cdn-films.xyz##.registration-form-widget
 *##[id*="cookieConsentUR"]
