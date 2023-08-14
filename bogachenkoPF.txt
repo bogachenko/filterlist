@@ -147,6 +147,7 @@ $$script[src="https://www.googletagservices.com/"]
 ||googlesyndication.com^$important
 ||google-analytics.com^$important
 ||sentry.io^$important
+||xtracloud.net^$important
 ! DOMAIN END
 
 ! APP START
@@ -159,6 +160,7 @@ $$script[src="https://www.googletagservices.com/"]
 ||dns.google^$app=com.zhiliaoapp.musically
 /^https?:\/\/(www\.)?[^\s]+\/ad[svbxo]?[-_]?[a-z]{1,15}\.js/$important,script,xmlhttprequest,app=ru.ivi.client
 ||ozone.ru/stream/$app=ru.ozon.app.android
+*$app=com.apkpure.aegon,denyallow=pureapk.com|gstatic.com|googleapis.com|image.winudf.com
 ! APP END
 
 ! SCRIPTLET START
@@ -302,6 +304,13 @@ steampowered.com##.saleEventBannerLink,.saleEventBannerStyle,.saleEventBannerBig
 ||multibonus.ru/*/OnlinePartner|
 ||multibonus.ru/*/Banners|
 |http*:*?crashToken=
+|http*:*/orderTracking
+|http*:*/get_country_info
+|http*:*/get_update_page_ad
+||pbssrv-centralevents.com/*/ad-settings|
+||pbssrv-centralevents.com/*/recommendations|
+||pbssrv-centralevents.com/*/event-enabled|
+|http*:*/analytics/
 ! OTHER END
 
 ! SCRIPT START
@@ -412,7 +421,7 @@ infourok.ru##div#aa-popup
 @@/\?advert((ising)|\_page)?\_id=/$other,app=ru.yandex.yandexmaps
 ||yastatic.net/share2/$third-party,important,script,domain=~radiorecord.ru
 noodlemagazine.com#@#.verify
-pay.google.com,mail.yandex.ru#@#iframe[src="about:blank"]
+pay.google.com,mail.yandex.ru,arkoselabs.com#@#iframe[src="about:blank"]
 geo.ritm.ru###audio-playback-firefox
 ||checkadblock.ru^$csp=script-src 'self',badfilter
 ||iobit.com/appgoto.php$document
@@ -474,10 +483,18 @@ cdn.cdn-films.xyz##.registration-form-widget
 ||pushluck.fun^
 ||wadescoch.com^
 ||connect.facebook.net^
+||pbssrv-centralevents.com/socket.io
+||myqcloud.com^
+||d1tru86qrby720.cloudfront.net^
 ||sofrtoda.site^
 ||newrotatormarch23.bid^
 ||wadescoch.com^
 ||smatr.icu^
+||tapi.pureapk.com/*/chat_robot_pendant
+||tapi.pureapk.com/*/get_game_popup
+||tapi.pureapk.com/*/get_user_exp_info
+||tapi.pureapk.com/*/get_cfg
+||cdngtc.com/file_assets_*.jpg|$image
 kinopoisk.ru##[class*="styles_socialControlsContainer"]
 reddit.com##.cookie-infobar
 @@||alitems.com*/?ulp=$document
