@@ -489,7 +489,6 @@ cdn.cdn-films.xyz##.registration-form-widget
 ||d1tru86qrby720.cloudfront.net^
 ||sofrtoda.site^
 ||newrotatormarch23.bid^
-||wadescoch.com^
 ||smatr.icu^
 ||tapi.pureapk.com/*/chat_robot_pendant
 ||tapi.pureapk.com/*/get_game_popup

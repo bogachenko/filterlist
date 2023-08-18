@@ -23,8 +23,6 @@
 0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 googleadservices.com
 0.0.0.0 id.google.com
-0.0.0.0 id.google.com
-0.0.0.0 id.google.ru
 0.0.0.0 id.google.ru
 0.0.0.0 imasdk.googleapis.com
 0.0.0.0 infinitedata-pa.googleapis.com
@@ -347,7 +345,6 @@
 0.0.0.0 a.applvn.com
 0.0.0.0 a4.applovin.com
 0.0.0.0 applovin.com
-0.0.0.0 applvn.com
 0.0.0.0 applvn.com
 0.0.0.0 assets.applovin.com
 0.0.0.0 d.applovin.com

@@ -14,10 +14,10 @@
 /^(.+[_.-])?crash(es)?([\d]+)?[_.-]/
 /^(.+[_.-])?me?tr[ie]?[ck][asx]?([\d]+)?[_.-]/
 /^(.+[_.-])?n[0-9]{2,4}adserv\.\w+$/
-/^(.+[_.-])?sentry([\d]+)?[_.-]/
 /^(.+[_.-])?partners?([\d]+)?[_.-]/$denyallow=api-partner.spotify.com|partners.wg.spotify.com
 /^(.+[_.-])?promo(t(ed?|i(ng|on)))?([\d]+)?[_.-]/
 /^(.+[_.-])?re[ck]l?(am[asz]?)?([\d]+)?[_.-]/
+/^(.+[_.-])?sentry([\d]+)?[_.-]/
 /^(.+[_.-])?telemetr(y|ics?)([\d]+)?[_.-]/
 /^(.+[_.-])?vast([\d]+)?[_.-]/
 /^a\.[a-f0-9]{30,60}\.com$/
@@ -30,6 +30,7 @@
 ||33across.com^
 ||4251.tech^
 ||a-mo.net^
+||abt.s3.yandex.net^
 ||acuityads.com^
 ||ad999.biz^
 ||adaware.com^
@@ -42,7 +43,6 @@
 ||adduplex.com^
 ||adeventtracker.spotify.com^
 ||adfinity.pro^
-||abt.s3.yandex.net^
 ||adforgames.com^
 ||adform.com^
 ||adform.net^
@@ -62,6 +62,8 @@
 ||adjust.world^
 ||admixer.net^
 ||admob.com^
+||admon.ai^
+||admon.pro^
 ||admost.com^
 ||adnium.com^
 ||adnow.com^
@@ -108,8 +110,6 @@
 ||appads.com^
 ||appbaqend.com^
 ||appboy.com^
-||admon.ai^
-||admon.pro^
 ||appbrain.com^
 ||applift.com^
 ||applovin.com^
@@ -198,7 +198,6 @@
 ||easyads*.*^
 ||errors.client.optimizely.com^
 ||event.shelljacket.us^
-||videonow.ru^
 ||exdynsrv.com^
 ||exoclick.com^
 ||exosrv.com^
@@ -243,6 +242,7 @@
 ||hotjar.com^
 ||hovels.info^
 ||huyandex.com^
+||i9dhjx.ru^
 ||iad.apple.com^
 ||iadsdk.apple.com^
 ||id.google.*^
@@ -250,11 +250,9 @@
 ||imasdk.googleapis.com^
 ||imrworldwide.com^
 ||in.appcenter.ms^
-||myadsget.com^
 ||indexexchange.com^
 ||indicative.com^
 ||infinitedata-pa.googleapis.com^
-||i9dhjx.ru^
 ||informer.yandex.ru^
 ||inmobi.com^
 ||inmobicdn.net^
@@ -303,6 +301,7 @@
 ||msitadfs.*.microsoft.com^
 ||mtsopros.mts.ru^
 ||my.com^
+||myadsget.com^
 ||nebakte.ru^
 ||netpub.media^
 ||network-n.com^
@@ -442,6 +441,7 @@
 ||vastroll.ru^
 ||vdo.ai^
 ||video-stats.l.google.com^
+||videonow.ru^
 ||videoroll.net^
 ||vidoomy.com^
 ||visitnet.ru^
