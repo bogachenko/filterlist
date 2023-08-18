@@ -311,6 +311,7 @@ steampowered.com##.saleEventBannerLink,.saleEventBannerStyle,.saleEventBannerBig
 ||pbssrv-centralevents.com/*/recommendations|
 ||pbssrv-centralevents.com/*/event-enabled|
 |http*:*/analytics/
+|http*:*/get_ads?
 ! OTHER END
 
 ! SCRIPT START
