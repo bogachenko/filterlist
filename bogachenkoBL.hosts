@@ -42,6 +42,16 @@
 0.0.0.0 www.googletagmanager.com
 0.0.0.0 improving.duckduckgo.com
 0.0.0.0 ade.googlesyndication.com
+0.0.0.0 beacons5.gvt3.com
+0.0.0.0 beacons5.gvt2.com
+0.0.0.0 beacons4.gvt3.com
+0.0.0.0 beacons4.gvt2.com
+0.0.0.0 beacons3.gvt3.com
+0.0.0.0 beacons3.gvt2.com
+0.0.0.0 beacons2.gvt3.com
+0.0.0.0 beacons2.gvt2.com
+0.0.0.0 beacons.gvt3.com
+0.0.0.0 beacons.gvt2.com
 
 # [whatsapp.com]
 0.0.0.0 dit.whatsapp.net
