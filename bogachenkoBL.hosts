@@ -67,6 +67,7 @@
 0.0.0.0 browser.events.data.microsoft.com
 0.0.0.0 mobile.events.data.microsoft.com
 0.0.0.0 prod-collecticon.outlookmobile.com
+0.0.0.0 eu-teams.events.data.microsoft.com
 
 # [live.com]
 0.0.0.0 nexus.officeapps.live.com

@@ -215,7 +215,7 @@ pornhub.com##.sectionWrapper > :has([class^="premiumIcon"])
 twitter.com###layers > div[class] > div[class]:has(> div[class] div[role="button"] > div[dir="auto"] > span > span:contains(ookie))
 marinetraffic.com###topBanner,div.hidden-print,div[style="position: relative; width: 100%; margin-top: 15px; margin-bottom: 15px; height: 90px;"],.underMapAdMobile,.smartbanner-android,.smartbanner-container
 xvideos.com##.banner-slider.embed-responsive
-yandex.ru##[class*="_animation_"][class*="_layout_simple"][class*="_hasShadow"]
+yandex.ru##[class*="_animation_"][class*="_layout_simple"][class*="_hasShadow"],.AliceFabPromo,.AliceFabButton
 online.vtb.ru##[class*="NoRussianCertificatesBanner"]
 steampowered.com##.saleEventBannerLink,.saleEventBannerStyle,.saleEventBannerBig
 ! Cascading Style Sheets (CSS) END
@@ -484,7 +484,6 @@ cdn.cdn-films.xyz##.registration-form-widget
 ||pushluck.fun^
 ||wadescoch.com^
 ||connect.facebook.net^
-||pbssrv-centralevents.com/socket.io
 ||myqcloud.com^
 ||d1tru86qrby720.cloudfront.net^
 ||sofrtoda.site^

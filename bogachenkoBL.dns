@@ -259,7 +259,7 @@
 ||instabug.com^
 ||batchlogging*-eu.truecaller.com^
 ||batchlogging*-noneu.truecaller.com^
-||intl.miui.com^
+||intl.miui.com^$denyallow=theme.cdn.intl.miui.com
 ||intl.xiaomi.com^$denyallow=api.zhuti.intl.xiaomi.com
 ||isnssdk.com^
 ||jsecoin.com^
