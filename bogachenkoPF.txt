@@ -384,7 +384,7 @@ steampowered.com##.saleEventBannerLink,.saleEventBannerStyle,.saleEventBannerBig
 /[-._?/](player|client|csi|gen(erate)?|stream|logs?|live)[-._?]?204[-._?]?/$image,other,xmlhttprequest
 /[-._?/][a-zA-Z]{8,}track(ers?|ing)[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~ok.ru|~fandom.com|~github.com|~gitlab.com
 /[-._?/]analyti([\W\w]+)[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~analytics.google.com|~analyticssuitefrontend-pa.clients6.google.com|~analyticsinsights-pa.clients6.google.com|~fandom.com|~aliexpress.*|~vk.com|~dropbox.com|~yota.ru|~ubisoft.com|~ubi.com|~sberbank.ru|~twitter.com|~github.com|~vtb.ru|~flightaware.com|~kion.ru|~binance.com|~multibonus.ru|~youtube.com|~tiktok.com|~gitlab.com
-/[-._?/]bann?ers?[-.0-9_?]/$image,script,subdocument,xmlhttprequest,domain=~aliexpress.*|~discord.com|~dropbox.com|~esetnod32.ru|~f-droid.org|~fandom.com|~gosuslugi.ru|~live.com|~mts.ru|~office.com|~ok.ru|~rt.ru|~ru-mi.com|~sberbank.ru|~google.com|~twitch.tv|~radiorecord.ru|~yota.ru|~qiwi.com|~yoomoney.ru|~wildberries.ru|~msi.com|~dns-shop.ru|~multibonus.ru
+/[-._?/]bann?ers?[-.0-9_?]/$image,script,subdocument,xmlhttprequest,domain=~aliexpress.*|~discord.com|~dropbox.com|~esetnod32.ru|~f-droid.org|~fandom.com|~gosuslugi.ru|~live.com|~mts.ru|~office.com|~ok.ru|~rt.ru|~ru-mi.com|~sberbank.ru|~google.com|~twitch.tv|~radiorecord.ru|~yota.ru|~qiwi.com|~yoomoney.ru|~wildberries.ru|~msi.com|~dns-shop.ru|~multibonus.ru|~github.com
 /[-._?/]logs?(ging|impressions?|ers?)?[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~aliexpress.*|~dns-shop.ru|~docviewer.yandex.ru|~github.com|~gitlab.com|~instagram.com|~mi.com|~twitch.tv|~yadi.sk|~dropbox.com|~twitter.com|~vtb.ru|~yandex.ru|~vk.com|~qiwi.com|~ddostup.ru
 /[-._?/]track(ers?|ing)[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~alipay.com|~analytics.google.com|~fandom.com|~pochta.ru|~yandex.ru|~aliexpress.*|~ubisoft.com|~ubi.com|~yoomoney.ru|~wildberries.ru|~dropbox.com|~rutracker.com|~gitlab.com
 /[-._?/]vast[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~github.com|~gitlab.com|~twitch.tv|~spankbang.com
@@ -440,7 +440,7 @@ faucetcrypto.com##iframe[id$="-ad-iframe"]:upward(1)
 ||lockdown1681.com^
 ||ymatuhin.ru/ads/ads.js$domain=checkadblock.ru,important
 /^https?:\/\/(.*\.)?lenkino\.adult\/([a-z0-9]{7}\/){2}$/$script
-cdn.cdn-films.xyz##.registration-form-widget
+cdn-films.xyz##.registration-form-widget
 *##[id*="cookieConsentUR"]
 ||filmitorrents.ru^
 @@/[-._?/]track(ers?|ing)[-.0-9_?]/$image,other,script,xmlhttprequest,app=com.wildberries.ru
@@ -473,6 +473,8 @@ cdn.cdn-films.xyz##.registration-form-widget
 ||earn-bitcoins.net^
 ||f4cebacks.com^
 /bannersdk/
+||cpimatia.site^
+||creabom.site^
 ||fartmoda.com^
 ||xewuzetus.com^
 ||highly-fantastic-defense.net^
@@ -489,6 +491,7 @@ cdn.cdn-films.xyz##.registration-form-widget
 ||sofrtoda.site^
 ||newrotatormarch23.bid^
 ||smatr.icu^
+@@||sendsay.ru^$domain=sberbank.ru
 ||tapi.pureapk.com/*/chat_robot_pendant
 ||tapi.pureapk.com/*/get_game_popup
 ||tapi.pureapk.com/*/get_user_exp_info
