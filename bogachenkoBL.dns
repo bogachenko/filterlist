@@ -209,7 +209,7 @@
 ||firebaselogging-pa.googleapis.com^
 ||flashtalking.com^
 ||flurry.com^
-||footprint.net^$denyallow=officecdn.microsoft.com
+||footprint.net^$denyallow=officecdn.microsoft.com|officecdn.trafficmagnet.net
 ||footprintdns.com^
 ||footprintpredict.com^
 ||footprints-pa.googleapis.com^
@@ -246,6 +246,7 @@
 ||iad.apple.com^
 ||iadsdk.apple.com^
 ||id.google.*^
+||dlsdk.appsflyersdk.com^
 ||id.l.google.com^
 ||imasdk.googleapis.com^
 ||imrworldwide.com^
