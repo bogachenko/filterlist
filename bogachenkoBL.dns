@@ -429,7 +429,7 @@
 ||tradelab.com^
 ||traffer.net^
 ||trafficjunky.net^
-||trafficmagnet.net^
+||trafficmagnet.net^$denyallow=officecdn.trafficmagnet.net
 ||trk.mail.ru^
 ||trontv.com^
 ||ts.acestream.net^
