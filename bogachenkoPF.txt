@@ -20,6 +20,7 @@ $$script[src="https://www.googletagservices.com/"]
 @@||analyticsinsights-pa.clients*.google.com^$important,document
 @@||analytics.google.com^$important,document
 @@||metrika.yandex.ru^$important,document
+@@/^(wss?|https?):\/\/.*\/announce(\.php)?\?compact=/
 !#endif
 ! CONDITIONS END
 
