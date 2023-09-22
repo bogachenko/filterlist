@@ -5,6 +5,7 @@
 
 # [google.com]
 0.0.0.0 ad.doubleclick.net
+0.0.0.0 ade.googlesyndication.com
 0.0.0.0 ads.google.com
 0.0.0.0 ads.youtube.com
 0.0.0.0 adservice.google.com
@@ -12,6 +13,15 @@
 0.0.0.0 app-measurement.com
 0.0.0.0 beacons.gcp.gvt2.com
 0.0.0.0 beacons.gvt2.com
+0.0.0.0 beacons.gvt3.com
+0.0.0.0 beacons2.gvt2.com
+0.0.0.0 beacons2.gvt3.com
+0.0.0.0 beacons3.gvt2.com
+0.0.0.0 beacons3.gvt3.com
+0.0.0.0 beacons4.gvt2.com
+0.0.0.0 beacons4.gvt3.com
+0.0.0.0 beacons5.gvt2.com
+0.0.0.0 beacons5.gvt3.com
 0.0.0.0 crashlyticsreports-pa.googleapis.com
 0.0.0.0 doubleclick.net
 0.0.0.0 firebase-settings.crashlytics.com
@@ -25,6 +35,7 @@
 0.0.0.0 id.google.com
 0.0.0.0 id.google.ru
 0.0.0.0 imasdk.googleapis.com
+0.0.0.0 improving.duckduckgo.com
 0.0.0.0 infinitedata-pa.googleapis.com
 0.0.0.0 m.doubleclick.net
 0.0.0.0 mediavisor.doubleclick.net
@@ -40,34 +51,22 @@
 0.0.0.0 www.google-analytics.com
 0.0.0.0 www.googleadservices.com
 0.0.0.0 www.googletagmanager.com
-0.0.0.0 improving.duckduckgo.com
-0.0.0.0 ade.googlesyndication.com
-0.0.0.0 beacons5.gvt3.com
-0.0.0.0 beacons5.gvt2.com
-0.0.0.0 beacons4.gvt3.com
-0.0.0.0 beacons4.gvt2.com
-0.0.0.0 beacons3.gvt3.com
-0.0.0.0 beacons3.gvt2.com
-0.0.0.0 beacons2.gvt3.com
-0.0.0.0 beacons2.gvt2.com
-0.0.0.0 beacons.gvt3.com
-0.0.0.0 beacons.gvt2.com
 
 # [whatsapp.com]
 0.0.0.0 dit.whatsapp.net
 0.0.0.0 crashlogs.whatsapp.net
 
 # [microsoft.com]
+0.0.0.0 browser.events.data.microsoft.com
 0.0.0.0 browser.pipe.aria.microsoft.com
+0.0.0.0 config.teams.microsoft.com
+0.0.0.0 eu-teams.events.data.microsoft.com
 0.0.0.0 ic3.events.data.microsoft.com
 0.0.0.0 in.appcenter.ms
-0.0.0.0 self.events.data.microsoft.com
-0.0.0.0 teams.events.data.microsoft.com
-0.0.0.0 config.teams.microsoft.com
-0.0.0.0 browser.events.data.microsoft.com
 0.0.0.0 mobile.events.data.microsoft.com
 0.0.0.0 prod-collecticon.outlookmobile.com
-0.0.0.0 eu-teams.events.data.microsoft.com
+0.0.0.0 self.events.data.microsoft.com
+0.0.0.0 teams.events.data.microsoft.com
 
 # [live.com]
 0.0.0.0 nexus.officeapps.live.com
@@ -103,6 +102,8 @@
 0.0.0.0 data.sec.miui.com
 0.0.0.0 flash.sec.intl.miui.com
 0.0.0.0 globalapi.ad.xiaomi.com
+0.0.0.0 jupiter.intl.sys.miui.com
+0.0.0.0 jupiter.rus.sys.miui.com
 0.0.0.0 mitv.tracking.india.miui.com
 0.0.0.0 mitv.tracking.intl.miui.com
 0.0.0.0 mitv.tracking.miui.com
@@ -119,8 +120,6 @@
 0.0.0.0 tracking.miui.com
 0.0.0.0 tracking.rus.miui.com
 0.0.0.0 www.cdn.ad.xiaomi.com
-0.0.0.0 jupiter.rus.sys.miui.com
-0.0.0.0 jupiter.intl.sys.miui.com
 
 # [mozilla.org]
 0.0.0.0 incoming.telemetry.mozilla.org
@@ -131,6 +130,7 @@
 0.0.0.0 detectportal.firefox.com
 
 # [yandex.ru]
+0.0.0.0 abt.s3.yandex.net
 0.0.0.0 adfstat.yandex.ru
 0.0.0.0 adsdk.yandex.ru
 0.0.0.0 an.yandex.ru
@@ -138,6 +138,7 @@
 0.0.0.0 appmetrica.yandex.com
 0.0.0.0 bs.yandex.ru
 0.0.0.0 extmaps-api.yandex.net
+0.0.0.0 informer.yandex.ru
 0.0.0.0 log.strm.yandex.ru
 0.0.0.0 mc.yandex.ru
 0.0.0.0 mobile.yandexadexchange.net
@@ -149,56 +150,60 @@
 0.0.0.0 startup.mobile.yandex.net
 0.0.0.0 taxi-promotions.s3.yandex.net
 0.0.0.0 yabs.yandex.ru
-0.0.0.0 informer.yandex.ru
 0.0.0.0 yandexadexchange.net
-0.0.0.0 abt.s3.yandex.net
 
 # [webvisor.com]
-0.0.0.0 u.startup.mobile.webvisor.com
-0.0.0.0 startup.mobile.webvisor.com
-0.0.0.0 webvisor.com
-0.0.0.0 rosenberg.appmetrica.webvisor.com
-0.0.0.0 report.appmetrica.webvisor.com
 0.0.0.0 appmetrica.webvisor.com
 0.0.0.0 mobile.webvisor.com
+0.0.0.0 report.appmetrica.webvisor.com
+0.0.0.0 rosenberg.appmetrica.webvisor.com
+0.0.0.0 startup.mobile.webvisor.com
+0.0.0.0 u.startup.mobile.webvisor.com
+0.0.0.0 webvisor.com
 
 # [my.com]
+0.0.0.0 eu.tracker-api.my.com
+0.0.0.0 ip4.eu.tracker-api.my.com
+0.0.0.0 ip4.ru.tracker-api.my.com
 0.0.0.0 ip4.tracker-api.my.com
+0.0.0.0 ip6.eu.tracker-api.my.com
+0.0.0.0 ip6.ru.tracker-api.my.com
 0.0.0.0 ip6.tracker-api.my.com
 0.0.0.0 my.com
-0.0.0.0 eu.tracker-api.my.com
 0.0.0.0 ru.tracker-api.my.com
 0.0.0.0 tracker-api.my.com
-0.0.0.0 ip4.ru.tracker-api.my.com
-0.0.0.0 ip6.ru.tracker-api.my.com
-0.0.0.0 ip4.eu.tracker-api.my.com
-0.0.0.0 ip6.eu.tracker-api.my.com
 
 # [appsflyer.com]
+0.0.0.0 3bjjlx-cdn-settings.appsflyersdk.com
+0.0.0.0 3bjjlx-inapps.appsflyersdk.com
 0.0.0.0 appsflyer.com
 0.0.0.0 appsflyersdk.com
-0.0.0.0 trheoi-conversions.appsflyersdk.com
-0.0.0.0 trheoi-cdn-settings.appsflyersdk.com
-0.0.0.0 trheoi-dlsdk.appsflyersdk.com
 0.0.0.0 cdn-settings.appsflyersdk.com
 0.0.0.0 cdn.appsflyer.com
 0.0.0.0 conversions.appsflyer.com
-0.0.0.0 dlsdk.appsflyer.com
-0.0.0.0 inapps.appsflyer.com
-0.0.0.0 register.appsflyersdk.com
-0.0.0.0 launches.appsflyersdk.com
-0.0.0.0 launches.appsflyer.com
-0.0.0.0 gcdsdk.appsflyer.com
-0.0.0.0 register.appsflyer.com
-0.0.0.0 inapps.appsflyersdk.com
 0.0.0.0 conversions.appsflyersdk.com
-0.0.0.0 3bjjlx-inapps.appsflyersdk.com
-0.0.0.0 pjdves-launches.appsflyersdk.com
+0.0.0.0 dlsdk.appsflyer.com
 0.0.0.0 ezfweb-cdn-settings.appsflyersdk.com
+0.0.0.0 gcdsdk.appsflyer.com
+0.0.0.0 inapps.appsflyer.com
+0.0.0.0 inapps.appsflyersdk.com
+0.0.0.0 launches.appsflyer.com
+0.0.0.0 launches.appsflyersdk.com
+0.0.0.0 pjdves-launches.appsflyersdk.com
+0.0.0.0 register.appsflyer.com
+0.0.0.0 register.appsflyersdk.com
+0.0.0.0 trheoi-cdn-settings.appsflyersdk.com
+0.0.0.0 trheoi-conversions.appsflyersdk.com
+0.0.0.0 trheoi-dlsdk.appsflyersdk.com
 
 # [branch.io]
+0.0.0.0 www.branch.io
 0.0.0.0 api.branch.io
 0.0.0.0 api2.branch.io
+
+# [adbus.ru]
+0.0.0.0 adbus.ru
+0.0.0.0 adbus.pro
 
 # [torrentstream.net]
 0.0.0.0 a1.torrentstream.info
@@ -294,19 +299,19 @@
 # [hotjar.com]
 0.0.0.0 api-hotjar.com
 0.0.0.0 hotjar-analytics.com
-0.0.0.0 hotjar.com
 0.0.0.0 static.hotjar.com
+0.0.0.0 www.hotjar.com
 
 # [mail.ru]
 0.0.0.0 ad.mail.ru
+0.0.0.0 m.mradx.net
 0.0.0.0 r.mradx.net
-0.0.0.0 xray.mail.ru
 0.0.0.0 r0.mail.ru
 0.0.0.0 r0.mradx.net
 0.0.0.0 r3.mail.ru
 0.0.0.0 rs.mail.ru
 0.0.0.0 top-fwz1.mail.ru
-0.0.0.0 m.mradx.net
+0.0.0.0 xray.mail.ru
 
 # [vk.com]
 0.0.0.0 stats.vk-portal.net
@@ -322,6 +327,7 @@
 0.0.0.0 content.adfox.ru
 
 # [amazon.com]
+0.0.0.0 aax-us.amazon-adsystem.com
 0.0.0.0 adtago.s3.amazonaws.com
 0.0.0.0 advertising-api-eu.amazon.com
 0.0.0.0 advice-ads.s3.amazonaws.com
@@ -333,7 +339,6 @@
 0.0.0.0 assoc-amazon.com
 0.0.0.0 c.amazon-adsystem.com
 0.0.0.0 mads.amazon-adsystem.com
-0.0.0.0 aax-us.amazon-adsystem.com
 0.0.0.0 s.amazon-adsystem.com
 
 # [twitch.tv]
@@ -345,9 +350,9 @@
 0.0.0.0 beacon.shazam.com
 
 # [scorecardresearch.com]
-0.0.0.0 scorecardresearch.com
 0.0.0.0 sb.scorecardresearch.com
 0.0.0.0 udm.scorecardresearch.com
+0.0.0.0 www.scorecardresearch.com
 
 # [tns-counter.ru]
 0.0.0.0 tns-counter.ru
@@ -370,12 +375,12 @@
 0.0.0.0 rt.applvn.com
 
 # [appbrain.com]
-0.0.0.0 appbrain.com
 0.0.0.0 sdk.appbrain.com
+0.0.0.0 www.appbrain.com
 
 # [apptornado.com]
-0.0.0.0 apptornado.com
 0.0.0.0 sdk-b.apptornado.com
+0.0.0.0 www.apptornado.com
 
 # [2gis.ru]
 0.0.0.0 advisor.api.2gis.ru
@@ -392,23 +397,23 @@
 0.0.0.0 ad.flurry.com
 0.0.0.0 ads.flurry.com
 0.0.0.0 data.flurry.com
-0.0.0.0 flurry.com
+0.0.0.0 www.flurry.com
 
 # [indicative.com]
 0.0.0.0 api.indicative.com
-0.0.0.0 indicative.com
+0.0.0.0 www.indicative.com
 
 # [inmobi.com]
 0.0.0.0 ads.inmobi.com
 0.0.0.0 config.inmobi.com
-0.0.0.0 inmobi.com
 0.0.0.0 telemetry.sdk.inmobi.com
+0.0.0.0 www.inmobi.com
 
 # [adcolony.com]
 0.0.0.0 adc3-assets.adcolony.com
 0.0.0.0 adc3-launch.adcolony.com
-0.0.0.0 adcolony.com
 0.0.0.0 wd.adcolony.com
+0.0.0.0 www.adcolony.com
 
 # [rayjump.com]
 0.0.0.0 analytics.rayjump.com
@@ -418,7 +423,7 @@
 0.0.0.0 lazy.rayjump.com
 0.0.0.0 net.rayjump.com
 0.0.0.0 policy.rayjump.com
-0.0.0.0 rayjump.com
+0.0.0.0 www.rayjump.com
 
 # [vungle.com]
 0.0.0.0 ads.api.vungle.com
@@ -433,13 +438,13 @@
 # [unity3d.com]
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 config.unityads.unity3d.com
 0.0.0.0 configv2.unityads.unity3d.com
 0.0.0.0 unityads.unity3d.com
-0.0.0.0 config.unityads.unity3d.com
 
 # [mintegral.com]
-0.0.0.0 mintegral.net
 0.0.0.0 mintegral.com
+0.0.0.0 mintegral.net
 0.0.0.0 pok.mintegral.net
 
 # [bidease.com]
@@ -463,8 +468,8 @@
 
 # [mobileapptracking.com]
 0.0.0.0 deeplink.mobileapptracking.com
-0.0.0.0 mobileapptracking.com
 0.0.0.0 engine.mobileapptracking.com
+0.0.0.0 mobileapptracking.com
 
 # [popcap.com]
 0.0.0.0 draper.popcap.com
@@ -489,15 +494,16 @@
 # [yadro.ru]
 0.0.0.0 counter.yadro.ru
 0.0.0.0 www.yadro.ru
+0.0.0.0 yadro.ru
 
 # [pubnative.net]
+0.0.0.0 api.pubnative.net
 0.0.0.0 pubnative.info
 0.0.0.0 pubnative.net
-0.0.0.0 api.pubnative.net
 
 # [ziffdavis.com]
 0.0.0.0 m.optout.ziffdavis.com
-0.0.0.0 ziffdavis.com
+0.0.0.0 www.ziffdavis.com
 
 # [qonversion.io]
 0.0.0.0 qonversion.io
@@ -509,8 +515,8 @@
 
 # [media.net]
 0.0.0.0 adservetx.media.net
-0.0.0.0 media.net
 0.0.0.0 static.media.net
+0.0.0.0 www.media.net
 
 # [mouseflow.com]
 0.0.0.0 a.mouseflow.com
@@ -519,9 +525,9 @@
 # [bugsnag.com]
 0.0.0.0 api.bugsnag.com
 0.0.0.0 app.bugsnag.com
-0.0.0.0 bugsnag.com
 0.0.0.0 notify.bugsnag.com
 0.0.0.0 sessions.bugsnag.com
+0.0.0.0 www.bugsnag.com
 
 # [yahoo.com]
 0.0.0.0 ads.yahoo.com
@@ -530,10 +536,12 @@
 0.0.0.0 global.adserver.yahoo.com
 
 # [appnext.com]
-0.0.0.0 appnext.com
 0.0.0.0 cdn.appnext.com
+0.0.0.0 www.appnext.com
 
 # [fingersoft.net]
+0.0.0.0 ads.fingersoft.net
+0.0.0.0 ads2.fingersoft.net
 0.0.0.0 ads3.fingersoft.net
 
 # [apkpure.net]
@@ -557,44 +565,44 @@
 
 # [braze.com]
 0.0.0.0 sdk.iad-01.braze.com
-0.0.0.0 braze.com
+0.0.0.0 www.braze.com
 
 # [soundcloud.com]
-0.0.0.0 telemetry.soundcloud.com
 0.0.0.0 promoted.soundcloud.com
+0.0.0.0 telemetry.soundcloud.com
 
 # [appboy.com]
-0.0.0.0 serpens.iad.appboy.com
 0.0.0.0 appboy.com
+0.0.0.0 appboycdn.com
+0.0.0.0 iad.appboy.com
+0.0.0.0 serpens.iad.appboy.com
 
 # [segment.com]
 0.0.0.0 segment.com
 0.0.0.0 cdn-settings.segment.com
 
 # [buzzoola.com]
-0.0.0.0 exchange.buzzoola.com
 0.0.0.0 buzzoola.com
+0.0.0.0 exchange.buzzoola.com
 
 # [instabug.com]
-0.0.0.0 www.instabug.com
 0.0.0.0 api.instabug.com
-0.0.0.0 instabug.com
+0.0.0.0 www.instabug.com
 
 # [iobit.com]
 0.0.0.0 ascstats.iobit.com
 0.0.0.0 stats.iobit.com
 
 # [aj1907.online]
-0.0.0.0 aj1907.online
+0.0.0.0 aj1058.online
 0.0.0.0 aj1090.online
+0.0.0.0 aj1433.online
 0.0.0.0 aj1549.online
 0.0.0.0 aj1616.online
-0.0.0.0 aj2377.online
-0.0.0.0 aj1058.online
-0.0.0.0 aj1433.online
 0.0.0.0 aj1713.online
 0.0.0.0 aj1834.online
 0.0.0.0 aj1860.online
+0.0.0.0 aj1907.online
 0.0.0.0 aj1939.online
 0.0.0.0 aj2021.online
 0.0.0.0 aj2113.online
@@ -603,12 +611,15 @@
 0.0.0.0 aj2204.online
 0.0.0.0 aj2313.online
 0.0.0.0 aj2345.online
+0.0.0.0 aj2377.online
 0.0.0.0 aj2392.online
 0.0.0.0 aj2396.online
 0.0.0.0 aj2550.biz
 
 # [weborama.fr]
+0.0.0.0 redirect.frontend.weborama.fr
 0.0.0.0 wcm-ru.frontend.weborama.fr
+0.0.0.0 weborama.com
 0.0.0.0 weborama.fr
 
 # [admost.com]
