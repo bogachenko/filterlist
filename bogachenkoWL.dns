@@ -7,6 +7,8 @@
 @@||account.firefox.com^
 @@||account.google.com^
 @@||account.xiaomi.com^
+@@||dns.cloudflare.com^
+@@||dns.google.com^
 @@||injections.adguard.org^
 @@||local.adguard.org^
 @@||login.microsoftonline.com^
@@ -16,5 +18,3 @@
 @@||oauth.yandex.*^
 @@||passport.yandex.*^
 @@||update.intl.miui.com^
-@@||dns.cloudflare.com^
-@@||dns.google.com^

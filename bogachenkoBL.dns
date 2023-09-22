@@ -20,12 +20,12 @@
 /^(.+[_.-])?sentry([\d]+)?[_.-]/
 /^(.+[_.-])?telemetr(y|ics?)([\d]+)?[_.-]/
 /^(.+[_.-])?vast([\d]+)?[_.-]/
+/^[ase1-5]{2}\.(torrent|ace)stream\.(info|org|net)$/
+/^[rt]s?[0-3]?\.mail\.ru$/
 /^a\.[a-f0-9]{30,60}\.com$/
 /^log([ys]|g(er|ing))?([\d]+)?[_.-]/
 /^pixel([\d]+)?[_.-]/
 /^vii[a-z]{3}\.com$/
-/^[ase1-5]{2}\.(torrent|ace)stream\.(info|org|net)$/
-/^[rt]s?[0-3]?\.mail\.ru$/
 ||2mdn.net^
 ||33across.com^
 ||4251.tech^
@@ -34,6 +34,8 @@
 ||acuityads.com^
 ||ad999.biz^
 ||adaware.com^
+||adbus.pro^
+||adbus.ru^
 ||adcamp.ru^
 ||adcash.com^
 ||adcel.co^
@@ -110,6 +112,7 @@
 ||appads.com^
 ||appbaqend.com^
 ||appboy.com^
+||appboycdn.com^
 ||appbrain.com^
 ||applift.com^
 ||applovin.com^
@@ -130,6 +133,8 @@
 ||awsync.yandex.*^
 ||ayelads.com^
 ||bannerbank.ru^
+||batchlogging*-eu.truecaller.com^
+||batchlogging*-noneu.truecaller.com^
 ||bench.utorrent.com^
 ||betrad.com^
 ||bidease.com^
@@ -190,6 +195,7 @@
 ||digitaltarget.ru^
 ||districtm.net^
 ||dit.whatsapp.net^
+||dlsdk.appsflyersdk.com^
 ||doubleclick.net^
 ||doubleclickbygoogle.com^
 ||doublepimp.com^
@@ -246,7 +252,6 @@
 ||iad.apple.com^
 ||iadsdk.apple.com^
 ||id.google.*^
-||dlsdk.appsflyersdk.com^
 ||id.l.google.com^
 ||imasdk.googleapis.com^
 ||imrworldwide.com^
@@ -258,8 +263,6 @@
 ||inmobi.com^
 ||inmobicdn.net^
 ||instabug.com^
-||batchlogging*-eu.truecaller.com^
-||batchlogging*-noneu.truecaller.com^
 ||intl.miui.com^$denyallow=theme.cdn.intl.miui.com
 ||intl.xiaomi.com^$denyallow=api.zhuti.intl.xiaomi.com
 ||isnssdk.com^
@@ -274,6 +277,7 @@
 ||leanplum.com^
 ||lgsmartad.com^
 ||lifestreet.com^
+||liftoff.io^
 ||log*-*.tiktokv.com^
 ||m.acestream.net^
 ||main-tcod.com^
@@ -374,6 +378,7 @@
 ||samsungads.com^
 ||samsungotn.net^
 ||samsungrm.net^
+||sc-static.net^
 ||scorecardresearch.com^
 ||sec.*.miui.com^
 ||sec.miui.com^
@@ -452,7 +457,6 @@
 ||vk-portal.net^
 ||vliplatform.com^
 ||vlitag.com^
-||sc-static.net^
 ||voodoo-tech.io^
 ||voodoo.io^
 ||vserv.mobi^
@@ -461,6 +465,7 @@
 ||watson.live.com^
 ||watson.microsoft.com^
 ||webminepool.com^
+||weborama.com^
 ||weborama.fr^
 ||webvisor.*^
 ||wns.windows.com^
@@ -481,4 +486,3 @@
 ||yovoads.com^
 ||yuhuads.com^
 ||ziffdavis.com^
-||__hola__.pac_get_init_ts.local.hola^
