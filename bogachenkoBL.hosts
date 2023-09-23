@@ -64,6 +64,7 @@
 0.0.0.0 ic3.events.data.microsoft.com
 0.0.0.0 in.appcenter.ms
 0.0.0.0 mobile.events.data.microsoft.com
+0.0.0.0 mobile.pipe.aria.microsoft.com
 0.0.0.0 prod-collecticon.outlookmobile.com
 0.0.0.0 self.events.data.microsoft.com
 0.0.0.0 teams.events.data.microsoft.com
@@ -176,8 +177,10 @@
 # [appsflyer.com]
 0.0.0.0 3bjjlx-cdn-settings.appsflyersdk.com
 0.0.0.0 3bjjlx-inapps.appsflyersdk.com
+0.0.0.0 3bjjlx-launches.appsflyersdk.com
 0.0.0.0 appsflyer.com
 0.0.0.0 appsflyersdk.com
+0.0.0.0 attr.appsflyer.com
 0.0.0.0 cdn-settings.appsflyersdk.com
 0.0.0.0 cdn.appsflyer.com
 0.0.0.0 conversions.appsflyer.com
@@ -189,6 +192,7 @@
 0.0.0.0 inapps.appsflyersdk.com
 0.0.0.0 launches.appsflyer.com
 0.0.0.0 launches.appsflyersdk.com
+0.0.0.0 pjdves-conversions.appsflyersdk.com
 0.0.0.0 pjdves-launches.appsflyersdk.com
 0.0.0.0 register.appsflyer.com
 0.0.0.0 register.appsflyersdk.com
@@ -275,6 +279,8 @@
 0.0.0.0 app.getsentry.com
 0.0.0.0 browser.sentry-cdn.com
 0.0.0.0 ingest.sentry.io
+0.0.0.0 o308928.ingest.sentry.io
+0.0.0.0 o279119.ingest.sentry.io
 0.0.0.0 sentry-cdn.com
 0.0.0.0 sentry.io
 
