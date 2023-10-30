@@ -154,7 +154,7 @@ $$script[src="https://www.googletagservices.com/"]
 ! APP START
 /^(?!.*(lfnnmlimilinwvwlijljioeogq13\.club|(firebaseio|g(oogleapis|static)|pbssrv\-centralevents|verifykit|cdngtc|zotlo)\.com)).*$/$important,app=app.source.getcontact
 *$important,app=com.mi.android.globalFileexplorer|com.miui.cleaner|com.miui.securitycenter|com.xiaomi.glgm|com.miui.videoplayer|com.miui.player|com.mi.globalbrowser|com.miui.gallery
-/^(?!.*(spotify\.com|spotifycdn\.com|fastly\.net|scdn\.co|akamaized\.net|(firebaseinstallations|update)\.googleapis\.com|payments\.braintree\-api\.com|api\.braintreegateway\.com|paypal\.com|ebanxpay\.com|chrome\.cloudflare\-dns\.com)).*$/$important,app=Spotify.exe|com.spotify.music
+/^(?!.*(spotify\.com|spotifycdn\.com|fastly\.net|scdn\.co|akamaized\.net|(firebaseinstallations|update)\.googleapis\.com|payments\.braintree\-api\.com|api\.braintreegateway\.com|paypal\.com|ebanxpay\.com|chrome\.cloudflare\-dns\.com|microsoft\.com|digicert\.com)).*$/$important,app=Spotify.exe|com.spotify.music
 /^https?:\/\/pbssrv\-centralevents\.com\/.*\/(subscription|marketing\-event|spam\-info)$/$important,app=app.source.getcontact
 /^(?!.*(temp\-mail)\.org).*$/$important,app=com.tempmail
 ||amazonaws.com^$important,app=ru.yandex.merto
@@ -198,7 +198,7 @@ music.yandex.ru##.sidebar__under
 music.yandex.ru##span:contains(Отключить рекламу)
 trade.aliexpress.*##[href^="//simplee.aliexpress.com/"],[href^="//campaign.aliexpress.com/"]
 twitch.tv##.default-panel > :not([href*="vk.com"]):not([href*="donationalerts."]):not([href*="instagram.com"]):not([href*="youtube.com"]):not([href*="twitter.com"]):not([href*="steamcommunity.com"]):not([href*="discord.gg"]):not([href*="facebook.com"])
-twitch.tv##.channel-leaderboard,.prime-offers,[aria-label="Друзья в сети"],[aria-label="Bits"],[data-a-target="bits-button"],[data-a-target="subscribe-button"],[data-a-target="share-button"],.tw-tag,.extension-panel,.htmBdw,.chat-signup-gate-overlay,.consent-banner,[data-test-selector="channel-leaderboard-container"]
+twitch.tv##.channel-leaderboard,.prime-offers,[aria-label="Друзья в сети"],[aria-label="Bits"],[data-a-target="bits-button"],[data-a-target="subscribe-button"],[data-a-target="share-button"],.tw-tag,.extension-panel,.htmBdw,.chat-signup-gate-overlay,.consent-banner,[data-test-selector="channel-leaderboard-container"],[class*="bits-leaderboard-expanded"],.marquee-animation
 twitch.tv##[class*="CoreButton"]:has-text(/Купить Bits|Get Bits/)
 vk.com###stl_left,#stl_side,.apps_feedRightAppsBlock,#ads_left,.right_list_header,#group_recom_rows,#group_recom_wrap,.feed_friends_recomm,div[data-ad],div[data-ad-view],[class^="ads_ad_"],#stories_feed_wrap,#profile_friends_recomm,.ads_ads_box,#system_msg,#utils,.audio_promo,#feed_blog_reminder,a[href*="/app7399325"],#l_watch_home,a[href*="/covid19"],.installApp,#ui_rmenu_coronavirus,#ui_rmenu_stayhome,.wall_marked_as_ads,.item_share,.apps_feedRightAppsBlock__row,.videoplayer_action_button,.ads_ad_box,.ads_ad_box2,[id*="reply_box_donut-"],.ShortVideoFeedBlock,.feed_groups_recomm,.feedAssistance_recommendedGroups,.feedAssistance_promoButton,#block_youla-recommendations-carousel,#block_aliexpress-recommendations-carousel,.RecommendedNarrativesBlock,.FeedVideosForYou,.GroupsRecommendedSlider,.friendsRecommendedSliderWrap,.friends_possible_block,.videoplayer_share_actions,#cover_list_app_widget,.EasterEggsContainer,.post_withExtraHeader.post_exploreBait.wall_item,.VideoOwnerInfo,.NeuroHdHint__button,.InterestsBlock__inner
 vk.com##div.feed_row:has-text(/Может быть интересно|Рекомендуемые новости|Рекомендуемое видео|Реклама в сообществе/)
@@ -385,13 +385,12 @@ steampowered.com##.saleEventBannerLink,.saleEventBannerStyle,.saleEventBannerBig
 /[-._?/](player|client|csi|gen(erate)?|stream|logs?|live)[-._?]?204[-._?]?/$image,other,xmlhttprequest
 /[-._?/][a-zA-Z]{8,}track(ers?|ing)[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~ok.ru|~fandom.com|~github.com|~gitlab.com
 /[-._?/]analyti([\W\w]+)[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~analytics.google.com|~analyticssuitefrontend-pa.clients6.google.com|~analyticsinsights-pa.clients6.google.com|~fandom.com|~aliexpress.*|~vk.com|~dropbox.com|~yota.ru|~ubisoft.com|~ubi.com|~sberbank.ru|~twitter.com|~github.com|~vtb.ru|~flightaware.com|~kion.ru|~binance.com|~multibonus.ru|~youtube.com|~tiktok.com|~gitlab.com
-/[-._?/]bann?ers?[-.0-9_?]/$image,script,subdocument,xmlhttprequest,domain=~aliexpress.*|~discord.com|~dropbox.com|~esetnod32.ru|~f-droid.org|~fandom.com|~gosuslugi.ru|~live.com|~mts.ru|~office.com|~ok.ru|~rt.ru|~ru-mi.com|~sberbank.ru|~google.com|~twitch.tv|~radiorecord.ru|~yota.ru|~qiwi.com|~yoomoney.ru|~wildberries.ru|~msi.com|~dns-shop.ru|~multibonus.ru|~github.com
+/[-._?/]bann?ers?[-.0-9_?]/$image,script,subdocument,xmlhttprequest,domain=~aliexpress.*|~discord.com|~dropbox.com|~esetnod32.ru|~f-droid.org|~fandom.com|~gosuslugi.ru|~live.com|~mts.ru|~office.com|~ok.ru|~rt.ru|~ru-mi.com|~sberbank.ru|~google.com|~twitch.tv|~radiorecord.ru|~yota.ru|~qiwi.com|~yoomoney.ru|~wildberries.ru|~msi.com|~dns-shop.ru|~multibonus.ru|~github.com|~yastatic.net
 /[-._?/]logs?(ging|impressions?|ers?)?[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~aliexpress.*|~dns-shop.ru|~docviewer.yandex.ru|~github.com|~gitlab.com|~instagram.com|~mi.com|~twitch.tv|~yadi.sk|~dropbox.com|~twitter.com|~vtb.ru|~yandex.ru|~vk.com|~qiwi.com|~ddostup.ru
 /[-._?/]track(ers?|ing)[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~alipay.com|~analytics.google.com|~fandom.com|~pochta.ru|~yandex.ru|~aliexpress.*|~ubisoft.com|~ubi.com|~yoomoney.ru|~wildberries.ru|~dropbox.com|~rutracker.com|~gitlab.com
 /[-._?/]vast[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~github.com|~gitlab.com|~twitch.tv|~spankbang.com
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest
 /^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,popup,important
-||yastatic.net/daas/atom.js|$important,script,xmlhttprequest
 ||youtube.com/*/activeview?$important,script,xmlhttprequest
 ! COMBINED END
 
@@ -486,12 +485,14 @@ cdn-films.xyz##.registration-form-widget
 ||connect.facebook.net^
 ||myqcloud.com^
 ||d1tru86qrby720.cloudfront.net^
+||protectionfling.top^
 ||sofrtoda.site^
 ||newrotatormarch23.bid^
 ||smatr.icu^
 @@||sendsay.ru^$domain=sberbank.ru
 ||tapi.pureapk.com/*/chat_robot_pendant
 ||tapi.pureapk.com/*/get_game_popup
+||yastatic.net/daas/atom.js|$important,script,xmlhttprequest
 ||tapi.pureapk.com/*/get_user_exp_info
 ||tapi.pureapk.com/*/get_cfg
 ||cdngtc.com/file_assets_*.jpg|$image
