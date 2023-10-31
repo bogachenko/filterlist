@@ -219,6 +219,9 @@ xvideos.com##.banner-slider.embed-responsive
 yandex.ru##[class*="_animation_"][class*="_layout_simple"][class*="_hasShadow"],.AliceFabPromo,.AliceFabButton
 online.vtb.ru##[class*="NoRussianCertificatesBanner"]
 steampowered.com##.saleEventBannerLink,.saleEventBannerStyle,.saleEventBannerBig
+steamcommunity.com##.profile_animated_background,.profile_avatar_frame
+steamcommunity.com##.has_profile_background:style(background-image: none !important;)
+steamcommunity.com##.profile_page:style(background-image: none !important;)
 ! Cascading Style Sheets (CSS) END
 
 ! Content Security Policy (CSP) START
@@ -376,6 +379,7 @@ steampowered.com##.saleEventBannerLink,.saleEventBannerStyle,.saleEventBannerBig
 /videos/ads-*.mp4|$media
 /ads/*.mp4|$media
 /rek/*.mp4|$media
+||steamstatic.com/steamcommunity/public/images/items/$media,domain=steamcommunity.com|steampowered.com
 ! MEDIA END
 
 ! COMBINED START
@@ -408,6 +412,7 @@ infourok.ru##div#aa-popup
 @@||app.adjust.com^|$badfilter
 /\/afs\/ads[?/]/$subdocument,script,important
 ||wl.spotify.com^$badfilter
+steamid.xyz###winuas
 ||click.redditmail.com^$badfilter
 ||accounts.google.com/gsi/button$subdocument
 /^https?:\/\/yastatic\.net\/www\/_\/[^\s]{150,}/$image,redirect-rule=empty,domain=yandex.by|yandex.kz|yandex.ru|yandex.uz,badfilter
