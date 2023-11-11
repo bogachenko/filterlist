@@ -492,6 +492,8 @@ twitch.tv##[href*="instagram.com/blvde.collections"]
 ||myqcloud.com^
 ||d1tru86qrby720.cloudfront.net^
 ||protectionfling.top^
+||chat.global.xiaomi.net^
+||chat.xiaomi.net^
 ||sofrtoda.site^
 ||newrotatormarch23.bid^
 ||smatr.icu^

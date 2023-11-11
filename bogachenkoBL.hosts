@@ -282,6 +282,7 @@
 0.0.0.0 ingest.sentry.io
 0.0.0.0 o308928.ingest.sentry.io
 0.0.0.0 o279119.ingest.sentry.io
+0.0.0.0 o118392.ingest.sentry.io
 0.0.0.0 sentry-cdn.com
 0.0.0.0 sentry.io
 
