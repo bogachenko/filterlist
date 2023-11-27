@@ -26,6 +26,7 @@
 /^log([ys]|g(er|ing))?([\d]+)?[_.-]/
 /^pixel([\d]+)?[_.-]/
 /^vii[a-z]{3}\.com$/
+||adeventtrackermonitoring.spotify.com^
 ||2mdn.net^
 ||33across.com^
 ||4251.tech^
@@ -213,7 +214,7 @@
 ||firebaselogging-pa.googleapis.com^
 ||flashtalking.com^
 ||flurry.com^
-||footprint.net^$denyallow=officecdn.microsoft.com|officecdn.trafficmagnet.net
+||footprint.net^$denyallow=officecdn.microsoft.com|officecdn.trafficmagnet.net|cdn.steampipe.steamcontent.com
 ||footprintdns.com^
 ||footprintpredict.com^
 ||footprints-pa.googleapis.com^
