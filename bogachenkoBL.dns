@@ -214,7 +214,7 @@
 ||firebaselogging-pa.googleapis.com^
 ||flashtalking.com^
 ||flurry.com^
-||footprint.net^$denyallow=officecdn.microsoft.com|officecdn.trafficmagnet.net|cdn.steampipe.steamcontent.com
+||footprint.net^$denyallow=officecdn.microsoft.com|officecdn.trafficmagnet.net|cdn.steampipe.steamcontent.com|cdn.steampipe.steamcontent.com.c.footprint.net
 ||footprintdns.com^
 ||footprintpredict.com^
 ||footprints-pa.googleapis.com^
