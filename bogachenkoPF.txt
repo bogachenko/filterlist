@@ -149,6 +149,7 @@ $$script[src="https://www.googletagservices.com/"]
 ||google-analytics.com^$important
 ||sentry.io^$important
 ||xtracloud.net^$important
+||mc.yandex.ru^$important
 ! DOMAIN END
 
 ! APP START
@@ -393,7 +394,7 @@ steamcommunity.com##.profile_page:style(background-image: none !important;)
 /[-._?/]track(ers?|ing)[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~alipay.com|~analytics.google.com|~fandom.com|~pochta.ru|~yandex.ru|~aliexpress.*|~ubisoft.com|~ubi.com|~yoomoney.ru|~wildberries.ru|~dropbox.com|~rutracker.com|~gitlab.com|~mediadelivery.net
 /[-._?/]vast[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~github.com|~gitlab.com|~twitch.tv|~spankbang.com
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest
-/^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,popup,important
+/^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,popup
 ||youtube.com/*/activeview?$important,script,xmlhttprequest
 ! COMBINED END
 
@@ -496,6 +497,7 @@ twitch.tv##[href*="instagram.com/blvde.collections"]
 ||chat.xiaomi.net^
 ||sofrtoda.site^
 ||newrotatormarch23.bid^
+@@||yastatic.net/naydex/yandex-search/$image
 ||smatr.icu^
 @@||sendsay.ru^$domain=sberbank.ru
 ||tapi.pureapk.com/*/chat_robot_pendant
