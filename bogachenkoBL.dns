@@ -14,7 +14,7 @@
 /^(.+[_.-])?crash(es)?([\d]+)?[_.-]/
 /^(.+[_.-])?me?tr[ie]?[ck][asx]?([\d]+)?[_.-]/
 /^(.+[_.-])?n[0-9]{2,4}adserv\.\w+$/
-/^(.+[_.-])?partners?([\d]+)?[_.-]/$denyallow=api-partner.spotify.com|partners.wg.spotify.com
+/^(.+[_.-])?partner(ad)?s?([\d]+)?[_.-]/$denyallow=api-partner.spotify.com|partners.wg.spotify.com
 /^(.+[_.-])?promo(t(ed?|i(ng|on)))?([\d]+)?[_.-]/
 /^(.+[_.-])?re[ck]l?(am[asz]?)?([\d]+)?[_.-]/
 /^(.+[_.-])?sentry([\d]+)?[_.-]/
@@ -92,6 +92,7 @@
 ||adsterra.com^
 ||adsyndication.msn.com^
 ||adtago.s3.amazonaws.com^
+||adtech.yahooinc.com^
 ||advarkads.com^
 ||advisor.api.2gis.ru^
 ||adwolf.ru^
@@ -122,6 +123,8 @@
 ||applift.com^
 ||applovin.com^
 ||applvn.com^
+||appmetrica.yandex.com^
+||appmetrica.yandex.ru^
 ||appnext.com^
 ||apprefaculty.pro^
 ||appsflyer.com^
@@ -153,6 +156,7 @@
 ||bs.yandex.*^
 ||budvawshes.ru^
 ||bugsnag.com^
+||business-api.tiktok.com^
 ||buysellads.net^
 ||buzzoola.com^
 ||carbonads.com^
@@ -232,6 +236,7 @@
 ||gath3r.io^
 ||gather.network^
 ||gde.cash^
+||gemini.yahoo.com^
 ||get.opera.com^
 ||getsentry.com^
 ||gibevay.ru^
@@ -239,6 +244,7 @@
 ||goldbach.com^
 ||googleadapis.l.google.com^
 ||googleadservices.com^
+||googleanalytics.com^
 ||googleoptimize.com^
 ||googlesyndication.com^
 ||googletagmanager.com^
@@ -321,10 +327,12 @@
 ||nexus.officeapps.live.com^
 ||nexusrules.officeapps.live.com^
 ||nexx360.io^
+||nmetrics.samsung.com^
 ||nogravity.fun^
 ||notification.adblockplus.org^
 ||null^
 ||o333o.com^
+||offerwall.yandex.net^
 ||officeci.azurewebsites.net^
 ||omtrdc.net^
 ||onelink.me^
@@ -397,6 +405,7 @@
 ||smartadserver.com^
 ||smartclip.net^
 ||smartscreen.microsoft.com^
+||smetrics.samsung.com^
 ||smntq.com^
 ||snsv.ru^
 ||sovrn.com^
@@ -442,6 +451,8 @@
 ||trk.mail.ru^
 ||trontv.com^
 ||ts.acestream.net^
+||udc.yahoo.com^
+||udcm.yahoo.com^
 ||undefined^
 ||underdog.media^
 ||unibots.in^

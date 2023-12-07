@@ -504,6 +504,8 @@ twitch.tv##[href*="instagram.com/blvde.collections"]
 ||tapi.pureapk.com/*/get_game_popup
 ||yastatic.net/daas/atom.js|$important,script,xmlhttprequest
 ||tapi.pureapk.com/*/get_user_exp_info
+*$3p,from=d3ward.github.io,badfilter
+||d3ward.github.io/toolz/adblock$document,csp=connect-src 'self',badfilter
 ||tapi.pureapk.com/*/get_cfg
 ||cdngtc.com/file_assets_*.jpg|$image
 kinopoisk.ru##[class*="styles_socialControlsContainer"]
