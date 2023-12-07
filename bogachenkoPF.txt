@@ -441,7 +441,7 @@ faucetcrypto.com##iframe[id$="-ad-iframe"]:upward(1)
 ||188league.com^
 ||lockdown1681.com^
 ||ymatuhin.ru/ads/ads.js$domain=checkadblock.ru,important
-/^https?:\/\/(.*\.)?lenkino\.adult\/([a-z0-9]{7}\/){2}$/$script
+/\/([a-z0-9]{7}\/){2}$/$script,domain=lenkino.adult|ebalovo.porn
 cdn-films.xyz##.registration-form-widget
 *##[id*="cookieConsentUR"]
 ||filmitorrents.ru^
