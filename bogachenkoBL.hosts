@@ -638,3 +638,6 @@
 # [myadsget.com]
 0.0.0.0 myadsget.com
 0.0.0.0 api.myadsget.com
+
+# [alfabank.ru]
+0.0.0.0 metrics.alfabank.ru

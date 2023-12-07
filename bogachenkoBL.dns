@@ -20,13 +20,12 @@
 /^(.+[_.-])?sentry([\d]+)?[_.-]/
 /^(.+[_.-])?telemetr(y|ics?)([\d]+)?[_.-]/
 /^(.+[_.-])?vast([\d]+)?[_.-]/
-/^[ase1-5]{2}\.(torrent|ace)stream\.(info|org|net)$/
-/^[rt]s?[0-3]?\.mail\.ru$/
 /^a\.[a-f0-9]{30,60}\.com$/
 /^log([ys]|g(er|ing))?([\d]+)?[_.-]/
 /^pixel([\d]+)?[_.-]/
 /^vii[a-z]{3}\.com$/
-||adeventtrackermonitoring.spotify.com^
+/^[ase1-5]{2}\.(torrent|ace)stream\.(info|org|net)$/
+/^[rt]s?[0-3]?\.mail\.ru$/
 ||2mdn.net^
 ||33across.com^
 ||4251.tech^
@@ -45,6 +44,7 @@
 ||addealsnetwork.com^
 ||adduplex.com^
 ||adeventtracker.spotify.com^
+||adeventtrackermonitoring.spotify.com^
 ||adfinity.pro^
 ||adforgames.com^
 ||adform.com^
@@ -58,11 +58,14 @@
 ||adhitz.com^
 ||adhitzads.com^
 ||adhunt.net^
+||adinplay.com^
 ||adj.st^
 ||adjoe.io^
 ||adjust.com^
 ||adjust.net.in^
 ||adjust.world^
+||admitad.com^
+||admitad.ru^
 ||admixer.net^
 ||admob.com^
 ||admon.ai^
@@ -95,6 +98,7 @@
 ||adxadserv.com^
 ||af.opera.com^
 ||affiliationjs.s3.amazonaws.com^
+||agrvt.com^
 ||ahmadve.ru^
 ||alexmetrics.com^
 ||allbanners.ru^
@@ -220,8 +224,6 @@
 ||footprints-pa.googleapis.com^
 ||franecki.net^
 ||franeski.net^
-||admitad.com^
-||admitad.ru^
 ||freewheel.com^
 ||fundingchoices.google.com^
 ||fundingchoicesmessages.google.com^
@@ -256,7 +258,6 @@
 ||id.l.google.com^
 ||imasdk.googleapis.com^
 ||imrworldwide.com^
-||adinplay.com^
 ||in.appcenter.ms^
 ||indexexchange.com^
 ||indicative.com^
@@ -319,6 +320,7 @@
 ||nexus.ensighten.com^
 ||nexus.officeapps.live.com^
 ||nexusrules.officeapps.live.com^
+||nexx360.io^
 ||nogravity.fun^
 ||notification.adblockplus.org^
 ||null^
