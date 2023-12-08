@@ -150,6 +150,8 @@ $$script[src="https://www.googletagservices.com/"]
 ||sentry.io^$important
 ||xtracloud.net^$important
 ||mc.yandex.ru^$important
+||googletagmanager.com^$important
+||google-analytics.com^$important
 ! DOMAIN END
 
 ! APP START
@@ -298,6 +300,7 @@ steamcommunity.com##.profile_page:style(background-image: none !important;)
 /^https?:\/\/yandex\.ru\/appcry\/[a-zA-Z0-9]{5,}\//
 ||yandex.ru/an/
 |http*:*&oad=
+|http*:*&fingerprint=
 |http*:*/yabanner?url=
 |http*:*/sellerassets/
 |http*:*?payload=
@@ -396,6 +399,7 @@ steamcommunity.com##.profile_page:style(background-image: none !important;)
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest
 /^https?:\/\/yastatic\.net\/[^\s]{120,}/$image,popup
 ||youtube.com/*/activeview?$important,script,xmlhttprequest
+/[-_]sw\.js/$script,xmlhttprequest
 ! COMBINED END
 
 ! TRASH START
@@ -441,7 +445,6 @@ faucetcrypto.com##iframe[id$="-ad-iframe"]:upward(1)
 ||188league.com^
 ||lockdown1681.com^
 ||ymatuhin.ru/ads/ads.js$domain=checkadblock.ru,important
-/\/([a-z0-9]{7}\/){2}$/$script,domain=lenkino.adult|ebalovo.porn
 cdn-films.xyz##.registration-form-widget
 *##[id*="cookieConsentUR"]
 ||filmitorrents.ru^
@@ -462,6 +465,7 @@ cdn-films.xyz##.registration-form-widget
 ||rollercoin.com^
 ||cryptohunter.me^
 ||bitko.ng^
+||blzjjrwbwvnnk.top^
 ||rotator.top^
 ||dogeminingpaid.com^
 ||bitgamble.org^
