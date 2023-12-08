@@ -6,7 +6,7 @@
 
 /^(.+[_.-])?ad[sxv]?([\d]+)?[_.-]/
 /^(.+[_.-])?ad[vs]er(v?e?t?r?)?(i((si)?ng|se(ment)?|c[ae]s?))?([\d]+)?[_.-]/
-/^(.+[_.-])?ajx?[0-9]{3,4}\.(bid|online)$/
+/^(.+[_.-])?ajx?[1-9]{3,4}\.(bid|online|xyz)$/
 /^(.+[_.-])?analy([\W\w]+)?([\d]+)?[_.-]/
 /^(.+[_.-])?bann?ers?([\d]+)?[_.-]/
 /^(.+[_.-])?beacons?([\d]+)?[_.-]/
@@ -89,6 +89,13 @@
 ||adspeeker.com^
 ||adspruce.com^
 ||adsrvr.org^
+||trandgid.com^
+||smachnakittchen.com^
+||magsrv.com^
+||roomrentpast.com^
+||jkha742.xyz^
+||mfadsrvr.com^
+||billybobandirect.org^
 ||adsterra.com^
 ||adsyndication.msn.com^
 ||adtago.s3.amazonaws.com^
