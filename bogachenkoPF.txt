@@ -149,6 +149,7 @@ $$script[src="https://www.googletagservices.com/"]
 ||google-analytics.com^$important
 ||sentry.io^$important
 ||xtracloud.net^$important
+||an.yandex.ru^$important
 ||mc.yandex.ru^$important
 ||googletagmanager.com^$important
 ||google-analytics.com^$important
@@ -494,6 +495,18 @@ twitch.tv##[href*="instagram.com/blvde.collections"]
 ||pushluck.fun^
 ||wadescoch.com^
 ||connect.facebook.net^
+||wvcvtbbbzo.ru^
+||1arce.ru^
+||gorzvsdgez.site^
+||parus-zlat.ru^
+||skoba66.ru^
+||forum-orange-rp.ru^
+||redate.ru^
+||laolikem.ru^
+||postroimhram.ru^
+||kbkt24.ru^
+||cththemes.com^
+||laolikem.ru^
 ||myqcloud.com^
 ||d1tru86qrby720.cloudfront.net^
 ||protectionfling.top^
