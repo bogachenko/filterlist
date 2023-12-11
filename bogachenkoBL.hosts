@@ -642,3 +642,8 @@
 
 # [alfabank.ru]
 0.0.0.0 metrics.alfabank.ru
+
+# [spbtv.com]
+0.0.0.0 metrics.spbtv.com
+0.0.0.0 tafimedia.com
+0.0.0.0 api.tafimedia.com
