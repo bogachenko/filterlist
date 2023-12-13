@@ -37,8 +37,7 @@
 ||acuityads.com^
 ||ad999.biz^
 ||adaware.com^
-||adbus.pro^
-||adbus.ru^
+||adbus.*^
 ||adcamp.ru^
 ||adcash.com^
 ||adcel.co^
@@ -50,8 +49,7 @@
 ||adeventtrackermonitoring.spotify.com^
 ||adfinity.pro^
 ||adforgames.com^
-||adform.com^
-||adform.net^
+||adform.*^
 ||adfox.*^
 ||adfstat.yandex.ru^
 ||adgrx.com^
@@ -62,16 +60,12 @@
 ||adinplay.com^
 ||adj.st^
 ||adjoe.io^
-||adjust.com^
-||adjust.net.in^
-||adjust.world^
+||adjust.*^
 ||adlabs.ru^
 ||admitad.com^
-||admitad.ru^
 ||admixer.net^
 ||admob.com^
-||admon.ai^
-||admon.pro^
+||admon.*^
 ||admost.com^
 ||adnium.com^
 ||adnow.com^
@@ -186,8 +180,7 @@
 ||content.overwolf.com^
 ||countess.twitch.tv^
 ||crashlogs.whatsapp.net^
-||crashlytics.com^
-||crashlytics.l.google.com^
+||crashlytics.*^
 ||crashlyticsreports-pa.googleapis.com^
 ||criteo.com^
 ||d.ghostery.com^
@@ -294,8 +287,7 @@
 ||jkha742.xyz^
 ||jsecoin.com^
 ||jshosting.*^
-||juiceadv.com^
-||juiceadv.net^
+||juiceadv.*^
 ||juicyads.com^
 ||kejasosy.com^
 ||ketchapp.org^
@@ -363,7 +355,6 @@
 ||opera-api.com^
 ||optimizesrv.com^
 ||osp.opera.software^
-||otm-r.com^
 ||otm-r.com^
 ||outbrain.com^
 ||owneriq.net^
