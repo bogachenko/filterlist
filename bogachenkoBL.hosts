@@ -92,6 +92,7 @@
 0.0.0.0 adv.sec.miui.com
 0.0.0.0 api.accelerator.intl.miui.com
 0.0.0.0 api.ad.intl.xiaomi.com
+0.0.0.0 sa.tv.global.mi.com
 0.0.0.0 api.ad.xiaomi.com
 0.0.0.0 api.sec.intl.miui.com
 0.0.0.0 app.chat.xiaomi.net
@@ -163,6 +164,8 @@
 0.0.0.0 startup.mobile.webvisor.com
 0.0.0.0 u.startup.mobile.webvisor.com
 0.0.0.0 webvisor.com
+0.0.0.0 report-1.appmetrica.webvisor.com
+0.0.0.0 report.appmetrica.webvisor.com
 
 # [my.com]
 0.0.0.0 eu.tracker-api.my.com

@@ -82,6 +82,29 @@ $$script[src="https://www.googletagservices.com/"]
 |http*:*?redirect_id=$document
 ! DOCUMENT END
 
+! HOSTS START
+||shavar.services.mozilla.com^$important
+||safebrowsing.googleapis.com^$important
+||location.services.mozilla.com^$important
+||updates.push.services.mozilla.com^$important
+||push.services.mozilla.com^$important
+||tracking-protection.cdn.mozilla.net^$important
+||ru.app.chat.global.xiaomi.net^$important
+||find.api.micloud.xiaomi.net^$important
+||findapi.micloud.xiaomi.net^$important
+||micloud.xiaomi.net^$important
+||resolver.msg.global.xiaomi.net^$important
+||connect.facebook.net^$important
+||smartscreen.microsoft.com^$important
+||wdcp.microsoft.com^$important
+||mqtt-mini.facebook.com^$important
+@@||cmp.inmobi.com^|$badfilter
+@@||a.adwolf.ru^|$badfilter
+@@||pagead.l.doubleclick.net^|$badfilter
+@@||www.googleadservices.com^|$badfilter
+@@||track.rutarget.ru^|$badfilter
+! HOSTS END
+
 ! DOMAIN START
 ||*-safebrowsing.google.com^$important
 ||addthis.com^$important
