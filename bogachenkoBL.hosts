@@ -60,7 +60,6 @@
 # [microsoft.com]
 0.0.0.0 browser.events.data.microsoft.com
 0.0.0.0 browser.pipe.aria.microsoft.com
-0.0.0.0 config.teams.microsoft.com
 0.0.0.0 eu-teams.events.data.microsoft.com
 0.0.0.0 ic3.events.data.microsoft.com
 0.0.0.0 in.appcenter.ms
@@ -155,6 +154,7 @@
 0.0.0.0 yabs.yandex.ru
 0.0.0.0 yandexadexchange.net
 0.0.0.0 amc.yandex.ru
+0.0.0.0 startup-mobile.ap.yandex-net.ru
 
 # [webvisor.com]
 0.0.0.0 appmetrica.webvisor.com
@@ -205,6 +205,8 @@
 0.0.0.0 trheoi-cdn-settings.appsflyersdk.com
 0.0.0.0 trheoi-conversions.appsflyersdk.com
 0.0.0.0 trheoi-dlsdk.appsflyersdk.com
+0.0.0.0 kiqsrh-cdn-settings.appsflyersdk.com
+0.0.0.0 kiqsrh-inapps.appsflyersdk.com
 0.0.0.0 ezfweb-launches.appsflyersdk.com
 
 # [branch.io]
