@@ -26,6 +26,7 @@
 /^log([ys]|g(er|ing))?([\d]+)?[_.-]/
 /^pi?x(el)?([\d]+)?[_.-]/
 /^vii[a-z]{3}\.com$/
+/^ymetrica[1-3]?\.com/
 ||1dmp.io^
 ||2mdn.net^
 ||33across.com^
