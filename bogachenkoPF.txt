@@ -417,7 +417,7 @@ steamcommunity.com##.profile_page:style(background-image: none !important;)
 /[-._?/][a-zA-Z]{8,}track(ers?|ing)[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~ok.ru|~fandom.com|~github.com|~gitlab.com
 /[-._?/]analyti([\W\w]+)[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~analytics.google.com|~analyticssuitefrontend-pa.clients6.google.com|~analyticsinsights-pa.clients6.google.com|~fandom.com|~aliexpress.*|~vk.com|~dropbox.com|~yota.ru|~ubisoft.com|~ubi.com|~sberbank.ru|~twitter.com|~github.com|~vtb.ru|~flightaware.com|~kion.ru|~binance.com|~multibonus.ru|~youtube.com|~tiktok.com|~gitlab.com|~tagmanager.google.com
 /[-._?/]bann?ers?[-.0-9_?]/$image,script,subdocument,xmlhttprequest,domain=~aliexpress.*|~discord.com|~dropbox.com|~esetnod32.ru|~f-droid.org|~fandom.com|~gosuslugi.ru|~live.com|~mts.ru|~office.com|~ok.ru|~rt.ru|~ru-mi.com|~sberbank.ru|~google.com|~twitch.tv|~radiorecord.ru|~yota.ru|~qiwi.com|~yoomoney.ru|~wildberries.ru|~msi.com|~dns-shop.ru|~multibonus.ru|~github.com|~yastatic.net
-/[-._?/]logs?(ging|impressions?|ers?)?[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~aliexpress.*|~dns-shop.ru|~docviewer.yandex.ru|~github.com|~gitlab.com|~instagram.com|~mi.com|~twitch.tv|~yadi.sk|~dropbox.com|~twitter.com|~vtb.ru|~yandex.ru|~vk.com|~qiwi.com|~ddostup.ru
+/[-._?/]logs?(ging|impressions?|ers?)?[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~aliexpress.*|~dns-shop.ru|~docviewer.yandex.ru|~github.com|~gitlab.com|~instagram.com|~mi.com|~twitch.tv|~yadi.sk|~dropbox.com|~twitter.com|~vtb.ru|~yandex.ru|~vk.com|~qiwi.com|~ddostup.ru|~steampowered.com
 /[-._?/]track(ers?|ing)[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~alipay.com|~analytics.google.com|~fandom.com|~pochta.ru|~yandex.ru|~aliexpress.*|~ubisoft.com|~ubi.com|~yoomoney.ru|~wildberries.ru|~dropbox.com|~rutracker.com|~gitlab.com|~mediadelivery.net|~github.com|~gitlab.com
 /[-._?/]vast[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~github.com|~gitlab.com|~twitch.tv|~spankbang.com
 ||youtube.com/api/stats/$image,important,other,xmlhttprequest
@@ -491,6 +491,7 @@ cdn-films.xyz##.registration-form-widget
 ||rollercoin.com^
 ||cryptohunter.me^
 ||bitko.ng^
+||uptomedias.ru^
 ||blzjjrwbwvnnk.top^
 ||rotator.top^
 ||dogeminingpaid.com^

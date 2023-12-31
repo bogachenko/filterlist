@@ -4,8 +4,8 @@
 ! Homepage: https://github.com/bogachenko/filterlist/
 ! License: https://raw.githubusercontent.com/bogachenko/filterlist/main/LICENSE.md
 
-/^(.+[_.-])?ad[sxv]?([\d]+)?[_.-]/
-/^(.+[_.-])?ad[vs]er(v?e?t?r?)?(i((si)?ng|se(ment)?|c[ae]s?))?([\d]+)?[_.-]/
+/^(.+[_.-])?ad[sxv]?[_.-]/
+/^(.+[_.-])?ad[vs]er(v?e?t?r?)?(i((si)?ng|se(ment)?|c[ae]s?))?[_.-]/
 /^(.+[_.-])?ajx?[1-9]{3,4}\.(bid|online|xyz)$/
 /^(.+[_.-])?analy([\W\w]+)?([\d]+)?[_.-]/
 /^(.+[_.-])?bann?ers?([\d]+)?[_.-]/
@@ -33,11 +33,9 @@
 ||360yield.com^
 ||4251.tech^
 ||a-mo.net^
-||playmatic.video^
 ||abt.s3.yandex.net^
 ||acint.net^
 ||acuityads.com^
-||adlook.me^
 ||ad999.biz^
 ||adaware.com^
 ||adbus.*^
@@ -65,6 +63,7 @@
 ||adjoe.io^
 ||adjust.*^
 ||adlabs.ru^
+||adlook.me^
 ||admitad.com^
 ||admixer.net^
 ||admob.com^
@@ -115,6 +114,7 @@
 ||an.mail.ru^
 ||an.yandex.*^
 ||android-stat.acestream.net^
+||androidtvwatsonfe-pa.googleapis.com^
 ||api-hotjar.com^
 ||app-measurement.com^
 ||app.link^
@@ -369,6 +369,7 @@
 ||pipe.aria.microsoft.com^
 ||pladform.ru^
 ||playjusting.com^
+||playmatic.video^
 ||plrjs.org^
 ||popads.net^
 ||popcash.net^
@@ -400,6 +401,7 @@
 ||rutad.ru^
 ||rutarget.ru^
 ||s*-2mdn-net.l.google.com^
+||s.myangular.life^
 ||s.yimg.com^
 ||s.youtube.com^
 ||samsungacr.com^
@@ -505,9 +507,7 @@
 ||voodoo-tech.io^
 ||voodoo.io^
 ||vserv.mobi^
-||androidtvwatsonfe-pa.googleapis.com^
 ||vungle.com^
-||zcode16.me^
 ||watson.*.microsoft.com^
 ||watson.live.com^
 ||watson.microsoft.com^
@@ -533,4 +533,5 @@
 ||youmi.net^
 ||yovoads.com^
 ||yuhuads.com^
+||zcode16.me^
 ||ziffdavis.com^
