@@ -658,3 +658,6 @@
 0.0.0.0 metrics.spbtv.com
 0.0.0.0 tafimedia.com
 0.0.0.0 api.tafimedia.com
+
+# [adguard.com]
+0.0.0.0 sentry-adtidy.b-cdn.net

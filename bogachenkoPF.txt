@@ -177,6 +177,9 @@ $$script[src="https://www.googletagservices.com/"]
 ||mc.yandex.ru^$important
 ||googletagmanager.com^$important
 ||google-analytics.com^$important
+||shortcommunicativeinterconnectedness.space^$important
+||limitedcommunitylinkage.online^$important
+||punycompanionableframework.world^$important
 ! DOMAIN END
 
 ! APP START
