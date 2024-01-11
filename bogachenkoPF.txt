@@ -180,6 +180,8 @@ $$script[src="https://www.googletagservices.com/"]
 ||shortcommunicativeinterconnectedness.space^$important
 ||limitedcommunitylinkage.online^$important
 ||punycompanionableframework.world^$important
+||minutegregariousstructure.org^$important
+||minusculecommunallinkage.online^$important
 ! DOMAIN END
 
 ! APP START
@@ -524,6 +526,7 @@ twitch.tv##[href*="instagram.com/blvde.collections"]
 ||pushluck.fun^
 ||wadescoch.com^
 ||connect.facebook.net^
+||ampproject.org^
 ||wvcvtbbbzo.ru^
 ||1arce.ru^
 ||gorzvsdgez.site^
