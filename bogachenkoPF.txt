@@ -179,7 +179,6 @@ $$script[src="https://www.googletagservices.com/"]
 ||google-analytics.com^$important
 ||shortcommunicativeinterconnectedness.space^$important
 ||limitedcommunitylinkage.online^$important
-||punycompanionableframework.world^$important
 ||minutegregariousstructure.org^$important
 ||minusculecommunallinkage.online^$important
 ! DOMAIN END
