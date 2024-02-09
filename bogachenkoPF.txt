@@ -278,7 +278,7 @@ steamcommunity.com##.profile_page:style(background-image: none !important;)
 |http*:*$important,beacon
 |http*:*$important,ping
 |http*:*$important,webrtc
-|http*:*/log/$domain=~aliexpress.com|~sberbank.ru
+|http*:*/log/$domain=~aliexpress.com|~sberbank.ru|~tinkoff.ru
 |http*:*/log?
 |http*:*/logger/
 |http*:*/pre-roll|
