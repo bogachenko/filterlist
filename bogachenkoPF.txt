@@ -154,8 +154,6 @@ $$script[src="https://www.googletagservices.com/"]
 ||smartscreen-prod.microsoft.com^$important
 ||smartscreen.microsoft.com^$important
 ||speeddials.opera.com^$important
-||tradingview-widget.com^$important
-||tradingview.com^$important
 ||uptolike.com^$important
 ||usocial.pro^$important
 ||webcompat.com^$important
