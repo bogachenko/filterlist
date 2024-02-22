@@ -221,7 +221,7 @@ faucetcrypto.com##+js(disable-newtab-links.js)
 *##[src$="/bub1.png"],[src$="/yamoney_guud.png"],[src$="btn347.gif"],[src$="/yandeks_topers.png"],[src$="/telc.png"],[src$="/dowm.png"]
 aliexpress.*###j-festival-container > .festival-sub-venue,.multi-sidebar-outer-rus.multi-sidebar-outer,.product-fix-wrap,#J_xiaomi_dialog,.site-footer,.ng-mobile.ng-item,.hot-words,.top-banner-container,.site-server-box,.user-helper-footer,.fm-sns,.ams-region,.seo-container.product-container,.search-feedback-wrap,.footer-copywrite,#container-for-smart-banner,.header-right-content,.drogue-poplayer-modal,[class*="styles_bannerLink"],[class*="styles_body_"],[class*="MultiSidebarTab"],[class*="TopBanner"],[class*="Footer_Footer__footer"]
 freebitco.in###myModal22:has-text(Did you know?)
-freebitco.in##.daily_jackpot_main_container_div,#deposit_promo_message_regular,#play_without_captcha_container,.reveal-modal-bg,#bottom_user_ads_container
+freebitco.in##.daily_jackpot_main_container_div,#deposit_promo_message_regular,#play_without_captcha_container,.reveal-modal-bg,#bottom_user_ads_container, #deposit_promo_message_regular,.daily_jackpot_main_container_div,#bottom_user_ads_container
 mail.yandex.ru##.mail-Placeholder-Text,.mail-ThreadSidebar-wrap.ns-view-thread-sidebar-wrap,.mail-MailProAnnouncingPromoLeftColumn,.subscriptionsBubble
 music.yandex.ru##.sidebar__under
 music.yandex.ru##span:contains(Отключить рекламу)
@@ -346,6 +346,7 @@ steamcommunity.com##.profile_page:style(background-image: none !important;)
 ||pbssrv-centralevents.com/*/event-enabled|
 |http*:*/analytics/$domain=~analytics.google.com|~binance.com
 |http*:*/get_ads?
+|https://.xyz/|
 ! OTHER END
 
 ! SCRIPT START
@@ -502,8 +503,11 @@ cdn-films.xyz##.registration-form-widget
 ||webout.life^
 ||ahotron.site^
 ||alfvi-yti.com^
+||esthandler.com^
 ||gudros.site^
 ||sohu.com^
+||homogonymouserapparels.monster^
+||10ahsvjda10x.monster^
 ||btcnews.one^
 ||earn-bitcoins.net^
 ||f4cebacks.com^
@@ -530,6 +534,10 @@ twitch.tv##[href*="instagram.com/blvde.collections"]
 ||skoba66.ru^
 ||forum-orange-rp.ru^
 ||redate.ru^
+||livederive.click^
+||siteforyou3d.com^
+||magsrv.com^
+||labadena.com^
 ||laolikem.ru^
 ||postroimhram.ru^
 ||kbkt24.ru^
