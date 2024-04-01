@@ -481,6 +481,9 @@ cdn-films.xyz##.registration-form-widget
 ||youmeets.site^
 ||honeyelectriclove.life^
 ||gaveasword.com^
+||polnyikazan.com^
+||privetnastolet.com^
+||iesoft.site^
 */snow_miner_anon_ne_podozrevaet.js$script
 @@/[-._?/]track(ers?|ing)[-.0-9_?]/$image,other,script,xmlhttprequest,app=com.wildberries.ru
 ||bolayaros.com^
