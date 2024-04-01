@@ -245,7 +245,7 @@ pornhub.com##.sectionWrapper > :has([class^="premiumIcon"])
 twitter.com###layers > div[class] > div[class]:has(> div[class] div[role="button"] > div[dir="auto"] > span > span:contains(ookie))
 marinetraffic.com###topBanner,div.hidden-print,div[style="position: relative; width: 100%; margin-top: 15px; margin-bottom: 15px; height: 90px;"],.underMapAdMobile,.smartbanner-android,.smartbanner-container
 xvideos.com##.banner-slider.embed-responsive
-yandex.ru##[class*="_animation_"][class*="_layout_simple"][class*="_hasShadow"],.AliceFabPromo,.AliceFabButton
+yandex.ru##[class*="_animation_"][class*="_layout_simple"][class*="_hasShadow"],.AliceFabPromo,.AliceFabButton,.search-advert-offer-banner-view
 online.vtb.ru##[class*="NoRussianCertificatesBanner"]
 steampowered.com##.saleEventBannerLink,.saleEventBannerStyle,.saleEventBannerBig
 steamcommunity.com##.profile_animated_background,.profile_avatar_frame,.profile_customization_block
@@ -394,7 +394,8 @@ steamcommunity.com##.profile_page:style(background-image: none !important;)
 
 ! SUBDOCUMENT START
 ||video.sibnet.ru/my/settings/$subdocument
-|http*:*$frame,domain=faucetcrypto.com
+|http*:*/iframe-google-analytics.html|$subdocument
+|http*:*$subdocument,domain=faucetcrypto.com
 ! SUBDOCUMENT END
 
 ! IMAGE START
@@ -529,6 +530,7 @@ cdn-films.xyz##.registration-form-widget
 ||highly-fantastic-defense.net^
 ||iyfbodn.com^
 ||swsoftae.site^
+rdk-october.shl.muzkult.ru##.disc-modal-view-bc,#disc-modal-view-event
 ||tofilego.site^
 @@||favicon.yandex.net^$image,domain=yandex.ru|yandex.com
 twitch.tv##[href*="instagram.com/blvde.collections"]
