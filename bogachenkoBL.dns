@@ -31,12 +31,9 @@
 ||2mdn.net^
 ||33across.com^
 ||360yield.com^
-||thisiswaldo.com^
 ||4251.tech^
 ||a-mo.net^
-||graph.microsoft.com^
-||graph.instagram.com^
-||graph.facebook.com^
+||a.mts.ru^
 ||abt.s3.yandex.net^
 ||acint.net^
 ||acuityads.com^
@@ -58,10 +55,6 @@
 ||adfox.*^
 ||adfstat.yandex.ru^
 ||adgrx.com^
-||pdvacde.com^
-||smachnakittchen.com^
-||a.mts.ru^
-||bodis.com^
 ||adhigh.net^
 ||adhitz.com^
 ||adhitzads.com^
@@ -71,15 +64,12 @@
 ||adjoe.io^
 ||adjust.*^
 ||adlabs.ru^
-||semanticlocation-pa.googleapis.com^
 ||adlook.me^
 ||admitad.com^
 ||admixer.net^
 ||admob.com^
 ||admon.*^
 ||admost.com^
-||onetrust.io^
-||uxfeedback.ru^
 ||adnium.com^
 ||adnow.com^
 ||adnuntius.com^
@@ -167,6 +157,7 @@
 ||bingads.microsoft.com^
 ||blueserving.com^
 ||bmfads.com^
+||bodis.com^
 ||branch.io^
 ||braze.com^
 ||bs-meta.yandex.ru^
@@ -269,6 +260,9 @@
 ||googlesyndication.com^
 ||googletagmanager.com^
 ||googletagservices.com^
+||graph.facebook.com^
+||graph.instagram.com^
+||graph.microsoft.com^
 ||gx-corner.opera.com^
 ||gx-corner.route*.opera.com^
 ||hdbcome.com^
@@ -277,13 +271,13 @@
 ||hotjar.com^
 ||hovels.info^
 ||huyandex.com^
-||idiagnostics.apple.com^
 ||hybrid.ai^
 ||i9dhjx.ru^
 ||iad.apple.com^
 ||iadsdk.apple.com^
 ||id.google.*^
 ||id.l.google.com^
+||idiagnostics.apple.com^
 ||imasdk.googleapis.com^
 ||imrworldwide.com^
 ||in.appcenter.ms^
@@ -364,6 +358,7 @@
 ||omtrdc.net^
 ||onelink.me^
 ||onesignal.com^
+||onetrust.io^
 ||op-mobile.opera.com^
 ||openx.com^
 ||opera-api.com^
@@ -377,6 +372,7 @@
 ||pagead.l.google.com^
 ||papayads.net^
 ||partnerad.l.google.com^
+||pdvacde.com^
 ||pipe.aria.microsoft.com^
 ||pladform.ru^
 ||playjusting.com^
@@ -426,6 +422,7 @@
 ||sec.*.miui.com^
 ||sec.miui.com^
 ||segment.com^
+||semanticlocation-pa.googleapis.com^
 ||semantiqo.com^
 ||sendpulse.com^
 ||sentry-cdn.com^
@@ -435,6 +432,7 @@
 ||sgali-mcs.byteoversea.com^
 ||shopnetic.com^
 ||smaato.net^
+||smachnakittchen.com^
 ||smachnakittchen.com^
 ||smartadserver.com^
 ||smartclip.net^
@@ -474,6 +472,7 @@
 ||taxi-promotions.s3.yandex.net^
 ||teads.tv^
 ||themoneytizer.com^
+||thisiswaldo.com^
 ||thumbnails*.opera.com^
 ||top-fwz1.mail.ru^
 ||top100.ru^
@@ -502,6 +501,7 @@
 ||us-redir.opera.com^
 ||utarget.ru^
 ||uuidksinc.net^
+||uxfeedback.ru^
 ||vak345.com^
 ||vastroll.ru^
 ||vdo.ai^
