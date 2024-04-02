@@ -61,6 +61,7 @@
 ||pdvacde.com^
 ||smachnakittchen.com^
 ||a.mts.ru^
+||bodis.com^
 ||adhigh.net^
 ||adhitz.com^
 ||adhitzads.com^
@@ -154,8 +155,7 @@
 ||awsync.yandex.*^
 ||ayelads.com^
 ||bannerbank.ru^
-||batchlogging*-eu.truecaller.com^
-||batchlogging*-noneu.truecaller.com^
+||batchlogging*-*.truecaller.com^
 ||bench.utorrent.com^
 ||beroll.ru^
 ||betrad.com^
@@ -277,6 +277,7 @@
 ||hotjar.com^
 ||hovels.info^
 ||huyandex.com^
+||idiagnostics.apple.com^
 ||hybrid.ai^
 ||i9dhjx.ru^
 ||iad.apple.com^

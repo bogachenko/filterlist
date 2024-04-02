@@ -561,6 +561,8 @@ twitch.tv##[href*="instagram.com/blvde.collections"]
 ||chat.global.xiaomi.net^
 ||chat.xiaomi.net^
 ||sofrtoda.site^
+@@||torrentclub.space^
+||03026f.click^
 ||newrotatormarch23.bid^
 @@||yastatic.net/naydex/yandex-search/$image
 ||smatr.icu^
