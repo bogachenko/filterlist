@@ -285,12 +285,13 @@
 ||indicative.com^
 ||infinitedata-pa.googleapis.com^
 ||informer.yandex.ru^
+||ff.astv.ru^
 ||inmobi.com^
 ||inmobicdn.net^
 ||instabug.com^
 ||intent.ai^
 ||intl.miui.com^$denyallow=theme.cdn.intl.miui.com
-||intl.xiaomi.com^$denyallow=api.zhuti.intl.xiaomi.com
+||intl.xiaomi.com^$denyallow=api.zhuti.intl.xiaomi.com|thm.market.intl.xiaomi.com
 ||isnssdk.com^
 ||jkha742.xyz^
 ||jsecoin.com^
@@ -347,6 +348,7 @@
 ||nexus.ensighten.com^
 ||nexus.officeapps.live.com^
 ||nexusrules.officeapps.live.com^
+||androidtvchannels-pa.googleapis.com^
 ||nexx360.io^
 ||nmetrics.samsung.com^
 ||nogravity.fun^
@@ -432,7 +434,6 @@
 ||sgali-mcs.byteoversea.com^
 ||shopnetic.com^
 ||smaato.net^
-||smachnakittchen.com^
 ||smachnakittchen.com^
 ||smartadserver.com^
 ||smartclip.net^

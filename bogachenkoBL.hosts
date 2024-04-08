@@ -41,6 +41,7 @@
 0.0.0.0 m.doubleclick.net
 0.0.0.0 mediavisor.doubleclick.net
 0.0.0.0 pagead.l.doubleclick.net
+0.0.0.0 androidtvchannels-pa.googleapis.com
 0.0.0.0 pagead2.googleadservices.com
 0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 s.yimg.com
@@ -296,6 +297,7 @@
 0.0.0.0 o308928.ingest.sentry.io
 0.0.0.0 o279119.ingest.sentry.io
 0.0.0.0 o118392.ingest.sentry.io
+0.0.0.0 o529943.ingest.sentry.io
 0.0.0.0 sentry-cdn.com
 0.0.0.0 sentry.io
 
