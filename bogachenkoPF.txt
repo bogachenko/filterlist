@@ -77,6 +77,7 @@ $$script[src="https://www.googletagservices.com/"]
 |http*:*/buy-domain/*?redirected=$document
 ||ttk.ru/?order=$document
 ||warning.rt.ru^$document
+/^https?:\/\/.*\/([?&][uo]=[a-z0-9]{7}){2}&t=.*/$document
 /^http:\/\/ww[0-9]{1,2}\..*\.[a-z]{2,4}\/(\?(sub(id)?[1-9]?=(\-?[0-9a-f]{4,12}){4,5}|(terms|pid)=[^\s]+))?$/$document
 /\.(down|online|store)\/((search|user)\.php|go|get|down)$/$document
 |http*:*?redirect_id=$document
@@ -497,6 +498,8 @@ cdn-films.xyz##.registration-form-widget
 ||anythinktech.com^
 ||redirekted.com^
 ||whamiwiwu.pro^
+||newgirlscorner.life^
+||feeldatetop.life^
 ||clickatdcode.com^
 ||matrix-sector.com^
 ||meet-buddy.com^
