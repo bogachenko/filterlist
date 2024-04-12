@@ -193,6 +193,8 @@
 0.0.0.0 appsflyer.com
 0.0.0.0 appsflyersdk.com
 0.0.0.0 attr.appsflyer.com
+0.0.0.0 roovza-conversions.appsflyersdk.com
+0.0.0.0 roovza-cdn-settings.appsflyersdk.com
 0.0.0.0 cdn-settings.appsflyersdk.com
 0.0.0.0 cdn.appsflyer.com
 0.0.0.0 conversions.appsflyer.com
@@ -660,8 +662,18 @@
 
 # [spbtv.com]
 0.0.0.0 metrics.spbtv.com
+
+# [tafimedia.com]
 0.0.0.0 tafimedia.com
 0.0.0.0 api.tafimedia.com
 
 # [adguard.com]
 0.0.0.0 sentry-adtidy.b-cdn.net
+
+# [apple.com]
+0.0.0.0 api-adservices.apple.com
+0.0.0.0 bag.itunes.apple.com
+0.0.0.0 proxy.safebrowsing.apple
+
+# [markmonitor.com]
+0.0.0.0 app-analytics-services.com
