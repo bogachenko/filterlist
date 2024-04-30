@@ -378,7 +378,7 @@ steamcommunity.com##.profile_page:style(background-image: none !important;)
 ! SCRIPT END
 
 ! XMLHTTPREQUEST START
-/^https?:\/\/[^\s]+(\.wasm|\.wsm|\.wa)$/$important,xmlhttprequest,domain=~twitch.tv|~telegram.org|~vk.com
+/^https?:\/\/[^\s]+(\.wasm|\.wsm|\.wa)$/$important,xmlhttprequest,domain=~twitch.tv|~telegram.org|~vk.com|~soundcloud.com
 |http*:*/channels/*/extensions$important,xmlhttprequest,domain=twitch.tv
 ||addons.opera.com/themes/$important,xmlhttprequest
 ||google.com^*/viewerimpressions?$important,xmlhttprequest
