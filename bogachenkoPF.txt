@@ -378,7 +378,7 @@ steamcommunity.com##.profile_page:style(background-image: none !important;)
 ! SCRIPT END
 
 ! XMLHTTPREQUEST START
-/^https?:\/\/[^\s]+(\.wasm|\.wsm|\.wa)$/$important,xmlhttprequest,domain=~twitch.tv|~telegram.org|~vk.com|~soundcloud.com
+/^https?:\/\/[^\s]+(\.wasm|\.wsm|\.wa)$/$important,xmlhttprequest,domain=~twitch.tv|~telegram.org|~vk.com|~soundcloud.com|~jumio.ai
 |http*:*/channels/*/extensions$important,xmlhttprequest,domain=twitch.tv
 ||addons.opera.com/themes/$important,xmlhttprequest
 ||google.com^*/viewerimpressions?$important,xmlhttprequest
@@ -585,6 +585,8 @@ twitch.tv##[href*="instagram.com/blvde.collections"]
 kinopoisk.ru##[class*="styles_socialControlsContainer"]
 reddit.com##.cookie-infobar
 @@||alitems.com*/?ulp=$document
+@@/img/bn/$image
+@@||jumio.ai^
 @@||galaxy.mobstudio.ru$document,badfilter
 ||lujacej.com^
 ! TRASH END
