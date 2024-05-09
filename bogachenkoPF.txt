@@ -586,7 +586,14 @@ kinopoisk.ru##[class*="styles_socialControlsContainer"]
 reddit.com##.cookie-infobar
 @@||alitems.com*/?ulp=$document
 @@/img/bn/$image
+cryptoad.org##+js(nano-setInterval-booster.js)
+@@||youtube.com^$subdocument,domain=earnbitmoon.club
+@@|http*:*?payload=$domain=earnbitmoon.club
+*$third-party,subdocument,domain=earnbitmoon.club
+@@||challenges.cloudflare.com^$subdocument
 @@||jumio.ai^
+etherscan.io##.rounded.img-fluid
+bybit.com##.fiat-otc__ad-banner-container
 @@||galaxy.mobstudio.ru$document,badfilter
 ||lujacej.com^
 ! TRASH END
