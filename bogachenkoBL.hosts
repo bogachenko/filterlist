@@ -9,6 +9,8 @@
 0.0.0.0 ads.google.com
 0.0.0.0 ads.youtube.com
 0.0.0.0 adservice.google.com
+0.0.0.0 androidtvchannels-pa.googleapis.com
+0.0.0.0 androidtvwatsonfe-pa.googleapis.com
 0.0.0.0 api.crashlytics.com
 0.0.0.0 app-measurement.com
 0.0.0.0 beacons.gcp.gvt2.com
@@ -24,7 +26,6 @@
 0.0.0.0 beacons5.gvt3.com
 0.0.0.0 crashlyticsreports-pa.googleapis.com
 0.0.0.0 doubleclick.net
-0.0.0.0 androidtvwatsonfe-pa.googleapis.com
 0.0.0.0 firebase-settings.crashlytics.com
 0.0.0.0 firebaselogging-pa.googleapis.com
 0.0.0.0 firebaselogging.googleapis.com
@@ -41,7 +42,6 @@
 0.0.0.0 m.doubleclick.net
 0.0.0.0 mediavisor.doubleclick.net
 0.0.0.0 pagead.l.doubleclick.net
-0.0.0.0 androidtvchannels-pa.googleapis.com
 0.0.0.0 pagead2.googleadservices.com
 0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 s.yimg.com
@@ -92,7 +92,6 @@
 0.0.0.0 adv.sec.miui.com
 0.0.0.0 api.accelerator.intl.miui.com
 0.0.0.0 api.ad.intl.xiaomi.com
-0.0.0.0 sa.tv.global.mi.com
 0.0.0.0 api.ad.xiaomi.com
 0.0.0.0 api.sec.intl.miui.com
 0.0.0.0 app.chat.xiaomi.net
@@ -113,6 +112,7 @@
 0.0.0.0 mitv.tracking.rus.miui.com
 0.0.0.0 privacy.api.intl.miui.com
 0.0.0.0 sa.api.intl.miui.com
+0.0.0.0 sa.tv.global.mi.com
 0.0.0.0 sdkconfig.ad.eu.xiaomi.com
 0.0.0.0 sdkconfig.ad.india.xiaomi.com
 0.0.0.0 sdkconfig.ad.intl.xiaomi.com
@@ -136,6 +136,7 @@
 0.0.0.0 abt.s3.yandex.net
 0.0.0.0 adfstat.yandex.ru
 0.0.0.0 adsdk.yandex.ru
+0.0.0.0 amc.yandex.ru
 0.0.0.0 an.yandex.ru
 0.0.0.0 analytics.mobile.yandex.net
 0.0.0.0 appmetrica.yandex.com
@@ -154,23 +155,20 @@
 0.0.0.0 taxi-promotions.s3.yandex.net
 0.0.0.0 yabs.yandex.ru
 0.0.0.0 yandexadexchange.net
-0.0.0.0 amc.yandex.ru
-0.0.0.0 startup-mobile.ap.yandex-net.ru
+0.0.0.0 ymetrica.com
 0.0.0.0 ymetrica1.com
 0.0.0.0 ymetrica2.com
 0.0.0.0 ymetrica3.com
-0.0.0.0 ymetrica.com
 
 # [webvisor.com]
 0.0.0.0 appmetrica.webvisor.com
 0.0.0.0 mobile.webvisor.com
+0.0.0.0 report-1.appmetrica.webvisor.com
 0.0.0.0 report.appmetrica.webvisor.com
 0.0.0.0 rosenberg.appmetrica.webvisor.com
 0.0.0.0 startup.mobile.webvisor.com
 0.0.0.0 u.startup.mobile.webvisor.com
 0.0.0.0 webvisor.com
-0.0.0.0 report-1.appmetrica.webvisor.com
-0.0.0.0 report.appmetrica.webvisor.com
 
 # [my.com]
 0.0.0.0 eu.tracker-api.my.com
@@ -188,40 +186,41 @@
 # [appsflyer.com]
 0.0.0.0 3bjjlx-cdn-settings.appsflyersdk.com
 0.0.0.0 3bjjlx-inapps.appsflyersdk.com
-0.0.0.0 4mqwof-launches.appsflyersdk.com
 0.0.0.0 3bjjlx-launches.appsflyersdk.com
+0.0.0.0 4mqwof-launches.appsflyersdk.com
 0.0.0.0 appsflyer.com
 0.0.0.0 appsflyersdk.com
 0.0.0.0 attr.appsflyer.com
-0.0.0.0 roovza-conversions.appsflyersdk.com
-0.0.0.0 roovza-cdn-settings.appsflyersdk.com
 0.0.0.0 cdn-settings.appsflyersdk.com
 0.0.0.0 cdn.appsflyer.com
 0.0.0.0 conversions.appsflyer.com
 0.0.0.0 conversions.appsflyersdk.com
 0.0.0.0 dlsdk.appsflyer.com
 0.0.0.0 ezfweb-cdn-settings.appsflyersdk.com
+0.0.0.0 ezfweb-launches.appsflyersdk.com
 0.0.0.0 gcdsdk.appsflyer.com
 0.0.0.0 inapps.appsflyer.com
 0.0.0.0 inapps.appsflyersdk.com
+0.0.0.0 kiqsrh-cdn-settings.appsflyersdk.com
+0.0.0.0 kiqsrh-inapps.appsflyersdk.com
 0.0.0.0 launches.appsflyer.com
 0.0.0.0 launches.appsflyersdk.com
 0.0.0.0 pjdves-conversions.appsflyersdk.com
 0.0.0.0 pjdves-launches.appsflyersdk.com
 0.0.0.0 register.appsflyer.com
 0.0.0.0 register.appsflyersdk.com
+0.0.0.0 reqhfg-cdn-settings.appsflyersdk.com
+0.0.0.0 roovza-cdn-settings.appsflyersdk.com
+0.0.0.0 roovza-conversions.appsflyersdk.com
 0.0.0.0 trheoi-cdn-settings.appsflyersdk.com
 0.0.0.0 trheoi-conversions.appsflyersdk.com
 0.0.0.0 trheoi-dlsdk.appsflyersdk.com
-0.0.0.0 kiqsrh-cdn-settings.appsflyersdk.com
-0.0.0.0 kiqsrh-inapps.appsflyersdk.com
-0.0.0.0 ezfweb-launches.appsflyersdk.com
 0.0.0.0 w8nbds-cdn-settings.appsflyersdk.com
 
 # [branch.io]
-0.0.0.0 www.branch.io
 0.0.0.0 api.branch.io
 0.0.0.0 api2.branch.io
+0.0.0.0 www.branch.io
 
 # [adbus.ru]
 0.0.0.0 adbus.ru
@@ -297,9 +296,10 @@
 0.0.0.0 app.getsentry.com
 0.0.0.0 browser.sentry-cdn.com
 0.0.0.0 ingest.sentry.io
-0.0.0.0 o308928.ingest.sentry.io
-0.0.0.0 o279119.ingest.sentry.io
 0.0.0.0 o118392.ingest.sentry.io
+0.0.0.0 o279119.ingest.sentry.io
+0.0.0.0 o308928.ingest.sentry.io
+0.0.0.0 o439907.ingest.sentry.io
 0.0.0.0 o529943.ingest.sentry.io
 0.0.0.0 sentry-cdn.com
 0.0.0.0 sentry.io
