@@ -53,13 +53,13 @@ $$script[src="https://www.googletagservices.com/"]
 ! WHITELIST END
 
 ! LAN START
-/^https?:\/\/192\.168\.[01]\.1/$third-party,domain=~0.0.0.0|~127.0.0.1|~192.168.0.1|~192.168.1.1|~[::1]|~[::]|~localhost|~10.0.0.1|~steam-chat.com|~steamloopback.host
-||0.0.0.0^$third-party,domain=~0.0.0.0|~127.0.0.1|~192.168.0.1|~192.168.1.1|~[::1]|~[::]|~localhost|~10.0.0.1|~steam-chat.com|~steamloopback.host
-||127.0.0.1^$third-party,domain=~0.0.0.0|~127.0.0.1|~192.168.0.1|~192.168.1.1|~[::1]|~[::]|~localhost|~10.0.0.1|~steam-chat.com|~steamloopback.host
-||10.0.0.1^$third-party,domain=~0.0.0.0|~127.0.0.1|~192.168.0.1|~192.168.1.1|~[::1]|~[::]|~localhost|~10.0.0.1|~steam-chat.com|~steamloopback.host
-||[::1]^$third-party,domain=~0.0.0.0|~127.0.0.1|~192.168.0.1|~192.168.1.1|~[::1]|~[::]|~localhost|~10.0.0.1|~steam-chat.com|~steamloopback.host
-||[::]^$third-party,domain=~0.0.0.0|~127.0.0.1|~192.168.0.1|~192.168.1.1|~[::1]|~[::]|~localhost|~10.0.0.1|~steam-chat.com|~steamloopback.host
-||localhost^$third-party,domain=~0.0.0.0|~127.0.0.1|~192.168.0.1|~192.168.1.1|~[::1]|~[::]|~localhost|~10.0.0.1|~steam-chat.com|~steamloopback.host
+/^https?:\/\/192\.168\.[01]\.1/$third-party,domain=~0.0.0.0|~127.0.0.1|~192.168.0.1|~192.168.1.1|~[::1]|~[::]|~localhost|~10.0.0.1|~steam-chat.com|~steamloopback.host|~bybit.com
+||0.0.0.0^$third-party,domain=~0.0.0.0|~127.0.0.1|~192.168.0.1|~192.168.1.1|~[::1]|~[::]|~localhost|~10.0.0.1|~steam-chat.com|~steamloopback.host|~bybit.com
+||127.0.0.1^$third-party,domain=~0.0.0.0|~127.0.0.1|~192.168.0.1|~192.168.1.1|~[::1]|~[::]|~localhost|~10.0.0.1|~steam-chat.com|~steamloopback.host|~bybit.com
+||10.0.0.1^$third-party,domain=~0.0.0.0|~127.0.0.1|~192.168.0.1|~192.168.1.1|~[::1]|~[::]|~localhost|~10.0.0.1|~steam-chat.com|~steamloopback.host|~bybit.com
+||[::1]^$third-party,domain=~0.0.0.0|~127.0.0.1|~192.168.0.1|~192.168.1.1|~[::1]|~[::]|~localhost|~10.0.0.1|~steam-chat.com|~steamloopback.host|~bybit.com
+||[::]^$third-party,domain=~0.0.0.0|~127.0.0.1|~192.168.0.1|~192.168.1.1|~[::1]|~[::]|~localhost|~10.0.0.1|~steam-chat.com|~steamloopback.host|~bybit.com
+||localhost^$third-party,domain=~0.0.0.0|~127.0.0.1|~192.168.0.1|~192.168.1.1|~[::1]|~[::]|~localhost|~10.0.0.1|~steam-chat.com|~steamloopback.host|~bybit.com
 ! LAN END
 
 ! NETWORK START
