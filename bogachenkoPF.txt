@@ -284,7 +284,7 @@ steamcommunity.com##.profile_page:style(background-image: none !important;)
 |http*:*.com/pagead/
 ||geo.opera.com/geolocation/$important
 ||meta^
-||pushad.
+||pushad^
 ||mobilemaps-pa.googleapis.com/*.ads.$important
 ||null^
 ||undefined^
