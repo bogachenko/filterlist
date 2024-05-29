@@ -53,6 +53,7 @@
 0.0.0.0 www.google-analytics.com
 0.0.0.0 www.googleadservices.com
 0.0.0.0 www.googletagmanager.com
+0.0.0.0 safebrowsing.googleapis.com
 
 # [whatsapp.com]
 0.0.0.0 dit.whatsapp.net
@@ -299,6 +300,7 @@
 0.0.0.0 o118392.ingest.sentry.io
 0.0.0.0 o279119.ingest.sentry.io
 0.0.0.0 o308928.ingest.sentry.io
+0.0.0.0 o22381.ingest.sentry.io
 0.0.0.0 o439907.ingest.sentry.io
 0.0.0.0 o529943.ingest.sentry.io
 0.0.0.0 sentry-cdn.com
@@ -677,3 +679,7 @@
 
 # [markmonitor.com]
 0.0.0.0 app-analytics-services.com
+
+# [spotify.com]
+0.0.0.0 pixel.spotify.com
+0.0.0.0 pixel-static.spotify.com
