@@ -141,6 +141,7 @@
 ||apptornado.com^
 ||ar.overwolf.com^
 ||arcspire.io^
+||betweendigital.com^
 ||ascstats.iobit.com^
 ||assoc-amazon.com^
 ||atdmaincode.com^
@@ -308,6 +309,7 @@
 ||kejasosy.com^
 ||ketchapp.org^
 ||kimberlite.io^
+||mpartner.digital^
 ||kingads.mobi^
 ||leanplum.com^
 ||lgsmartad.com^
@@ -350,6 +352,7 @@
 ||myadsget.com^
 ||nebakte.ru^
 ||netpub.media^
+||adx.opera.com^
 ||network-n.com^
 ||new-programmatic.com^
 ||nexstardigital.net^
@@ -437,6 +440,8 @@
 ||semantiqo.com^
 ||sendpulse.com^
 ||sentry-cdn.com^
+||targetads.io^
+||upravel.com^
 ||sentry.io^
 ||serv01001.xyz^
 ||serving-sys.com^
@@ -533,8 +538,7 @@
 ||watson.live.com^
 ||watson.microsoft.com^
 ||webminepool.com^
-||weborama.com^
-||weborama.fr^
+||weborama.*^
 ||webvisor.*^
 ||whiteboxdigital.ru^
 ||wns.windows.com^
@@ -542,6 +546,7 @@
 ||www-googletagmanager.l.google.com^
 ||www-googletagservices.l.google.com^
 ||xandr.com^
+||ymmobi.com^
 ||xapi.ozon.ru^
 ||xray.mail.ru^
 ||yabs.yandex.*^
