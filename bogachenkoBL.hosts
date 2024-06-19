@@ -65,6 +65,8 @@
 0.0.0.0 eu-teams.events.data.microsoft.com
 0.0.0.0 ic3.events.data.microsoft.com
 0.0.0.0 in.appcenter.ms
+0.0.0.0 client.wns.windows.com
+0.0.0.0 wns.windows.com
 0.0.0.0 settings-win.data.microsoft.com
 0.0.0.0 mobile.events.data.microsoft.com
 0.0.0.0 mobile.pipe.aria.microsoft.com
