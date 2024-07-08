@@ -686,3 +686,8 @@
 # [spotify.com]
 0.0.0.0 pixel.spotify.com
 0.0.0.0 pixel-static.spotify.com
+
+# [a-ads.com]
+0.0.0.0 acceptable.a-ads.com
+0.0.0.0 ad.a-ads.com
+0.0.0.0 a-ads.com
