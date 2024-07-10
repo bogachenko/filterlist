@@ -521,7 +521,6 @@ cdn-films.xyz##.registration-form-widget
 ||rotator.top^
 ||dogeminingpaid.com^
 ||bitgamble.org^
-||firefaucet.win^
 ||cryptoshots.biz^
 ||webout.life^
 ||ahotron.site^

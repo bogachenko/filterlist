@@ -85,6 +85,9 @@
 ||adroll.com^
 ||adsafeprotected.com^
 ||adsco.re^
+||adsrv.net^
+||maxvaluead.com^
+||alwingulla.com^
 ||adsdk.yandex.ru^
 ||adsfcdn.com^
 ||adsfirm.com^
@@ -289,8 +292,10 @@
 ||imasdk.googleapis.com^
 ||imrworldwide.com^
 ||in.appcenter.ms^
+||interceptsurveys.com^
 ||indexexchange.com^
 ||indicative.com^
+||adleadevent.com^
 ||infinitedata-pa.googleapis.com^
 ||informer.yandex.ru^
 ||ff.astv.ru^
@@ -487,13 +492,15 @@
 ||tapjoyads.com^
 ||taxi-promotions.s3.yandex.net^
 ||teads.tv^
-||themoneytizer.com^
+||themoneytizer.*^
 ||thisiswaldo.com^
 ||thumbnails*.opera.com^
 ||top-fwz1.mail.ru^
+||displayvertising.com^
 ||top100.ru^
 ||tracking.*.miui.com^
 ||tracking.miui.com^
+||biddertmz.com^
 ||tracking.overwolf.com^
 ||tradedoubler.com^
 ||tradelab.com^
