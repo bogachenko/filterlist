@@ -223,8 +223,8 @@ faucetcrypto.com##+js(disable-newtab-links.js)
 *##[src*="//ad.a-ads.com/"]
 *##[src$="/bub1.png"],[src$="/yamoney_guud.png"],[src$="btn347.gif"],[src$="/yandeks_topers.png"],[src$="/telc.png"],[src$="/dowm.png"]
 aliexpress.*###j-festival-container > .festival-sub-venue,.multi-sidebar-outer-rus.multi-sidebar-outer,.product-fix-wrap,#J_xiaomi_dialog,.site-footer,.ng-mobile.ng-item,.hot-words,.top-banner-container,.site-server-box,.user-helper-footer,.fm-sns,.ams-region,.seo-container.product-container,.search-feedback-wrap,.footer-copywrite,#container-for-smart-banner,.header-right-content,.drogue-poplayer-modal,[class*="styles_bannerLink"],[class*="styles_body_"],[class*="MultiSidebarTab"],[class*="TopBanner"],[class*="Footer_Footer__footer"]
-freebitco.in###myModal22:has-text(Did you know?)
-freebitco.in##.daily_jackpot_main_container_div,#deposit_promo_message_regular,#play_without_captcha_container,.reveal-modal-bg,#bottom_user_ads_container,.daily_jackpot_main_container_div,#bottom_user_ads_container,.deposit_promo_msg
+freebitco.in,freeth.in,freetrx.in###myModal22:has-text(Did you know?)
+freebitco.in,freeth.in,freetrx.in###deposit_promo_message_regular,#play_without_captcha_container,.reveal-modal-bg,.daily_jackpot_main_container_div,#bottom_user_ads_container,.deposit_promo_msg,#task_social,.survey_btn_container
 mail.yandex.ru##.mail-Placeholder-Text,.mail-ThreadSidebar-wrap.ns-view-thread-sidebar-wrap,.mail-MailProAnnouncingPromoLeftColumn,.subscriptionsBubble
 music.yandex.ru##.sidebar__under
 music.yandex.ru##span:contains(Отключить рекламу)
