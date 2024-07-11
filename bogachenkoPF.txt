@@ -256,6 +256,11 @@ steampowered.com##.saleEventBannerLink,.saleEventBannerStyle,.saleEventBannerBig
 steamcommunity.com##.profile_animated_background,.profile_avatar_frame,.profile_customization_block
 steamcommunity.com##.has_profile_background:style(background-image: none !important;)
 steamcommunity.com##.profile_page:style(background-image: none !important;)
+coinmarketcap.com##.coin-ad-banner
+tronscan.org##.token-picture-profit,.token-text-profit,.profit-box,.address-profit,.tron-icon-like,.profitSec
+etherscan.io##[alt="Ads"],.justify-content-center
+bscscan.com##[alt="Ads"],[id*="TextAd"]
+bscscan.com##div:has(>.search-panel-ads)
 ! Cascading Style Sheets (CSS) END
 
 ! Content Security Policy (CSP) START
@@ -408,6 +413,8 @@ steamcommunity.com##.profile_page:style(background-image: none !important;)
 ! IMAGE START
 |http*:*/image/px?$image
 /rek/*.gif|$image
+||tronscan.org/static/media/body_bg.*.webp$image
+||bscscan.com/images/gen/*.gif$image
 /\/wp\-content\/uploads\/\d{4}\/\d{2}\/.*\.(webp|gif)$/$image,~third-party
 ! IMAGE END
 
@@ -601,8 +608,8 @@ cryptoad.org##+js(nano-setInterval-booster.js)
 *$third-party,subdocument,domain=earnbitmoon.club
 @@||challenges.cloudflare.com^$subdocument
 @@||jumio.ai^
-etherscan.io##.rounded.img-fluid
 free-ethereum.io,free-tether.com,free-doge.io,free-litecoin.com##.notdisplaytablet > [href] > [src],.notdisplaytablet,.\35 d2323ec92a84e6fadeefad2,.\35 d23289792a84e715eeefc55,.\36 4ccc4024a17ea5b767e48ad,.\36 4ddf7fef13f0a68c444c876,.\35 b0b07692b2ba20010bf444a,.\35 b0a87c52b2ba20010bf30ab
+dogepick.io###show_surveys
 bybit.com##.fiat-otc__ad-banner-container
 @@||galaxy.mobstudio.ru$document,badfilter
 ||lujacej.com^
