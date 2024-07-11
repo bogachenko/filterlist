@@ -183,13 +183,13 @@ $$script[src="https://www.googletagservices.com/"]
 ||app-measurement.com^$important
 ||bitlabs.ai^$third-party
 ||timewall.io^$third-party
+||sda.cardanoscan.io^$important
 ! DOMAIN END
 
 ! APP START
 /^(?!.*(lfnnmlimilinwvwlijljioeogq13\.club|(firebaseio|g(oogleapis|static)|pbssrv\-centralevents|verifykit|cdngtc|zotlo)\.com)).*$/$important,app=app.source.getcontact
 *$important,app=com.mi.android.globalFileexplorer|com.miui.cleaner|com.miui.securitycenter|com.xiaomi.glgm|com.miui.videoplayer|com.miui.player|com.mi.globalbrowser|com.miui.gallery|com.xiaomi.finddevice
 /^(?!.*(spotify\.com|spotifycdn\.com|fastly\.net|scdn\.co|akamaized\.net|(firebaseinstallations|update)\.googleapis\.com|payments\.braintree\-api\.com|api\.braintreegateway\.com|paypal\.com|ebanxpay\.com|chrome\.cloudflare\-dns\.com|microsoft\.com|digicert\.com)).*$/$important,app=Spotify.exe|com.spotify.music
-/^https?:\/\/pbssrv\-centralevents\.com\/.*\/(subscription|marketing\-event|spam\-info)$/$important,app=app.source.getcontact
 /^(?!.*(temp\-mail)\.org).*$/$important,app=com.tempmail
 ||amazonaws.com^$important,app=ru.yandex.merto
 ||dns.google^$app=com.zhiliaoapp.musically
@@ -257,10 +257,15 @@ steamcommunity.com##.profile_animated_background,.profile_avatar_frame,.profile_
 steamcommunity.com##.has_profile_background:style(background-image: none !important;)
 steamcommunity.com##.profile_page:style(background-image: none !important;)
 coinmarketcap.com##.coin-ad-banner
+cardanoscan.io##.absolute,body > .relative,.h-\[90px\].relative
+solscan.io##.adsHeaderTextWrapper
+solscan.io##a:has-text(/Sponsored/)
 tronscan.org##.token-picture-profit,.token-text-profit,.profit-box,.address-profit,.tron-icon-like,.profitSec
 etherscan.io##[alt="Ads"],.justify-content-center
 bscscan.com##[alt="Ads"],[id*="TextAd"]
-bscscan.com##div:has(>.search-panel-ads)
+bscscan.com,etherscan.io,polygonscan.com##div:has(>.search-panel-ads)
+polygonscan.com###my-banner-ad
+bscscan.com,etherscan.io,polygonscan.com##.card:has-text(/Sponsored/)
 ! Cascading Style Sheets (CSS) END
 
 ! Content Security Policy (CSP) START
@@ -362,6 +367,7 @@ bscscan.com##div:has(>.search-panel-ads)
 
 ! SCRIPT START
 |http*:*/ga.js|$script,important
+|http*:*/js/libs/coinzilla.js$script,important
 |http*:*/endscreen.js$important,script,domain=youtube.com|youtu.be|youtube-nocookie.com
 ||youtube.com/*/player/*/ad.js$script,important
 |http*:*/vast-im.js|$important,script,third-party
@@ -433,7 +439,7 @@ bscscan.com##div:has(>.search-panel-ads)
 /[-._?/](player|client|csi|gen(erate)?|stream|logs?|live)[-._?]?204[-._?]?/$image,other,xmlhttprequest
 /[-._?/][a-zA-Z]{8,}track(ers?|ing)[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~ok.ru|~fandom.com|~github.com|~gitlab.com
 /[-._?/]analyti([\W\w]+)[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~analytics.google.com|~analyticssuitefrontend-pa.clients6.google.com|~analyticsinsights-pa.clients6.google.com|~fandom.com|~aliexpress.ru|~aliexpress.com|~vk.com|~dropbox.com|~yota.ru|~ubisoft.com|~ubi.com|~sberbank.ru|~twitter.com|~github.com|~vtb.ru|~flightaware.com|~kion.ru|~binance.com|~multibonus.ru|~youtube.com|~tiktok.com|~gitlab.com|~tagmanager.google.com|~cdn-tinkoff.ru|~tinkoff.ru|~market.yandex.ru
-/[-._?/]bann?ers?[-.0-9_?]/$image,script,subdocument,xmlhttprequest,domain=~aliexpress.ru|~aliexpress.com|~discord.com|~dropbox.com|~esetnod32.ru|~f-droid.org|~fandom.com|~gosuslugi.ru|~live.com|~mts.ru|~office.com|~ok.ru|~rt.ru|~ru-mi.com|~sberbank.ru|~google.com|~twitch.tv|~radiorecord.ru|~yota.ru|~qiwi.com|~yoomoney.ru|~wildberries.ru|~msi.com|~dns-shop.ru|~multibonus.ru|~github.com|~yastatic.net|~binance.com|~vk.com|~aviasales.ru|~vk.com|~tinkoff.ru|~cdn-tinkoff.ru|~pravilamag.ru|~bnbchain.org
+/[-._?/]bann?ers?[-.0-9_?]/$image,script,subdocument,xmlhttprequest,domain=~aliexpress.ru|~aliexpress.com|~discord.com|~dropbox.com|~esetnod32.ru|~f-droid.org|~fandom.com|~gosuslugi.ru|~live.com|~mts.ru|~office.com|~ok.ru|~rt.ru|~ru-mi.com|~sberbank.ru|~google.com|~twitch.tv|~radiorecord.ru|~yota.ru|~qiwi.com|~yoomoney.ru|~wildberries.ru|~msi.com|~dns-shop.ru|~multibonus.ru|~github.com|~yastatic.net|~binance.com|~vk.com|~aviasales.ru|~vk.com|~tinkoff.ru|~cdn-tinkoff.ru|~pravilamag.ru|~bnbchain.org|~solscan.io
 /[-._?/]logs?(ging|impressions?|ers?)?[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~aliexpress.ru|~aliexpress.com|~dns-shop.ru|~docviewer.yandex.ru|~github.com|~gitlab.com|~instagram.com|~mi.com|~twitch.tv|~yadi.sk|~dropbox.com|~twitter.com|~vtb.ru|~yandex.ru|~vk.com|~qiwi.com|~ddostup.ru|~steampowered.com
 /[-._?/]track(ers?|ing)[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~alipay.com|~analytics.google.com|~fandom.com|~pochta.ru|~yandex.ru|~aliexpress.ru|~aliexpress.com|~ubisoft.com|~ubi.com|~yoomoney.ru|~wildberries.ru|~dropbox.com|~rutracker.com|~gitlab.com|~mediadelivery.net|~github.com|~gitlab.com
 /[-._?/]vast[-.0-9_?]/$image,other,script,xmlhttprequest,domain=~github.com|~gitlab.com|~twitch.tv|~spankbang.com
@@ -600,6 +606,7 @@ twitch.tv##[href*="instagram.com/blvde.collections"]
 ||tapi.pureapk.com/*/get_cfg
 ||cdngtc.com/file_assets_*.jpg|$image
 kinopoisk.ru##[class*="styles_socialControlsContainer"]
+solscan.io##.px-3.my-0.box-border.relative.block.xl\:flex-8\/24.md\:flex-24\/24.flex-24\/24.xl\:max-w-8\/24.md\:max-w-24\/24.max-w-24\/24 > .h-full.lg.md\:p-6.p-4.bg-neutral0.shadow-m.rounded-2xl
 reddit.com##.cookie-infobar
 @@||alitems.com*/?ulp=$document
 @@/img/bn/$image
