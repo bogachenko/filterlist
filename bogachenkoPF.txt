@@ -614,9 +614,10 @@ cryptoad.org##+js(nano-setInterval-booster.js)
 @@||youtube.com^$subdocument,domain=earnbitmoon.club
 *$third-party,subdocument,domain=earnbitmoon.club
 @@||challenges.cloudflare.com^$subdocument
+@@||dogefaucet.com^$generichide,badfilter
 @@||jumio.ai^
 free-ethereum.io,free-tether.com,free-doge.io,free-litecoin.com##.notdisplaytablet > [href] > [src],.notdisplaytablet,.\35 d2323ec92a84e6fadeefad2,.\35 d23289792a84e715eeefc55,.\36 4ccc4024a17ea5b767e48ad,.\36 4ddf7fef13f0a68c444c876,.\35 b0b07692b2ba20010bf444a,.\35 b0a87c52b2ba20010bf30ab
-dogepick.io###show_surveys
+dogepick.io,solpick.io,litepick.io,maticpick.io###show_surveys
 bybit.com##.fiat-otc__ad-banner-container
 @@||galaxy.mobstudio.ru$document,badfilter
 ||lujacej.com^
