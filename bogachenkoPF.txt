@@ -604,6 +604,7 @@ twitch.tv##[href*="instagram.com/blvde.collections"]
 *$3p,from=d3ward.github.io,badfilter
 ||d3ward.github.io/toolz/adblock$document,csp=connect-src 'self',badfilter
 ||tapi.pureapk.com/*/get_cfg
+freeethereum.com,coinfaucet.io,free-doge.com,free-ltc.com,free-tron.com,freebinancecoin.com,freebitcoin.io,freebittorrent.com,freedash.io,freeshibainu.com,freematic.com,freetether.com,freeusdcoin.com##.p-dialog-mask:has-text(/Want more crypto?|VIP club/)
 ||cdngtc.com/file_assets_*.jpg|$image
 kinopoisk.ru##[class*="styles_socialControlsContainer"]
 solscan.io##.px-3.my-0.box-border.relative.block.xl\:flex-8\/24.md\:flex-24\/24.flex-24\/24.xl\:max-w-8\/24.md\:max-w-24\/24.max-w-24\/24 > .h-full.lg.md\:p-6.p-4.bg-neutral0.shadow-m.rounded-2xl
@@ -617,7 +618,7 @@ cryptoad.org##+js(nano-setInterval-booster.js)
 @@||dogefaucet.com^$generichide,badfilter
 @@||jumio.ai^
 free-ethereum.io,free-tether.com,free-doge.io,free-litecoin.com##.notdisplaytablet > [href] > [src],.notdisplaytablet,.\35 d2323ec92a84e6fadeefad2,.\35 d23289792a84e715eeefc55,.\36 4ccc4024a17ea5b767e48ad,.\36 4ddf7fef13f0a68c444c876,.\35 b0b07692b2ba20010bf444a,.\35 b0a87c52b2ba20010bf30ab
-dogepick.io,solpick.io,litepick.io,maticpick.io###show_surveys
+dogepick.io,solpick.io,litepick.io,maticpick.io,tronpick.io###show_surveys
 bybit.com##.fiat-otc__ad-banner-container
 @@||galaxy.mobstudio.ru$document,badfilter
 ||lujacej.com^
