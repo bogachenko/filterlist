@@ -59,11 +59,13 @@
 ! IMAGES END
 
 ! COSMETIC RULES START
-twitch.tv##.default-panel > :not([href*="vk.com"]):not([href*="donationalerts."]):not([href*="instagram.com"]):not([href*="youtube.com"]):not([href*="twitter.com"]):not([href*="steamcommunity.com"]):not([href*="discord.gg"]):not([href*="facebook.com"])
+##[src^="//ad.a-ads.com/"]
+youtube.com##.ytp-endscreen-content
+twitch.tv##.default-panel>:not([href*="vk.com"]):not([href*="donationalerts."]):not([href*="instagram.com"]):not([href*="youtube.com"]):not([href*="twitter.com"]):not([href*="steamcommunity.com"]):not([href*="discord.gg"]):not([href*="facebook.com"])
 tronscan.*##.token-picture-profit,.token-text-profit,.profit-box,.address-profit,.tron-icon-like,.profitSec,.noticeNews
-bscscan.com,etherscan.io,polygonscan.com##[alt="Ads"],[id*="TextAd"],[id*="AdResult"]
-bscscan.com,etherscan.io,polygonscan.com##div:has(>.search-panel-ads)
-bscscan.com,etherscan.io,polygonscan.com##.text-muted:has-text(/Sponsored/)
+bscscan.com,etherscan.io,polygonscan.com,gnosisscan.io,arbiscan.io##[alt="Ads"],[id*="TextAd"],[id*="AdResult"],section.container-xxl > .py-4
+bscscan.com,etherscan.io,polygonscan.com,gnosisscan.io,arbiscan.io##div:has(>.search-panel-ads)
+bscscan.com,etherscan.io,polygonscan.com,gnosisscan.io,arbiscan.io##.text-muted:has-text(/Sponsored/)
 ! COSMETIC RULES END
 
 ! CONTENT SECURITY POLICY START
@@ -72,3 +74,11 @@ bscscan.com,etherscan.io,polygonscan.com##.text-muted:has-text(/Sponsored/)
 ||vk.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.vk.com vk.com *.vk.ru *.youtube.com *.ggpht.com *.googlevideo.com *.google.com *.gstatic.com local.adguard.org injections.adguard.org *.money.mail.ru vk.mail.ru; connect-src 'self' *.vkuservideo.net *.vkuseraudio.net *.userapi.com *.vk.com vk.com *.mycdn.me; media-src 'self' data: *.mycdn.me *.vkuser.net *.userapi.com; img-src 'self' data: blob: *.mycdn.me *.userapi.com *.vk.com vk.com; font-src 'self' data: *.vk.com vk.com;
 ||tiktok.com^$important,csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: wss: *.ttwstatic.com *.tiktokcdn.com *.tiktok.com *.tiktokcdn-us.com *.byteoversea.com local.adguard.org injections.adguard.org *.ibyteimg.com *.ibytedtos.com *.tiktokv.com;
 ! CONTENT SECURITY POLICY END
+
+! SCRIPT START
+|http*:*/endscreen.js$script,domain=youtube.com|youtu.be|youtube-nocookie.com
+! SCRIPT END
+
+! SUBDOCUMENT START
+||accounts.google.com/gsi/$subdocument,third-party
+! SUBDOCUMENT END
