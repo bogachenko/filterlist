@@ -26,6 +26,7 @@
 ||reklama.mail.ru^$important
 ||an.yandex.ru^$important
 ||yabs.yandex.ru^$important
+||appsflyer.com^$important
 ! DOMAIN END
 
 ! WHITELIST START
@@ -40,6 +41,12 @@
 @@||pagead.l.doubleclick.net^|$badfilter
 @@||www.googleadservices.com^|$badfilter
 @@||track.rutarget.ru^|$badfilter
+@@||s.youtube.com^|$badfilter
+@@||redirect.appmetrica.yandex.com^|$badfilter
+@@||imasdk.googleapis.com^|$badfilter
+@@||googleadapis.l.google.com^|$badfilter
+@@||launches.appsflyer.com^|$badfilter
+@@||app.adjust.com^|$badfilter
 ! BAD FILTERS END
 
 ! BASIC FILTERS START
@@ -54,9 +61,9 @@
 ! COSMETIC RULES START
 twitch.tv##.default-panel > :not([href*="vk.com"]):not([href*="donationalerts."]):not([href*="instagram.com"]):not([href*="youtube.com"]):not([href*="twitter.com"]):not([href*="steamcommunity.com"]):not([href*="discord.gg"]):not([href*="facebook.com"])
 tronscan.*##.token-picture-profit,.token-text-profit,.profit-box,.address-profit,.tron-icon-like,.profitSec,.noticeNews
-etherscan.io,bscscan.com##[alt="Ads"],[id*="TextAd"],.justify-content-center
+bscscan.com,etherscan.io,polygonscan.com##[alt="Ads"],[id*="TextAd"],[id*="AdResult"]
 bscscan.com,etherscan.io,polygonscan.com##div:has(>.search-panel-ads)
-bscscan.com##.text-muted:has-text(/Sponsored/)
+bscscan.com,etherscan.io,polygonscan.com##.text-muted:has-text(/Sponsored/)
 ! COSMETIC RULES END
 
 ! CONTENT SECURITY POLICY START
