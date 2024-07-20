@@ -6,6 +6,7 @@
 ! Expires: 3 days
 
 ! DOMAIN START
+||imasdk.googleapis.com^$important
 ||doubleclick.net^$important
 ||adservice.google.*^$important
 ||mc.yandex.ru^$important
@@ -17,6 +18,12 @@
 ||sentry.io^$important
 ||sentry-cdn.com^$important
 ||app-measurement.com^$important
+||r3.mail.ru^$important
+||top-fwz1.mail.ru^$important
+||ad.mail.ru^$important
+||trk.mail.ru^$important
+||an.mail.ru^$important
+||reklama.mail.ru^$important
 ! DOMAIN END
 
 ! WHITELIST START
@@ -24,15 +31,20 @@
 @@||injections.adguard.org^$script
 ! WHITELIST END
 
-! BADFILTER START
+! BAD FILTERS START
 @@||cmp.inmobi.com^|$badfilter
 @@||a.adwolf.ru^|$badfilter
 @@||awin1.com^|$badfilter
 @@||pagead.l.doubleclick.net^|$badfilter
 @@||www.googleadservices.com^|$badfilter
 @@||track.rutarget.ru^|$badfilter
-! BADFILTER END
+! BAD FILTERS END
 
-! BASIC RULES START
+! BASIC FILTERS START
 ||null^
 ||undefined^
+! BASIC END START
+
+! IMAGES START
+/^https?:\/\/yastatic\.net\/www\/_\/[^\s]{150,}/$image
+! IMAGES END
