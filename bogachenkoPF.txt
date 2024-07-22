@@ -5,6 +5,16 @@
 ! License: https://raw.githubusercontent.com/bogachenko/filterlist/main/LICENSE.md
 ! Expires: 3 days
 
+! CONDITIONS START
+!#if !ext_ublock
+$$script[src="https://mc.yandex.ru/"]
+$$script[src="https://pagead2.googlesyndication.com/"]
+$$script[src="https://www.google-analytics.com/"]
+$$script[src="https://www.googleadservices.com/"]
+$$script[src="https://www.googletagmanager.com/"]
+$$script[src="https://www.googletagservices.com/"]
+!#endif
+
 ! DOMAIN START
 ||imasdk.googleapis.com^$important
 ||doubleclick.net^$important
@@ -37,7 +47,6 @@
 
 ! BAD FILTERS START
 @@||cmp.inmobi.com^|$badfilter
-@@||a.adwolf.ru^|$badfilter
 @@||awin1.com^|$badfilter
 @@||pagead.l.doubleclick.net^|$badfilter
 @@||www.googleadservices.com^|$badfilter
@@ -61,14 +70,20 @@
 ! IMAGES END
 
 ! COSMETIC RULES START
-##[src^="//ad.a-ads.com/"]
+##[src^="//ads."]
+##[src^="//ad."]
 youtube.com##.ytp-endscreen-content,.attached-message,.sponsorThumbnailLabel,.ytp-paid-content-overlay
 twitch.tv##.default-panel>:not([href*="vk.com"]):not([href*="donationalerts."]):not([href*="instagram.com"]):not([href*="youtube.com"]):not([href*="twitter.com"]):not([href*="steamcommunity.com"]):not([href*="discord.gg"]):not([href*="facebook.com"])
 tronscan.*##.token-picture-profit,.token-text-profit,.profit-box,.address-profit,.tron-icon-like,.profitSec,.noticeNews
-bscscan.com,etherscan.io,polygonscan.com,gnosisscan.io,arbiscan.io##[alt="Ads"],[id*="TextAd"],[id*="AdResult"],#my-banner-ad,.position-relative[target="_blank"],.noindex-section,#masterDivCookie,section.container-xxl > .py-4,form+[class]
+bscscan.com,etherscan.io,polygonscan.com,gnosisscan.io,arbiscan.io,cardanoscan.io##[alt="Ads"],[id*="TextAd"],[id*="AdResult"],#my-banner-ad,.position-relative[target="_blank"],.noindex-section,#masterDivCookie,section.container-xxl > .py-4,form[action="/search"]+[class],#cookieConsentBanner
+bscscan.com,etherscan.io,polygonscan.com,gnosisscan.io,arbiscan.io##section:style(background-image: none !important;)
 bscscan.com,etherscan.io,polygonscan.com,gnosisscan.io,arbiscan.io##.justify-content-between.flex-wrap > div.d-flex:last-child
 bscscan.com,etherscan.io,polygonscan.com,gnosisscan.io,arbiscan.io##div:has(>.search-panel-ads)
 bscscan.com,etherscan.io,polygonscan.com,gnosisscan.io,arbiscan.io##.text-muted:has-text(/Sponsored/)
+solscan.io##.adsHeaderTextWrapper
+cardanoscan.io##.absolute:has-text(/Ad/)
+cardanoscan.io##body > .relative,.relative > [href] > .absolute
+solscan.io##.block.relative.box-border:has-text(/S[pP][oO][nN][sS][oO][rR][eE][dD]/):last-child
 coinmarketcap.com##.coin-ad-banner
 blockchair.com##.buggy-chat,.okane-top,.extension-widget
 blockchair.com##.flow>:has-text(/Advertise here|Turn off ads|Sponsored/)
@@ -82,7 +97,8 @@ blockchair.com##.flow>:has-text(/Advertise here|Turn off ads|Sponsored/)
 ! CONTENT SECURITY POLICY END
 
 ! SCRIPT START
-|http*:*/endscreen.js$script,domain=youtube.com|youtu.be|youtube-nocookie.com
+*/endscreen.js$script,domain=youtube.com|youtu.be|youtube-nocookie.com
+*/js/libs/coinzilla.js$script
 ! SCRIPT END
 
 ! SUBDOCUMENT START
