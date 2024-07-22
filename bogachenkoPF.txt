@@ -47,6 +47,7 @@
 @@||googleadapis.l.google.com^|$badfilter
 @@||launches.appsflyer.com^|$badfilter
 @@||app.adjust.com^|$badfilter
+@@||dogefaucet.com^$generichide,badfilter
 ! BAD FILTERS END
 
 ! BASIC FILTERS START
@@ -60,12 +61,14 @@
 
 ! COSMETIC RULES START
 ##[src^="//ad.a-ads.com/"]
-youtube.com##.ytp-endscreen-content
+youtube.com##.ytp-endscreen-content,.attached-message,.sponsorThumbnailLabel,.ytp-paid-content-overlay
 twitch.tv##.default-panel>:not([href*="vk.com"]):not([href*="donationalerts."]):not([href*="instagram.com"]):not([href*="youtube.com"]):not([href*="twitter.com"]):not([href*="steamcommunity.com"]):not([href*="discord.gg"]):not([href*="facebook.com"])
 tronscan.*##.token-picture-profit,.token-text-profit,.profit-box,.address-profit,.tron-icon-like,.profitSec,.noticeNews
-bscscan.com,etherscan.io,polygonscan.com,gnosisscan.io,arbiscan.io##[alt="Ads"],[id*="TextAd"],[id*="AdResult"],section.container-xxl > .py-4
+bscscan.com,etherscan.io,polygonscan.com,gnosisscan.io,arbiscan.io##[alt="Ads"],[id*="TextAd"],[id*="AdResult"],#my-banner-ad
 bscscan.com,etherscan.io,polygonscan.com,gnosisscan.io,arbiscan.io##div:has(>.search-panel-ads)
 bscscan.com,etherscan.io,polygonscan.com,gnosisscan.io,arbiscan.io##.text-muted:has-text(/Sponsored/)
+coinmarketcap.com##.coin-ad-banner
+blockchair.com##.buggy-chat,.okane-top
 ! COSMETIC RULES END
 
 ! CONTENT SECURITY POLICY START
