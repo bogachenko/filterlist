@@ -38,6 +38,7 @@ $$script[src="https://www.googletagservices.com/"]
 ||yabs.yandex.ru^$important
 ||appsflyer.com^$important
 ||eas.etherscan.com^
+||lucky-gift.org^
 ! DOMAIN END
 
 ! WHITELIST START
