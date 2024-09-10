@@ -31,20 +31,12 @@
 ||24metrics.com^
 ||2leads.com^
 ||2mdn.net^
+||2xclick.ru^
 ||33across.com^
 ||360yield.com^
 ||4251.tech^
 ||a-mo.net^
 ||a.mts.ru^
-||tads.me^
-||tappads.io^
-||ipinfo.io^
-||tmads.xyz^
-||wclick.space^
-||2xclick.ru^
-||clarity.ms^
-||gameanalytics.com^
-||bodis.com^
 ||abt.s3.yandex.net^
 ||acint.net^
 ||acuityads.com^
@@ -197,11 +189,13 @@
 ||buysellads.net^
 ||buzzoola.com^
 ||calltouch.ru^
+||canstrm.com^
 ||carbonads.com^
 ||cc-api-data.adobe.io^
 ||checkappexec.microsoft.com^
 ||chitika.com^
 ||choice.microsoft.com^
+||clarity.ms^
 ||clickadilla.com^
 ||clickiocdn.com^
 ||client.hola.org^
@@ -286,6 +280,7 @@
 ||fundingchoicesmessages.google.com^
 ||futureocto.com^
 ||g.bing.com^
+||gameanalytics.com^
 ||gath3r.io^
 ||gather.network^
 ||gde.cash^
@@ -337,6 +332,7 @@
 ||interviewhead.ru^
 ||intl.miui.com^$denyallow=theme.cdn.intl.miui.com
 ||intl.xiaomi.com^$denyallow=api.zhuti.intl.xiaomi.com|thm.market.intl.xiaomi.com
+||ipinfo.io^
 ||isnssdk.com^
 ||jkha742.xyz^
 ||jsecoin.com^
@@ -432,7 +428,6 @@
 ||partnerad.l.google.com^
 ||pdvacde.com^
 ||persona3.*^
-||canstrm.com^
 ||pipe.aria.microsoft.com^
 ||pladform.ru^
 ||playjusting.com^
@@ -487,6 +482,7 @@
 ||sec.*.miui.com^
 ||sec.miui.com^
 ||segment.com^
+||segment.io^
 ||segmento.ru^
 ||semanticlocation-pa.googleapis.com^
 ||semantiqo.com^
@@ -539,9 +535,11 @@
 ||synacor.com^
 ||t.apkpure.net^
 ||taboola.com^
+||tads.me^
 ||tafimedia.com^
 ||tapjoy.com^
 ||tapjoyads.com^
+||tappads.io^
 ||targetads.io^
 ||taxi-promotions.s3.yandex.net^
 ||teads.tv^
@@ -550,6 +548,7 @@
 ||thisiswaldo.com^
 ||thumbnails*.opera.com^
 ||timewall.io^
+||tmads.xyz^
 ||tnative.ru^
 ||top-fwz1.mail.ru^
 ||top100.ru^
@@ -602,6 +601,7 @@
 ||watson.*.microsoft.com^
 ||watson.live.com^
 ||watson.microsoft.com^
+||wclick.space^
 ||webminepool.com^
 ||weborama-tech.ru^
 ||weborama.*^
