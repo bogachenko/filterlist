@@ -16,11 +16,11 @@ $$script[src="https://www.googletagservices.com/"]
 !#endif
 
 ! REMOVEPARAM START
-$removeparam=ref_
-$removeparam=?startapp=
-$removeparam=?tgWebAppStartParam=
-$removeparam=?inviteCode=
-$removeparam=?startapp=
+$removeparam=/ref(erral)?[_=]/
+$removeparam=/startapp=/
+$removeparam=/tgWebAppStartParam=/
+$removeparam=/inviteCode=/
+$removeparam=/startapp=/
 ! REMOVEPARAM END
 
 ! DOMAIN START
