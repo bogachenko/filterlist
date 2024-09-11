@@ -76,6 +76,12 @@ $removeparam=/startapp=/
 ! BASIC FILTERS START
 ||null^
 ||undefined^
+||ad.
+||ads.
+||adv.
+||advertise.
+||advertising.
+||vast.
 ! BASIC END START
 
 ! IMAGES START
