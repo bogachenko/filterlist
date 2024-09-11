@@ -163,8 +163,8 @@
 0.0.0.0 ymetrica1.com
 0.0.0.0 ymetrica2.com
 0.0.0.0 ymetrica3.com
-
-# [webvisor.com]
+0.0.0.0 api.uxfeedback.yandex.net
+0.0.0.0 uxfeedback.yandex.net
 0.0.0.0 appmetrica.webvisor.com
 0.0.0.0 mobile.webvisor.com
 0.0.0.0 report-1.appmetrica.webvisor.com
@@ -346,6 +346,10 @@
 
 # [vk.com]
 0.0.0.0 stats.vk-portal.net
+0.0.0.0 tracker-api.vk-analytics.ru
+0.0.0.0 ip4.tracker-api.vk-analytics.ru
+0.0.0.0 ip6.tracker-api.vk-analytics.ru
+0.0.0.0 ts.tracker-api.vk-analytics.ru
 
 # [criteo.com]
 0.0.0.0 criteo.com
@@ -652,6 +656,8 @@
 0.0.0.0 wcm-ru.frontend.weborama.fr
 0.0.0.0 weborama.com
 0.0.0.0 weborama.fr
+0.0.0.0 weborama-tech.ru
+0.0.0.0 wcm.weborama-tech.ru
 
 # [admost.com]
 0.0.0.0 admost.com

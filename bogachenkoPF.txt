@@ -16,7 +16,7 @@ $$script[src="https://www.googletagservices.com/"]
 !#endif
 
 ! REMOVEPARAM START
-$removeparam=/ref(erral)?[_=]/
+$removeparam=/ref(err?al)?[_=]/
 $removeparam=/startapp=/
 $removeparam=/tgWebAppStartParam=/
 $removeparam=/inviteCode=/
@@ -45,6 +45,10 @@ $removeparam=/startapp=/
 ||an.yandex.ru^$important
 ||yabs.yandex.ru^$important
 ||appsflyer.com^$important
+||tganalytics.xyz^$important
+||tads.me^$important
+||gameanalytics.com^$important
+||adsgram.ai^$important
 ||eas.etherscan.com^
 ||lucky-gift.org^
 ! DOMAIN END
