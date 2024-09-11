@@ -13,6 +13,9 @@ $$script[src="https://www.google-analytics.com/"]
 $$script[src="https://www.googleadservices.com/"]
 $$script[src="https://www.googletagmanager.com/"]
 $$script[src="https://www.googletagservices.com/"]
+$$script[src="https://tganalytics.xyz/"]
+$$script[src="https://sad.adsgram.ai/"]
+$$script[src="https://cdn.tmads.xyz/"]
 !#endif
 
 ! REMOVEPARAM START
@@ -21,6 +24,7 @@ $removeparam=/startapp=/
 $removeparam=/tgWebAppStartParam=/
 $removeparam=/inviteCode=/
 $removeparam=/startapp=/
+$removeparam=/idUser=/
 ! REMOVEPARAM END
 
 ! DOMAIN START

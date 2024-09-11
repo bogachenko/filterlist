@@ -702,3 +702,10 @@
 
 # [ad-delivery.net]
 0.0.0.0 ad-delivery.net
+
+# [telegram.org]
+0.0.0.0 tganalytics.xyz
+0.0.0.0 adsgram.ai
+0.0.0.0 tmads.xyz
+0.0.0.0 tads.me
+0.0.0.0 gameanalytics.com
