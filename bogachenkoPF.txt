@@ -20,11 +20,14 @@ $$script[src="https://cdn.tmads.xyz/"]
 
 ! REMOVEPARAM START
 $removeparam=/ref(err?al)?[_=]/
+$removeparam=/referralCode=/
 $removeparam=/startapp=/
 $removeparam=/tgWebAppStartParam=/
 $removeparam=/inviteCode=/
 $removeparam=/startapp=/
 $removeparam=/idUser=/
+$removeparam=/tgid=/
+$removeparam=/channelid=/
 ! REMOVEPARAM END
 
 ! DOMAIN START
@@ -86,6 +89,10 @@ $removeparam=/idUser=/
 ||advertise.
 ||advertising.
 ||vast.
+/ads/
+_ads/
+-ads/
+?sentry_key=
 ! BASIC END START
 
 ! IMAGES START
@@ -106,7 +113,6 @@ bscscan.com,etherscan.io,polygonscan.com,gnosisscan.io,arbiscan.io##.text-muted:
 solscan.io##.adsHeaderTextWrapper
 cardanoscan.io##.absolute:has-text(/Ad/)
 cardanoscan.io##body > .relative,.relative > [href] > .absolute
-solscan.io##.block.relative.box-border:has-text(/S[pP][oO][nN][sS][oO][rR][eE][dD]/):last-child
 coinmarketcap.com##.coin-ad-banner
 blockchair.com##.buggy-chat,.okane-top,.extension-widget
 blockchair.com##.flow>:has-text(/Advertise here|Turn off ads|Sponsored/)
@@ -127,3 +133,10 @@ blockchair.com##.flow>:has-text(/Advertise here|Turn off ads|Sponsored/)
 ! SUBDOCUMENT START
 ||accounts.google.com/gsi/$subdocument,third-party
 ! SUBDOCUMENT END
+
+! OTHER START
+$removeparam=/token=/,app=msedgewebview2.exe
+$removeparam=/key=/,app=msedgewebview2.exe
+$removeparam=/\/invite\/[a-zA-Z0-9]{6}\//,domain=bingx.com
+$removeparam=/\/join\/[\d]{8}\//,domain=okx.com
+! OTHER END
