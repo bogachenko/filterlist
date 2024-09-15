@@ -24,10 +24,12 @@ $removeparam=/referralCode=/
 $removeparam=/startapp=/
 $removeparam=/tgWebAppStartParam=/
 $removeparam=/inviteCode=/
+$removeparam=/invite=/
 $removeparam=/startapp=/
 $removeparam=/idUser=/
 $removeparam=/tgid=/
 $removeparam=/channelid=/
+$removeparam=/affiliate\_id=/
 ! REMOVEPARAM END
 
 ! DOMAIN START
@@ -89,10 +91,13 @@ $removeparam=/channelid=/
 ||advertise.
 ||advertising.
 ||vast.
-/ads/
-_ads/
--ads/
-?sentry_key=
+||log.
+||logs.
+||logger.
+|http*:*/ads/
+|http*:*_ads/
+|http*:*-ads/
+|http*:*?sentry_key=
 ! BASIC END START
 
 ! IMAGES START
