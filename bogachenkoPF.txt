@@ -19,7 +19,7 @@ $$script[src="https://cdn.tmads.xyz/"]
 !#endif
 
 ! REMOVEPARAM START
-$removeparam=/ref(err?al)?[_=]/
+$removeparam=/refs?(err?al)?[_=]/
 $removeparam=/referralCode=/
 $removeparam=/startapp=/
 $removeparam=/tgWebAppStartParam=/
@@ -60,6 +60,8 @@ $removeparam=/affiliate\_id=/
 ||adsgram.ai^$important
 ||eas.etherscan.com^
 ||lucky-gift.org^
+||shavar.services.mozilla.com^
+||shavar.prod.mozaws.net^
 ! DOMAIN END
 
 ! WHITELIST START
