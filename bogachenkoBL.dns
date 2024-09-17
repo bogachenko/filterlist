@@ -108,6 +108,7 @@
 ||adwolf.ru^
 ||adx.opera.com^
 ||adxadserv.com^
+||aet.spotify.com^
 ||af.opera.com^
 ||affiliationjs.s3.amazonaws.com^
 ||agenteimmobiliare.info^
@@ -192,6 +193,7 @@
 ||canstrm.com^
 ||carbonads.com^
 ||cc-api-data.adobe.io^
+||chartboost.com^
 ||checkappexec.microsoft.com^
 ||chitika.com^
 ||choice.microsoft.com^
@@ -252,6 +254,7 @@
 ||doublepimp.com^
 ||doubleverify.com^
 ||draper.popcap.com^
+||dumedia.ru^
 ||easyads*.*^
 ||errors.client.optimizely.com^
 ||event.shelljacket.us^
@@ -338,7 +341,9 @@
 ||intl.xiaomi.com^$denyallow=api.zhuti.intl.xiaomi.com|thm.market.intl.xiaomi.com
 ||ipify.org^
 ||ipinfo.io^
+||ironsrc.com^
 ||isnssdk.com^
+||jizzads.com^
 ||jkha742.xyz^
 ||jsecoin.com^
 ||jshosting.*^
@@ -348,6 +353,7 @@
 ||ketchapp.org^
 ||kimberlite.io^
 ||kingads.mobi^
+||leadbolt.com^
 ||leanplum.com^
 ||lgsmartad.com^
 ||lifestreet.com^
@@ -369,6 +375,7 @@
 ||mexcsensors.com^
 ||mfadsrvr.com^
 ||mgid.com^
+||millennialmedia.com^
 ||mintegral.com^
 ||missena.io^
 ||mistat.*.xiaomi.com^
@@ -454,6 +461,7 @@
 ||prod-collecticon.outlookmobile.com^
 ||programmatica.com^
 ||propellerads.com^
+||propelmedia.io^
 ||psvpromo.psvgamestudio.com^
 ||pubmatic.com^
 ||pubnative.net^
@@ -469,6 +477,7 @@
 ||redllama.ru^
 ||relap.io^
 ||revcontent.com^
+||revx.io^
 ||reyden-x.com^
 ||rezhiv.ru^
 ||ris.api.iris.microsoft.com^
@@ -508,6 +517,7 @@
 ||shopnetic.com^
 ||skippyads.com^
 ||slise.xyz^
+||smaato.com^
 ||smaato.net^
 ||smachnakittchen.com^
 ||smartadserver.com^

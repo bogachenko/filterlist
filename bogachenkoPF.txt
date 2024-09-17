@@ -85,6 +85,7 @@ $removeparam=/affiliate\_id=/
 ! BAD FILTERS END
 
 ! BASIC FILTERS START
+/[_/-]ad[vs]?[_/-]/$match-case
 ||null^
 ||undefined^
 ||ad.
@@ -96,9 +97,6 @@ $removeparam=/affiliate\_id=/
 ||log.
 ||logs.
 ||logger.
-|http*:*/ads/
-|http*:*_ads/
-|http*:*-ads/
 |http*:*?sentry_key=
 ! BASIC END START
 
@@ -123,6 +121,7 @@ cardanoscan.io##body > .relative,.relative > [href] > .absolute
 coinmarketcap.com##.coin-ad-banner
 blockchair.com##.buggy-chat,.okane-top,.extension-widget
 blockchair.com##.flow>:has-text(/Advertise here|Turn off ads|Sponsored/)
+youtube.com##.undefined > yt-button-shape
 ! COSMETIC RULES END
 
 ! CONTENT SECURITY POLICY START
