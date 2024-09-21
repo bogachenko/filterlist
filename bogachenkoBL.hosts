@@ -54,6 +54,7 @@
 0.0.0.0 www.googleadservices.com
 0.0.0.0 www.googletagmanager.com
 0.0.0.0 safebrowsing.googleapis.com
+0.0.0.0 pubads.g.doubleclick.net
 
 # [whatsapp.com]
 0.0.0.0 dit.whatsapp.net
@@ -173,6 +174,7 @@
 0.0.0.0 startup.mobile.webvisor.com
 0.0.0.0 u.startup.mobile.webvisor.com
 0.0.0.0 webvisor.com
+0.0.0.0 media-adv.market.yandex.ru
 
 # [my.com]
 0.0.0.0 eu.tracker-api.my.com
@@ -713,3 +715,6 @@
 # [adnxs.com]
 0.0.0.0 adnxs.com
 0.0.0.0 acdn.adnxs.com
+
+# [dubleverify.com]
+dubleverify.com
