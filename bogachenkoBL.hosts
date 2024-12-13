@@ -316,6 +316,7 @@
 0.0.0.0 adjust.com
 0.0.0.0 adjust.net.in
 0.0.0.0 adjust.world
+0.0.0.0 app.adjust.io
 0.0.0.0 app.adjust.com
 0.0.0.0 app.adjust.net.in
 0.0.0.0 app.adjust.world
@@ -717,4 +718,7 @@
 0.0.0.0 acdn.adnxs.com
 
 # [dubleverify.com]
-dubleverify.com
+0.0.0.0 dubleverify.com
+
+# [api.mixpanel.com]
+0.0.0.0 api.mixpanel.com

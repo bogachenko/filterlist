@@ -85,7 +85,7 @@ $removeparam=/affiliate\_id=/
 ! BAD FILTERS END
 
 ! BASIC FILTERS START
-/[_/-]ad[vs]?[_/-]/$match-case
+/[_/-]ad[vs](er(ve)?t?(ise|ising|isement)?)?[_/-]?/$match-case
 ||null^
 ||undefined^
 ||ad.
