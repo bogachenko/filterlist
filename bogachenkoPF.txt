@@ -32,7 +32,7 @@ $removeparam=/channelid=/
 $removeparam=/affiliate\_id=/
 ! REMOVEPARAM END
 
-! DOMAIN START
+! DOMAINS START
 ||imasdk.googleapis.com^$important
 ||doubleclick.net^$important
 ||adservice.google.*^$important
@@ -58,18 +58,26 @@ $removeparam=/affiliate\_id=/
 ||tads.me^$important
 ||gameanalytics.com^$important
 ||adsgram.ai^$important
-||eas.etherscan.com^
-||lucky-gift.org^
-||shavar.services.mozilla.com^
-||shavar.prod.mozaws.net^
-! DOMAIN END
+||shavar.services.mozilla.com^$important
+||shavar.prod.mozaws.net^$important
+||tawk.to^$important
+||chatbro.com^$important
+||cackle.me^$important
+||chatango.com^$important
+||chatra.io^$important
+||crash-reports.mozilla.com^$important
+||disqus.com^$important
+||disquscdn.com^$important
+||sharethis.com^$important
+||uptolike.com^$important
+! DOMAINS END
 
 ! WHITELIST START
 @@||local.adguard.org^$script
 @@||injections.adguard.org^$script
 ! WHITELIST END
 
-! BAD FILTERS START
+! BAD-FILTERS START
 @@||cmp.inmobi.com^|$badfilter
 @@||awin1.com^|$badfilter
 @@||pagead.l.doubleclick.net^|$badfilter
@@ -82,10 +90,10 @@ $removeparam=/affiliate\_id=/
 @@||launches.appsflyer.com^|$badfilter
 @@||app.adjust.com^|$badfilter
 @@||dogefaucet.com^$generichide,badfilter
-! BAD FILTERS END
+! BAD-FILTERS END
 
 ! BASIC FILTERS START
-/[_/-]ad[vs](er(ve)?t?(ise|ising|isement)?)?[_/-]?/$match-case
+/[_/-]ad[vs](er(ve)?t?(ise|ising|isement)?)?[_/-]?/
 ||null^
 ||undefined^
 ||ad.
@@ -98,6 +106,7 @@ $removeparam=/affiliate\_id=/
 ||logs.
 ||logger.
 |http*:*?sentry_key=
+|http*:*?payload=
 ! BASIC END START
 
 ! IMAGES START
@@ -134,6 +143,7 @@ youtube.com##.undefined > yt-button-shape
 ! SCRIPT START
 */endscreen.js$script,domain=youtube.com|youtu.be|youtube-nocookie.com
 */js/libs/coinzilla.js$script
+||yastatic.net/share$script
 ! SCRIPT END
 
 ! SUBDOCUMENT START
@@ -141,8 +151,10 @@ youtube.com##.undefined > yt-button-shape
 ! SUBDOCUMENT END
 
 ! OTHER START
-$removeparam=/token=/,app=msedgewebview2.exe
-$removeparam=/key=/,app=msedgewebview2.exe
-$removeparam=/\/invite\/[a-zA-Z0-9]{6}\//,domain=bingx.com
-$removeparam=/\/join\/[\d]{8}\//,domain=okx.com
+||spotify.com/ad-logic/
+||spotify.com/ads/
 ! OTHER END
+
+! TRASH START
+||lucky-gift.org^
+! TRASH END
