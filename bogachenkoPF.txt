@@ -107,6 +107,7 @@ $removeparam=/affiliate\_id=/
 ||logger.
 |http*:*?sentry_key=
 |http*:*?payload=
+|http*:*?metrica_device_id=
 ! BASIC END START
 
 ! IMAGES START
@@ -153,8 +154,12 @@ youtube.com##.undefined > yt-button-shape
 ! OTHER START
 ||spotify.com/ad-logic/
 ||spotify.com/ads/
+||yandex.ru/an/
+||yandex.ru/appcry|
 ! OTHER END
 
 ! TRASH START
 ||lucky-gift.org^
+||2ch.hk/static/js/events/chikatilo.js$script
+||2ch.hk/static/js/events/snow_miner_anon_ne_podozrevaet.js$script
 ! TRASH END
